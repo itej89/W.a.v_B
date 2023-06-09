@@ -1,0 +1,3 @@
+<launch>
+    <node pkg="wavnodes" type="WavGoalManager" name="WavGoalManager" output="screen"></node>
+</launch>

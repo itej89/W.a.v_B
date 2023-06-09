@@ -1,0 +1,954 @@
+{
+    "AnimationPositions": {
+        "State": {
+            "AnimationStateSet": {
+                "Motor_Lean": {
+                    "AnimationState": {
+                        "IsDeltaAngle": "true",
+                        "Angle": {
+                            "key": "14",
+                            "value": "true"
+                        }
+                    }
+                },
+                "Motor_Turn": {
+                    "AnimationState": {
+                        "IsDeltaAngle": "true",
+                        "Angle": {
+                            "key": "-8",
+                            "value": "true"
+                        }
+                    }
+                },
+                "Image_EyeLeft": {
+                    "AnimationState": {
+                        "AnimationKind": "Identity",
+                        "a": {
+                            "key": "0.0",
+                            "value": "false"
+                        },
+                        "b": {
+                            "key": "0.0",
+                            "value": "false"
+                        },
+                        "c": {
+                            "key": "0.0",
+                            "value": "false"
+                        },
+                        "d": {
+                            "key": "0.0",
+                            "value": "false"
+                        },
+                        "tx": {
+                            "key": "0.0",
+                            "value": "false"
+                        },
+                        "ty": {
+                            "key": "0.0",
+                            "value": "false"
+                        },
+                        "MidX": {
+                            "key": "0.0",
+                            "value": "false"
+                        },
+                        "MidY": {
+                            "key": "0.0",
+                            "value": "false"
+                        },
+                        "StartAngle": {
+                            "key": "0.0",
+                            "value": "false"
+                        },
+                        "EndAngle": {
+                            "key": "0.0",
+                            "value": "false"
+                        },
+                        "Radius": {
+                            "key": "0.0",
+                            "value": "false"
+                        },
+                        "Direction": {
+                            "key": "clockwise",
+                            "value": "false"
+                        },
+                        "opacity": {
+                            "key": "1.0",
+                            "value": "false"
+                        },
+                        "centreX": {
+                            "key": "0.0",
+                            "value": "false"
+                        },
+                        "centreY": {
+                            "key": "0.0",
+                            "value": "false"
+                        },
+                        "AnchorX": {
+                            "key": "0.0",
+                            "value": "false"
+                        },
+                        "AnchorY": {
+                            "key": "0.0",
+                            "value": "false"
+                        }
+                    }
+                },
+                "Image_EyePupilLeft": {
+                    "AnimationState": {
+                        "AnimationKind": "Identity",
+                        "a": {
+                            "key": "1.0",
+                            "value": "true"
+                        },
+                        "b": {
+                            "key": "0.0",
+                            "value": "true"
+                        },
+                        "c": {
+                            "key": "0.0",
+                            "value": "true"
+                        },
+                        "d": {
+                            "key": "1.0",
+                            "value": "true"
+                        },
+                        "tx": {
+                            "key": "4.5",
+                            "value": "true"
+                        },
+                        "ty": {
+                            "key": "-28.5",
+                            "value": "true"
+                        },
+                        "MidX": {
+                            "key": "0.0",
+                            "value": "false"
+                        },
+                        "MidY": {
+                            "key": "0.0",
+                            "value": "false"
+                        },
+                        "StartAngle": {
+                            "key": "0.0",
+                            "value": "false"
+                        },
+                        "EndAngle": {
+                            "key": "0.0",
+                            "value": "false"
+                        },
+                        "Radius": {
+                            "key": "0.0",
+                            "value": "false"
+                        },
+                        "Direction": {
+                            "key": "clockwise",
+                            "value": "false"
+                        },
+                        "opacity": {
+                            "key": "1.0",
+                            "value": "false"
+                        },
+                        "centreX": {
+                            "key": "0.0",
+                            "value": "false"
+                        },
+                        "centreY": {
+                            "key": "0.0",
+                            "value": "false"
+                        },
+                        "AnchorX": {
+                            "key": "0.0",
+                            "value": "false"
+                        },
+                        "AnchorY": {
+                            "key": "0.0",
+                            "value": "false"
+                        }
+                    }
+                },
+                "Image_EyeBrowRight": {
+                    "AnimationState": {
+                        "AnimationKind": "Identity",
+                        "a": {
+                            "key": "0.808638417619751",
+                            "value": "true"
+                        },
+                        "b": {
+                            "key": "-0.588305965930502",
+                            "value": "true"
+                        },
+                        "c": {
+                            "key": "0.588305965930502",
+                            "value": "true"
+                        },
+                        "d": {
+                            "key": "0.808638417619751",
+                            "value": "true"
+                        },
+                        "tx": {
+                            "key": "-93.0387968579502",
+                            "value": "true"
+                        },
+                        "ty": {
+                            "key": "15.7490405810979",
+                            "value": "true"
+                        },
+                        "MidX": {
+                            "key": "0.0",
+                            "value": "false"
+                        },
+                        "MidY": {
+                            "key": "0.0",
+                            "value": "false"
+                        },
+                        "StartAngle": {
+                            "key": "0.0",
+                            "value": "false"
+                        },
+                        "EndAngle": {
+                            "key": "0.0",
+                            "value": "false"
+                        },
+                        "Radius": {
+                            "key": "0.0",
+                            "value": "false"
+                        },
+                        "Direction": {
+                            "key": "clockwise",
+                            "value": "false"
+                        },
+                        "opacity": {
+                            "key": "1.0",
+                            "value": "false"
+                        },
+                        "centreX": {
+                            "key": "0.0",
+                            "value": "false"
+                        },
+                        "centreY": {
+                            "key": "0.0",
+                            "value": "false"
+                        },
+                        "AnchorX": {
+                            "key": "0.0",
+                            "value": "false"
+                        },
+                        "AnchorY": {
+                            "key": "0.0",
+                            "value": "false"
+                        }
+                    }
+                },
+                "Image_EyeBallLeft": {
+                    "AnimationState": {
+                        "AnimationKind": "Identity",
+                        "a": {
+                            "key": "1.0",
+                            "value": "true"
+                        },
+                        "b": {
+                            "key": "0.0",
+                            "value": "true"
+                        },
+                        "c": {
+                            "key": "0.0",
+                            "value": "true"
+                        },
+                        "d": {
+                            "key": "1.0",
+                            "value": "true"
+                        },
+                        "tx": {
+                            "key": "-1.0",
+                            "value": "true"
+                        },
+                        "ty": {
+                            "key": "-21.0",
+                            "value": "true"
+                        },
+                        "MidX": {
+                            "key": "0.0",
+                            "value": "false"
+                        },
+                        "MidY": {
+                            "key": "0.0",
+                            "value": "false"
+                        },
+                        "StartAngle": {
+                            "key": "0.0",
+                            "value": "false"
+                        },
+                        "EndAngle": {
+                            "key": "0.0",
+                            "value": "false"
+                        },
+                        "Radius": {
+                            "key": "0.0",
+                            "value": "false"
+                        },
+                        "Direction": {
+                            "key": "clockwise",
+                            "value": "false"
+                        },
+                        "opacity": {
+                            "key": "1.0",
+                            "value": "false"
+                        },
+                        "centreX": {
+                            "key": "0.0",
+                            "value": "false"
+                        },
+                        "centreY": {
+                            "key": "0.0",
+                            "value": "false"
+                        },
+                        "AnchorX": {
+                            "key": "0.0",
+                            "value": "false"
+                        },
+                        "AnchorY": {
+                            "key": "0.0",
+                            "value": "false"
+                        }
+                    }
+                },
+                "Motor_Tilt": {
+                    "AnimationState": {
+                        "IsDeltaAngle": "true",
+                        "Angle": {
+                            "key": "-2",
+                            "value": "true"
+                        }
+                    }
+                },
+                "Motor_Lift": {
+                    "AnimationState": {
+                        "IsDeltaAngle": "true",
+                        "Angle": {
+                            "key": "-23",
+                            "value": "true"
+                        }
+                    }
+                },
+                "Image_EyeBallRight": {
+                    "AnimationState": {
+                        "AnimationKind": "Identity",
+                        "a": {
+                            "key": "1.0",
+                            "value": "true"
+                        },
+                        "b": {
+                            "key": "0.0",
+                            "value": "true"
+                        },
+                        "c": {
+                            "key": "0.0",
+                            "value": "true"
+                        },
+                        "d": {
+                            "key": "1.0",
+                            "value": "true"
+                        },
+                        "tx": {
+                            "key": "-1.0",
+                            "value": "true"
+                        },
+                        "ty": {
+                            "key": "-21.0",
+                            "value": "true"
+                        },
+                        "MidX": {
+                            "key": "0.0",
+                            "value": "false"
+                        },
+                        "MidY": {
+                            "key": "0.0",
+                            "value": "false"
+                        },
+                        "StartAngle": {
+                            "key": "0.0",
+                            "value": "false"
+                        },
+                        "EndAngle": {
+                            "key": "0.0",
+                            "value": "false"
+                        },
+                        "Radius": {
+                            "key": "0.0",
+                            "value": "false"
+                        },
+                        "Direction": {
+                            "key": "clockwise",
+                            "value": "false"
+                        },
+                        "opacity": {
+                            "key": "1.0",
+                            "value": "false"
+                        },
+                        "centreX": {
+                            "key": "0.0",
+                            "value": "false"
+                        },
+                        "centreY": {
+                            "key": "0.0",
+                            "value": "false"
+                        },
+                        "AnchorX": {
+                            "key": "0.0",
+                            "value": "false"
+                        },
+                        "AnchorY": {
+                            "key": "0.0",
+                            "value": "false"
+                        }
+                    }
+                },
+                "Image_EyeRight": {
+                    "AnimationState": {
+                        "AnimationKind": "Identity",
+                        "a": {
+                            "key": "0.0",
+                            "value": "false"
+                        },
+                        "b": {
+                            "key": "0.0",
+                            "value": "false"
+                        },
+                        "c": {
+                            "key": "0.0",
+                            "value": "false"
+                        },
+                        "d": {
+                            "key": "0.0",
+                            "value": "false"
+                        },
+                        "tx": {
+                            "key": "0.0",
+                            "value": "false"
+                        },
+                        "ty": {
+                            "key": "0.0",
+                            "value": "false"
+                        },
+                        "MidX": {
+                            "key": "0.0",
+                            "value": "false"
+                        },
+                        "MidY": {
+                            "key": "0.0",
+                            "value": "false"
+                        },
+                        "StartAngle": {
+                            "key": "0.0",
+                            "value": "false"
+                        },
+                        "EndAngle": {
+                            "key": "0.0",
+                            "value": "false"
+                        },
+                        "Radius": {
+                            "key": "0.0",
+                            "value": "false"
+                        },
+                        "Direction": {
+                            "key": "clockwise",
+                            "value": "false"
+                        },
+                        "opacity": {
+                            "key": "1.0",
+                            "value": "false"
+                        },
+                        "centreX": {
+                            "key": "0.0",
+                            "value": "false"
+                        },
+                        "centreY": {
+                            "key": "0.0",
+                            "value": "false"
+                        },
+                        "AnchorX": {
+                            "key": "0.0",
+                            "value": "false"
+                        },
+                        "AnchorY": {
+                            "key": "0.0",
+                            "value": "false"
+                        }
+                    }
+                },
+                "Image_EyeLidLeft": {
+                    "AnimationState": {
+                        "AnimationKind": "Identity",
+                        "a": {
+                            "key": "0.0",
+                            "value": "false"
+                        },
+                        "b": {
+                            "key": "0.0",
+                            "value": "false"
+                        },
+                        "c": {
+                            "key": "0.0",
+                            "value": "false"
+                        },
+                        "d": {
+                            "key": "0.0",
+                            "value": "false"
+                        },
+                        "tx": {
+                            "key": "0.0",
+                            "value": "false"
+                        },
+                        "ty": {
+                            "key": "0.0",
+                            "value": "false"
+                        },
+                        "MidX": {
+                            "key": "0.0",
+                            "value": "false"
+                        },
+                        "MidY": {
+                            "key": "0.0",
+                            "value": "false"
+                        },
+                        "StartAngle": {
+                            "key": "0.0",
+                            "value": "false"
+                        },
+                        "EndAngle": {
+                            "key": "0.0",
+                            "value": "false"
+                        },
+                        "Radius": {
+                            "key": "0.0",
+                            "value": "false"
+                        },
+                        "Direction": {
+                            "key": "clockwise",
+                            "value": "false"
+                        },
+                        "opacity": {
+                            "key": "1.0",
+                            "value": "false"
+                        },
+                        "centreX": {
+                            "key": "0.0",
+                            "value": "false"
+                        },
+                        "centreY": {
+                            "key": "0.0",
+                            "value": "false"
+                        },
+                        "AnchorX": {
+                            "key": "0.0",
+                            "value": "false"
+                        },
+                        "AnchorY": {
+                            "key": "0.0",
+                            "value": "false"
+                        }
+                    }
+                },
+                "Image_EyePupilRight": {
+                    "AnimationState": {
+                        "AnimationKind": "Identity",
+                        "a": {
+                            "key": "1.0",
+                            "value": "true"
+                        },
+                        "b": {
+                            "key": "0.0",
+                            "value": "true"
+                        },
+                        "c": {
+                            "key": "0.0",
+                            "value": "true"
+                        },
+                        "d": {
+                            "key": "1.0",
+                            "value": "true"
+                        },
+                        "tx": {
+                            "key": "4.5",
+                            "value": "true"
+                        },
+                        "ty": {
+                            "key": "-28.5",
+                            "value": "true"
+                        },
+                        "MidX": {
+                            "key": "0.0",
+                            "value": "false"
+                        },
+                        "MidY": {
+                            "key": "0.0",
+                            "value": "false"
+                        },
+                        "StartAngle": {
+                            "key": "0.0",
+                            "value": "false"
+                        },
+                        "EndAngle": {
+                            "key": "0.0",
+                            "value": "false"
+                        },
+                        "Radius": {
+                            "key": "0.0",
+                            "value": "false"
+                        },
+                        "Direction": {
+                            "key": "clockwise",
+                            "value": "false"
+                        },
+                        "opacity": {
+                            "key": "1.0",
+                            "value": "false"
+                        },
+                        "centreX": {
+                            "key": "0.0",
+                            "value": "false"
+                        },
+                        "centreY": {
+                            "key": "0.0",
+                            "value": "false"
+                        },
+                        "AnchorX": {
+                            "key": "0.0",
+                            "value": "false"
+                        },
+                        "AnchorY": {
+                            "key": "0.0",
+                            "value": "false"
+                        }
+                    }
+                },
+                "Image_EyeBrowLeft": {
+                    "AnimationState": {
+                        "AnimationKind": "Identity",
+                        "a": {
+                            "key": "0.0",
+                            "value": "false"
+                        },
+                        "b": {
+                            "key": "0.0",
+                            "value": "false"
+                        },
+                        "c": {
+                            "key": "0.0",
+                            "value": "false"
+                        },
+                        "d": {
+                            "key": "0.0",
+                            "value": "false"
+                        },
+                        "tx": {
+                            "key": "0.0",
+                            "value": "false"
+                        },
+                        "ty": {
+                            "key": "0.0",
+                            "value": "false"
+                        },
+                        "MidX": {
+                            "key": "0.0",
+                            "value": "false"
+                        },
+                        "MidY": {
+                            "key": "0.0",
+                            "value": "false"
+                        },
+                        "StartAngle": {
+                            "key": "0.0",
+                            "value": "false"
+                        },
+                        "EndAngle": {
+                            "key": "0.0",
+                            "value": "false"
+                        },
+                        "Radius": {
+                            "key": "0.0",
+                            "value": "false"
+                        },
+                        "Direction": {
+                            "key": "clockwise",
+                            "value": "false"
+                        },
+                        "opacity": {
+                            "key": "1.0",
+                            "value": "false"
+                        },
+                        "centreX": {
+                            "key": "0.0",
+                            "value": "false"
+                        },
+                        "centreY": {
+                            "key": "0.0",
+                            "value": "false"
+                        },
+                        "AnchorX": {
+                            "key": "0.0",
+                            "value": "false"
+                        },
+                        "AnchorY": {
+                            "key": "0.0",
+                            "value": "false"
+                        }
+                    }
+                },
+                "Image_EyeLidRight": {
+                    "AnimationState": {
+                        "AnimationKind": "Identity",
+                        "a": {
+                            "key": "0.0",
+                            "value": "false"
+                        },
+                        "b": {
+                            "key": "0.0",
+                            "value": "false"
+                        },
+                        "c": {
+                            "key": "0.0",
+                            "value": "false"
+                        },
+                        "d": {
+                            "key": "0.0",
+                            "value": "false"
+                        },
+                        "tx": {
+                            "key": "0.0",
+                            "value": "false"
+                        },
+                        "ty": {
+                            "key": "0.0",
+                            "value": "false"
+                        },
+                        "MidX": {
+                            "key": "0.0",
+                            "value": "false"
+                        },
+                        "MidY": {
+                            "key": "0.0",
+                            "value": "false"
+                        },
+                        "StartAngle": {
+                            "key": "0.0",
+                            "value": "false"
+                        },
+                        "EndAngle": {
+                            "key": "0.0",
+                            "value": "false"
+                        },
+                        "Radius": {
+                            "key": "0.0",
+                            "value": "false"
+                        },
+                        "Direction": {
+                            "key": "clockwise",
+                            "value": "false"
+                        },
+                        "opacity": {
+                            "key": "1.0",
+                            "value": "false"
+                        },
+                        "centreX": {
+                            "key": "0.0",
+                            "value": "false"
+                        },
+                        "centreY": {
+                            "key": "0.0",
+                            "value": "false"
+                        },
+                        "AnchorX": {
+                            "key": "0.0",
+                            "value": "false"
+                        },
+                        "AnchorY": {
+                            "key": "0.0",
+                            "value": "false"
+                        }
+                    }
+                }
+            }
+        },
+        "Transition": {
+            "AnimationTransitionSet": {
+                "Motor_Lean": {
+                    "Transition": {
+                        "Timing": "1500",
+                        "Delay": "0",
+                        "Velocity": "0",
+                        "Frequency": "0",
+                        "Damp": "0",
+                        "EasingFunction": "SIN",
+                        "EasingType": "IN"
+                    }
+                },
+                "Motor_Turn": {
+                    "Transition": {
+                        "Timing": "1500",
+                        "Delay": "0",
+                        "Velocity": "0",
+                        "Frequency": "0",
+                        "Damp": "0",
+                        "EasingFunction": "SIN",
+                        "EasingType": "IN"
+                    }
+                },
+                "Image_EyeLeft": {
+                    "Transition": {
+                        "Duration": "1500",
+                        "Delay": "0",
+                        "Damping": "0.0",
+                        "Amplitude": "0.0",
+                        "KeyframeAnimation_EasingFunction": "linear",
+                        "KeyframeAnimation_FillMode": "Removed",
+                        "AnimationCurveType": {
+                            "key": "allowUserInteraction"
+                        }
+                    }
+                },
+                "Image_EyePupilLeft": {
+                    "Transition": {
+                        "Duration": "1500",
+                        "Delay": "0",
+                        "Damping": "0.0",
+                        "Amplitude": "0.0",
+                        "KeyframeAnimation_EasingFunction": "linear",
+                        "KeyframeAnimation_FillMode": "Removed",
+                        "AnimationCurveType": {
+                            "key": "allowUserInteraction"
+                        }
+                    }
+                },
+                "Image_EyeBrowRight": {
+                    "Transition": {
+                        "Duration": "1500",
+                        "Delay": "0",
+                        "Damping": "0.0",
+                        "Amplitude": "0.0",
+                        "KeyframeAnimation_EasingFunction": "linear",
+                        "KeyframeAnimation_FillMode": "Removed",
+                        "AnimationCurveType": {
+                            "key": "allowUserInteraction"
+                        }
+                    }
+                },
+                "Image_EyeBallLeft": {
+                    "Transition": {
+                        "Duration": "1500",
+                        "Delay": "0",
+                        "Damping": "0.0",
+                        "Amplitude": "0.0",
+                        "KeyframeAnimation_EasingFunction": "linear",
+                        "KeyframeAnimation_FillMode": "Removed",
+                        "AnimationCurveType": {
+                            "key": "allowUserInteraction"
+                        }
+                    }
+                },
+                "Motor_Tilt": {
+                    "Transition": {
+                        "Timing": "1500",
+                        "Delay": "0",
+                        "Velocity": "0",
+                        "Frequency": "0",
+                        "Damp": "0",
+                        "EasingFunction": "SIN",
+                        "EasingType": "IN"
+                    }
+                },
+                "Motor_Lift": {
+                    "Transition": {
+                        "Timing": "1500",
+                        "Delay": "0",
+                        "Velocity": "0",
+                        "Frequency": "0",
+                        "Damp": "0",
+                        "EasingFunction": "SIN",
+                        "EasingType": "IN"
+                    }
+                },
+                "Image_EyeBallRight": {
+                    "Transition": {
+                        "Duration": "1500",
+                        "Delay": "0",
+                        "Damping": "0.0",
+                        "Amplitude": "0.0",
+                        "KeyframeAnimation_EasingFunction": "linear",
+                        "KeyframeAnimation_FillMode": "Removed",
+                        "AnimationCurveType": {
+                            "key": "allowUserInteraction"
+                        }
+                    }
+                },
+                "Image_EyeRight": {
+                    "Transition": {
+                        "Duration": "1500",
+                        "Delay": "0",
+                        "Damping": "0.0",
+                        "Amplitude": "0.0",
+                        "KeyframeAnimation_EasingFunction": "linear",
+                        "KeyframeAnimation_FillMode": "Removed",
+                        "AnimationCurveType": {
+                            "key": "allowUserInteraction"
+                        }
+                    }
+                },
+                "Image_EyeLidLeft": {
+                    "Transition": {
+                        "Duration": "1500",
+                        "Delay": "0",
+                        "Damping": "0.0",
+                        "Amplitude": "0.0",
+                        "KeyframeAnimation_EasingFunction": "linear",
+                        "KeyframeAnimation_FillMode": "Removed",
+                        "AnimationCurveType": {
+                            "key": "allowUserInteraction"
+                        }
+                    }
+                },
+                "Image_EyePupilRight": {
+                    "Transition": {
+                        "Duration": "1500",
+                        "Delay": "0",
+                        "Damping": "0.0",
+                        "Amplitude": "0.0",
+                        "KeyframeAnimation_EasingFunction": "linear",
+                        "KeyframeAnimation_FillMode": "Removed",
+                        "AnimationCurveType": {
+                            "key": "allowUserInteraction"
+                        }
+                    }
+                },
+                "Image_EyeBrowLeft": {
+                    "Transition": {
+                        "Duration": "1500",
+                        "Delay": "0",
+                        "Damping": "0.0",
+                        "Amplitude": "0.0",
+                        "KeyframeAnimation_EasingFunction": "linear",
+                        "KeyframeAnimation_FillMode": "Removed",
+                        "AnimationCurveType": {
+                            "key": "allowUserInteraction"
+                        }
+                    }
+                },
+                "Image_EyeLidRight": {
+                    "Transition": {
+                        "Duration": "1500",
+                        "Delay": "0",
+                        "Damping": "0.0",
+                        "Amplitude": "0.0",
+                        "KeyframeAnimation_EasingFunction": "linear",
+                        "KeyframeAnimation_FillMode": "Removed",
+                        "AnimationCurveType": {
+                            "key": "allowUserInteraction"
+                        }
+                    }
+                }
+            }
+        },
+        "audio": "",
+        "volume": "0.2"
+    }
+}

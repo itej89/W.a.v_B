@@ -1,0 +1,210 @@
+<launch>
+
+
+<node pkg="hector_mapping" type="hector_mapping" name="hector_mapping" output="screen">
+	    
+	    <param name="map_frame" value="map" />
+	    <param name="base_frame" value="base_link" />
+	    <param name="odom_frame" value="odom" />
+	    
+	    <param name="pub_map_odom_transform" value="true"/>
+	    <param name="pub_map_scanmatch_transform" value="false"/>
+	    <param name="pub_odometry" value="true"/>
+	    <param name="map_pub_period" value="3.0"/>
+
+		
+	    
+	    <param name="map_resolution" value="0.05"/>
+	    <param name="map_size" value="1024"/>
+	    <param name="map_multi_res_levels" value="2" />
+	    
+	    <param name="laser_min_dist" value="0.20" />
+	    <param name="laser_max_dist" value="8.0" />
+	    <param name="map_update_angle_thresh" value="0.018" />
+	    <param name="map_update_distance_thresh" value="0.001" />
+	    
+	    <param name="scan_topic" value="/rtabmap/scan"/>
+	</node>
+  
+
+
+  <arg name="trajectory_source_frame_name" default="/base_link"/>
+  <arg name="trajectory_update_rate" default="4"/>
+  <arg name="trajectory_publish_rate" default="0.25"/>
+  <arg name="map_file_path" default="$(find hector_geotiff)/maps"/>
+  <arg name="map_file_base_name" default="hector_slam_map"/>
+
+  <node pkg="hector_trajectory_server" type="hector_trajectory_server" name="hector_trajectory_server" output="screen">
+    <param name="target_frame_name" type="string" value="/map" />
+    <param name="source_frame_name" type="string" value="$(arg trajectory_source_frame_name)" />
+    <param name="trajectory_update_rate" type="double" value="$(arg trajectory_update_rate)" />
+    <param name="trajectory_publish_rate" type="double" value="$(arg trajectory_publish_rate)" />
+  </node>
+
+  <node pkg="hector_geotiff" type="geotiff_node" name="hector_geotiff_node" output="screen" launch-prefix="nice -n 15">
+    <remap from="map" to="/dynamic_map" />
+    <param name="map_file_path" type="string" value="$(arg map_file_path)" />
+    <param name="map_file_base_name" type="string" value="$(arg map_file_base_name)" />
+    <param name="geotiff_save_period" type="double" value="45" />
+    <param name="draw_background_checkerboard" type="bool" value="true" />
+    <param name="draw_free_space_grid" type="bool" value="true" />
+    <param name="plugins" type="string" value="hector_geotiff_plugins/TrajectoryMapWriter" />
+  </node>
+
+
+
+
+
+
+  
+  <node pkg="robot_localization" 
+        type="ukf_localization_node" 
+        name="ukf_localization"
+        clear_params="true"
+        output="screen">
+        <param name="frequency" value="5.0" />
+        <param name="sensor_timeout" value="10" />
+        <param name="map_frame" value="map" />
+        <param name="odom_frame" value="odom" />
+        <param name="base_link_frame" value="base_link" />
+        <param name="transform_time_offset" value="0.0" />
+        <param name="two_d_mode" value="true" />
+
+        
+
+        <param name="odom0" value="/odom" />
+        <param name="odom1" value="/rtabmap/odom" />
+        <param name="odom2" value="/scanmatch_odom" />
+
+
+
+        <rosparam param="odom0_config">
+         [true, true, false,
+          false, false, true,
+          false, false, false,
+          false, false, false,
+          false, false, false]</rosparam>
+    
+         <rosparam param="odom1_config">
+         [true, true, false,
+          false, false, true,
+          false, false, false,
+          false, false, false,
+          false, false, false]</rosparam>
+
+        <rosparam param="odom2_config">
+         [true, true, false,
+          false, false, true,
+          false, false, false,
+          false, false, false,
+          false, false, false]</rosparam>
+
+        <param name="odom0_differential" value="false" />
+        <param name="odom0_relative" value="true" />
+        <param name="odom1_differential" value="true" />
+        <param name="odom1_relative" value="false" />
+        <param name="odom2_differential" value="true" />
+        <param name="odom2_relative" value="false" />
+
+        <param name="print_diagnostics" value="true" />
+
+        <param name="odom0_queue_size" value="10" /> 
+        <param name="odom1_queue_size" value="10" />
+        <param name="odom2_queue_size" value="5" /> 
+
+  </node>  
+
+
+
+  <arg name="compressed"                  default="false"/>
+  <arg name="rgbd_topic"                  default="/rtabmap/rgbd_image"/>
+  <arg  name="rgbd_topic_relay"          default="$(arg rgbd_topic)_relay"/>
+  
+<group ns="rtabmap">
+     
+     <arg name="localization" default="false" />
+
+    <node name="rtabmap" pkg="rtabmap_ros" type="rtabmap" output="screen" >
+
+        <param name="frame_id"        type="string" value="base_link"/>
+        <param name="odom_frame_id"        type="string" value="odom"/>
+
+        <param name="subscribe_depth" type="bool"   value="false"/>
+        <param name="subscribe_rgbd"  type="bool"   value="true"/>
+        <param name="subscribe_scan" type="bool" value="true"/>
+
+        <param name="Grid/FromDepth" type="bool" value="false"/>
+
+        <remap from="rgbd_image" to="$(arg rgbd_topic)"/>
+          <remap from="scan" to="scan"/>
+        <remap from="odom"       to="/odometry/filtered"/>
+          <!-- <remap from="odom"       to="/odom"/> -->
+
+        <param name="publish_tf" value="false"/>
+        <param name="queue_size"  type="int"  value="10"/>
+        <param name="approx_sync" type="bool" value="true"/>
+
+        <param name="database_path"        type="string" value="/home/wav/Documents/fmSpin/WavRos/wav_ros_packages/ros_wav/src/wavnodes/Maps/rtab_map/TejRoom.db"/>
+
+	      <param name="Reg/Strategy"       type="string" value="0"/>    <!-- 0=Visual, 1=ICP, 2=Visual+ICP -->
+	      <param name="Reg/Force3DoF"      type="string" value="true"/>
+
+	      <param name="RGBD/ProximityBySpace"      type="string" value="false"/>
+        <param name="RGBD/AngularUpdate"        type="string" value="0.01"/>
+        <param name="RGBD/LinearUpdate"         type="string" value="0.01"/>
+        <param name="RGBD/OptimizeFromGraphEnd" type="string" value="false"/>
+
+        <!-- localization mode -->
+        <param     if="$(arg localization)" name="Mem/IncrementalMemory" type="string" value="false"/>
+        <param unless="$(arg localization)" name="Mem/IncrementalMemory" type="string" value="true"/>
+        <param name="Mem/InitWMWithAllNodes" type="string" value="$(arg localization)"/>
+
+        <param name="wait_for_transform_duration"         type="double" value="1.0"/>
+
+    </node>
+
+
+     <!-- <node  pkg="rtabmap_ros" type="rtabmapviz" name="rtabmapviz" args="-d ~/.ros/rtabmap_gui.ini" output="screen" launch-prefix="">
+
+      <param name="subscribe_rgbd"       type="bool"   value="true"/>
+      <param name="subscribe_scan" type="bool" value="false"/>
+      <param name="frame_id"             type="string" value="base_link"/>
+
+        <param name="queue_size"           type="int"    value="10"/>
+        <param name="approx_sync"          type="bool"   value="true"/>
+
+        <remap from="rgb/image"       to="/camera/rgb/image_rect_color_relay"/>
+        <remap from="depth/image"     to="/camera/depth_registered/image_raw_relay"/>
+        <remap from="rgb/camera_info" to="/camera/rgb/camera_info"/>
+        
+        <remap from="rgbd_image"      to="rgbd_image_relay"/>
+        <remap from="odom"       to="/odometry/filtered"/>
+
+        
+          <param     if="$(arg localization)" name="Mem/IncrementalMemory" type="string" value="false"/>
+          <param unless="$(arg localization)" name="Mem/IncrementalMemory" type="string" value="true"/>
+          <param name="Mem/InitWMWithAllNodes" type="string" value="$(arg localization)"/>
+
+          <param name="wait_for_transform" type="bool" value="true"/>
+          <param name="odom_frame_id" type="string" value="odom"/>
+
+    </node> -->
+  </group>
+
+
+  <node pkg="wavnodes" type="RGBD2PCL" name="RGBD2PCL" >
+  <remap     from="/rtabmap/rgbd_image_relay" to="/rtabmap/rgbd_image"/>
+  </node>
+
+  <include file="$(find wavnodes)/launch/RGBD2PCL.launch"/>
+
+</launch>
+
+
+
+
+
+
+
+
+

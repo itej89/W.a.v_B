@@ -1,0 +1,982 @@
+<!DOCTYPE html>
+<html class=" -moz-" lang="en-US"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+	<meta charset="UTF-8">
+
+    <!-- Metadata -->
+
+    <meta http-equiv="date" content="Monday, 03  2014 22:00:00 GMT">
+
+
+    <meta name="keywords" content="CMake">
+
+
+    <title>A typical Linux project using CMake</title>
+
+	<link rel="alternate" type="application/rss+xml" href="http://www.kaizou.org/feed/index.xml">
+	<link rel="stylesheet" media="all" data-noprefix="" href="A%20typical%20Linux%20project%20using%20CMake_files/style.css">
+	
+  <script async="" src="A%20typical%20Linux%20project%20using%20CMake_files/analytics.js"></script><script type="text/javascript" src="A%20typical%20Linux%20project%20using%20CMake_files/prefixfree.js"></script>
+<style type="text/css">.MathJax_Hover_Frame {border-radius: .25em; -webkit-border-radius: .25em; -moz-border-radius: .25em; -khtml-border-radius: .25em; box-shadow: 0px 0px 15px #83A; -webkit-box-shadow: 0px 0px 15px #83A; -moz-box-shadow: 0px 0px 15px #83A; -khtml-box-shadow: 0px 0px 15px #83A; border: 1px solid #A6D ! important; display: inline-block; position: absolute}
+.MathJax_Menu_Button .MathJax_Hover_Arrow {position: absolute; cursor: pointer; display: inline-block; border: 2px solid #AAA; border-radius: 4px; -webkit-border-radius: 4px; -moz-border-radius: 4px; -khtml-border-radius: 4px; font-family: 'Courier New',Courier; font-size: 9px; color: #F0F0F0}
+.MathJax_Menu_Button .MathJax_Hover_Arrow span {display: block; background-color: #AAA; border: 1px solid; border-radius: 3px; line-height: 0; padding: 4px}
+.MathJax_Hover_Arrow:hover {color: white!important; border: 2px solid #CCC!important}
+.MathJax_Hover_Arrow:hover span {background-color: #CCC!important}
+</style><style type="text/css">#MathJax_About {position: fixed; left: 50%; width: auto; text-align: center; border: 3px outset; padding: 1em 2em; background-color: #DDDDDD; color: black; cursor: default; font-family: message-box; font-size: 120%; font-style: normal; text-indent: 0; text-transform: none; line-height: normal; letter-spacing: normal; word-spacing: normal; word-wrap: normal; white-space: nowrap; float: none; z-index: 201; border-radius: 15px; -webkit-border-radius: 15px; -moz-border-radius: 15px; -khtml-border-radius: 15px; box-shadow: 0px 10px 20px #808080; -webkit-box-shadow: 0px 10px 20px #808080; -moz-box-shadow: 0px 10px 20px #808080; -khtml-box-shadow: 0px 10px 20px #808080; filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2, Color='gray', Positive='true')}
+#MathJax_About.MathJax_MousePost {outline: none}
+.MathJax_Menu {position: absolute; background-color: white; color: black; width: auto; padding: 5px 0px; border: 1px solid #CCCCCC; margin: 0; cursor: default; font: menu; text-align: left; text-indent: 0; text-transform: none; line-height: normal; letter-spacing: normal; word-spacing: normal; word-wrap: normal; white-space: nowrap; float: none; z-index: 201; border-radius: 5px; -webkit-border-radius: 5px; -moz-border-radius: 5px; -khtml-border-radius: 5px; box-shadow: 0px 10px 20px #808080; -webkit-box-shadow: 0px 10px 20px #808080; -moz-box-shadow: 0px 10px 20px #808080; -khtml-box-shadow: 0px 10px 20px #808080; filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2, Color='gray', Positive='true')}
+.MathJax_MenuItem {padding: 1px 2em; background: transparent}
+.MathJax_MenuArrow {position: absolute; right: .5em; padding-top: .25em; color: #666666; font-size: .75em}
+.MathJax_MenuActive .MathJax_MenuArrow {color: white}
+.MathJax_MenuArrow.RTL {left: .5em; right: auto}
+.MathJax_MenuCheck {position: absolute; left: .7em}
+.MathJax_MenuCheck.RTL {right: .7em; left: auto}
+.MathJax_MenuRadioCheck {position: absolute; left: .7em}
+.MathJax_MenuRadioCheck.RTL {right: .7em; left: auto}
+.MathJax_MenuLabel {padding: 1px 2em 3px 1.33em; font-style: italic}
+.MathJax_MenuRule {border-top: 1px solid #DDDDDD; margin: 4px 3px}
+.MathJax_MenuDisabled {color: GrayText}
+.MathJax_MenuActive {background-color: #606872; color: white}
+.MathJax_MenuDisabled:focus, .MathJax_MenuLabel:focus {background-color: #E8E8E8}
+.MathJax_ContextMenu:focus {outline: none}
+.MathJax_ContextMenu .MathJax_MenuItem:focus {outline: none}
+#MathJax_AboutClose {top: .2em; right: .2em}
+.MathJax_Menu .MathJax_MenuClose {top: -10px; left: -10px}
+.MathJax_MenuClose {position: absolute; cursor: pointer; display: inline-block; border: 2px solid #AAA; border-radius: 18px; -webkit-border-radius: 18px; -moz-border-radius: 18px; -khtml-border-radius: 18px; font-family: 'Courier New',Courier; font-size: 24px; color: #F0F0F0}
+.MathJax_MenuClose span {display: block; background-color: #AAA; border: 1.5px solid; border-radius: 18px; -webkit-border-radius: 18px; -moz-border-radius: 18px; -khtml-border-radius: 18px; line-height: 0; padding: 8px 0 6px}
+.MathJax_MenuClose:hover {color: white!important; border: 2px solid #CCC!important}
+.MathJax_MenuClose:hover span {background-color: #CCC!important}
+.MathJax_MenuClose:hover:focus {outline: none}
+</style><style type="text/css">.MathJax_Preview .MJXf-math {color: inherit!important}
+</style><style type="text/css">.MJX_Assistive_MathML {position: absolute!important; top: 0; left: 0; clip: rect(1px, 1px, 1px, 1px); padding: 1px 0 0 0!important; border: 0!important; height: 1px!important; width: 1px!important; overflow: hidden!important; display: block!important; -webkit-touch-callout: none; -webkit-user-select: none; -khtml-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none}
+.MJX_Assistive_MathML.MJX_Assistive_MathML_Block {width: 100%!important}
+</style><style type="text/css">#MathJax_Zoom {position: absolute; background-color: #F0F0F0; overflow: auto; display: block; z-index: 301; padding: .5em; border: 1px solid black; margin: 0; font-weight: normal; font-style: normal; text-align: left; text-indent: 0; text-transform: none; line-height: normal; letter-spacing: normal; word-spacing: normal; word-wrap: normal; white-space: nowrap; float: none; -webkit-box-sizing: content-box; -moz-box-sizing: content-box; box-sizing: content-box; box-shadow: 5px 5px 15px #AAAAAA; -webkit-box-shadow: 5px 5px 15px #AAAAAA; -moz-box-shadow: 5px 5px 15px #AAAAAA; -khtml-box-shadow: 5px 5px 15px #AAAAAA; filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2, Color='gray', Positive='true')}
+#MathJax_ZoomOverlay {position: absolute; left: 0; top: 0; z-index: 300; display: inline-block; width: 100%; height: 100%; border: 0; padding: 0; margin: 0; background-color: white; opacity: 0; filter: alpha(opacity=0)}
+#MathJax_ZoomFrame {position: relative; display: inline-block; height: 0; width: 0}
+#MathJax_ZoomEventTrap {position: absolute; left: 0; top: 0; z-index: 302; display: inline-block; border: 0; padding: 0; margin: 0; background-color: white; opacity: 0; filter: alpha(opacity=0)}
+</style><style type="text/css">.MathJax_Preview {color: #888}
+#MathJax_Message {position: fixed; left: 1px; bottom: 2px; background-color: #E6E6E6; border: 1px solid #959595; margin: 0px; padding: 2px 8px; z-index: 102; color: black; font-size: 80%; width: auto; white-space: nowrap}
+#MathJax_MSIE_Frame {position: absolute; top: 0; left: 0; width: 0px; z-index: 101; border: 0px; margin: 0px; padding: 0px}
+.MathJax_Error {color: #CC0000; font-style: italic}
+</style><script type="text/javascript" async="" src="A%20typical%20Linux%20project%20using%20CMake_files/embed.js"></script><link rel="stylesheet" media="screen" href="A%20typical%20Linux%20project%20using%20CMake_files/prettify.html" data-inprogress=""><link rel="stylesheet" media="screen" href="A%20typical%20Linux%20project%20using%20CMake_files/sunburst.html" data-inprogress=""><script type="text/javascript" src="A%20typical%20Linux%20project%20using%20CMake_files/prettify_002.html"></script><style type="text/css">.MJXp-script {font-size: .8em}
+.MJXp-right {-webkit-transform-origin: right; -moz-transform-origin: right; -ms-transform-origin: right; -o-transform-origin: right; transform-origin: right}
+.MJXp-bold {font-weight: bold}
+.MJXp-italic {font-style: italic}
+.MJXp-scr {font-family: MathJax_Script,'Times New Roman',Times,STIXGeneral,serif}
+.MJXp-frak {font-family: MathJax_Fraktur,'Times New Roman',Times,STIXGeneral,serif}
+.MJXp-sf {font-family: MathJax_SansSerif,'Times New Roman',Times,STIXGeneral,serif}
+.MJXp-cal {font-family: MathJax_Caligraphic,'Times New Roman',Times,STIXGeneral,serif}
+.MJXp-mono {font-family: MathJax_Typewriter,'Times New Roman',Times,STIXGeneral,serif}
+.MJXp-largeop {font-size: 150%}
+.MJXp-largeop.MJXp-int {vertical-align: -.2em}
+.MJXp-math {display: inline-block; line-height: 1.2; text-indent: 0; font-family: 'Times New Roman',Times,STIXGeneral,serif; white-space: nowrap; border-collapse: collapse}
+.MJXp-display {display: block; text-align: center; margin: 1em 0}
+.MJXp-math span {display: inline-block}
+.MJXp-box {display: block!important; text-align: center}
+.MJXp-box:after {content: " "}
+.MJXp-rule {display: block!important; margin-top: .1em}
+.MJXp-char {display: block!important}
+.MJXp-mo {margin: 0 .15em}
+.MJXp-mfrac {margin: 0 .125em; vertical-align: .25em}
+.MJXp-denom {display: inline-table!important; width: 100%}
+.MJXp-denom > * {display: table-row!important}
+.MJXp-surd {vertical-align: top}
+.MJXp-surd > * {display: block!important}
+.MJXp-script-box > *  {display: table!important; height: 50%}
+.MJXp-script-box > * > * {display: table-cell!important; vertical-align: top}
+.MJXp-script-box > *:last-child > * {vertical-align: bottom}
+.MJXp-script-box > * > * > * {display: block!important}
+.MJXp-mphantom {visibility: hidden}
+.MJXp-munderover, .MJXp-munder {display: inline-table!important}
+.MJXp-over {display: inline-block!important; text-align: center}
+.MJXp-over > * {display: block!important}
+.MJXp-munderover > *, .MJXp-munder > * {display: table-row!important}
+.MJXp-mtable {vertical-align: .25em; margin: 0 .125em}
+.MJXp-mtable > * {display: inline-table!important; vertical-align: middle}
+.MJXp-mtr {display: table-row!important}
+.MJXp-mtd {display: table-cell!important; text-align: center; padding: .5em 0 0 .5em}
+.MJXp-mtr > .MJXp-mtd:first-child {padding-left: 0}
+.MJXp-mtr:first-child > .MJXp-mtd {padding-top: 0}
+.MJXp-mlabeledtr {display: table-row!important}
+.MJXp-mlabeledtr > .MJXp-mtd:first-child {padding-left: 0}
+.MJXp-mlabeledtr:first-child > .MJXp-mtd {padding-top: 0}
+.MJXp-merror {background-color: #FFFF88; color: #CC0000; border: 1px solid #CC0000; padding: 1px 3px; font-style: normal; font-size: 90%}
+.MJXp-scale0 {-webkit-transform: scaleX(.0); -moz-transform: scaleX(.0); -ms-transform: scaleX(.0); -o-transform: scaleX(.0); transform: scaleX(.0)}
+.MJXp-scale1 {-webkit-transform: scaleX(.1); -moz-transform: scaleX(.1); -ms-transform: scaleX(.1); -o-transform: scaleX(.1); transform: scaleX(.1)}
+.MJXp-scale2 {-webkit-transform: scaleX(.2); -moz-transform: scaleX(.2); -ms-transform: scaleX(.2); -o-transform: scaleX(.2); transform: scaleX(.2)}
+.MJXp-scale3 {-webkit-transform: scaleX(.3); -moz-transform: scaleX(.3); -ms-transform: scaleX(.3); -o-transform: scaleX(.3); transform: scaleX(.3)}
+.MJXp-scale4 {-webkit-transform: scaleX(.4); -moz-transform: scaleX(.4); -ms-transform: scaleX(.4); -o-transform: scaleX(.4); transform: scaleX(.4)}
+.MJXp-scale5 {-webkit-transform: scaleX(.5); -moz-transform: scaleX(.5); -ms-transform: scaleX(.5); -o-transform: scaleX(.5); transform: scaleX(.5)}
+.MJXp-scale6 {-webkit-transform: scaleX(.6); -moz-transform: scaleX(.6); -ms-transform: scaleX(.6); -o-transform: scaleX(.6); transform: scaleX(.6)}
+.MJXp-scale7 {-webkit-transform: scaleX(.7); -moz-transform: scaleX(.7); -ms-transform: scaleX(.7); -o-transform: scaleX(.7); transform: scaleX(.7)}
+.MJXp-scale8 {-webkit-transform: scaleX(.8); -moz-transform: scaleX(.8); -ms-transform: scaleX(.8); -o-transform: scaleX(.8); transform: scaleX(.8)}
+.MJXp-scale9 {-webkit-transform: scaleX(.9); -moz-transform: scaleX(.9); -ms-transform: scaleX(.9); -o-transform: scaleX(.9); transform: scaleX(.9)}
+.MathJax_PHTML .noError {vertical-align: ; font-size: 90%; text-align: left; color: black; padding: 1px 3px; border: 1px solid}
+</style><link rel="prefetch" as="style" href="A%20typical%20Linux%20project%20using%20CMake_files/a_data/lounge.css"><link rel="prefetch" as="script" href="A%20typical%20Linux%20project%20using%20CMake_files/a_data/common.js"><link rel="prefetch" as="script" href="A%20typical%20Linux%20project%20using%20CMake_files/a_data/lounge.js"><link rel="prefetch" as="script" href="A%20typical%20Linux%20project%20using%20CMake_files/a_data/config.js"><script src="A%20typical%20Linux%20project%20using%20CMake_files/alfalfalfa.js" async="" charset="UTF-8"></script></head>
+<body><div id="MathJax_Message" style="display: none;"></div>
+<div id="wrap">
+<header role="banner">
+	<ul>
+    	<li><a href="http://www.kaizou.org/">Kaizou</a></li>
+		<li><a href="http://www.kaizou.org/about.html">?</a></li>
+	</ul>
+</header>
+<div id="content">
+<script type="text/javascript" src="A%20typical%20Linux%20project%20using%20CMake_files/MathJax.js">
+  MathJax.Hub.Config({
+  tex2jax: {
+    inlineMath: [['$','$'], ['\\(','\\)']],
+    processEscapes: true
+  }
+});
+</script>
+	<!-- Post -->
+<div id="first-col">
+<article role="main">
+<header class="title">
+  <h1><a href="http://www.kaizou.org/2014/11/typical-cmake-project.html" rel="bookmark">A typical Linux project using CMake</a></h1>
+  <small><span>03 Nov 2014</span> by David Corvoysier</small>
+</header>
+<script type="text/javascript" src="A%20typical%20Linux%20project%20using%20CMake_files/MathJax.js">
+  MathJax.Hub.Config({
+  tex2jax: {
+    inlineMath: [['$','$'], ['\\(','\\)']],
+    processEscapes: true
+  }
+});
+</script>
+<p>When it comes to choosing a make system on Linux, you basically only 
+have two options: autotools or CMake. I have always found Autotools a 
+bit counter-intuitive, but was reluctant to make the effort to switch to
+ CMake because I was worried the learning curve would be too steep for a
+ task you don’t have to perform that much often (I mean, you usually 
+spend more time writing code than writing build rules).</p>
+
+<p>A recent project of mine required writing a lot of new Linux 
+packages, and I decided it was a good time to give CMake a try. This 
+article is about how I have used it to build plain old Linux packages 
+almost effortlessly.</p>
+
+<!--more-->
+
+<p>Although CMake is fairly well documented, I personnally found the 
+documentation (and especially the tutorial) a bit too CMake-oriented, 
+forcing me to use cmake dedicated tools for tasks I had already tools 
+for (tests and delivery for instance).</p>
+
+<p>This is therefore my own tutorial to CMake, based on my primary 
+requirement: just generate the makefiles using CMake, and use my own 
+tools for everything else.</p>
+
+<h2 id="project-structure">Project structure</h2>
+
+<p>The project structure is partly driven by the project design, but it 
+would ususally contain at least two common sub-directories, along with 
+several “module” sub-directories:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight prettyprint"><code>main
+test
+moduleA
+moduleB
+...
+</code></pre></div></div>
+
+<p>The <code class="language-plaintext highlighter-rouge">main</code> subdirectory contains the main project target, typically an executable.</p>
+
+<p>The <code class="language-plaintext highlighter-rouge">test</code> directory contains one or more test executables.</p>
+
+<p>The <code class="language-plaintext highlighter-rouge">moduleX</code> directories contain libraries to be used by either the tests or main executables.</p>
+
+<p>At the root of the project, the main <code class="language-plaintext highlighter-rouge">CMakeLists.txt</code> should contain the common CMake directives that apply to all subdirectories.</p>
+
+<p>First, the <code class="language-plaintext highlighter-rouge">CMakeLists.txt</code> would specify a minimum Cmake version, name your project and define a few common behaviours.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight prettyprint"><code>CMAKE_MINIMUM_REQUIRED(VERSION 2.8)
+
+PROJECT(MyProject)
+
+SET(CMAKE_INCLUDE_CURRENT_DIR ON)
+</code></pre></div></div>
+
+<p>Here, I only set one option that is of uttermost importance if you 
+want to build out-of-tree AND generate some of your source files 
+automatically (you most certainly do actually if you are using ANY 
+modern framework like Qt). What it does is that it adds the <code class="language-plaintext highlighter-rouge">${CMAKE_CURRENT_SOURCE_DIR}</code> (this one you don’t care that much) and <code class="language-plaintext highlighter-rouge">${CMAKE_CURRENT_BINARY_DIR}</code> to the include path, allowing generated include files to be found by the compiler.</p>
+
+<p>Finally, the <code class="language-plaintext highlighter-rouge">CMakeLists.txt</code> would list all subdirectories to be included in the project:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight prettyprint"><code>ADD_SUBDIRECTORY(main)
+ADD_SUBDIRECTORY(test)
+ADD_SUBDIRECTORY(moduleA)
+ADD_SUBDIRECTORY(moduleB)
+...
+</code></pre></div></div>
+
+<h2 id="configuring-modules">Configuring Modules</h2>
+
+<p>As explained in the previous paragraph, each subdirectory would 
+contain at least either one executable or one library defined in a 
+dedicated <code class="language-plaintext highlighter-rouge">CMakeLists.txt</code> file.</p>
+
+<p>Executables are declared using the <a href="http://www.cmake.org/cmake/help/v3.0/command/add_executable.html#command:add_executable"><code class="language-plaintext highlighter-rouge">ADD_EXECUTABLE</code></a> command:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight prettyprint"><code>ADD_EXECUTABLE(myapp
+    ${MY_SRCS}
+)
+</code></pre></div></div>
+
+<p>Libraries are declared using the <a href="http://www.cmake.org/cmake/help/v3.0/command/add_library.html#command:add_library"><code class="language-plaintext highlighter-rouge">ADD_LIBRARY</code></a> command:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight prettyprint"><code>ADD_LIBRARY(mylib STATIC
+    ${MY_SRCS}
+)
+</code></pre></div></div>
+
+<p>Source files are specified either explicitly or using a wildcard:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight prettyprint"><code>SET(MY_SRC
+    fileA.cpp
+    fileB.cpp
+    ...
+)
+</code></pre></div></div>
+
+<p>or</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight prettyprint"><code>file(GLOB MY_SRC
+    "*.h"
+    "*.cpp"
+)
+</code></pre></div></div>
+
+<blockquote>
+  <p>Note that using a wildcard, you need to rerun CMake if you add more files to a module</p>
+</blockquote>
+
+<h2 id="solving-dependencies-between-modules">Solving dependencies between modules</h2>
+
+<h3 id="link-dependencies">Link dependencies</h3>
+
+<p>Link dependencies between modules are solved using the <a href="http://www.cmake.org/cmake/help/v3.0/command/target_link_libraries.html"><code class="language-plaintext highlighter-rouge">TARGET_LINK_LIBRARIES</code></a> command.</p>
+
+<p>CMake maintains throughout the whole project a named object for each target created by a command such as <code class="language-plaintext highlighter-rouge">ADD_EXECUTABLE()</code> or <code class="language-plaintext highlighter-rouge">ADD_LIBRARY()</code>.</p>
+
+<p>This target name can be passed to the <a href="http://www.cmake.org/cmake/help/v3.0/command/target_link_libraries.html"><code class="language-plaintext highlighter-rouge">TARGET_LINK_LIBRARIES</code></a> command to tell CMake that an object A depends on on object B.</p>
+
+<p>Example:</p>
+
+<p>Given a library defined in a specific subdirectory</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight prettyprint"><code>ADD_LIBRARY(mylib STATIC
+    ${MY_LIBSRCS}
+)
+</code></pre></div></div>
+
+<p>One can specify a dependency from an application to that library</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight prettyprint"><code>ADD_EXECUTABLE(myapp
+    ${MY_APPSRCS}
+)
+
+TARGET_LINK_LIBRARIES(myapp
+    mylib
+)
+</code></pre></div></div>
+
+<h3 id="include-dependencies">Include dependencies</h3>
+
+<p>Include dependencies are automatically solved for dependent libraries declared in the <a href="http://www.cmake.org/cmake/help/v3.0/command/target_link_libraries.html"><code class="language-plaintext highlighter-rouge">TARGET_LINK_LIBRARIES</code></a> command if the corresponding libraries have properly declared their include directories using the <a href="http://www.cmake.org/cmake/help/v3.0/command/target_include_directories.html"><code class="language-plaintext highlighter-rouge">TARGET_INCLUDE_DIRECTORIES</code></a> command.</p>
+
+<p>Example:</p>
+
+<p>Given a library defined in a specific subdirectory</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight prettyprint"><code>ADD_LIBRARY(mylib STATIC
+    ${MY_LIBSRCS}
+)
+</code></pre></div></div>
+
+<p>Specifying</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight prettyprint"><code>TARGET_INCLUDE_DIRECTORIES(mylib
+    /path/to/includes
+)
+</code></pre></div></div>
+
+<p>Allows a dependent app to be aware of the mylib include path just when adding the lib to the <code class="language-plaintext highlighter-rouge">TARGET_LINK_LIBRARIES</code></p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight prettyprint"><code>ADD_EXECUTABLE(myapp
+    ${MY_APPSRCS}
+)
+
+TARGET_LINK_LIBRARIES(myapp
+    mylib
+)
+</code></pre></div></div>
+
+<p>Additional include dependencies can be solved explicitly using the <a href="http://www.cmake.org/cmake/help/v3.0/command/include_directories.html"><code class="language-plaintext highlighter-rouge">INCLUDE_DIRECTORIES</code></a> command, but most of the time, you won’t need it unless you have nested sub-directories that don’t have a <code class="language-plaintext highlighter-rouge">CMakeLists.txt</code> of their own (as a matter of fact, needing to add an explicit <code class="language-plaintext highlighter-rouge">INCLUDE_DIRECTORIES</code> may be a good hint that something is wrong with your other directives).</p>
+
+<h2 id="resolving-dependencies-towards-external-packages">Resolving Dependencies towards external packages</h2>
+
+<h3 id="packages-known-by-cmake">Packages known by CMake</h3>
+
+<p>CMake provides a set of tools to register and retrieve information about packages stored in a CMake package registry.</p>
+
+<p>CMake packages dependencies are solved easily by specifying them using the built-in CMake <code class="language-plaintext highlighter-rouge">FIND_PACKAGE</code> commands.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight prettyprint"><code>FIND_PACKAGE(Qt5Core)
+</code></pre></div></div>
+
+<p>This command will create a CMake target Qt5::Core that can be referenced in <a href="http://www.cmake.org/cmake/help/v3.0/command/target_link_libraries.html"><code class="language-plaintext highlighter-rouge">TARGET_LINK_LIBRARIES</code></a> commands.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight prettyprint"><code>ADD_LIBRARY(mylib STATIC
+    ${MY_LIBSRCS}
+)
+
+TARGET_LINK_LIBRARIES(mylib
+    Qt5::Core
+)
+</code></pre></div></div>
+
+<blockquote>
+  <p>Note: The <code class="language-plaintext highlighter-rouge">FIND_PACKAGE</code> command will also export <a href="http://qt-project.org/doc/qt-5/cmake-manual.html#variable-reference">several related variables</a>.</p>
+</blockquote>
+
+<p>Just like when referencing an internal module, the paths to the specific includes of libraries found using <code class="language-plaintext highlighter-rouge">FIND_PACKAGE</code> are automatically added to the include search path. There is therefore no need to add them explicitly using an <code class="language-plaintext highlighter-rouge">INCLUDE_DIRECTORIES</code> directive.</p>
+
+<h3 id="other-packages-pkg-config">Other packages: pkg-config</h3>
+
+<p>For package whose definition is not maintained in CMake (ie there is 
+no FIND_PACKAGE macro written for them), you may rely on the generic 
+pkg-config tool instead.</p>
+
+<p><a href="http://www.freedesktop.org/wiki/Software/pkg-config/">pkg-config</a>
+ is a helper tool used when compiling applications and libraries. It 
+helps you insert the correct compiler options on the command line so an 
+application can use <code class="language-plaintext highlighter-rouge">gcc -o test test.c pkg-config --libs --cflags glib-2.0</code>
+ for instance, rather than hard-coding values on where to find glib (or 
+other libraries). It is language-agnostic, so it can be used for 
+defining the location of documentation tools, for instance.</p>
+
+<p>pkg-config compatible packages declare their include path, compiler options and linking flags in dedicated <code class="language-plaintext highlighter-rouge">.pc</code> files installed on the system.</p>
+
+<p>Here is for instance the <code class="language-plaintext highlighter-rouge">glib-2.0</code> pkg-configfile:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight prettyprint"><code>prefix=/usr
+exec_prefix=${prefix}
+libdir=${prefix}/lib/x86_64-linux-gnu
+includedir=${prefix}/include
+
+glib_genmarshal=glib-genmarshal
+gobject_query=gobject-query
+glib_mkenums=glib-mkenums
+
+Name: GLib
+Description: C Utility Library
+Version: 2.36.0
+Requires.private: libpcre
+Libs: -L${libdir} -lglib-2.0 
+Libs.private: -pthread  -lpcre    
+Cflags: -I${includedir}/glib-2.0 -I${libdir}/glib-2.0/include
+</code></pre></div></div>
+
+<p>Before using pkg-config, you need to make sure the tool is available by inserting the following line in your <code class="language-plaintext highlighter-rouge">CMakeLists.txt</code>:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight prettyprint"><code>FIND_PACKAGE(PkgConfig)
+</code></pre></div></div>
+
+<p>Then, insert the following <a href="http://www.cmake.org/cmake/help/v3.0/module/FindPkgConfig.html">PKG_CHECK_MODULES</a> command in your <code class="language-plaintext highlighter-rouge">CMakeLists.txt</code> file to tell CMake to resolve pkg-config dependencies for a specific package:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight prettyprint"><code>PKG_CHECK_MODULES(GLIB2 REQUIRED glib-2.0&gt;=2.36.0)
+</code></pre></div></div>
+
+<p>The command will export several variables, including the <code class="language-plaintext highlighter-rouge">XXX_LIBRARIES</code> command that can be used in <a href="http://www.cmake.org/cmake/help/v3.0/command/target_link_libraries.html"><code class="language-plaintext highlighter-rouge">TARGET_LINK_LIBRARIES</code></a> commands.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight prettyprint"><code>ADD_LIBRARY(mylib STATIC
+    ${MY_LIBSRCS}
+)
+
+TARGET_LINK_LIBRARIES(mylib
+    GLIB2_LIBRARIES
+)
+</code></pre></div></div>
+
+<p>Unfortunately, I was unable to get the include paths of libraries 
+found through pkg-config to be added automatically to the include source
+ paths just like it it when using the standard <code class="language-plaintext highlighter-rouge">FIND_PACKAGE</code> function, so I needed to add them explicitly:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight prettyprint"><code>INCLUDE_DIRECTORIES(
+    GLIB2_INCLUDE_DIRS
+)
+</code></pre></div></div>
+
+<h2 id="exporting-dependencies-towards-external-packages">Exporting dependencies towards external packages</h2>
+
+<p>Although CMake supports its <a href="http://www.cmake.org/Wiki/CMake:How_To_Find_Libraries">own mechanism to export dependencies</a>, it is recommended to take advantage of the more generic pkg-config files.</p>
+
+<p>CMake doesn’t provide any specific mechanism to generate <code class="language-plaintext highlighter-rouge">.pc</code> files.</p>
+
+<p>However, one can take advantage of CMake variables substitution to 
+generate a specific pkg-config file from a predefined template.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight prettyprint"><code>CONFIGURE_FILE(
+  "${CMAKE_CURRENT_SOURCE_DIR}/pkg-config.pc.cmake"
+  "${CMAKE_CURRENT_BINARY_DIR}/${PROJECT_NAME}.pc"
+)
+</code></pre></div></div>
+
+<p>A typical <code class="language-plaintext highlighter-rouge">.pc</code> template could be:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight prettyprint"><code>Name: ${PROJECT_NAME}
+Description: ${PROJECT_DESCRIPTION}
+Version: ${PROJECT_VERSION}
+Requires: ${PKG_CONFIG_REQUIRES}
+prefix=${CMAKE_INSTALL_PREFIX}
+includedir=${PKG_CONFIG_INCLUDEDIR}
+libdir=${PKG_CONFIG_LIBDIR}
+Libs: ${PKG_CONFIG_LIBS}
+Cflags: ${PKG_CONFIG_CFLAGS}
+</code></pre></div></div>
+
+<p>Where the following variables are provided by CMake:</p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">PROJECT_NAME</code></li>
+  <li><code class="language-plaintext highlighter-rouge">PROJECT_DESCRIPTION</code></li>
+  <li><code class="language-plaintext highlighter-rouge">PROJECT_VERSION</code></li>
+  <li><code class="language-plaintext highlighter-rouge">CMAKE_INSTALL_PREFIX</code></li>
+</ul>
+
+<p>And these ones need to be specified explicitly:</p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">PKG_CONFIG_REQUIRES</code></li>
+  <li><code class="language-plaintext highlighter-rouge">PKG_CONFIG_INCLUDEDIR</code></li>
+  <li><code class="language-plaintext highlighter-rouge">PKG_CONFIG_LIBDIR</code></li>
+  <li><code class="language-plaintext highlighter-rouge">PKG_CONFIG_LIBS</code></li>
+  <li><code class="language-plaintext highlighter-rouge">PKG_CONFIG_CFLAGS</code></li>
+</ul>
+
+<p>Example:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight prettyprint"><code>SET(PKG_CONFIG_REQUIRES glib-2.0)
+SET(PKG_CONFIG_LIBDIR
+    "\${prefix}/lib"
+)
+SET(PKG_CONFIG_INCLUDEDIR
+    "\${prefix}/include/mylib"
+)
+SET(PKG_CONFIG_LIBS
+    "-L\${libdir} -lmylib"
+)
+SET(PKG_CONFIG_CFLAGS
+    "-I\${includedir}"
+)
+
+CONFIGURE_FILE(
+  "${CMAKE_CURRENT_SOURCE_DIR}/pkg-config.pc.cmake"
+  "${CMAKE_CURRENT_BINARY_DIR}/${PROJECT_NAME}.pc"
+)
+</code></pre></div></div>
+
+<h2 id="installing-files-on-target">Installing files on target</h2>
+
+<p>Installing files on target is as simple as adding the corresponding <a href="http://www.cmake.org/cmake/help/v3.0/command/install.html"><code class="language-plaintext highlighter-rouge">INSTALL</code></a> command to the target <code class="language-plaintext highlighter-rouge">CMakeLists.txt</code>.</p>
+
+<p>To install the main targets of a project, use the <code class="language-plaintext highlighter-rouge">TARGETS</code> directive:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight prettyprint"><code>INSTALL(TARGETS myapp
+        DESTINATION bin)
+</code></pre></div></div>
+
+<p>or</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight prettyprint"><code>INSTALL(TARGETS mylib ARCHIVE
+        DESTINATION lib)
+</code></pre></div></div>
+
+<blockquote>
+  <p>Note: The files will be installed relatively to the path specified in the <code class="language-plaintext highlighter-rouge">CMAKE_INSTALL_PREFIX</code> cmake variable, prepended by the <code class="language-plaintext highlighter-rouge">DESTDIR</code> variable passed on the command line (ie <code class="language-plaintext highlighter-rouge">make install DESTDIR=/home/toto</code>)</p>
+</blockquote>
+
+<p>Other project files can also be installed using the <code class="language-plaintext highlighter-rouge">FILES</code> directive:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight prettyprint"><code>INSTALL(FILES header.h
+        DESTINATION include/mylib)
+</code></pre></div></div>
+
+<p>or</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight prettyprint"><code>INSTALL(FILES "${CMAKE_BINARY_DIR}/${PROJECT_NAME}.pc"
+        DESTINATION lib/pkgconfig)
+</code></pre></div></div>
+
+<h2 id="building-the-project">Building the project</h2>
+
+<p>I personnally always recommend to build a project out-of-tree, ie to 
+put all build subproducts into a separate directory. Incidentally, 
+building out-of-tree is also a good way to find out if your project is 
+properly configured …</p>
+
+<p>So, the first step is to create a build directory</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight prettyprint"><code>mkdir build &amp;&amp; cd build
+</code></pre></div></div>
+
+<p>Then you need to tell CMake to generate the project makefiles 
+according to specific directives you may specify on the command line 
+(typically by setting variables).
+Most of the time, you can let CMake apply default values:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight prettyprint"><code>cmake ..
+</code></pre></div></div>
+
+<p>But you may need for instance to specify a custom installation prefix (by default CMake will use <code class="language-plaintext highlighter-rouge">usr/local</code>):</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight prettyprint"><code>cmake -DCMAKE_INSTALL_PREFIX:PATH=usr ..
+</code></pre></div></div>
+
+<p>Once the makefiles have been generated you can simply build the project using make commands.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight prettyprint"><code>make
+</code></pre></div></div>
+
+<p>Finally, you can install the targets, either using defaults …</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight prettyprint"><code>make install
+</code></pre></div></div>
+
+<p>… or specifying the destination directory (CMake use <code class="language-plaintext highlighter-rouge">/</code> as the default destination directory)</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight prettyprint"><code>DESTDIR=/custom-destdir make install
+</code></pre></div></div>
+
+<!-- Comments -->
+<div id="disqus_thread"><iframe id="dsq-app5662" name="dsq-app5662" allowtransparency="true" scrolling="no" tabindex="0" title="Disqus" style="width: 1px !important; min-width: 100% !important; border: medium none !important; overflow: hidden !important; height: 707px !important;" src="A%20typical%20Linux%20project%20using%20CMake_files/a.html" horizontalscrolling="no" verticalscrolling="no" width="100%" frameborder="0"></iframe></div>
+    <script type="text/javascript">
+        /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+        var disqus_shortname = 'kaizouorg';
+
+        /* * * DON'T EDIT BELOW THIS LINE * * */
+        (function() {
+            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+            dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    
+</article>
+</div>
+<aside id="second-col">
+<div id="me">
+<h2>Hi</h2>
+<p>I am David Corvoysier, versatile developer and open Source enthusiast.</p>
+</div>
+
+<div id="social">
+  <h2>Follow me: 
+    <a href="https://github.com/kaizouman">
+<img alt="Kaizouman repository on github" src="A%20typical%20Linux%20project%20using%20CMake_files/Octocat.png">
+</a>
+           
+    <a href="http://www.kaizou.org/feed/">
+<img alt="Site Feed" src="A%20typical%20Linux%20project%20using%20CMake_files/rss.svg">
+</a>
+
+    <a href="https://twitter.com/kaizouda">
+<img alt="Follow David Corvoysier in Twitter" src="A%20typical%20Linux%20project%20using%20CMake_files/twitter.png">
+</a>
+
+    <a href="https://fr.linkedin.com/pub/david-corvoysier/a3/2aa/a90">
+<img alt="David Corvoysier on linkedIn" src="A%20typical%20Linux%20project%20using%20CMake_files/linkedin.jpg">
+</a>
+
+  </h2>
+</div>
+
+<!-- Related Posts -->
+<div id="related-posts">
+  <div class="tuple"><h2>Related Posts</h2></div>
+    
+        
+        
+            <div class="tuple">
+        
+    	<article>
+    <header>
+      <h1><a href="http://www.kaizou.org/2018/07/stdp-tensorflow.html" rel="bookmark">Identify Repeating Patterns using Spiking Neural Networks in Tensorflow</a></h1>
+      <small><span>26 Jul 2018</span> by David Corvoysier</small>
+    </header>
+    <section>
+      <p>Spiking neural networks ([SNN](<a class="vglnk" href="https://en.wikipedia.org/wiki/Spiking_neural_network" rel="nofollow"><span>https</span><span>://</span><span>en</span><span>.</span><span>wikipedia</span><span>.</span><span>org</span><span>/</span><span>wiki</span><span>/</span><span>Spiking</span><span>_</span><span>neural</span><span>_</span><span>network</span></a>)) are the 3rd generation of neural networks.
+
+SNN do not react on each stimulus, but rather accumulate inputs until they reach a threshold potential and generate a 'spike'.
+
+Because of their very nature, SNNs cannot be trained like 2nd generation neural networks using gradient descent.
+
+Spike Timing Dependent Plasticity ([STDP](<a class="vglnk" href="https://en.wikipedia.org/wiki/Spike-timing-dependent_plasticity" rel="nofollow"><span>https</span><span>://</span><span>en</span><span>.</span><span>wikipedia</span><span>.</span><span>org</span><span>/</span><span>wiki</span><span>/</span><span>Spike</span><span>-</span><span>timing</span><span>-</span><span>dependent</span><span>_</span><span>plasticity</span></a>))
+ is a biological process that
+inspired an unsupervised training method for SNNs.  
+
+In this article, I will provide an illustration of how STDP can be used 
+to teach a single neuron to identify a repeating pattern in a continuous
+ stream of input spikes. 
+
+</p>
+      <p><a href="http://www.kaizou.org/2018/07/stdp-tensorflow.html">(more…)</a></p>
+    </section>
+    <footer>
+      <span>Categories: 
+        
+        <a href="http://www.kaizou.org/categories.html#Development" rel="tag">Development</a>
+        
+      </span>
+      <span>Tags: 
+        
+        <a href="http://www.kaizou.org/tags.html#tensorflow" rel="tag">tensorflow</a>
+        
+        <a href="http://www.kaizou.org/tags.html#machine%20learning" rel="tag">machine learning</a>
+        
+        <a href="http://www.kaizou.org/tags.html#spiking%20neural%20nets" rel="tag">spiking neural nets</a>
+        
+        <a href="http://www.kaizou.org/tags.html#snn" rel="tag">snn</a>
+        
+        <a href="http://www.kaizou.org/tags.html#stdp" rel="tag">stdp</a>
+        
+      </span>
+    </footer>
+</article>
+
+        
+    
+        
+        
+    	<article>
+    <header>
+      <h1><a href="http://www.kaizou.org/2018/07/lif-neuron-tensorflow.html" rel="bookmark">Leaky Integrate and Fire neuron with Tensorflow</a></h1>
+      <small><span>25 Jul 2018</span> by David Corvoysier</small>
+    </header>
+    <section>
+      <p>Spiking Neural Networks (SNN) are the next generation of neural networks, that operate using spikes, 
+which are discrete events that take place at points in time, rather than continuous values.
+
+Essentially, once a stimulated neuron reaches a certain potential, it spikes, and the potential of that neuron is reset. 
+
+In this article, I will detail how the Leaky Integrate and Fire (LIF) spiking neuron model can be implemented
+using [Tensorflow](<a class="vglnk" href="https://www.tensorflow.org/" rel="nofollow"><span>https</span><span>://</span><span>www</span><span>.</span><span>tensorflow</span><span>.</span><span>org</span><span>/</span></a>).
+
+</p>
+      <p><a href="http://www.kaizou.org/2018/07/lif-neuron-tensorflow.html">(more…)</a></p>
+    </section>
+    <footer>
+      <span>Categories: 
+        
+        <a href="http://www.kaizou.org/categories.html#Development" rel="tag">Development</a>
+        
+      </span>
+      <span>Tags: 
+        
+        <a href="http://www.kaizou.org/tags.html#tensorflow" rel="tag">tensorflow</a>
+        
+        <a href="http://www.kaizou.org/tags.html#machine%20learning" rel="tag">machine learning</a>
+        
+        <a href="http://www.kaizou.org/tags.html#spiking%20neural%20nets" rel="tag">spiking neural nets</a>
+        
+        <a href="http://www.kaizou.org/tags.html#snn" rel="tag">snn</a>
+        
+        <a href="http://www.kaizou.org/tags.html#lif" rel="tag">lif</a>
+        
+      </span>
+    </footer>
+</article>
+
+        
+            </div>
+        
+    
+        
+        
+            <div class="tuple">
+        
+    	<article>
+    <header>
+      <h1><a href="http://www.kaizou.org/2018/07/simulating-spiking-neurons-with-tensorflow.html" rel="bookmark">Simulating spiking neurons with Tensorflow</a></h1>
+      <small><span>24 Jul 2018</span> by David Corvoysier</small>
+    </header>
+    <section>
+      <p>Spiking Neural Networks are the next generation of machine learning, according to the litterature.
+
+After the feed-forward perceptrons of the last century and the bi-directional deep networks trained
+using gradient descent of today, this 3rd generation of neural networks uses biologically-realistic
+models of neurons to carry out computation.
+
+A spiking neural network (SNN) operates using spikes, which are discrete events that take place at
+points in time, rather than continuous values. The occurrence of a spike is determined by differential
+equations that represent the membrane potential of the neuron.
+Essentially, once a neuron reaches a certain potential, it spikes, and the potential of that neuron is reset. 
+
+In this article, I will detail how this kind of network can be modelled using [Tensorflow](<a class="vglnk" href="https://www.tensorflow.org/" rel="nofollow"><span>https</span><span>://</span><span>www</span><span>.</span><span>tensorflow</span><span>.</span><span>org</span><span>/</span></a>).
+
+</p>
+      <p><a href="http://www.kaizou.org/2018/07/simulating-spiking-neurons-with-tensorflow.html">(more…)</a></p>
+    </section>
+    <footer>
+      <span>Categories: 
+        
+        <a href="http://www.kaizou.org/categories.html#Development" rel="tag">Development</a>
+        
+      </span>
+      <span>Tags: 
+        
+        <a href="http://www.kaizou.org/tags.html#tensorflow" rel="tag">tensorflow</a>
+        
+        <a href="http://www.kaizou.org/tags.html#machine%20learning" rel="tag">machine learning</a>
+        
+        <a href="http://www.kaizou.org/tags.html#spiking%20neural%20nets" rel="tag">spiking neural nets</a>
+        
+        <a href="http://www.kaizou.org/tags.html#snn" rel="tag">snn</a>
+        
+      </span>
+    </footer>
+</article>
+
+        
+    
+        
+        
+    	<article>
+    <header>
+      <h1><a href="http://www.kaizou.org/2018/07/docker-dev-environment.html" rel="bookmark">Use a docker build container for development</a></h1>
+      <small><span>23 Jul 2018</span> by David Corvoysier</small>
+    </header>
+    <section>
+      <p>Using docker containers to meet specific application requirements is now common place: 
+instead of having to install many packages on your host, possibly conflicting with already
+existing ones, you simply fetch a docker image of the application and run it from there. 
+
+It is less frequent to use docker containers as development sandboxes, but they are however
+perfectly suited for the job.
+
+</p>
+      <p><a href="http://www.kaizou.org/2018/07/docker-dev-environment.html">(more…)</a></p>
+    </section>
+    <footer>
+      <span>Categories: 
+        
+        <a href="http://www.kaizou.org/categories.html#Development" rel="tag">Development</a>
+        
+      </span>
+      <span>Tags: 
+        
+        <a href="http://www.kaizou.org/tags.html#docker" rel="tag">docker</a>
+        
+      </span>
+    </footer>
+</article>
+
+        
+            </div>
+        
+    
+</div>
+<div id="tag_cloud">
+
+<a href="http://www.kaizou.org/2014/11/tags.html#SVG" title="SVG" rel="2" style="font-size: 1.02222em; color: rgb(233, 108, 103);">SVG</a>
+
+<a href="http://www.kaizou.org/2014/11/tags.html#XHTML" title="XHTML" rel="5" style="font-size: 1.38889em; color: rgb(238, 82, 73);">XHTML</a>
+
+<a href="http://www.kaizou.org/2014/11/tags.html#Cache" title="Cache" rel="4" style="font-size: 1.26667em; color: rgb(236, 91, 83);">Cache</a>
+
+<a href="http://www.kaizou.org/2014/11/tags.html#HTTP" title="HTTP" rel="2" style="font-size: 1.02222em; color: rgb(233, 108, 103);">HTTP</a>
+
+<a href="http://www.kaizou.org/2014/11/tags.html#Apache" title="Apache" rel="1" style="font-size: 0.9em; color: rgb(231, 116, 113);">Apache</a>
+
+<a href="http://www.kaizou.org/2014/11/tags.html#IE" title="IE" rel="1" style="font-size: 0.9em; color: rgb(231, 116, 113);">IE</a>
+
+<a href="http://www.kaizou.org/2014/11/tags.html#HTML" title="HTML" rel="3" style="font-size: 1.14444em; color: rgb(234, 99, 93);">HTML</a>
+
+<a href="http://www.kaizou.org/2014/11/tags.html#HTML5" title="HTML5" rel="10" style="font-size: 2em; color: rgb(246, 40, 23);">HTML5</a>
+
+<a href="http://www.kaizou.org/2014/11/tags.html#WHATWG" title="WHATWG" rel="1" style="font-size: 0.9em; color: rgb(231, 116, 113);">WHATWG</a>
+
+<a href="http://www.kaizou.org/2014/11/tags.html#Video" title="Video" rel="3" style="font-size: 1.14444em; color: rgb(234, 99, 93);">Video</a>
+
+<a href="http://www.kaizou.org/2014/11/tags.html#CSS3" title="CSS3" rel="8" style="font-size: 1.75556em; color: rgb(243, 57, 43);">CSS3</a>
+
+<a href="http://www.kaizou.org/2014/11/tags.html#Fonts" title="Fonts" rel="1" style="font-size: 0.9em; color: rgb(231, 116, 113);">Fonts</a>
+
+<a href="http://www.kaizou.org/2014/11/tags.html#Custom" title="Custom" rel="1" style="font-size: 0.9em; color: rgb(231, 116, 113);">Custom</a>
+
+<a href="http://www.kaizou.org/2014/11/tags.html#Event" title="Event" rel="1" style="font-size: 0.9em; color: rgb(231, 116, 113);">Event</a>
+
+<a href="http://www.kaizou.org/2014/11/tags.html#Javascript" title="Javascript" rel="3" style="font-size: 1.14444em; color: rgb(234, 99, 93);">Javascript</a>
+
+<a href="http://www.kaizou.org/2014/11/tags.html#Animation" title="Animation" rel="4" style="font-size: 1.26667em; color: rgb(236, 91, 83);">Animation</a>
+
+<a href="http://www.kaizou.org/2014/11/tags.html#Benchmark" title="Benchmark" rel="2" style="font-size: 1.02222em; color: rgb(233, 108, 103);">Benchmark</a>
+
+<a href="http://www.kaizou.org/2014/11/tags.html#Carousel" title="Carousel" rel="2" style="font-size: 1.02222em; color: rgb(233, 108, 103);">Carousel</a>
+
+<a href="http://www.kaizou.org/2014/11/tags.html#Fps" title="Fps" rel="1" style="font-size: 0.9em; color: rgb(231, 116, 113);">Fps</a>
+
+<a href="http://www.kaizou.org/2014/11/tags.html#3D" title="3D" rel="1" style="font-size: 0.9em; color: rgb(231, 116, 113);">3D</a>
+
+<a href="http://www.kaizou.org/2014/11/tags.html#Canvas" title="Canvas" rel="2" style="font-size: 1.02222em; color: rgb(233, 108, 103);">Canvas</a>
+
+<a href="http://www.kaizou.org/2014/11/tags.html#Chrome" title="Chrome" rel="1" style="font-size: 0.9em; color: rgb(231, 116, 113);">Chrome</a>
+
+<a href="http://www.kaizou.org/2014/11/tags.html#GPU" title="GPU" rel="1" style="font-size: 0.9em; color: rgb(231, 116, 113);">GPU</a>
+
+<a href="http://www.kaizou.org/2014/11/tags.html#CSS" title="CSS" rel="1" style="font-size: 0.9em; color: rgb(231, 116, 113);">CSS</a>
+
+<a href="http://www.kaizou.org/2014/11/tags.html#video" title="video" rel="4" style="font-size: 1.26667em; color: rgb(236, 91, 83);">video</a>
+
+<a href="http://www.kaizou.org/2014/11/tags.html#subtitles" title="subtitles" rel="1" style="font-size: 0.9em; color: rgb(231, 116, 113);">subtitles</a>
+
+<a href="http://www.kaizou.org/2014/11/tags.html#chapters" title="chapters" rel="1" style="font-size: 0.9em; color: rgb(231, 116, 113);">chapters</a>
+
+<a href="http://www.kaizou.org/2014/11/tags.html#webvtt" title="webvtt" rel="1" style="font-size: 0.9em; color: rgb(231, 116, 113);">webvtt</a>
+
+<a href="http://www.kaizou.org/2014/11/tags.html#WebKit" title="WebKit" rel="1" style="font-size: 0.9em; color: rgb(231, 116, 113);">WebKit</a>
+
+<a href="http://www.kaizou.org/2014/11/tags.html#Blink" title="Blink" rel="1" style="font-size: 0.9em; color: rgb(231, 116, 113);">Blink</a>
+
+<a href="http://www.kaizou.org/2014/11/tags.html#Google" title="Google" rel="1" style="font-size: 0.9em; color: rgb(231, 116, 113);">Google</a>
+
+<a href="http://www.kaizou.org/2014/11/tags.html#Open%20Source" title="Open Source" rel="1" style="font-size: 0.9em; color: rgb(231, 116, 113);">Open Source</a>
+
+<a href="http://www.kaizou.org/2014/11/tags.html#heterogeneity" title="heterogeneity" rel="1" style="font-size: 0.9em; color: rgb(231, 116, 113);">heterogeneity</a>
+
+<a href="http://www.kaizou.org/2014/11/tags.html#WebCam" title="WebCam" rel="1" style="font-size: 0.9em; color: rgb(231, 116, 113);">WebCam</a>
+
+<a href="http://www.kaizou.org/2014/11/tags.html#getUserMedia" title="getUserMedia" rel="1" style="font-size: 0.9em; color: rgb(231, 116, 113);">getUserMedia</a>
+
+<a href="http://www.kaizou.org/2014/11/tags.html#cross-compilation" title="cross-compilation" rel="2" style="font-size: 1.02222em; color: rgb(233, 108, 103);">cross-compilation</a>
+
+<a href="http://www.kaizou.org/2014/11/tags.html#buildroot" title="buildroot" rel="1" style="font-size: 0.9em; color: rgb(231, 116, 113);">buildroot</a>
+
+<a href="http://www.kaizou.org/2014/11/tags.html#schroot" title="schroot" rel="1" style="font-size: 0.9em; color: rgb(231, 116, 113);">schroot</a>
+
+<a href="http://www.kaizou.org/2014/11/tags.html#DBus" title="DBus" rel="2" style="font-size: 1.02222em; color: rgb(233, 108, 103);">DBus</a>
+
+<a href="http://www.kaizou.org/2014/11/tags.html#Remote" title="Remote" rel="1" style="font-size: 0.9em; color: rgb(231, 116, 113);">Remote</a>
+
+<a href="http://www.kaizou.org/2014/11/tags.html#CMake" title="CMake" rel="2" style="font-size: 1.02222em; color: rgb(233, 108, 103);">CMake</a>
+
+<a href="http://www.kaizou.org/2014/11/tags.html#GoogleTest" title="GoogleTest" rel="1" style="font-size: 0.9em; color: rgb(231, 116, 113);">GoogleTest</a>
+
+<a href="http://www.kaizou.org/2014/11/tags.html#gcc" title="gcc" rel="1" style="font-size: 0.9em; color: rgb(231, 116, 113);">gcc</a>
+
+<a href="http://www.kaizou.org/2014/11/tags.html#ld" title="ld" rel="1" style="font-size: 0.9em; color: rgb(231, 116, 113);">ld</a>
+
+<a href="http://www.kaizou.org/2014/11/tags.html#ELF" title="ELF" rel="1" style="font-size: 0.9em; color: rgb(231, 116, 113);">ELF</a>
+
+<a href="http://www.kaizou.org/2014/11/tags.html#sections" title="sections" rel="1" style="font-size: 0.9em; color: rgb(231, 116, 113);">sections</a>
+
+<a href="http://www.kaizou.org/2014/11/tags.html#build" title="build" rel="2" style="font-size: 1.02222em; color: rgb(233, 108, 103);">build</a>
+
+<a href="http://www.kaizou.org/2014/11/tags.html#make" title="make" rel="1" style="font-size: 0.9em; color: rgb(231, 116, 113);">make</a>
+
+<a href="http://www.kaizou.org/2014/11/tags.html#ninja" title="ninja" rel="1" style="font-size: 0.9em; color: rgb(231, 116, 113);">ninja</a>
+
+<a href="http://www.kaizou.org/2014/11/tags.html#kbuild" title="kbuild" rel="1" style="font-size: 0.9em; color: rgb(231, 116, 113);">kbuild</a>
+
+<a href="http://www.kaizou.org/2014/11/tags.html#cmake" title="cmake" rel="1" style="font-size: 0.9em; color: rgb(231, 116, 113);">cmake</a>
+
+<a href="http://www.kaizou.org/2014/11/tags.html#linux" title="linux" rel="1" style="font-size: 0.9em; color: rgb(231, 116, 113);">linux</a>
+
+<a href="http://www.kaizou.org/2014/11/tags.html#croostool-ng" title="croostool-ng" rel="1" style="font-size: 0.9em; color: rgb(231, 116, 113);">croostool-ng</a>
+
+<a href="http://www.kaizou.org/2014/11/tags.html#qemu" title="qemu" rel="2" style="font-size: 1.02222em; color: rgb(233, 108, 103);">qemu</a>
+
+<a href="http://www.kaizou.org/2014/11/tags.html#busybox" title="busybox" rel="1" style="font-size: 0.9em; color: rgb(231, 116, 113);">busybox</a>
+
+<a href="http://www.kaizou.org/2014/11/tags.html#tensorflow" title="tensorflow" rel="4" style="font-size: 1.26667em; color: rgb(236, 91, 83);">tensorflow</a>
+
+<a href="http://www.kaizou.org/2014/11/tags.html#CIFAR10" title="CIFAR10" rel="1" style="font-size: 0.9em; color: rgb(231, 116, 113);">CIFAR10</a>
+
+<a href="http://www.kaizou.org/2014/11/tags.html#CNN" title="CNN" rel="1" style="font-size: 0.9em; color: rgb(231, 116, 113);">CNN</a>
+
+<a href="http://www.kaizou.org/2014/11/tags.html#bridge" title="bridge" rel="1" style="font-size: 0.9em; color: rgb(231, 116, 113);">bridge</a>
+
+<a href="http://www.kaizou.org/2014/11/tags.html#docker" title="docker" rel="1" style="font-size: 0.9em; color: rgb(231, 116, 113);">docker</a>
+
+<a href="http://www.kaizou.org/2014/11/tags.html#machine%20learning" title="machine learning" rel="3" style="font-size: 1.14444em; color: rgb(234, 99, 93);">machine learning</a>
+
+<a href="http://www.kaizou.org/2014/11/tags.html#spiking%20neural%20nets" title="spiking neural nets" rel="3" style="font-size: 1.14444em; color: rgb(234, 99, 93);">spiking neural nets</a>
+
+<a href="http://www.kaizou.org/2014/11/tags.html#snn" title="snn" rel="3" style="font-size: 1.14444em; color: rgb(234, 99, 93);">snn</a>
+
+<a href="http://www.kaizou.org/2014/11/tags.html#lif" title="lif" rel="1" style="font-size: 0.9em; color: rgb(231, 116, 113);">lif</a>
+
+<a href="http://www.kaizou.org/2014/11/tags.html#stdp" title="stdp" rel="1" style="font-size: 0.9em; color: rgb(231, 116, 113);">stdp</a>
+
+</div>
+
+<script src="A%20typical%20Linux%20project%20using%20CMake_files/jquery-3.js" type="text/javascript"></script>
+<script src="A%20typical%20Linux%20project%20using%20CMake_files/jquery.js" type="text/javascript" charset="utf-8"></script> 
+<script language="javascript">
+$.fn.tagcloud.defaults = {
+    size: {start: 0.9, end: 2, unit: 'em'},
+      color: {start: '#e77471', end: '#f62817'}
+};
+
+$(function () {
+    $('#tag_cloud a').tagcloud();
+});
+</script>
+
+</aside>
+
+</div>
+<footer role="contentinfo">
+    <ul>
+        <li>
+            <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/3.0/">
+<img alt="Creative Commons License" src="A%20typical%20Linux%20project%20using%20CMake_files/88x31.png">
+</a>
+
+        </li>
+        <li>
+            <span>Generated by <a href="https://github.com/mojombo/jekyll">Jekyll</a></span>
+        </li>
+        <li>
+            <a href="https://github.com/kaizouman">
+<img alt="Kaizouman repository on github" src="A%20typical%20Linux%20project%20using%20CMake_files/Octocat.png">
+</a>
+           
+        </li>
+        <li>
+            <a href="http://www.kaizou.org/feed/">
+<img alt="Site Feed" src="A%20typical%20Linux%20project%20using%20CMake_files/rss.svg">
+</a>
+
+        </li>
+        <li>
+            <a href="https://twitter.com/kaizouda">
+<img alt="Follow David Corvoysier in Twitter" src="A%20typical%20Linux%20project%20using%20CMake_files/twitter.png">
+</a>
+            
+        </li>
+    </ul>
+</footer>
+</div>
+<!-- Code Highlighting -->
+<script type="text/javascript" src="A%20typical%20Linux%20project%20using%20CMake_files/code-highlight.js">
+</script>
+<!-- Google Analytics -->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-57955939-1', 'auto');
+  ga('require', 'displayfeatures');
+  ga('send', 'pageview');
+
+</script>
+
+
+<iframe style="display: none;"></iframe></body></html>

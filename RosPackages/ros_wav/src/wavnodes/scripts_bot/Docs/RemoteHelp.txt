@@ -1,0 +1,4 @@
+Create ssh keys on server and push to bot
+
+ssh-keygen -t rsa
+ssh-copy-id -i ~/.ssh/id_rsa.pub wav@10.42.0.1

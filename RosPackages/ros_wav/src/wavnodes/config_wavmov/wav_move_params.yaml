@@ -1,0 +1,9 @@
+WavMove:
+  max_vel_lin: 0.4
+  min_vel_lin: 0.35
+  max_vel_th: 0.30
+  min_vel_th: 0.25
+  min_in_place_vel_th: 0.68
+  tolerance_trans: 0.16
+  tolerance_rot: 30
+  max_heading_diff_before_moving: 30

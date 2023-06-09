@@ -1,0 +1,39 @@
+<launch>
+<param name="use_sim_time" value="false" />
+
+  <group ns="planner">
+      <remap from="openni_points" to="/wav_pcl"/>
+      <!-- <remap from="map" to="/rtabmap/grid_map"/> -->
+      <remap from="map" to="/map"/>
+      <!-- <remap from="odom" to="/odom"/> -->
+      <remap from="odom" to="/odometry/filtered"/>
+           <!-- <remap from="odom"       to="/scanmatch_odom"/> -->
+      
+      <node pkg="move_base" type="move_base" respawn="false" name="move_base" output="screen">
+      <remap from="/planner/cmd_vel" to="/cmd_vel"/>
+      <remap from="/planner/motion_event" to="/motion_event"/>
+      <!-- <remap from="/planner/move_base_simple/cmd_vel_ack" to="/cmd_vel_ack"/> -->
+
+      <!-- <param name="planner_frequency" value="0.1" /> -->
+      <param name="controller_frequency" value="7.0" />
+      
+      <!-- <param name="controller_frequency" value="20.0" /> --> 
+         <!-- <param name="base_global_planner" value="global_planner/GlobalPlanner" /> -->
+         <param name="base_global_planner" value="rrt_star_global_planner/RRTStarPlanner" />
+         <param name="base_local_planner" value="dwa_local_planner/DWAPlannerROS" />
+
+      <rosparam file="$(find wavnodes)/config_trj/costmap_common_params.yaml" command="load" ns="global_costmap" />
+      <rosparam file="$(find wavnodes)/config_trj/costmap_common_params.yaml" command="load" ns="local_costmap" />
+      <rosparam file="$(find wavnodes)/config_trj/local_costmap_params.yaml" command="load" />
+      <rosparam file="$(find wavnodes)/config_trj/global_costmap_params.yaml" command="load" />
+      
+      <rosparam file="$(find wavnodes)/config_trj/dwa_local_planner_params.yaml" command="load" />
+      <!-- <rosparam file="$(find wavnodes)/config_trj/base_global_planner_params.yaml" command="load" /> -->
+      <rosparam file="$(find wavnodes)/config_trj/rrt_star_params.yaml" command="load" />
+      </node>
+   </group>
+</launch>
+
+
+
+

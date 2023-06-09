@@ -1,0 +1,17 @@
+<launch>
+
+    <!-- <arg name="compressed"                  default="false"/>
+    <arg name="rgbd_topic"                  default="/rtabmap/rgbd_image"/>
+    <arg  name="rgbd_topic_relay"          default="$(arg rgbd_topic)_relay"/>
+
+    <group ns="rtabmap">
+        <node name="republish_rgbd_image"  type="rgbd_relay" pkg="rtabmap_ros">
+            <remap     from="rgbd_image" to="$(arg rgbd_topic)/compressed"/>
+            <remap     from="$(arg rgbd_topic)/compressed_relay" to="$(arg rgbd_topic_relay)"/>
+            <param  name="uncompress" value="true"/>
+        </node>
+     </group> -->
+
+
+<node pkg="wavnodes" type="SpacialRecognition" name="SpacialRecognition" output="screen" />
+</launch>

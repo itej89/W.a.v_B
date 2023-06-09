@@ -1,0 +1,24 @@
+footprint: [[0.18, 0.1775], [0.18, -0.1775], [-0.18, -0.1775], [-0.18, 0.1775]]
+
+transform_tolerance: 5
+update_frequency: 5
+publish_frequency: 5
+global_frame: map
+robot_base_frame: base_link
+
+plugins:
+    - {name: static,           type: "costmap_2d::StaticLayer"}
+    - {name: polygon_layer,    type: "polygon_layer::PolygonLayer"}
+    # #Can disable sensor layer if gmapping is fast enough to update scans
+    # - {name: sensor,           type: "costmap_2d::ObstacleLayer"}
+    - {name: inflation,        type: "costmap_2d::InflationLayer"}
+
+static:
+    map_topic: /map
+    subscribe_to_updates: true
+explore_boundary:
+    resize_to_boundary: true
+    frontier_travel_point: "middle"
+    explore_clear_space: false
+inflation:
+    inflation_radius: 0.05

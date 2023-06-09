@@ -1,0 +1,14 @@
+global_costmap:
+  global_frame: map
+  robot_base_frame: base_link
+  update_frequency: 2.0
+  publish_frequency: 2.0
+  static_map: true
+  transform_tolerance: 3.0
+
+  # inflation_radius:   0.1
+  # cost_scaling_factor: 1.0
+
+  inflation_radius:   1.75
+  cost_scaling_factor: 2.58
+  

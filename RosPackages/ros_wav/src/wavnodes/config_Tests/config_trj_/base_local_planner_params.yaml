@@ -1,0 +1,67 @@
+# TrajectoryPlannerROS:
+#   max_vel_x: 0.16
+#   min_vel_x: 0.10
+#   max_vel_theta: 0.3
+#   min_vel_theta: -0.3
+#   min_in_place_vel_theta: 0.3
+
+
+#   acc_lim_theta: 0.2
+#   acc_lim_x: 0.1
+#   acc_lim_y: 0.1
+
+#   holonomic_robot: false
+
+#   xy_goal_tolerance:  0.20
+#   yaw_goal_tolerance: 0.20
+
+#   sim_time: 4.0
+#   sim_granularity: 0.025
+#   vx_samples: 20
+#   vtheta_samples: 40
+
+#   goal_distance_bias: 20.0
+#   path_distance_bias: 32.0
+#   occdist_scale: 0.02
+#   heading_lookahead: 0.325
+#   dwa: false
+  
+#   oscillation_reset_dist: 0.05
+  # meter_scoring: true
+
+
+
+
+TrajectoryPlannerROS:
+  max_vel_x: 0.16 #max_vel_x: 0.16
+  min_vel_x: 0.1 #max_vel_x: 0.1
+  max_vel_theta: 0.2 #Last_working : 0.2
+  min_vel_theta: -0.2 #Last_working : 0.2
+  min_in_place_vel_theta: 0.2
+
+
+  acc_lim_theta: 0.05 #Last_working : 0.1
+  acc_lim_x: 0.01 #Last_working : 0.05
+  acc_lim_y: 0.01 #Last_working : 0.05
+
+  holonomic_robot: false
+
+  xy_goal_tolerance:  0.20
+  yaw_goal_tolerance: 0.20
+
+  sim_time: 25.0 #Last_working : 25
+  sim_granularity: 0.05
+  vx_samples: 20
+  vtheta_samples: 40
+
+  goal_distance_bias: 1.0
+  path_distance_bias: 1.5
+
+  # goal_distance_bias: 20.0
+  # path_distance_bias: 32.0
+  occdist_scale: 0.02
+  heading_lookahead: 0.325
+  dwa: false
+
+  oscillation_reset_dist: 0.5
+  meter_scoring: true

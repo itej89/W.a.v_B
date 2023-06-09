@@ -1,0 +1,84 @@
+<launch>
+    <node pkg="joy" type="joy_node" name="joy_node" />
+
+    <rosparam file="$(find wavnodes)/config_wavmov/wav_move_params.yaml" command="load" />
+
+    <node pkg="wavnodes" type="WavComms" name="WavComms" >
+      <param name="base_port" type="string" value="/dev/ttyUSB1" />
+      <param name="pub_odom" type="bool" value="true" />
+      <param name="pub_odom_tf" type="bool" value="false" />
+      <param name="pub_base_imu" type="bool" value="true" />
+
+      <param name="head_port" type="string" value="/dev/ttyUSB2" />
+      <param name="pub_head_imu" type="bool" value="true" />
+      <param name="pub_head_imu_tf" type="bool" value="true" />
+      <param name="joy_control" type="bool" value="false" />
+    </node> 
+
+<!-- left as seen from behind -->
+  <group ns="rtabmap">
+    <node name="laser_left"        pkg="rplidar_ros"  type="rplidarNode" output="screen">
+    <param name="serial_port"         type="string" value="/dev/ttyUSB0"/>  
+    <param name="serial_baudrate"     type="int"    value="115200"/>
+    <param name="frame_id"            type="string" value="base_laser_left"/>
+    <param name="inverted"            type="bool"   value="false"/>
+    <param name="angle_compensate"    type="bool"   value="true"/>
+        <remap from="scan"        to="scan_left"/>
+    </node>
+  </group>
+  <node pkg="tf" type="static_transform_publisher" name="tf__base_rplidar_left_broadcaster" args="0.13 0.105 0.128 0, 0, 0.7071068, 0.7071068 base_link base_laser_left 50" />
+
+<!-- right as seen from behind -->
+ <group ns="rtabmap">
+  <node name="laser_right"          pkg="rplidar_ros"  type="rplidarNode" output="screen">
+  <param name="serial_port"         type="string" value="/dev/ttyUSB3"/>  
+  <param name="serial_baudrate"     type="int"    value="115200"/>
+  <param name="frame_id"            type="string" value="base_laser_right"/>
+  <param name="inverted"            type="bool"   value="false"/>
+  <param name="angle_compensate"    type="bool"   value="true"/>
+      <remap from="scan"        to="scan_right"/>
+  </node>
+ </group>
+   <node pkg="tf" type="static_transform_publisher" name="tf__base_rplidar_right_broadcaster" args="0.13 -0.105 0.128 0, 0, -0.7071068, 0.7071068 base_link base_laser_right 50" />
+
+
+    <group ns="rtabmap">
+      <node pkg="ira_laser_tools" name="laserscan_multi_merger" type="laserscan_multi_merger" output="screen">
+        <param name="destination_frame" value="base_laser"/>
+        <param name="scan_destination_topic" value="/rtabmap/scan"/>
+        <param name="laserscan_topics" value ="/rtabmap/scan_left    /rtabmap/scan_right" /> 
+
+        <param name="angle_min" value="-3.14"/>
+        <param name="angle_max" value="3.14"/>
+        <param name="angle_increment" value="0.0058"/>
+        <param name="scan_time" value="0.0005"/>
+        <param name="range_min" value="0.15"/>
+        <param name="range_max" value="8.0"/>
+      </node>  
+  </group>
+  <node pkg="tf" type="static_transform_publisher" name="tf__base_laser_broadcaster" args="0.09 0 0.128 0 0 1 0 base_link base_laser 50" />
+  
+
+
+
+  <include file="$(find openni_launch)/launch/openni.launch" >
+  <arg name="depth_registration" value="true" />
+  </include>
+ 
+  <group ns="rtabmap">
+   <node pkg="nodelet" type="nodelet" name="rgbd_sync" args="standalone rtabmap_ros/rgbd_sync" output="screen">
+      <remap from="rgb/image"        to="/camera/rgb/image_rect_color"/>
+      <remap from="depth/image"      to="/camera/depth_registered/image_raw"/>
+      <remap from="rgb/camera_info"  to="/camera/rgb/camera_info"/>
+
+      <remap from="rgbd_image"       to="rgbd_image"/> 
+      
+      <param name="compressed_rate"  type="double" value="0"/>
+     
+      <param name="approx_sync"       value="true"/> 
+    </node>
+    </group> 
+
+  <node pkg="tf" type="static_transform_publisher" name="tf_broadcaster" args="0 0 0 0 0 -0.707107 0.707107 base_link base_imu_link 50" />
+  
+</launch>

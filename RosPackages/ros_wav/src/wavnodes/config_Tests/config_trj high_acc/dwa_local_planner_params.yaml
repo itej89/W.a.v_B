@@ -1,0 +1,36 @@
+DWAPlannerROS:
+
+  max_vel_trans: 0.3
+  min_vel_trans: 0.1
+  max_vel_x: 0.3
+  min_vel_x: -0.3
+  max_rot_vel: 0.2 #Last_working : 0.2
+  min_rot_vel: 0.07 #Last_working : 0.15
+
+  max_vel_y: 0 
+  min_vel_y: 0
+
+
+  acc_lim_theta: 1.5 #Last_working : 0.7
+  acc_lim_x: 1.0 #Last_working : 0.3
+  # acc_lim_y: 0.01 #Last_working : 0.05
+
+  use_dwa: true
+
+  holonomic_robot: false
+
+  xy_goal_tolerance:  0.20
+  yaw_goal_tolerance: 0.20
+
+  sim_time: 3.0
+  sim_granularity: 0.05
+  vx_samples: 5
+  # vy_samples: 20
+  vtheta_samples: 10
+
+  goal_distance_bias: 32.0
+  path_distance_bias: 20.0
+  occdist_scale: 0.02
+  heading_lookahead: 0.325
+  
+  oscillation_reset_dist: 0.05

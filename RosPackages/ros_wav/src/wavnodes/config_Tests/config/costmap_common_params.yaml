@@ -1,0 +1,32 @@
+
+
+obstacle_range: 1.5
+raytrace_range: 2.0
+#width:0.36m, depth:0.355m
+footprint: [[-0.18, -0.1775], [-0.18, 0.1775], [0.18, 0.1775], [0.18, -0.1775]]
+#robot_radius: ir_of_robot
+
+#Calculated based on minimum door width 
+#Door width = 80cm
+#Robot width = 40cm
+#Distance from obstacle either side = 20cm
+#region Tolerance = 10cm, Path clearance = 10cm(inflation_radius)
+inflation_radius: 0.1
+
+
+controller_patience: 5.0
+
+NavfnROS:
+    allow_unknown: false
+
+recovery_behaviors: [
+    {name: conservative_clear, type: clear_costmap_recovery/ClearCostmapRecovery},
+    {name: rotate_Recovery, type: rotate_Recovery/RotateRecovery},
+    {name: aggressive_clear, type: clear_costmap_recovery/ClearCostmapRecovery},
+    {name: rotate_Recovery, type: rotate_Recovery/RotateRecovery}
+]
+
+conservative_clear: 
+    reset_distance: 2.00
+aggressive_clear:
+    reset_distance: 0.4

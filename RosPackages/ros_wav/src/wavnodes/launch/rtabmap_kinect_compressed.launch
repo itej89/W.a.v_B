@@ -1,0 +1,105 @@
+<launch>
+ 
+    <!-- Choose visualization -->
+ 
+  <arg name="compressed"                  default="true"/>
+  <arg name="rgbd_topic"                  default="/rtabmap/rgbd_image"/>
+  <arg  name="rgbd_topic_relay"          default="$(arg rgbd_topic)_relay"/>
+
+  <arg name="hector" default="true" />
+
+ <!-- <node pkg="laser_scan_matcher" type="laser_scan_matcher_node"
+    name="laser_scan_matcher_node" output="screen">
+	<param name="fixed_frame" value="odom"/>
+	<param name="base_frame" value="base_link"/>
+	<param name="use_imu" value="true"/>
+	<param name="use_odom" value="true"/>
+
+	<param name="publish_tf" value="false"/>
+
+	<param name="publish_pose_stamped" value="true"/>
+	<param name="publish_pose" value="false"/>
+
+
+  <param name="max_iterations" value="10"/>
+
+  <remap from="scan" to="/rtabmap/scan"/>
+  <remap from="imu/data" to="/baseimu/base_imu_data"/>
+  <remap from="odom" to="/odom"/>
+
+  </node> -->
+
+   <node pkg="wavnodes" type="POSE2ODOM" name="POSE2ODOM">
+    <param name="pub_odom" type="bool" value="true" />
+    <param name="pub_odom_tf" type="bool" value="false" />
+   </node>
+
+
+
+
+ <group ns="rtabmap">
+
+    <!-- Odometry -->
+     <node name="republish_rgbd_image"  type="rgbd_relay" pkg="rtabmap_ros">
+	   <remap     from="rgbd_image" to="$(arg rgbd_topic)/compressed"/>
+	   <remap     from="$(arg rgbd_topic)/compressed_relay" to="$(arg rgbd_topic_relay)"/>
+	   <param  name="uncompress" value="true"/>
+     </node>
+
+
+	 <node pkg="rtabmap_ros" type="rgbd_odometry" name="rgbd_odometry" output="screen">
+	      <param name="subscribe_rgbd" type="bool"   value="true"/>
+	       <param name="Reg/Force3DoF"    value="true" />
+	      <param name="frame_id"       type="string" value="base_link"/>
+	      <remap from="rgbd_image" to="/rtabmap/rgbd_image_relay"/>
+
+
+		  <param name="publish_tf"                  type="bool"   value="false"/>
+		  <param name="approx_sync"                 type="bool"   value="true"/>
+		  <param name="queue_size"                  type="int"    value="10"/>
+
+		  <param name="wait_for_transform"                  type="bool"   value="true"/>
+
+		  <!-- 0=Frame-to-Map (F2M) 1=Frame-to-Frame (F2F) -->
+ 		  <param name="Odom/Strategy" value="1"/>
+		   <!-- Correspondences: 0=Features Matching, 1=Optical Flow -->
+	      <param name="Vis/CorType" value="1"/>
+		  <!-- maximum features map size, default 2000 -->
+		  <param name="OdomF2M/MaxSize" type="string" value="1000"/> 
+		  <!-- maximum features extracted by image, default 1000 -->
+	      <param name="Vis/MaxFeatures" type="string" value="600"/>
+	    </node>  
+ 
+
+
+
+
+</group>
+
+
+
+<node pkg="hector_mapping" type="hector_mapping" name="hector_mapping" output="screen">
+	    
+	    <param name="map_frame" value="odom" />
+	    <param name="base_frame" value="base_link" />
+	    <param name="odom_frame" value="odom" />
+	    
+	    <param name="pub_map_odom_transform" value="false"/>
+	    <param name="pub_map_scanmatch_transform" value="false"/>
+	    <param name="pub_odometry" value="true"/>
+	    
+	    <param name="map_resolution" value="0.05"/>
+	    <param name="map_size" value="2048"/>
+	    <param name="map_multi_res_levels" value="2" />
+	    
+	    <param name="laser_min_dist" value="0.20" />
+	    <param name="laser_max_dist" value="8.0" />
+	    <param name="map_update_angle_thresh" value="0.018" />
+	    <param name="map_update_distance_thresh" value="0.001" />
+	    
+	    <param name="scan_topic" value="/rtabmap/scan"/>
+	  </node>
+  
+
+ 
+</launch>

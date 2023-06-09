@@ -1,0 +1,3 @@
+source /opt/ros/noetic/setup.bash
+source /home/wav/Documents/fmSpin/WavRos/wav_ros_packages/ros_openni/devel/setup.bash
+source /home/wav/Documents/fmSpin/WavRos/wav_ros_packages/ros_wav/devel/setup.bash

@@ -1,0 +1,1026 @@
+state : RecieveData
+Current resposne : EEPR#16#O:EEPR#16#2#FF#FF 
+:
+state : RecieveData
+Current resposne : EEPR#16#O:EEPR#16#2#FF#FF: 
+state : AppendResponse
+state : SendCommand
+Buffer non zero in send request
+state : SendCommand
+~EEPR#18#2:
+EEPR#18#O:EEPR#18#2#FF#FF:
+state : RecieveData
+Current resposne : EEPR#18#O:EEPR#18#2#FF#FF: 
+state : AppendResponse
+state : SendCommand
+Buffer non zero in send request
+state : SendCommand
+~DTC#0:
+DTC#
+state : RecieveData
+Current resposne : DTC# 
+0#O:
+state : RecieveData
+Current resposne : DTC#0#O: 
+state : AppendResponse
+state : SendCommand
+Buffer non zero in send request
+state : SendCommand
+~DTC#0:
+DTC#0#O:
+state : RecieveData
+Current resposne : DTC#0#O: 
+state : AppendResponse
+state : SendCommand
+Buffer non zero in send request
+state : SendCommand
+~DTC#0:
+DTC#0#O:
+state : RecieveData
+Current resposne : DTC#0#O: 
+state : AppendResponse
+state : SendCommand
+Buffer non zero in send request
+state : SendCommand
+~DTC#0:
+DTC#0#O:
+state : RecieveData
+Current resposne : DTC#0#O: 
+state : AppendResponse
+state : SendCommand
+Buffer non zero in send request
+state : SendCommand
+~SPW#0:
+SPW#
+state : RecieveData
+Current resposne : SPW# 
+0#O:SPW#0#1:
+state : RecieveData
+Current resposne : SPW#0#O:SPW#0#1: 
+state : AppendResponse
+state : SendCommand
+Buffer non zero in send request
+state : SendCommand
+~CPW#0:
+CPW#0#O:
+state : RecieveData
+Current resposne : CPW#0#O: 
+state : AppendResponse
+state : SendCommand
+Buffer non zero in send request
+state : SendCommand
+~SAT#0:
+SAT#0#O:SAT#0#1:
+state : RecieveData
+Current resposne : SAT#0#O:SAT#0#1: 
+state : AppendResponse
+state : SendCommand
+Buffer non zero in send request
+state : SendCommand
+~DEG#0:
+DEG#0#O:DEG#0#47:
+state : RecieveData
+Current resposne : DEG#0#O:DEG#0#47: 
+state : AppendResponse
+state : SendCommand
+Buffer non zero in send request
+state : SendCommand
+~DEG#0:
+DEG#0#O:DEG#0#47:
+state : RecieveData
+Current resposne : DEG#0#O:DEG#0#47: 
+state : AppendResponse
+state : SendCommand
+Buffer non zero in send request
+state : SendCommand
+~EAS#0#LIN:
+EAS#0#
+state : RecieveData
+Current resposne : EAS#0# 
+LIN#O:
+state : RecieveData
+Current resposne : EAS#0#LIN#O: 
+state : AppendResponse
+state : SendCommand
+~INO#0#IN:
+INO#0#IN#O:
+state : RecieveData
+Current resposne : INO#0#IN#O: 
+state : AppendResponse
+state : SendCommand
+Buffer non zero in send request
+state : SendCommand
+~TMG#0#100:
+TMG#0#100#O:
+state : RecieveData
+Current resposne : TMG#0#100#O: 
+state : AppendResponse
+state : SendCommand
+~DEL#0#0:
+DEL#
+state : RecieveData
+Current resposne : DEL# 
+0#0#O:
+state : RecieveData
+Current resposne : DEL#0#0#O: 
+state : AppendResponse
+state : SendCommand
+~TRG:
+TRG#O:
+state : RecieveData
+Current resposne : TRG#O: 
+state : AppendResponse
+state : SendCommand
+Buffer non zero in send request
+state : SendCommand
+~SPW#0:
+SPW#0#O:SPW#0#1:
+state : RecieveData
+Current resposne : SPW#0#O:SPW#0#1: 
+state : AppendResponse
+state : SendCommand
+Buffer non zero in send request
+state : SendCommand
+~CPW#0:
+CPW#0#O:
+state : RecieveData
+Current resposne : CPW#0#O: 
+state : AppendResponse
+state : SendCommand
+Buffer non zero in send request
+state : SendCommand
+~SAT#0:
+SAT#0#O:SAT#0#1:
+state : RecieveData
+Current resposne : SAT#0#O:SAT#0#1: 
+state : AppendResponse
+state : SendCommand
+Buffer non zero in send request
+state : SendCommand
+~DEG#0:
+DEG#0#O:DEG#0#47:
+state : RecieveData
+Current resposne : DEG#0#O:DEG#0#47: 
+state : AppendResponse
+state : SendCommand
+Buffer non zero in send request
+state : SendCommand
+~DEG#0:
+DEG#0#
+state : RecieveData
+Current resposne : DEG#0# 
+O:DEG#0#47:
+state : RecieveData
+Current resposne : DEG#0#O:DEG#0#47: 
+state : AppendResponse
+state : SendCommand
+Buffer non zero in send request
+state : SendCommand
+~EAS#0#LIN:
+EAS#0#LIN#O:
+state : RecieveData
+Current resposne : EAS#0#LIN#O: 
+state : AppendResponse
+state : SendCommand
+~INO#0#IN:
+INO#0#IN#O:
+state : RecieveData
+Current resposne : INO#0#IN#O: 
+state : AppendResponse
+state : SendCommand
+Buffer non zero in send request
+state : SendCommand
+~TMG#0#100:
+TMG#0#100#O:
+state : RecieveData
+Current resposne : TMG#0#100#O: 
+state : AppendResponse
+state : SendCommand
+~DEL#0#0:
+DEL#0#0#O:
+state : RecieveData
+Current resposne : DEL#0#0#O: 
+state : AppendResponse
+state : SendCommand
+~TRG:
+TRG#O:
+state : RecieveData
+Current resposne : TRG#O: 
+state : AppendResponse
+state : SendCommand
+Buffer non zero in send request
+state : SendCommand
+~SPW#0:
+SPW#0#O:SPW
+state : RecieveData
+Current resposne : SPW#0#O:SPW 
+#0#1:
+state : RecieveData
+Current resposne : SPW#0#O:SPW#0#1: 
+state : AppendResponse
+state : SendCommand
+Buffer non zero in send request
+state : SendCommand
+~CPW#0:
+CPW#0#O:
+state : RecieveData
+Current resposne : CPW#0#O: 
+state : AppendResponse
+state : SendCommand
+Buffer non zero in send request
+state : SendCommand
+~SAT#0:
+SAT#0#O:SAT#0#1:
+state : RecieveData
+Current resposne : SAT#0#O:SAT#0#1: 
+state : AppendResponse
+state : SendCommand
+Buffer non zero in send request
+state : SendCommand
+~DEG#0:
+DEG#
+state : RecieveData
+Current resposne : DEG# 
+0#O:DEG#0#47:
+state : RecieveData
+Current resposne : DEG#0#O:DEG#0#47: 
+state : AppendResponse
+state : SendCommand
+Buffer non zero in send request
+state : SendCommand
+~DEG#0:
+DEG#0#O:DEG#0#47:
+state : RecieveData
+Current resposne : DEG#0#O:DEG#0#47: 
+state : AppendResponse
+state : SendCommand
+Buffer non zero in send request
+state : SendCommand
+~EAS#0#LIN:
+EAS#0#LIN#O:
+state : RecieveData
+Current resposne : EAS#0#LIN#O: 
+state : AppendResponse
+state : SendCommand
+~INO#0#IN:
+INO#0#IN#O:
+state : RecieveData
+Current resposne : INO#0#IN#O: 
+state : AppendResponse
+state : SendCommand
+Buffer non zero in send request
+state : SendCommand
+~TMG#0#100:
+TMG#0#100#O:
+state : RecieveData
+Current resposne : TMG#0#100#O: 
+state : AppendResponse
+state : SendCommand
+~DEL#0#0:
+DEL#0#0
+state : RecieveData
+Current resposne : DEL#0#0 
+#O:
+state : RecieveData
+Current resposne : DEL#0#0#O: 
+state : AppendResponse
+state : SendCommand
+~TRG:
+TRG#O:
+state : RecieveData
+Current resposne : TRG#O: 
+state : AppendResponse
+state : SendCommand
+Buffer non zero in send request
+state : SendCommand
+~SPW#0:
+SPW#0#O:SPW#0#1:
+state : RecieveData
+Current resposne : SPW#0#O:SPW#0#1: 
+state : AppendResponse
+state : SendCommand
+Buffer non zero in send request
+state : SendCommand
+~CPW#0:
+CPW#0#O:
+state : RecieveData
+Current resposne : CPW#0#O: 
+state : AppendResponse
+state : SendCommand
+Buffer non zero in send request
+state : SendCommand
+~SAT#0:
+SAT
+state : RecieveData
+Current resposne : SAT 
+#0#O:SAT#0#1:
+state : RecieveData
+Current resposne : SAT#0#O:SAT#0#1: 
+state : AppendResponse
+state : SendCommand
+Buffer non zero in send request
+state : SendCommand
+~DEG#0:
+DEG#0#O:DEG#0#47:
+state : RecieveData
+Current resposne : DEG#0#O:DEG#0#47: 
+state : AppendResponse
+state : SendCommand
+Buffer non zero in send request
+state : SendCommand
+~DEG#0:
+DEG#0#O:DEG#
+state : RecieveData
+Current resposne : DEG#0#O:DEG# 
+0#47:
+state : RecieveData
+Current resposne : DEG#0#O:DEG#0#47: 
+state : AppendResponse
+state : SendCommand
+Buffer non zero in send request
+state : SendCommand
+~EAS#0#LIN:
+EAS#0#LIN#O:
+state : RecieveData
+Current resposne : EAS#0#LIN#O: 
+state : AppendResponse
+state : SendCommand
+~INO#0#IN:
+INO#0#IN#O:
+state : RecieveData
+Current resposne : INO#0#IN#O: 
+state : AppendResponse
+state : SendCommand
+Buffer non zero in send request
+state : SendCommand
+~TMG#0#100:
+TM
+state : RecieveData
+Current resposne : TM 
+G#0#100#O:
+state : RecieveData
+Current resposne : TMG#0#100#O: 
+state : AppendResponse
+state : SendCommand
+~DEL#0#0:
+DEL#0#0#O:
+state : RecieveData
+Current resposne : DEL#0#0#O: 
+state : AppendResponse
+state : SendCommand
+~TRG:
+TRG#O:
+state : RecieveData
+Current resposne : TRG#O: 
+state : AppendResponse
+state : SendCommand
+^C
+(base) tej@fm-ai-server:~/Documents/AniClientCpp/build$ sudo ./Tests/DofmKinetics/DofmKinetics 
+[==========] Running 9 tests from 9 test suites.
+[----------] Global test environment set-up.
+[----------] 1 test from KineticsAccessTest
+[ RUN      ] KineticsAccessTest.KineticsAccessTest
+SendData Commadn is processing..t
+state : SendCommand
+~TRG:
+Request pushed to buffer
+TRG#O:
+state : RecieveData
+Current resposne : TRG#O: 
+state : AppendResponse
+Request pushed to buffer
+state : SendCommand
+Buffer non zero in send request
+state : SendCommand
+~ITRG:
+Request pushed to buffer
+Request pushed to buffer
+Request pushed to buffer
+Request pushed to buffer
+Request pushed to buffer
+Request pushed to buffer
+Request pushed to buffer
+Request pushed to buffer
+Request pushed to buffer
+Request pushed to buffer
+Request pushed to buffer
+Request pushed to buffer
+ITRG#O:
+state : RecieveData
+Current resposne : ITRG#O: 
+state : AppendResponse
+Request pushed to buffer
+state : SendCommand
+Buffer non zero in send request
+state : SendCommand
+~EEPR#6#1:
+Request pushed to buffer
+Request pushed to buffer
+Request pushed to buffer
+Request pushed to buffer
+Request pushed to buffer
+Request pushed to buffer
+Request pushed to buffer
+Request pushed to buffer
+Request pushed to buffer
+Request pushed to buffer
+Request pushed to buffer
+Request pushed to buffer
+Request pushed to buffer
+Request pushed to buffer
+Request pushed to buffer
+Request pushed to buffer
+Request pushed to buffer
+Request pushed to buffer
+EEPR#6#O:EEPR#
+state : RecieveData
+Current resposne : EEPR#6#O:EEPR# 
+Request pushed to buffer
+6#1#6:
+state : RecieveData
+Current resposne : EEPR#6#O:EEPR#6#1#6: 
+state : AppendResponse
+Request pushed to buffer
+state : SendCommand
+Buffer non zero in send request
+SendData Commadn is processing..t
+state : SendCommand
+state : SendCommand
+Buffer non zero in send request
+state : SendCommand
+~EEPR#9#1:
+~EEPR#9#1:
+Segmentation fault
+(base) tej@fm-ai-server:~/Documents/AniClientCpp/build$ sudo ./Tests/DofmKinetics/DofmKinetics 
+[==========] Running 9 tests from 9 test suites.
+[----------] Global test environment set-up.
+[----------] 1 test from KineticsAccessTest
+[ RUN      ] KineticsAccessTest.KineticsAccessTest
+SendData Commadn is processing..t
+state : SendCommand
+~TRG:
+Request pushed to buffer
+Request pushed to buffer
+Request pushed to buffer
+Request pushed to buffer
+Request pushed to buffer
+Request pushed to buffer
+Request pushed to buffer
+Request pushed to buffer
+Request pushed to buffer
+Request pushed to buffer
+TRG#O:
+state : RecieveData
+Current resposne : TRG#O: 
+state : AppendResponse
+Request pushed to buffer
+state : SendCommand
+Buffer non zero in send request
+state : SendCommand
+~ITRG:
+Request pushed to buffer
+Request pushed to buffer
+Request pushed to buffer
+Request pushed to buffer
+Request pushed to buffer
+Request pushed to buffer
+Request pushed to buffer
+Request pushed to buffer
+Request pushed to buffer
+Request pushed to buffer
+Request pushed to buffer
+Request pushed to buffer
+Request pushed to buffer
+Request pushed to buffer
+Request pushed to buffer
+ITRG#O:
+state : RecieveData
+Current resposne : ITRG#O: 
+state : AppendResponse
+Request pushed to buffer
+state : SendCommand
+Buffer non zero in send request
+state : SendCommand
+~EEPR#6#1:
+Request pushed to buffer
+Request pushed to buffer
+Request pushed to buffer
+Request pushed to buffer
+Request pushed to buffer
+Request pushed to buffer
+Request pushed to buffer
+Request pushed to buffer
+Request pushed to buffer
+Request pushed to buffer
+Request pushed to buffer
+Request pushed to buffer
+Request pushed to buffer
+Request pushed to buffer
+EEPR#6#O:EEPR#6#1#6:
+state : RecieveData
+Current resposne : EEPR#6#O:EEPR#6#1#6: 
+state : AppendResponse
+state : SendCommand
+Buffer non zero in send request
+state : SendCommand
+~EEPR#7#1:
+EE
+state : RecieveData
+Current resposne : EE 
+PR#7#O:EEPR#7#1#7:
+state : RecieveData
+Current resposne : EEPR#7#O:EEPR#7#1#7: 
+state : AppendResponse
+state : SendCommand
+Buffer non zero in send request
+state : SendCommand
+~EEPR#8#1:
+EEPR#8#O:EEPR#8#1#8:
+state : RecieveData
+Current resposne : EEPR#8#O:EEPR#8#1#8: 
+state : AppendResponse
+state : SendCommand
+Buffer non zero in send request
+state : SendCommand
+~EEPR#9#1:
+EEPR#9#O:EEPR#9#1#9:
+state : RecieveData
+Current resposne : EEPR#9#O:EEPR#9#1#9: 
+state : AppendResponse
+state : SendCommand
+Buffer non zero in send request
+state : SendCommand
+~EEPR#12#2:
+EEPR#12#O:EEPR#
+state : RecieveData
+Current resposne : EEPR#12#O:EEPR# 
+12#2#FF#FF:
+state : RecieveData
+Current resposne : EEPR#12#O:EEPR#12#2#FF#FF: 
+state : AppendResponse
+state : SendCommand
+Buffer non zero in send request
+state : SendCommand
+~EEPR#14#2:
+EEPR#14#O:EEPR#14#2#
+state : RecieveData
+Current resposne : EEPR#14#O:EEPR#14#2# 
+FF#FF:
+state : RecieveData
+Current resposne : EEPR#14#O:EEPR#14#2#FF#FF: 
+state : AppendResponse
+state : SendCommand
+Buffer non zero in send request
+state : SendCommand
+~EEPR#16#2:
+EEPR#16#O:EEPR#16#2#FF#FF:
+state : RecieveData
+Current resposne : EEPR#16#O:EEPR#16#2#FF#FF: 
+state : AppendResponse
+state : SendCommand
+Buffer non zero in send request
+state : SendCommand
+~EEPR#18#2:
+EEPR#18#O:EEPR#18#2#FF#FF:
+state : RecieveData
+Current resposne : EEPR#18#O:EEPR#18#2#FF#FF: 
+state : AppendResponse
+state : SendCommand
+Buffer non zero in send request
+state : SendCommand
+~DTC#0:
+DTC#
+state : RecieveData
+Current resposne : DTC# 
+0#O:
+state : RecieveData
+Current resposne : DTC#0#O: 
+state : AppendResponse
+state : SendCommand
+Buffer non zero in send request
+state : SendCommand
+~DTC#0:
+DTC#0#O:
+state : RecieveData
+Current resposne : DTC#0#O: 
+state : AppendResponse
+state : SendCommand
+Buffer non zero in send request
+state : SendCommand
+~DTC#0:
+DTC#0#O:
+state : RecieveData
+Current resposne : DTC#0#O: 
+state : AppendResponse
+state : SendCommand
+Buffer non zero in send request
+state : SendCommand
+~DTC#0:
+DTC#0#O:
+state : RecieveData
+Current resposne : DTC#0#O: 
+state : AppendResponse
+state : SendCommand
+Buffer non zero in send request
+state : SendCommand
+~SPW#0:
+SPW#0#
+state : RecieveData
+Current resposne : SPW#0# 
+O:SPW#0#1:
+state : RecieveData
+Current resposne : SPW#0#O:SPW#0#1: 
+state : AppendResponse
+state : SendCommand
+Buffer non zero in send request
+state : SendCommand
+~CPW#0:
+CPW#0#O:
+state : RecieveData
+Current resposne : CPW#0#O: 
+state : AppendResponse
+state : SendCommand
+Buffer non zero in send request
+state : SendCommand
+~SAT#0:
+SAT#0#O:SAT#0#1:
+state : RecieveData
+Current resposne : SAT#0#O:SAT#0#1: 
+state : AppendResponse
+state : SendCommand
+Buffer non zero in send request
+state : SendCommand
+~DEG#0:
+DEG#0#O:DEG#0#47:
+state : RecieveData
+Current resposne : DEG#0#O:DEG#0#47: 
+state : AppendResponse
+state : SendCommand
+Buffer non zero in send request
+state : SendCommand
+~DEG#0:
+DEG#0#O:DEG#0#47:
+state : RecieveData
+Current resposne : DEG#0#O:DEG#0#47: 
+state : AppendResponse
+state : SendCommand
+Buffer non zero in send request
+state : SendCommand
+~EAS#0#LIN:
+EAS#0#LIN
+state : RecieveData
+Current resposne : EAS#0#LIN 
+#O:
+state : RecieveData
+Current resposne : EAS#0#LIN#O: 
+state : AppendResponse
+state : SendCommand
+~INO#0#IN:
+INO#0#IN#O:
+state : RecieveData
+Current resposne : INO#0#IN#O: 
+state : AppendResponse
+state : SendCommand
+Buffer non zero in send request
+state : SendCommand
+~TMG#0#100:
+TMG#0#100#O:
+state : RecieveData
+Current resposne : TMG#0#100#O: 
+state : AppendResponse
+state : SendCommand
+~DEL#0#0:
+DEL#
+state : RecieveData
+Current resposne : DEL# 
+0#0#O:
+state : RecieveData
+Current resposne : DEL#0#0#O: 
+state : AppendResponse
+state : SendCommand
+~TRG:
+TRG#O:
+state : RecieveData
+Current resposne : TRG#O: 
+state : AppendResponse
+state : SendCommand
+Buffer non zero in send request
+state : SendCommand
+~SPW#0:
+SPW#0#O:SPW#0#1:
+state : RecieveData
+Current resposne : SPW#0#O:SPW#0#1: 
+state : AppendResponse
+state : SendCommand
+Buffer non zero in send request
+state : SendCommand
+~CPW#0:
+CPW#0#O:
+state : RecieveData
+Current resposne : CPW#0#O: 
+state : AppendResponse
+state : SendCommand
+Buffer non zero in send request
+state : SendCommand
+~SAT#0:
+SAT#0#O:SAT#0#1:
+state : RecieveData
+Current resposne : SAT#0#O:SAT#0#1: 
+state : AppendResponse
+state : SendCommand
+Buffer non zero in send request
+state : SendCommand
+~DEG#0:
+DEG#0#O:DEG#0#47:
+state : RecieveData
+Current resposne : DEG#0#O:DEG#0#47: 
+state : AppendResponse
+state : SendCommand
+Buffer non zero in send request
+state : SendCommand
+~DEG#0:
+DEG#0#O:
+state : RecieveData
+Current resposne : DEG#0#O: 
+DEG#0#47:
+state : RecieveData
+Current resposne : DEG#0#O:DEG#0#47: 
+state : AppendResponse
+state : SendCommand
+Buffer non zero in send request
+state : SendCommand
+~EAS#0#LIN:
+EAS#0#LIN#O:
+state : RecieveData
+Current resposne : EAS#0#LIN#O: 
+state : AppendResponse
+state : SendCommand
+~INO#0#IN:
+INO#0#IN#O:
+state : RecieveData
+Current resposne : INO#0#IN#O: 
+state : AppendResponse
+state : SendCommand
+Buffer non zero in send request
+state : SendCommand
+~TMG#0#100:
+TMG#0#100#O:
+state : RecieveData
+Current resposne : TMG#0#100#O: 
+state : AppendResponse
+state : SendCommand
+~DEL#0#0:
+DEL#0#0#O:
+state : RecieveData
+Current resposne : DEL#0#0#O: 
+state : AppendResponse
+state : SendCommand
+~TRG:
+TRG#O:
+state : RecieveData
+Current resposne : TRG#O: 
+state : AppendResponse
+state : SendCommand
+Buffer non zero in send request
+state : SendCommand
+~SPW#0:
+SPW#0#O:SPW#
+state : RecieveData
+Current resposne : SPW#0#O:SPW# 
+0#1:
+state : RecieveData
+Current resposne : SPW#0#O:SPW#0#1: 
+state : AppendResponse
+state : SendCommand
+Buffer non zero in send request
+state : SendCommand
+~CPW#0:
+CPW#0#O:
+state : RecieveData
+Current resposne : CPW#0#O: 
+state : AppendResponse
+state : SendCommand
+Buffer non zero in send request
+state : SendCommand
+~SAT#0:
+SAT#0#O:SAT#0#1:
+state : RecieveData
+Current resposne : SAT#0#O:SAT#0#1: 
+state : AppendResponse
+state : SendCommand
+Buffer non zero in send request
+state : SendCommand
+~DEG#0:
+DEG#
+state : RecieveData
+Current resposne : DEG# 
+0#O:DEG#0#47:
+state : RecieveData
+Current resposne : DEG#0#O:DEG#0#47: 
+state : AppendResponse
+state : SendCommand
+Buffer non zero in send request
+state : SendCommand
+~DEG#0:
+DEG#0#O:DEG#0#47:
+state : RecieveData
+Current resposne : DEG#0#O:DEG#0#47: 
+state : AppendResponse
+state : SendCommand
+Buffer non zero in send request
+state : SendCommand
+~EAS#0#LIN:
+EAS#0#LIN#O:
+state : RecieveData
+Current resposne : EAS#0#LIN#O: 
+state : AppendResponse
+state : SendCommand
+~INO#0#IN:
+INO#0#IN#O:
+state : RecieveData
+Current resposne : INO#0#IN#O: 
+state : AppendResponse
+state : SendCommand
+Buffer non zero in send request
+state : SendCommand
+~TMG#0#100:
+TMG#0#100#O:
+state : RecieveData
+Current resposne : TMG#0#100#O: 
+state : AppendResponse
+state : SendCommand
+~DEL#0#0:
+DEL#0#0#O
+state : RecieveData
+Current resposne : DEL#0#0#O 
+:
+state : RecieveData
+Current resposne : DEL#0#0#O: 
+state : AppendResponse
+state : SendCommand
+~TRG:
+TRG#O:
+state : RecieveData
+Current resposne : TRG#O: 
+state : AppendResponse
+state : SendCommand
+Buffer non zero in send request
+state : SendCommand
+~SPW#0:
+SPW#0#O:SPW#0#1:
+state : RecieveData
+Current resposne : SPW#0#O:SPW#0#1: 
+state : AppendResponse
+state : SendCommand
+Buffer non zero in send request
+state : SendCommand
+~CPW#0:
+CPW#0#O:
+state : RecieveData
+Current resposne : CPW#0#O: 
+state : AppendResponse
+state : SendCommand
+Buffer non zero in send request
+state : SendCommand
+~SAT#0:
+SAT#
+state : RecieveData
+Current resposne : SAT# 
+0#O:SAT#0#1:
+state : RecieveData
+Current resposne : SAT#0#O:SAT#0#1: 
+state : AppendResponse
+state : SendCommand
+Buffer non zero in send request
+state : SendCommand
+~DEG#0:
+DEG#0#O:DEG#0#47:
+state : RecieveData
+Current resposne : DEG#0#O:DEG#0#47: 
+state : AppendResponse
+state : SendCommand
+Buffer non zero in send request
+state : SendCommand
+~DEG#0:
+DEG#0#O:DEG#
+state : RecieveData
+Current resposne : DEG#0#O:DEG# 
+0#47:
+state : RecieveData
+Current resposne : DEG#0#O:DEG#0#47: 
+state : AppendResponse
+state : SendCommand
+Buffer non zero in send request
+state : SendCommand
+~EAS#0#LIN:
+EAS#0#LIN#O:
+state : RecieveData
+Current resposne : EAS#0#LIN#O: 
+state : AppendResponse
+state : SendCommand
+~INO#0#IN:
+INO#0#IN#O:
+state : RecieveData
+Current resposne : INO#0#IN#O: 
+state : AppendResponse
+state : SendCommand
+Buffer non zero in send request
+state : SendCommand
+~TMG#0#100:
+TMG#
+state : RecieveData
+Current resposne : TMG# 
+0#100#O:
+state : RecieveData
+Current resposne : TMG#0#100#O: 
+state : AppendResponse
+state : SendCommand
+~DEL#0#0:
+DEL#0#0#O:
+state : RecieveData
+Current resposne : DEL#0#0#O: 
+state : AppendResponse
+state : SendCommand
+~TRG:
+TRG#O:
+state : RecieveData
+Current resposne : TRG#O: 
+state : AppendResponse
+state : SendCommand
+^C
+(base) tej@fm-ai-server:~/Documents/AniClientCpp/build$ sudo ./Tests/DofmKinetics/DofmKinetics 
+[==========] Running 9 tests from 9 test suites.
+[----------] Global test environment set-up.
+[----------] 1 test from KineticsAccessTest
+[ RUN      ] KineticsAccessTest.KineticsAccessTest
+SendData Commadn is processing..t
+state : SendCommand
+~TRG:
+Request pushed to buffer
+Request pushed to buffer
+Request pushed to buffer
+Request pushed to buffer
+Request pushed to buffer
+TRG#O:
+state : RecieveData
+Current resposne : TRG#O: 
+state : AppendResponse
+Request pushed to buffer
+state : SendCommand
+Buffer non zero in send request
+state : SendCommand
+~ITRG:
+Request pushed to buffer
+Request pushed to buffer
+Request pushed to buffer
+Request pushed to buffer
+Request pushed to buffer
+Request pushed to buffer
+Request pushed to buffer
+Request pushed to buffer
+Request pushed to buffer
+Request pushed to buffer
+Request pushed to buffer
+Request pushed to buffer
+Request pushed to buffer
+Request pushed to buffer
+Request pushed to buffer
+ITRG#O:
+state : RecieveData
+Current resposne : ITRG#O: 
+state : AppendResponse
+state : SendCommand
+Buffer non zero in send request
+SendData Commadn is processing..t
+state : SendCommand
+state : SendCommand
+Buffer non zero in send request
+state : SendCommand
+~EEPR#8#1:
+~EEPR#8#1:
+Request pushed to buffer
+Request pushed to buffer
+Request pushed to buffer
+Request pushed to buffer
+Request pushed to buffer
+Request pushed to buffer
+Request pushed to buffer
+Request pushed to buffer
+Request pushed to buffer
+Request pushed to buffer
+Request pushed to buffer
+Request pushed to buffer
+Request pushed to buffer
+Request pushed to buffer
+Request pushed to buffer
+Request pushed to buffer
+Request pushed to buffer
+EEPR#8#O:EEPR#8#1#8:
+state : RecieveData
+Current resposne : EEPR#8#O:EEPR#8#1#8: 
+Request pushed to buffer
+Request pushed to buffer
+EEPR#8#O:EEPR#8#1#8:
+state : RecieveData
+Current resposne : EEPR#8#O:EEPR#8#1#8:EEPR#8#O:EEPR#8#1#8: 
+^A

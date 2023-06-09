@@ -1,0 +1,1087 @@
+<!DOCTYPE html>
+<html class=" -moz-" lang="en-US"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+	<meta charset="UTF-8">
+
+    <!-- Metadata -->
+
+    <meta http-equiv="date" content="Wednesday, 05  2014 22:00:00 GMT">
+
+
+    <meta name="keywords" content="CMake,GoogleTest">
+
+
+    <title>Unit testing with GoogleTest and CMake</title>
+
+	<link rel="alternate" type="application/rss+xml" href="http://www.kaizou.org/feed/index.xml">
+	<link rel="stylesheet" media="all" data-noprefix="" href="Unit%20testing%20with%20GoogleTest%20and%20CMake_files/style.css">
+	
+  <script async="" src="Unit%20testing%20with%20GoogleTest%20and%20CMake_files/analytics.js"></script><script type="text/javascript" src="Unit%20testing%20with%20GoogleTest%20and%20CMake_files/prefixfree.js"></script>
+<script type="text/javascript" async="" src="Unit%20testing%20with%20GoogleTest%20and%20CMake_files/embed.js"></script><style type="text/css">.MathJax_Hover_Frame {border-radius: .25em; -webkit-border-radius: .25em; -moz-border-radius: .25em; -khtml-border-radius: .25em; box-shadow: 0px 0px 15px #83A; -webkit-box-shadow: 0px 0px 15px #83A; -moz-box-shadow: 0px 0px 15px #83A; -khtml-box-shadow: 0px 0px 15px #83A; border: 1px solid #A6D ! important; display: inline-block; position: absolute}
+.MathJax_Menu_Button .MathJax_Hover_Arrow {position: absolute; cursor: pointer; display: inline-block; border: 2px solid #AAA; border-radius: 4px; -webkit-border-radius: 4px; -moz-border-radius: 4px; -khtml-border-radius: 4px; font-family: 'Courier New',Courier; font-size: 9px; color: #F0F0F0}
+.MathJax_Menu_Button .MathJax_Hover_Arrow span {display: block; background-color: #AAA; border: 1px solid; border-radius: 3px; line-height: 0; padding: 4px}
+.MathJax_Hover_Arrow:hover {color: white!important; border: 2px solid #CCC!important}
+.MathJax_Hover_Arrow:hover span {background-color: #CCC!important}
+</style><style type="text/css">#MathJax_About {position: fixed; left: 50%; width: auto; text-align: center; border: 3px outset; padding: 1em 2em; background-color: #DDDDDD; color: black; cursor: default; font-family: message-box; font-size: 120%; font-style: normal; text-indent: 0; text-transform: none; line-height: normal; letter-spacing: normal; word-spacing: normal; word-wrap: normal; white-space: nowrap; float: none; z-index: 201; border-radius: 15px; -webkit-border-radius: 15px; -moz-border-radius: 15px; -khtml-border-radius: 15px; box-shadow: 0px 10px 20px #808080; -webkit-box-shadow: 0px 10px 20px #808080; -moz-box-shadow: 0px 10px 20px #808080; -khtml-box-shadow: 0px 10px 20px #808080; filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2, Color='gray', Positive='true')}
+#MathJax_About.MathJax_MousePost {outline: none}
+.MathJax_Menu {position: absolute; background-color: white; color: black; width: auto; padding: 5px 0px; border: 1px solid #CCCCCC; margin: 0; cursor: default; font: menu; text-align: left; text-indent: 0; text-transform: none; line-height: normal; letter-spacing: normal; word-spacing: normal; word-wrap: normal; white-space: nowrap; float: none; z-index: 201; border-radius: 5px; -webkit-border-radius: 5px; -moz-border-radius: 5px; -khtml-border-radius: 5px; box-shadow: 0px 10px 20px #808080; -webkit-box-shadow: 0px 10px 20px #808080; -moz-box-shadow: 0px 10px 20px #808080; -khtml-box-shadow: 0px 10px 20px #808080; filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2, Color='gray', Positive='true')}
+.MathJax_MenuItem {padding: 1px 2em; background: transparent}
+.MathJax_MenuArrow {position: absolute; right: .5em; padding-top: .25em; color: #666666; font-size: .75em}
+.MathJax_MenuActive .MathJax_MenuArrow {color: white}
+.MathJax_MenuArrow.RTL {left: .5em; right: auto}
+.MathJax_MenuCheck {position: absolute; left: .7em}
+.MathJax_MenuCheck.RTL {right: .7em; left: auto}
+.MathJax_MenuRadioCheck {position: absolute; left: .7em}
+.MathJax_MenuRadioCheck.RTL {right: .7em; left: auto}
+.MathJax_MenuLabel {padding: 1px 2em 3px 1.33em; font-style: italic}
+.MathJax_MenuRule {border-top: 1px solid #DDDDDD; margin: 4px 3px}
+.MathJax_MenuDisabled {color: GrayText}
+.MathJax_MenuActive {background-color: #606872; color: white}
+.MathJax_MenuDisabled:focus, .MathJax_MenuLabel:focus {background-color: #E8E8E8}
+.MathJax_ContextMenu:focus {outline: none}
+.MathJax_ContextMenu .MathJax_MenuItem:focus {outline: none}
+#MathJax_AboutClose {top: .2em; right: .2em}
+.MathJax_Menu .MathJax_MenuClose {top: -10px; left: -10px}
+.MathJax_MenuClose {position: absolute; cursor: pointer; display: inline-block; border: 2px solid #AAA; border-radius: 18px; -webkit-border-radius: 18px; -moz-border-radius: 18px; -khtml-border-radius: 18px; font-family: 'Courier New',Courier; font-size: 24px; color: #F0F0F0}
+.MathJax_MenuClose span {display: block; background-color: #AAA; border: 1.5px solid; border-radius: 18px; -webkit-border-radius: 18px; -moz-border-radius: 18px; -khtml-border-radius: 18px; line-height: 0; padding: 8px 0 6px}
+.MathJax_MenuClose:hover {color: white!important; border: 2px solid #CCC!important}
+.MathJax_MenuClose:hover span {background-color: #CCC!important}
+.MathJax_MenuClose:hover:focus {outline: none}
+</style><style type="text/css">.MathJax_Preview .MJXf-math {color: inherit!important}
+</style><style type="text/css">.MJX_Assistive_MathML {position: absolute!important; top: 0; left: 0; clip: rect(1px, 1px, 1px, 1px); padding: 1px 0 0 0!important; border: 0!important; height: 1px!important; width: 1px!important; overflow: hidden!important; display: block!important; -webkit-touch-callout: none; -webkit-user-select: none; -khtml-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none}
+.MJX_Assistive_MathML.MJX_Assistive_MathML_Block {width: 100%!important}
+</style><style type="text/css">#MathJax_Zoom {position: absolute; background-color: #F0F0F0; overflow: auto; display: block; z-index: 301; padding: .5em; border: 1px solid black; margin: 0; font-weight: normal; font-style: normal; text-align: left; text-indent: 0; text-transform: none; line-height: normal; letter-spacing: normal; word-spacing: normal; word-wrap: normal; white-space: nowrap; float: none; -webkit-box-sizing: content-box; -moz-box-sizing: content-box; box-sizing: content-box; box-shadow: 5px 5px 15px #AAAAAA; -webkit-box-shadow: 5px 5px 15px #AAAAAA; -moz-box-shadow: 5px 5px 15px #AAAAAA; -khtml-box-shadow: 5px 5px 15px #AAAAAA; filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2, Color='gray', Positive='true')}
+#MathJax_ZoomOverlay {position: absolute; left: 0; top: 0; z-index: 300; display: inline-block; width: 100%; height: 100%; border: 0; padding: 0; margin: 0; background-color: white; opacity: 0; filter: alpha(opacity=0)}
+#MathJax_ZoomFrame {position: relative; display: inline-block; height: 0; width: 0}
+#MathJax_ZoomEventTrap {position: absolute; left: 0; top: 0; z-index: 302; display: inline-block; border: 0; padding: 0; margin: 0; background-color: white; opacity: 0; filter: alpha(opacity=0)}
+</style><style type="text/css">.MathJax_Preview {color: #888}
+#MathJax_Message {position: fixed; left: 1px; bottom: 2px; background-color: #E6E6E6; border: 1px solid #959595; margin: 0px; padding: 2px 8px; z-index: 102; color: black; font-size: 80%; width: auto; white-space: nowrap}
+#MathJax_MSIE_Frame {position: absolute; top: 0; left: 0; width: 0px; z-index: 101; border: 0px; margin: 0px; padding: 0px}
+.MathJax_Error {color: #CC0000; font-style: italic}
+</style><link rel="stylesheet" media="screen" href="Unit%20testing%20with%20GoogleTest%20and%20CMake_files/prettify_002.html" data-inprogress=""><link rel="stylesheet" media="screen" href="Unit%20testing%20with%20GoogleTest%20and%20CMake_files/sunburst.html" data-inprogress=""><script type="text/javascript" src="Unit%20testing%20with%20GoogleTest%20and%20CMake_files/prettify.html"></script><style type="text/css">.MJXp-script {font-size: .8em}
+.MJXp-right {-webkit-transform-origin: right; -moz-transform-origin: right; -ms-transform-origin: right; -o-transform-origin: right; transform-origin: right}
+.MJXp-bold {font-weight: bold}
+.MJXp-italic {font-style: italic}
+.MJXp-scr {font-family: MathJax_Script,'Times New Roman',Times,STIXGeneral,serif}
+.MJXp-frak {font-family: MathJax_Fraktur,'Times New Roman',Times,STIXGeneral,serif}
+.MJXp-sf {font-family: MathJax_SansSerif,'Times New Roman',Times,STIXGeneral,serif}
+.MJXp-cal {font-family: MathJax_Caligraphic,'Times New Roman',Times,STIXGeneral,serif}
+.MJXp-mono {font-family: MathJax_Typewriter,'Times New Roman',Times,STIXGeneral,serif}
+.MJXp-largeop {font-size: 150%}
+.MJXp-largeop.MJXp-int {vertical-align: -.2em}
+.MJXp-math {display: inline-block; line-height: 1.2; text-indent: 0; font-family: 'Times New Roman',Times,STIXGeneral,serif; white-space: nowrap; border-collapse: collapse}
+.MJXp-display {display: block; text-align: center; margin: 1em 0}
+.MJXp-math span {display: inline-block}
+.MJXp-box {display: block!important; text-align: center}
+.MJXp-box:after {content: " "}
+.MJXp-rule {display: block!important; margin-top: .1em}
+.MJXp-char {display: block!important}
+.MJXp-mo {margin: 0 .15em}
+.MJXp-mfrac {margin: 0 .125em; vertical-align: .25em}
+.MJXp-denom {display: inline-table!important; width: 100%}
+.MJXp-denom > * {display: table-row!important}
+.MJXp-surd {vertical-align: top}
+.MJXp-surd > * {display: block!important}
+.MJXp-script-box > *  {display: table!important; height: 50%}
+.MJXp-script-box > * > * {display: table-cell!important; vertical-align: top}
+.MJXp-script-box > *:last-child > * {vertical-align: bottom}
+.MJXp-script-box > * > * > * {display: block!important}
+.MJXp-mphantom {visibility: hidden}
+.MJXp-munderover, .MJXp-munder {display: inline-table!important}
+.MJXp-over {display: inline-block!important; text-align: center}
+.MJXp-over > * {display: block!important}
+.MJXp-munderover > *, .MJXp-munder > * {display: table-row!important}
+.MJXp-mtable {vertical-align: .25em; margin: 0 .125em}
+.MJXp-mtable > * {display: inline-table!important; vertical-align: middle}
+.MJXp-mtr {display: table-row!important}
+.MJXp-mtd {display: table-cell!important; text-align: center; padding: .5em 0 0 .5em}
+.MJXp-mtr > .MJXp-mtd:first-child {padding-left: 0}
+.MJXp-mtr:first-child > .MJXp-mtd {padding-top: 0}
+.MJXp-mlabeledtr {display: table-row!important}
+.MJXp-mlabeledtr > .MJXp-mtd:first-child {padding-left: 0}
+.MJXp-mlabeledtr:first-child > .MJXp-mtd {padding-top: 0}
+.MJXp-merror {background-color: #FFFF88; color: #CC0000; border: 1px solid #CC0000; padding: 1px 3px; font-style: normal; font-size: 90%}
+.MJXp-scale0 {-webkit-transform: scaleX(.0); -moz-transform: scaleX(.0); -ms-transform: scaleX(.0); -o-transform: scaleX(.0); transform: scaleX(.0)}
+.MJXp-scale1 {-webkit-transform: scaleX(.1); -moz-transform: scaleX(.1); -ms-transform: scaleX(.1); -o-transform: scaleX(.1); transform: scaleX(.1)}
+.MJXp-scale2 {-webkit-transform: scaleX(.2); -moz-transform: scaleX(.2); -ms-transform: scaleX(.2); -o-transform: scaleX(.2); transform: scaleX(.2)}
+.MJXp-scale3 {-webkit-transform: scaleX(.3); -moz-transform: scaleX(.3); -ms-transform: scaleX(.3); -o-transform: scaleX(.3); transform: scaleX(.3)}
+.MJXp-scale4 {-webkit-transform: scaleX(.4); -moz-transform: scaleX(.4); -ms-transform: scaleX(.4); -o-transform: scaleX(.4); transform: scaleX(.4)}
+.MJXp-scale5 {-webkit-transform: scaleX(.5); -moz-transform: scaleX(.5); -ms-transform: scaleX(.5); -o-transform: scaleX(.5); transform: scaleX(.5)}
+.MJXp-scale6 {-webkit-transform: scaleX(.6); -moz-transform: scaleX(.6); -ms-transform: scaleX(.6); -o-transform: scaleX(.6); transform: scaleX(.6)}
+.MJXp-scale7 {-webkit-transform: scaleX(.7); -moz-transform: scaleX(.7); -ms-transform: scaleX(.7); -o-transform: scaleX(.7); transform: scaleX(.7)}
+.MJXp-scale8 {-webkit-transform: scaleX(.8); -moz-transform: scaleX(.8); -ms-transform: scaleX(.8); -o-transform: scaleX(.8); transform: scaleX(.8)}
+.MJXp-scale9 {-webkit-transform: scaleX(.9); -moz-transform: scaleX(.9); -ms-transform: scaleX(.9); -o-transform: scaleX(.9); transform: scaleX(.9)}
+.MathJax_PHTML .noError {vertical-align: ; font-size: 90%; text-align: left; color: black; padding: 1px 3px; border: 1px solid}
+</style><link rel="prefetch" as="style" href="Unit%20testing%20with%20GoogleTest%20and%20CMake_files/a_data/lounge.css"><link rel="prefetch" as="script" href="Unit%20testing%20with%20GoogleTest%20and%20CMake_files/a_data/common.js"><link rel="prefetch" as="script" href="Unit%20testing%20with%20GoogleTest%20and%20CMake_files/a_data/lounge.js"><link rel="prefetch" as="script" href="Unit%20testing%20with%20GoogleTest%20and%20CMake_files/a_data/config.js"><script src="Unit%20testing%20with%20GoogleTest%20and%20CMake_files/alfalfalfa.js" async="" charset="UTF-8"></script></head>
+<body><div id="MathJax_Message" style="display: none;"></div>
+<div id="wrap">
+<header role="banner">
+	<ul>
+    	<li><a href="http://www.kaizou.org/">Kaizou</a></li>
+		<li><a href="http://www.kaizou.org/about.html">?</a></li>
+	</ul>
+</header>
+<div id="content">
+<script type="text/javascript" src="Unit%20testing%20with%20GoogleTest%20and%20CMake_files/MathJax.js">
+  MathJax.Hub.Config({
+  tex2jax: {
+    inlineMath: [['$','$'], ['\\(','\\)']],
+    processEscapes: true
+  }
+});
+</script>
+	<!-- Post -->
+<div id="first-col">
+<article role="main">
+<header class="title">
+  <h1><a href="http://www.kaizou.org/2014/11/gtest-cmake.html" rel="bookmark">Unit testing with GoogleTest and CMake</a></h1>
+  <small><span>05 Nov 2014</span> by David Corvoysier</small>
+</header>
+<script type="text/javascript" src="Unit%20testing%20with%20GoogleTest%20and%20CMake_files/MathJax.js">
+  MathJax.Hub.Config({
+  tex2jax: {
+    inlineMath: [['$','$'], ['\\(','\\)']],
+    processEscapes: true
+  }
+});
+</script>
+<p>Continuous integration requires a robust test environment to be able to detect regressions as early as possible.</p>
+
+<p>A typical test environment will typically be composed of integration tests of the whole system and unit tests per components.</p>
+
+<p>This post explains how to create unit tests for a <code class="language-plaintext highlighter-rouge">C++</code> component using <a href="https://github.com/google/googletest"><strong>GoogleTest</strong></a> and <a href="http://www.cmake.org/"><strong>CMake</strong></a>.</p>
+
+<!--more-->
+
+<p>##Project structure</p>
+
+<p>I will assume here that the project structure follows the model described in a <a href="http://www.kaizou.org/2014/11/typical-cmake-project/">previous post</a>:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight prettyprint"><code>+-- CMakeLists.txt
++-- main
+|    +-- CMakeLists
+|    +-- main.cpp
+|
++-- test
+|    +-- CMakeLists.txt
+|    +-- testfoo
+|       +-- CMakeLists.txt
+|       +-- main.cpp
+|       +-- testfoo.h
+|       +-- testfoo.cpp
+|       +-- mockbar.h
+|
++-- libfoo
+|    +-- CMakeLists.txt
+|    +-- foo.h
+|    +-- foo.cpp
+|
++-- libbar
+     +-- CMakeLists.txt
+     +-- bar.h
+     +-- bar.cpp
+
+</code></pre></div></div>
+
+<p>The <code class="language-plaintext highlighter-rouge">main</code> subdirectory contains the main project target, an executable providing the super-useful <code class="language-plaintext highlighter-rouge">libfoo</code> service using the awesome <code class="language-plaintext highlighter-rouge">libbar</code> backend (for example <code class="language-plaintext highlighter-rouge">libfoo</code> could be a generic face recognition library and <code class="language-plaintext highlighter-rouge">libbar</code> a GPU-based image processing library).</p>
+
+<p>The <code class="language-plaintext highlighter-rouge">test</code> directory contains a single executable allowing to test the <code class="language-plaintext highlighter-rouge">libfoo</code> service using a <em>mock</em> version of <code class="language-plaintext highlighter-rouge">libbar</code>.</p>
+
+<blockquote>
+  <p>From <a href="http://en.wikipedia.org/wiki/Mock_object">Wikipedia</a>: In object-oriented programming, mock objects are simulated objects that mimic the behavior of real objects in controlled ways.</p>
+</blockquote>
+
+<p>For those interested, the code for this sample project is on <a href="https://github.com/kaizouman/gtest-cmake-example">github</a>.</p>
+
+<p>##A closer look at the test directory</p>
+
+<p>In my simplistic example, there is only one subdirectory under <code class="language-plaintext highlighter-rouge">test</code>, but in a typical project, it would contain several subdirectories, one for each test program.</p>
+
+<p>Tests programs are based on Google’s <a href="https://github.com/google/googletest/blob/master/googletest/docs/Primer.md">Googletest</a> framework and its <a href="https://github.com/google/googletest/blob/master/googlemock/README.md">GoogleMock</a> extension.</p>
+
+<p>Since all test programs will be using these packages, the root <code class="language-plaintext highlighter-rouge">CMakeLists.txt</code>
+ file should contain all directives required to resolve the 
+corresponding dependencies. This is where things get a bit hairy, since 
+Google <a href="https://github.com/google/googletest/blob/master/googletest/docs/FAQ.md">does not recommend to install these packages in binary form</a>, but instead to recompile them with your project.</p>
+
+<p>###Resolving GoogleTest and GoogleMock dependencies</p>
+
+<p>There are at least three options to integrate your project with <strong>GoogleTest</strong> and <strong>GoogleMock</strong>.</p>
+
+<p>####Having both packages integrated in your build system</p>
+
+<p>Obviously, this is only an option if you actually <em>do</em> have a buildsystem, but if this is the case, this would be my recommendation.</p>
+
+<p>Depending on how your buildsystem is structured, your mileage may vary, but in the end you should be able to declare <strong>GoogleTest</strong> and <strong>GoogleMock</strong> as dependencies using <code class="language-plaintext highlighter-rouge">CMake</code> functions like the built-in <code class="language-plaintext highlighter-rouge">find_package</code> or the <code class="language-plaintext highlighter-rouge">pkg-config</code> based <code class="language-plaintext highlighter-rouge">pkg_check_modules</code>.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight prettyprint"><code>find_package(PkgConfig)
+pkg_check_modules(GTEST REQUIRED gtest&gt;=1.7.0)
+pkg_check_modules(GMOCK REQUIRED gmock&gt;=1.7.0)
+
+include_directories(
+    ${GTEST_INCLUDE_DIRS}
+    ${GMOCK_INCLUDE_DIRS}
+)
+</code></pre></div></div>
+
+<p>####Add both packages sources to your project</p>
+
+<p>Adding the <strong>GoogleTest</strong> and <strong>GoogleMock</strong> sources as subdirectories of <code class="language-plaintext highlighter-rouge">test</code> would allow you to compile them as part of your project.</p>
+
+<p>This is however really ugly, and I wouldn’t recommend you doing that …</p>
+
+<p>####Add both packages as external CMake projects</p>
+
+<p>According to various answers posted on <a href="http://stackoverflow.com/questions/9689183/cmake-googletest">StackOverflow</a>, this seems to be the recommended way of resolving <strong>GoogleTest</strong> and <strong>GoogleMock</strong> dependencies on a per project basis.</p>
+
+<p>It takes advantage of the <code class="language-plaintext highlighter-rouge">CMake</code> <code class="language-plaintext highlighter-rouge">ExternalProject</code> module to fetch <strong>GoogleTest</strong> and <strong>GoogleMock</strong> sources from the internet and compile them as third-party dependencies in your project.</p>
+
+<p>Below is a working example, with a few comments explaining what’s going on:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight prettyprint"><code># We need thread support
+find_package(Threads REQUIRED)
+
+# Enable ExternalProject CMake module
+include(ExternalProject)
+
+# Download and install GoogleTest
+ExternalProject_Add(
+    gtest
+    URL <a class="vglnk" href="https://github.com/google/googletest/archive/master.zip" rel="nofollow"><span>https</span><span>://</span><span>github</span><span>.</span><span>com</span><span>/</span><span>google</span><span>/</span><span>googletest</span><span>/</span><span>archive</span><span>/</span><span>master</span><span>.</span><span>zip</span></a>
+    PREFIX ${CMAKE_CURRENT_BINARY_DIR}/gtest
+    # Disable install step
+    INSTALL_COMMAND ""
+)
+
+# Get GTest source and binary directories from CMake project
+ExternalProject_Get_Property(gtest source_dir binary_dir)
+
+# Create a libgtest target to be used as a dependency by test programs
+add_library(libgtest IMPORTED STATIC GLOBAL)
+add_dependencies(libgtest gtest)
+
+# Set libgtest properties
+set_target_properties(libgtest PROPERTIES
+    "IMPORTED_LOCATION" "${binary_dir}/googlemock/gtest/libgtest.a"
+    "IMPORTED_LINK_INTERFACE_LIBRARIES" "${CMAKE_THREAD_LIBS_INIT}"
+)
+
+# Create a libgmock target to be used as a dependency by test programs
+add_library(libgmock IMPORTED STATIC GLOBAL)
+add_dependencies(libgmock gtest)
+
+# Set libgmock properties
+set_target_properties(libgmock PROPERTIES
+    "IMPORTED_LOCATION" "${binary_dir}/googlemock/libgmock.a"
+    "IMPORTED_LINK_INTERFACE_LIBRARIES" "${CMAKE_THREAD_LIBS_INIT}"
+)
+
+# I couldn't make it work with INTERFACE_INCLUDE_DIRECTORIES
+include_directories("${source_dir}/googletest/include"
+                    "${source_dir}/googlemock/include")
+</code></pre></div></div>
+
+<blockquote>
+  <p>Note: It should theoretically be possible to set the <strong>GoogleTest</strong> and <strong>GoogleMock</strong>
+ include directories as target properties using the 
+INTERFACE_INCLUDE_DIRECTORIES variable, but it fails because these 
+directoires don’t exist yet when they are declared. As a workaround, I 
+had to explicitly use include_directories to specify them.</p>
+</blockquote>
+
+<p>###Writing a <strong>testfoo</strong> test program for <strong>libfoo</strong></p>
+
+<p>The <strong>testfoo</strong> program depends on <strong>libfoo</strong>, <strong>GoogleTest</strong> and <strong>GoogleMock</strong>.</p>
+
+<p>Here is how the <strong>testfoo</strong> <code class="language-plaintext highlighter-rouge">CMakeLists.txt</code> file would look like:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight prettyprint"><code>file(GLOB SRCS *.cpp)
+
+add_executable(testfoo ${SRCS})
+
+target_link_libraries(testfoo
+    libfoo
+    libgtest
+    libgmock
+)
+
+install(TARGETS testfoo DESTINATION bin)
+</code></pre></div></div>
+
+<p>The libraries required for the build are listed under <code class="language-plaintext highlighter-rouge">target_link_libraries</code>.
+CMake will then add the appropriate include directories and link options.</p>
+
+<p>The <strong>testfoo</strong> program will provide unit tests for the <code class="language-plaintext highlighter-rouge">Foo</code> class of the <strong>libfoo</strong> library defined below.</p>
+
+<p>####<code class="language-plaintext highlighter-rouge">foo.h</code></p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight prettyprint"><code>class Bar;
+
+class Foo
+{
+    Foo(const Bar&amp; bar);
+    bool baz(bool useQux);
+protected:
+    const Bar&amp; m_bar;
+}
+</code></pre></div></div>
+
+<p>####<code class="language-plaintext highlighter-rouge">foo.cpp</code></p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight prettyprint"><code>#include "bar.h"
+#include "foo.h"
+
+Foo::Foo(const bar&amp; bar)
+ : m_bar(bar) {};
+
+bool Foo::baz(bool useQux) {
+    if (useQux) {
+        return m_bar.qux();
+    } else {
+        return m_bar.norf();
+    }
+}
+</code></pre></div></div>
+
+<p>The sample Test program described in the <a href="http://code.google.com/p/googletest/wiki/Primer">GoogleTest Documentation</a> fits in a single file, but I prefer splitting the Unit Tests code in three types of files.</p>
+
+<p>###<code class="language-plaintext highlighter-rouge">main.cpp</code></p>
+
+<p>The <code class="language-plaintext highlighter-rouge">main.cpp</code> file will contain only the test program <code class="language-plaintext highlighter-rouge">main</code> function.
+This is where you will put the generic <strong>Googletest</strong> Macro invocation to launch the tests and some initializations that need to be put in the <code class="language-plaintext highlighter-rouge">main</code> (nothing in this particular case).</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight prettyprint"><code>#include "gtest/gtest.h"
+
+int main(int argc, char **argv)
+{
+    ::testing::InitGoogleTest(&amp;argc, argv);
+    int ret = RUN_ALL_TESTS();
+    return ret;
+}
+</code></pre></div></div>
+
+<p>###<code class="language-plaintext highlighter-rouge">testfoo.h</code></p>
+
+<p>This file contains the declaration of the <code class="language-plaintext highlighter-rouge">FooTest</code> class, which is the test fixture for the <code class="language-plaintext highlighter-rouge">Foo</code> class.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight prettyprint"><code>#include "gtest/gtest.h"
+#include "mockbar.h"
+
+// The fixture for testing class Foo.
+class FooTest : public ::testing::Test {
+
+protected:
+
+    // You can do set-up work for each test here.
+    FooTest();
+
+    // You can do clean-up work that doesn't throw exceptions here.
+    virtual ~FooTest();
+
+    // If the constructor and destructor are not enough for setting up
+    // and cleaning up each test, you can define the following methods:
+
+    // Code here will be called immediately after the constructor (right
+    // before each test).
+    virtual void SetUp();
+
+    // Code here will be called immediately after each test (right
+    // before the destructor).
+    virtual void TearDown();
+
+    // The mock bar library shaed by all tests
+    MockBar m_bar;
+};
+</code></pre></div></div>
+
+<p>###<code class="language-plaintext highlighter-rouge">mockbar.h</code></p>
+
+<p>Assuming the <strong>libbar</strong> library implements a public <code class="language-plaintext highlighter-rouge">Bar</code> interface, we use <strong>GoogleMock</strong> to provide a fake implementation for test purposes only:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight prettyprint"><code>#include "bar.h"
+
+class MockBar: public Bar
+{
+    MOCK_METHOD0(qux, bool());
+    MOCK_METHOD0(norf, bool());
+} 
+</code></pre></div></div>
+
+<p>This will allow us to inject controlled values into the <strong>libfoo</strong> library when it will invoke the <code class="language-plaintext highlighter-rouge">Bar</code> class methods.</p>
+
+<blockquote>
+  <p>Please refer to the <a href="http://code.google.com/p/googlemock/wiki/V1_7_ForDummies">GoogleMock documentation</a> for a detailed description of the <code class="language-plaintext highlighter-rouge">GoogleMock</code> features.</p>
+</blockquote>
+
+<p>###<code class="language-plaintext highlighter-rouge">testfoo.cpp</code></p>
+
+<p>This file contains the implementation of the <code class="language-plaintext highlighter-rouge">TestFoo</code> fixture class.</p>
+
+<p>This is where the actual tests are written.</p>
+
+<p>We will test the output of the <code class="language-plaintext highlighter-rouge">Foo::baz()</code> method, first having default values for the <code class="language-plaintext highlighter-rouge">Bar::qux()</code> and <code class="language-plaintext highlighter-rouge">Bar::norf()</code> methods returned by our mock, then overrding the value returned by <code class="language-plaintext highlighter-rouge">Bar::norf()</code> with a value specific to our test.</p>
+
+<p>In all test cases, we use <strong>GoogleTest</strong> expectations to verify the output of the <code class="language-plaintext highlighter-rouge">Foo::baz</code> method.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight prettyprint"><code>#include "mockbar.h"
+#include "testfoo.h"
+
+using ::testing::Return;
+
+FooTest()
+{
+    // Have qux return true by default
+    ON_CALL(m_bar,qux()).WillByDefault(Return(true));
+    // Have norf return false by default
+    ON_CALL(m_bar,norf()).WillByDefault(Return(false));
+}
+
+TEST_F(FooTest, ByDefaultBazTrueIsTrue) {
+    Foo foo(m_bar);
+    EXPECT_EQ(foo.baz(true), true);
+}
+
+TEST_F(FooTest, ByDefaultBazFalseIsFalse) {
+    Foo foo(m_bar);
+    EXPECT_EQ(foo.baz(false), false);
+}
+
+TEST_F(FooTest, SometimesBazFalseIsTrue) {
+    Foo foo(m_bar);
+    // Have norf return true for once
+    EXPECT_CALL(m_bar,norf()).WillOnce(Return(true));
+    EXPECT_EQ(foo.baz(false), false);
+}
+
+</code></pre></div></div>
+
+<blockquote>
+  <p>Please refer to the <a href="http://code.google.com/p/googletest/wiki/Primer">GoogleTest documentation</a> for a much detailed presentation of how to create unit tests with Gtest.</p>
+</blockquote>
+
+<p>##Building tests</p>
+
+<p>As usual, it is recommended to build your program out-of-tree, ie in a directory separated from the sources.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight prettyprint"><code>mkdir build
+cd build
+</code></pre></div></div>
+
+<p>First, you need to invoke the <code class="language-plaintext highlighter-rouge">cmake</code> command to generate the build files.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight prettyprint"><code>cmake ..
+</code></pre></div></div>
+
+<p>This should produce an output similar to this one:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight prettyprint"><code>-- The C compiler identification is GNU 4.8.2
+-- The CXX compiler identification is GNU 4.8.2
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Looking for include file pthread.h
+-- Looking for include file pthread.h - found
+-- Looking for pthread_create
+-- Looking for pthread_create - not found
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE  
+-- Configuring done
+-- Generating done
+-- Build files have been written to: ~/gtest-cmake-example/build
+</code></pre></div></div>
+
+<p>Then, build the project targets.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight prettyprint"><code>make
+</code></pre></div></div>
+
+<p>The following output corresponds to the case where <strong>GoogleTest</strong> and <strong>GoogleMock</strong> are automatically fetched from their repositories and built as third-party dependencies.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight prettyprint"><code>Scanning dependencies of target libfoo
+[  7%] Building CXX object libfoo/CMakeFiles/libfoo.dir/foo.cpp.o
+Linking CXX static library liblibfoo.a
+[  7%] Built target libfoo
+Scanning dependencies of target libbar
+[ 15%] Building CXX object libbar/CMakeFiles/libbar.dir/bar.cpp.o
+Linking CXX static library liblibbar.a
+[ 15%] Built target libbar
+Scanning dependencies of target myApp
+[ 23%] Building CXX object main/CMakeFiles/myApp.dir/main.cpp.o
+Linking CXX executable myApp
+[ 23%] Built target myApp
+Scanning dependencies of target gtest
+[ 30%] Creating directories for 'gtest'
+[ 38%] Performing download step (download, verify and extract) for 'gtest'
+-- downloading...
+     src='<a class="vglnk" href="https://github.com/google/googletest/archive/master.zip" rel="nofollow"><span>https</span><span>://</span><span>github</span><span>.</span><span>com</span><span>/</span><span>google</span><span>/</span><span>googletest</span><span>/</span><span>archive</span><span>/</span><span>master</span><span>.</span><span>zip</span></a>'
+     dst='/home/david/perso/gtest-cmake-example/build/test/gtest/src/master.zip'
+     timeout='none'
+-- [download 0% complete]
+-- [download 1% complete]
+...
+-- [download 99% complete]
+-- [download 100% complete]
+-- downloading... done
+-- verifying file...
+     file='/home/david/perso/gtest-cmake-example/build/test/gtest/src/master.zip'
+-- verifying file... warning: did not verify file - no URL_HASH specified?
+-- extracting...
+     src='/home/david/perso/gtest-cmake-example/build/test/gtest/src/master.zip'
+     dst='/home/david/perso/gtest-cmake-example/build/test/gtest/src/gtest'
+-- extracting... [tar xfz]
+-- extracting... [analysis]
+-- extracting... [rename]
+-- extracting... [clean up]
+-- extracting... done
+[ 46%] No patch step for 'gtest'
+[ 53%] No update step for 'gtest'
+[ 61%] Performing configure step for 'gtest'
+-- The C compiler identification is GNU 4.8.4
+-- The CXX compiler identification is GNU 4.8.4
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Found PythonInterp: /usr/bin/python (found version "2.7.6")
+-- Looking for include file pthread.h
+-- Looking for include file pthread.h - found
+-- Looking for pthread_create
+-- Looking for pthread_create - not found
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/david/perso/gtest-cmake-example/build/test/gtest/src/gtest-build
+[ 69%] Performing build step for 'gtest'
+Scanning dependencies of target gmock
+[ 14%] Building CXX object googlemock/CMakeFiles/gmock.dir/__/googletest/src/gtest-all.cc.o
+[ 28%] Building CXX object googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.o
+Linking CXX static library libgmock.a
+[ 28%] Built target gmock
+Scanning dependencies of target gmock_main
+[ 42%] Building CXX object googlemock/CMakeFiles/gmock_main.dir/__/googletest/src/gtest-all.cc.o
+[ 57%] Building CXX object googlemock/CMakeFiles/gmock_main.dir/src/gmock-all.cc.o
+[ 71%] Building CXX object googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o
+Linking CXX static library libgmock_main.a
+[ 71%] Built target gmock_main
+Scanning dependencies of target gtest
+[ 85%] Building CXX object googlemock/gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o
+Linking CXX static library libgtest.a
+[ 85%] Built target gtest
+Scanning dependencies of target gtest_main
+[100%] Building CXX object googlemock/gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o
+Linking CXX static library libgtest_main.a
+[100%] Built target gtest_main
+[ 76%] No install step for 'gtest'
+[ 84%] Completed 'gtest'
+[ 84%] Built target gtest
+Scanning dependencies of target testfoo
+[ 92%] Building CXX object test/testfoo/CMakeFiles/testfoo.dir/main.cpp.o
+[100%] Building CXX object test/testfoo/CMakeFiles/testfoo.dir/testfoo.cpp.o
+Linking CXX executable testfoo
+[100%] Built target testfoo
+</code></pre></div></div>
+
+<p>##Running tests</p>
+
+<p>Once the test programs have been built, you can run them individually …</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight prettyprint"><code>test/testfoo/testfoo
+</code></pre></div></div>
+
+<p>… producing a detailed output …</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight prettyprint"><code>[==========] Running 3 tests from 1 test case.
+[----------] Global test environment set-up.
+[----------] 3 tests from FooTest
+[ RUN      ] FooTest.ByDefaultBazTrueIsTrue
+
+GMOCK WARNING:
+Uninteresting mock function call - taking default action specified at:
+~/gtest-cmake-example/test/testfoo/testfoo.cpp:8:
+    Function call: qux()
+          Returns: true
+Stack trace:
+[       OK ] FooTest.ByDefaultBazTrueIsTrue (0 ms)
+[ RUN      ] FooTest.ByDefaultBazFalseIsFalse
+
+GMOCK WARNING:
+Uninteresting mock function call - taking default action specified at:
+~/gtest-cmake-example/test/testfoo/testfoo.cpp:10:
+    Function call: norf()
+          Returns: false
+Stack trace:
+[       OK ] FooTest.ByDefaultBazFalseIsFalse (0 ms)
+[ RUN      ] FooTest.SometimesBazFalseIsTrue
+[       OK ] FooTest.SometimesBazFalseIsTrue (0 ms)
+[----------] 3 tests from FooTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 3 tests from 1 test case ran. (0 ms total)
+[  PASSED  ] 3 tests.
+</code></pre></div></div>
+
+<blockquote>
+  <p>Note: You can get rid of <strong>GoogleMock</strong> warnings by using a <a href="https://github.com/google/googletest/blob/master/googlemock/docs/CheatSheet.md"><strong>nice</strong> <strong>mock</strong></a>.</p>
+</blockquote>
+
+<p>… or globally through <code class="language-plaintext highlighter-rouge">CTest</code> …</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight prettyprint"><code>make test
+</code></pre></div></div>
+
+<p>… producing only a test summary.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight prettyprint"><code>Running tests...
+Test project ~/gtest-cmake-example/build
+    Start 1: testfoo
+1/1 Test #1: testfoo ..........................   Passed    0.00 sec
+
+100% tests passed, 0 tests failed out of 1
+
+Total Test time (real) =   0.00 sec
+</code></pre></div></div>
+
+<!-- Comments -->
+<div id="disqus_thread"><iframe id="dsq-app4975" name="dsq-app4975" allowtransparency="true" scrolling="no" tabindex="0" title="Disqus" style="width: 1px !important; min-width: 100% !important; border: medium none !important; overflow: hidden !important; height: 717px !important;" src="Unit%20testing%20with%20GoogleTest%20and%20CMake_files/a.html" horizontalscrolling="no" verticalscrolling="no" width="100%" frameborder="0"></iframe></div>
+    <script type="text/javascript">
+        /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+        var disqus_shortname = 'kaizouorg';
+
+        /* * * DON'T EDIT BELOW THIS LINE * * */
+        (function() {
+            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+            dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    
+</article>
+</div>
+<aside id="second-col">
+<div id="me">
+<h2>Hi</h2>
+<p>I am David Corvoysier, versatile developer and open Source enthusiast.</p>
+</div>
+
+<div id="social">
+  <h2>Follow me: 
+    <a href="https://github.com/kaizouman">
+<img alt="Kaizouman repository on github" src="Unit%20testing%20with%20GoogleTest%20and%20CMake_files/Octocat.png">
+</a>
+           
+    <a href="http://www.kaizou.org/feed/">
+<img alt="Site Feed" src="Unit%20testing%20with%20GoogleTest%20and%20CMake_files/rss.svg">
+</a>
+
+    <a href="https://twitter.com/kaizouda">
+<img alt="Follow David Corvoysier in Twitter" src="Unit%20testing%20with%20GoogleTest%20and%20CMake_files/twitter.png">
+</a>
+
+    <a href="https://fr.linkedin.com/pub/david-corvoysier/a3/2aa/a90">
+<img alt="David Corvoysier on linkedIn" src="Unit%20testing%20with%20GoogleTest%20and%20CMake_files/linkedin.jpg">
+</a>
+
+  </h2>
+</div>
+
+<!-- Related Posts -->
+<div id="related-posts">
+  <div class="tuple"><h2>Related Posts</h2></div>
+    
+        
+        
+            <div class="tuple">
+        
+    	<article>
+    <header>
+      <h1><a href="http://www.kaizou.org/2018/07/stdp-tensorflow.html" rel="bookmark">Identify Repeating Patterns using Spiking Neural Networks in Tensorflow</a></h1>
+      <small><span>26 Jul 2018</span> by David Corvoysier</small>
+    </header>
+    <section>
+      <p>Spiking neural networks ([SNN](<a class="vglnk" href="https://en.wikipedia.org/wiki/Spiking_neural_network" rel="nofollow"><span>https</span><span>://</span><span>en</span><span>.</span><span>wikipedia</span><span>.</span><span>org</span><span>/</span><span>wiki</span><span>/</span><span>Spiking</span><span>_</span><span>neural</span><span>_</span><span>network</span></a>)) are the 3rd generation of neural networks.
+
+SNN do not react on each stimulus, but rather accumulate inputs until they reach a threshold potential and generate a 'spike'.
+
+Because of their very nature, SNNs cannot be trained like 2nd generation neural networks using gradient descent.
+
+Spike Timing Dependent Plasticity ([STDP](<a class="vglnk" href="https://en.wikipedia.org/wiki/Spike-timing-dependent_plasticity" rel="nofollow"><span>https</span><span>://</span><span>en</span><span>.</span><span>wikipedia</span><span>.</span><span>org</span><span>/</span><span>wiki</span><span>/</span><span>Spike</span><span>-</span><span>timing</span><span>-</span><span>dependent</span><span>_</span><span>plasticity</span></a>))
+ is a biological process that
+inspired an unsupervised training method for SNNs.  
+
+In this article, I will provide an illustration of how STDP can be used 
+to teach a single neuron to identify a repeating pattern in a continuous
+ stream of input spikes. 
+
+</p>
+      <p><a href="http://www.kaizou.org/2018/07/stdp-tensorflow.html">(more…)</a></p>
+    </section>
+    <footer>
+      <span>Categories: 
+        
+        <a href="http://www.kaizou.org/categories.html#Development" rel="tag">Development</a>
+        
+      </span>
+      <span>Tags: 
+        
+        <a href="http://www.kaizou.org/tags.html#tensorflow" rel="tag">tensorflow</a>
+        
+        <a href="http://www.kaizou.org/tags.html#machine%20learning" rel="tag">machine learning</a>
+        
+        <a href="http://www.kaizou.org/tags.html#spiking%20neural%20nets" rel="tag">spiking neural nets</a>
+        
+        <a href="http://www.kaizou.org/tags.html#snn" rel="tag">snn</a>
+        
+        <a href="http://www.kaizou.org/tags.html#stdp" rel="tag">stdp</a>
+        
+      </span>
+    </footer>
+</article>
+
+        
+    
+        
+        
+    	<article>
+    <header>
+      <h1><a href="http://www.kaizou.org/2018/07/lif-neuron-tensorflow.html" rel="bookmark">Leaky Integrate and Fire neuron with Tensorflow</a></h1>
+      <small><span>25 Jul 2018</span> by David Corvoysier</small>
+    </header>
+    <section>
+      <p>Spiking Neural Networks (SNN) are the next generation of neural networks, that operate using spikes, 
+which are discrete events that take place at points in time, rather than continuous values.
+
+Essentially, once a stimulated neuron reaches a certain potential, it spikes, and the potential of that neuron is reset. 
+
+In this article, I will detail how the Leaky Integrate and Fire (LIF) spiking neuron model can be implemented
+using [Tensorflow](<a class="vglnk" href="https://www.tensorflow.org/" rel="nofollow"><span>https</span><span>://</span><span>www</span><span>.</span><span>tensorflow</span><span>.</span><span>org</span><span>/</span></a>).
+
+</p>
+      <p><a href="http://www.kaizou.org/2018/07/lif-neuron-tensorflow.html">(more…)</a></p>
+    </section>
+    <footer>
+      <span>Categories: 
+        
+        <a href="http://www.kaizou.org/categories.html#Development" rel="tag">Development</a>
+        
+      </span>
+      <span>Tags: 
+        
+        <a href="http://www.kaizou.org/tags.html#tensorflow" rel="tag">tensorflow</a>
+        
+        <a href="http://www.kaizou.org/tags.html#machine%20learning" rel="tag">machine learning</a>
+        
+        <a href="http://www.kaizou.org/tags.html#spiking%20neural%20nets" rel="tag">spiking neural nets</a>
+        
+        <a href="http://www.kaizou.org/tags.html#snn" rel="tag">snn</a>
+        
+        <a href="http://www.kaizou.org/tags.html#lif" rel="tag">lif</a>
+        
+      </span>
+    </footer>
+</article>
+
+        
+            </div>
+        
+    
+        
+        
+            <div class="tuple">
+        
+    	<article>
+    <header>
+      <h1><a href="http://www.kaizou.org/2018/07/simulating-spiking-neurons-with-tensorflow.html" rel="bookmark">Simulating spiking neurons with Tensorflow</a></h1>
+      <small><span>24 Jul 2018</span> by David Corvoysier</small>
+    </header>
+    <section>
+      <p>Spiking Neural Networks are the next generation of machine learning, according to the litterature.
+
+After the feed-forward perceptrons of the last century and the bi-directional deep networks trained
+using gradient descent of today, this 3rd generation of neural networks uses biologically-realistic
+models of neurons to carry out computation.
+
+A spiking neural network (SNN) operates using spikes, which are discrete events that take place at
+points in time, rather than continuous values. The occurrence of a spike is determined by differential
+equations that represent the membrane potential of the neuron.
+Essentially, once a neuron reaches a certain potential, it spikes, and the potential of that neuron is reset. 
+
+In this article, I will detail how this kind of network can be modelled using [Tensorflow](<a class="vglnk" href="https://www.tensorflow.org/" rel="nofollow"><span>https</span><span>://</span><span>www</span><span>.</span><span>tensorflow</span><span>.</span><span>org</span><span>/</span></a>).
+
+</p>
+      <p><a href="http://www.kaizou.org/2018/07/simulating-spiking-neurons-with-tensorflow.html">(more…)</a></p>
+    </section>
+    <footer>
+      <span>Categories: 
+        
+        <a href="http://www.kaizou.org/categories.html#Development" rel="tag">Development</a>
+        
+      </span>
+      <span>Tags: 
+        
+        <a href="http://www.kaizou.org/tags.html#tensorflow" rel="tag">tensorflow</a>
+        
+        <a href="http://www.kaizou.org/tags.html#machine%20learning" rel="tag">machine learning</a>
+        
+        <a href="http://www.kaizou.org/tags.html#spiking%20neural%20nets" rel="tag">spiking neural nets</a>
+        
+        <a href="http://www.kaizou.org/tags.html#snn" rel="tag">snn</a>
+        
+      </span>
+    </footer>
+</article>
+
+        
+    
+        
+        
+    	<article>
+    <header>
+      <h1><a href="http://www.kaizou.org/2018/07/docker-dev-environment.html" rel="bookmark">Use a docker build container for development</a></h1>
+      <small><span>23 Jul 2018</span> by David Corvoysier</small>
+    </header>
+    <section>
+      <p>Using docker containers to meet specific application requirements is now common place: 
+instead of having to install many packages on your host, possibly conflicting with already
+existing ones, you simply fetch a docker image of the application and run it from there. 
+
+It is less frequent to use docker containers as development sandboxes, but they are however
+perfectly suited for the job.
+
+</p>
+      <p><a href="http://www.kaizou.org/2018/07/docker-dev-environment.html">(more…)</a></p>
+    </section>
+    <footer>
+      <span>Categories: 
+        
+        <a href="http://www.kaizou.org/categories.html#Development" rel="tag">Development</a>
+        
+      </span>
+      <span>Tags: 
+        
+        <a href="http://www.kaizou.org/tags.html#docker" rel="tag">docker</a>
+        
+      </span>
+    </footer>
+</article>
+
+        
+            </div>
+        
+    
+</div>
+<div id="tag_cloud">
+
+<a href="http://www.kaizou.org/2014/11/tags.html#SVG" title="SVG" rel="2" style="font-size: 1.02222em; color: rgb(233, 108, 103);">SVG</a>
+
+<a href="http://www.kaizou.org/2014/11/tags.html#XHTML" title="XHTML" rel="5" style="font-size: 1.38889em; color: rgb(238, 82, 73);">XHTML</a>
+
+<a href="http://www.kaizou.org/2014/11/tags.html#Cache" title="Cache" rel="4" style="font-size: 1.26667em; color: rgb(236, 91, 83);">Cache</a>
+
+<a href="http://www.kaizou.org/2014/11/tags.html#HTTP" title="HTTP" rel="2" style="font-size: 1.02222em; color: rgb(233, 108, 103);">HTTP</a>
+
+<a href="http://www.kaizou.org/2014/11/tags.html#Apache" title="Apache" rel="1" style="font-size: 0.9em; color: rgb(231, 116, 113);">Apache</a>
+
+<a href="http://www.kaizou.org/2014/11/tags.html#IE" title="IE" rel="1" style="font-size: 0.9em; color: rgb(231, 116, 113);">IE</a>
+
+<a href="http://www.kaizou.org/2014/11/tags.html#HTML" title="HTML" rel="3" style="font-size: 1.14444em; color: rgb(234, 99, 93);">HTML</a>
+
+<a href="http://www.kaizou.org/2014/11/tags.html#HTML5" title="HTML5" rel="10" style="font-size: 2em; color: rgb(246, 40, 23);">HTML5</a>
+
+<a href="http://www.kaizou.org/2014/11/tags.html#WHATWG" title="WHATWG" rel="1" style="font-size: 0.9em; color: rgb(231, 116, 113);">WHATWG</a>
+
+<a href="http://www.kaizou.org/2014/11/tags.html#Video" title="Video" rel="3" style="font-size: 1.14444em; color: rgb(234, 99, 93);">Video</a>
+
+<a href="http://www.kaizou.org/2014/11/tags.html#CSS3" title="CSS3" rel="8" style="font-size: 1.75556em; color: rgb(243, 57, 43);">CSS3</a>
+
+<a href="http://www.kaizou.org/2014/11/tags.html#Fonts" title="Fonts" rel="1" style="font-size: 0.9em; color: rgb(231, 116, 113);">Fonts</a>
+
+<a href="http://www.kaizou.org/2014/11/tags.html#Custom" title="Custom" rel="1" style="font-size: 0.9em; color: rgb(231, 116, 113);">Custom</a>
+
+<a href="http://www.kaizou.org/2014/11/tags.html#Event" title="Event" rel="1" style="font-size: 0.9em; color: rgb(231, 116, 113);">Event</a>
+
+<a href="http://www.kaizou.org/2014/11/tags.html#Javascript" title="Javascript" rel="3" style="font-size: 1.14444em; color: rgb(234, 99, 93);">Javascript</a>
+
+<a href="http://www.kaizou.org/2014/11/tags.html#Animation" title="Animation" rel="4" style="font-size: 1.26667em; color: rgb(236, 91, 83);">Animation</a>
+
+<a href="http://www.kaizou.org/2014/11/tags.html#Benchmark" title="Benchmark" rel="2" style="font-size: 1.02222em; color: rgb(233, 108, 103);">Benchmark</a>
+
+<a href="http://www.kaizou.org/2014/11/tags.html#Carousel" title="Carousel" rel="2" style="font-size: 1.02222em; color: rgb(233, 108, 103);">Carousel</a>
+
+<a href="http://www.kaizou.org/2014/11/tags.html#Fps" title="Fps" rel="1" style="font-size: 0.9em; color: rgb(231, 116, 113);">Fps</a>
+
+<a href="http://www.kaizou.org/2014/11/tags.html#3D" title="3D" rel="1" style="font-size: 0.9em; color: rgb(231, 116, 113);">3D</a>
+
+<a href="http://www.kaizou.org/2014/11/tags.html#Canvas" title="Canvas" rel="2" style="font-size: 1.02222em; color: rgb(233, 108, 103);">Canvas</a>
+
+<a href="http://www.kaizou.org/2014/11/tags.html#Chrome" title="Chrome" rel="1" style="font-size: 0.9em; color: rgb(231, 116, 113);">Chrome</a>
+
+<a href="http://www.kaizou.org/2014/11/tags.html#GPU" title="GPU" rel="1" style="font-size: 0.9em; color: rgb(231, 116, 113);">GPU</a>
+
+<a href="http://www.kaizou.org/2014/11/tags.html#CSS" title="CSS" rel="1" style="font-size: 0.9em; color: rgb(231, 116, 113);">CSS</a>
+
+<a href="http://www.kaizou.org/2014/11/tags.html#video" title="video" rel="4" style="font-size: 1.26667em; color: rgb(236, 91, 83);">video</a>
+
+<a href="http://www.kaizou.org/2014/11/tags.html#subtitles" title="subtitles" rel="1" style="font-size: 0.9em; color: rgb(231, 116, 113);">subtitles</a>
+
+<a href="http://www.kaizou.org/2014/11/tags.html#chapters" title="chapters" rel="1" style="font-size: 0.9em; color: rgb(231, 116, 113);">chapters</a>
+
+<a href="http://www.kaizou.org/2014/11/tags.html#webvtt" title="webvtt" rel="1" style="font-size: 0.9em; color: rgb(231, 116, 113);">webvtt</a>
+
+<a href="http://www.kaizou.org/2014/11/tags.html#WebKit" title="WebKit" rel="1" style="font-size: 0.9em; color: rgb(231, 116, 113);">WebKit</a>
+
+<a href="http://www.kaizou.org/2014/11/tags.html#Blink" title="Blink" rel="1" style="font-size: 0.9em; color: rgb(231, 116, 113);">Blink</a>
+
+<a href="http://www.kaizou.org/2014/11/tags.html#Google" title="Google" rel="1" style="font-size: 0.9em; color: rgb(231, 116, 113);">Google</a>
+
+<a href="http://www.kaizou.org/2014/11/tags.html#Open%20Source" title="Open Source" rel="1" style="font-size: 0.9em; color: rgb(231, 116, 113);">Open Source</a>
+
+<a href="http://www.kaizou.org/2014/11/tags.html#heterogeneity" title="heterogeneity" rel="1" style="font-size: 0.9em; color: rgb(231, 116, 113);">heterogeneity</a>
+
+<a href="http://www.kaizou.org/2014/11/tags.html#WebCam" title="WebCam" rel="1" style="font-size: 0.9em; color: rgb(231, 116, 113);">WebCam</a>
+
+<a href="http://www.kaizou.org/2014/11/tags.html#getUserMedia" title="getUserMedia" rel="1" style="font-size: 0.9em; color: rgb(231, 116, 113);">getUserMedia</a>
+
+<a href="http://www.kaizou.org/2014/11/tags.html#cross-compilation" title="cross-compilation" rel="2" style="font-size: 1.02222em; color: rgb(233, 108, 103);">cross-compilation</a>
+
+<a href="http://www.kaizou.org/2014/11/tags.html#buildroot" title="buildroot" rel="1" style="font-size: 0.9em; color: rgb(231, 116, 113);">buildroot</a>
+
+<a href="http://www.kaizou.org/2014/11/tags.html#schroot" title="schroot" rel="1" style="font-size: 0.9em; color: rgb(231, 116, 113);">schroot</a>
+
+<a href="http://www.kaizou.org/2014/11/tags.html#DBus" title="DBus" rel="2" style="font-size: 1.02222em; color: rgb(233, 108, 103);">DBus</a>
+
+<a href="http://www.kaizou.org/2014/11/tags.html#Remote" title="Remote" rel="1" style="font-size: 0.9em; color: rgb(231, 116, 113);">Remote</a>
+
+<a href="http://www.kaizou.org/2014/11/tags.html#CMake" title="CMake" rel="2" style="font-size: 1.02222em; color: rgb(233, 108, 103);">CMake</a>
+
+<a href="http://www.kaizou.org/2014/11/tags.html#GoogleTest" title="GoogleTest" rel="1" style="font-size: 0.9em; color: rgb(231, 116, 113);">GoogleTest</a>
+
+<a href="http://www.kaizou.org/2014/11/tags.html#gcc" title="gcc" rel="1" style="font-size: 0.9em; color: rgb(231, 116, 113);">gcc</a>
+
+<a href="http://www.kaizou.org/2014/11/tags.html#ld" title="ld" rel="1" style="font-size: 0.9em; color: rgb(231, 116, 113);">ld</a>
+
+<a href="http://www.kaizou.org/2014/11/tags.html#ELF" title="ELF" rel="1" style="font-size: 0.9em; color: rgb(231, 116, 113);">ELF</a>
+
+<a href="http://www.kaizou.org/2014/11/tags.html#sections" title="sections" rel="1" style="font-size: 0.9em; color: rgb(231, 116, 113);">sections</a>
+
+<a href="http://www.kaizou.org/2014/11/tags.html#build" title="build" rel="2" style="font-size: 1.02222em; color: rgb(233, 108, 103);">build</a>
+
+<a href="http://www.kaizou.org/2014/11/tags.html#make" title="make" rel="1" style="font-size: 0.9em; color: rgb(231, 116, 113);">make</a>
+
+<a href="http://www.kaizou.org/2014/11/tags.html#ninja" title="ninja" rel="1" style="font-size: 0.9em; color: rgb(231, 116, 113);">ninja</a>
+
+<a href="http://www.kaizou.org/2014/11/tags.html#kbuild" title="kbuild" rel="1" style="font-size: 0.9em; color: rgb(231, 116, 113);">kbuild</a>
+
+<a href="http://www.kaizou.org/2014/11/tags.html#cmake" title="cmake" rel="1" style="font-size: 0.9em; color: rgb(231, 116, 113);">cmake</a>
+
+<a href="http://www.kaizou.org/2014/11/tags.html#linux" title="linux" rel="1" style="font-size: 0.9em; color: rgb(231, 116, 113);">linux</a>
+
+<a href="http://www.kaizou.org/2014/11/tags.html#croostool-ng" title="croostool-ng" rel="1" style="font-size: 0.9em; color: rgb(231, 116, 113);">croostool-ng</a>
+
+<a href="http://www.kaizou.org/2014/11/tags.html#qemu" title="qemu" rel="2" style="font-size: 1.02222em; color: rgb(233, 108, 103);">qemu</a>
+
+<a href="http://www.kaizou.org/2014/11/tags.html#busybox" title="busybox" rel="1" style="font-size: 0.9em; color: rgb(231, 116, 113);">busybox</a>
+
+<a href="http://www.kaizou.org/2014/11/tags.html#tensorflow" title="tensorflow" rel="4" style="font-size: 1.26667em; color: rgb(236, 91, 83);">tensorflow</a>
+
+<a href="http://www.kaizou.org/2014/11/tags.html#CIFAR10" title="CIFAR10" rel="1" style="font-size: 0.9em; color: rgb(231, 116, 113);">CIFAR10</a>
+
+<a href="http://www.kaizou.org/2014/11/tags.html#CNN" title="CNN" rel="1" style="font-size: 0.9em; color: rgb(231, 116, 113);">CNN</a>
+
+<a href="http://www.kaizou.org/2014/11/tags.html#bridge" title="bridge" rel="1" style="font-size: 0.9em; color: rgb(231, 116, 113);">bridge</a>
+
+<a href="http://www.kaizou.org/2014/11/tags.html#docker" title="docker" rel="1" style="font-size: 0.9em; color: rgb(231, 116, 113);">docker</a>
+
+<a href="http://www.kaizou.org/2014/11/tags.html#machine%20learning" title="machine learning" rel="3" style="font-size: 1.14444em; color: rgb(234, 99, 93);">machine learning</a>
+
+<a href="http://www.kaizou.org/2014/11/tags.html#spiking%20neural%20nets" title="spiking neural nets" rel="3" style="font-size: 1.14444em; color: rgb(234, 99, 93);">spiking neural nets</a>
+
+<a href="http://www.kaizou.org/2014/11/tags.html#snn" title="snn" rel="3" style="font-size: 1.14444em; color: rgb(234, 99, 93);">snn</a>
+
+<a href="http://www.kaizou.org/2014/11/tags.html#lif" title="lif" rel="1" style="font-size: 0.9em; color: rgb(231, 116, 113);">lif</a>
+
+<a href="http://www.kaizou.org/2014/11/tags.html#stdp" title="stdp" rel="1" style="font-size: 0.9em; color: rgb(231, 116, 113);">stdp</a>
+
+</div>
+
+<script src="Unit%20testing%20with%20GoogleTest%20and%20CMake_files/jquery-3.js" type="text/javascript"></script>
+<script src="Unit%20testing%20with%20GoogleTest%20and%20CMake_files/jquery.js" type="text/javascript" charset="utf-8"></script> 
+<script language="javascript">
+$.fn.tagcloud.defaults = {
+    size: {start: 0.9, end: 2, unit: 'em'},
+      color: {start: '#e77471', end: '#f62817'}
+};
+
+$(function () {
+    $('#tag_cloud a').tagcloud();
+});
+</script>
+
+</aside>
+
+</div>
+<footer role="contentinfo">
+    <ul>
+        <li>
+            <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/3.0/">
+<img alt="Creative Commons License" src="Unit%20testing%20with%20GoogleTest%20and%20CMake_files/88x31.png">
+</a>
+
+        </li>
+        <li>
+            <span>Generated by <a href="https://github.com/mojombo/jekyll">Jekyll</a></span>
+        </li>
+        <li>
+            <a href="https://github.com/kaizouman">
+<img alt="Kaizouman repository on github" src="Unit%20testing%20with%20GoogleTest%20and%20CMake_files/Octocat.png">
+</a>
+           
+        </li>
+        <li>
+            <a href="http://www.kaizou.org/feed/">
+<img alt="Site Feed" src="Unit%20testing%20with%20GoogleTest%20and%20CMake_files/rss.svg">
+</a>
+
+        </li>
+        <li>
+            <a href="https://twitter.com/kaizouda">
+<img alt="Follow David Corvoysier in Twitter" src="Unit%20testing%20with%20GoogleTest%20and%20CMake_files/twitter.png">
+</a>
+            
+        </li>
+    </ul>
+</footer>
+</div>
+<!-- Code Highlighting -->
+<script type="text/javascript" src="Unit%20testing%20with%20GoogleTest%20and%20CMake_files/code-highlight.js">
+</script>
+<!-- Google Analytics -->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-57955939-1', 'auto');
+  ga('require', 'displayfeatures');
+  ga('send', 'pageview');
+
+</script>
+
+
+<iframe style="display: none;"></iframe></body></html>
