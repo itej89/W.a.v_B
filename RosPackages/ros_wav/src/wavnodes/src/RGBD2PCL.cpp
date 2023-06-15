@@ -20,7 +20,7 @@
 #include <thread>
 #include <iostream>
 
-#include "rtabmap_ros/RGBDImage.h"
+#include "rtabmap_msgs/RGBDImage.h"
 
 using namespace std;
 
@@ -43,7 +43,7 @@ class RGBD2PCL{
         rgbd_Sub = nh->subscribe("/rtabmap/rgbd_image_relay", 1000, &RGBD2PCL::RGBD_callback, this);
   }
 
-  void RGBD_callback(const rtabmap_ros::RGBDImage& rgbd)
+  void RGBD_callback(const rtabmap_msgs::RGBDImage& rgbd)
   {
     std::cout << "Recived Data" <<std::endl;
     camera_info_pub.publish(rgbd.rgb_camera_info);

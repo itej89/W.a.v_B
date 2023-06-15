@@ -12,10 +12,7 @@ done
 printf "\n%s\n"  "Wav B is online"
 
 
-ssh wav@10.42.0.1 'bash /home/wav/Documents/fmSpin/WavRos/wav_ros_packages/ros_wav/src/wavnodes/scripts_bot/runbot_navigate.sh' &
-
-
-
+ssh wavb@10.42.0.1 'bash /home/tej/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/src/wavnodes/scripts_bot/runbot_navigate.sh' &
 
 
 until rostopic list | grep -m 1 "/rtabmap/rgbd_image/compressed"; do sleep 1; done
@@ -64,17 +61,14 @@ until rostopic list | grep -m 1 "/rtabmap/grid_map"; do sleep 1; done
 #   0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.06853892326654787]" --once &
 
 
-
 read -p "Press any key to continue... " -n1 -s
 
 
-
-
-botKillID=$(ssh wav@10.42.0.1   ps aux | grep -e "[r]unbot_navigate.sh" | awk -F" " '{print $2}')
+botKillID=$(ssh wavb@10.42.0.1   ps aux | grep -e "[r]unbot_navigate.sh" | awk -F" " '{print $2}')
 
 echo "BotID : ${botKillID}"
 
-ssh wav@10.42.0.1 kill -SIGTERM ${botKillID}
+ssh wavb@10.42.0.1 kill -SIGTERM ${botKillID}
 
 
 

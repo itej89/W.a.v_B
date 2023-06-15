@@ -12,7 +12,7 @@
 #include <message_filters/subscriber.h>
 #include <geometry_msgs/PointStamped.h>
 #include <ros/console.h>
-#include "rtabmap_ros/RGBDImage.h"
+#include "rtabmap_msgs/RGBDImage.h"
 
 using namespace std;
 
