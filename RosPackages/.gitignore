@@ -2,3 +2,5 @@ build
 devel
 install
 logs
+.remote_profile
+.ros_profile
