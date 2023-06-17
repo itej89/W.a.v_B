@@ -1,0 +1,197 @@
+Symlinking /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/share/gennodejs/ros/costmap_2d/_index.js
+Symlinking /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/share/gennodejs/ros/costmap_2d/msg/_index.js
+Symlinking /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/share/gennodejs/ros/costmap_2d/msg/VoxelGrid.js
+Symlinking /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/share/common-lisp/ros/costmap_2d/msg/_package_VoxelGrid.lisp
+Symlinking /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/share/common-lisp/ros/costmap_2d/msg/costmap_2d-msg.asd
+Symlinking /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/share/common-lisp/ros/costmap_2d/msg/VoxelGrid.lisp
+Symlinking /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/share/common-lisp/ros/costmap_2d/msg/_package.lisp
+Symlinking /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/share/roseus/ros/costmap_2d/manifest.l
+Symlinking /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/share/roseus/ros/costmap_2d/msg/VoxelGrid.l
+Symlinking /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/share/costmap_2d/cmake/costmap_2dConfig-version.cmake
+Symlinking /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/share/costmap_2d/cmake/costmap_2d-msg-extras.cmake
+Symlinking /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/share/costmap_2d/cmake/costmap_2dConfig.cmake
+Symlinking /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/share/costmap_2d/cmake/costmap_2d-msg-paths.cmake
+Symlinking /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/share/costmap_2d/docs/ObstaclePluginConfig-usage.dox
+Symlinking /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/share/costmap_2d/docs/Costmap2DConfig.dox
+Symlinking /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/share/costmap_2d/docs/GenericPluginConfig.dox
+Symlinking /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/share/costmap_2d/docs/InflationPluginConfig-usage.dox
+Symlinking /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/share/costmap_2d/docs/GenericPluginConfig.wikidoc
+Symlinking /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/share/costmap_2d/docs/Costmap2DConfig.wikidoc
+Symlinking /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/share/costmap_2d/docs/InflationPluginConfig.wikidoc
+Symlinking /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/share/costmap_2d/docs/VoxelPluginConfig-usage.dox
+Symlinking /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/share/costmap_2d/docs/VoxelPluginConfig.dox
+Symlinking /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/share/costmap_2d/docs/ObstaclePluginConfig.dox
+Symlinking /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/share/costmap_2d/docs/GenericPluginConfig-usage.dox
+Symlinking /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/share/costmap_2d/docs/InflationPluginConfig.dox
+Symlinking /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/share/costmap_2d/docs/VoxelPluginConfig.wikidoc
+Symlinking /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/share/costmap_2d/docs/Costmap2DConfig-usage.dox
+Symlinking /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/share/costmap_2d/docs/ObstaclePluginConfig.wikidoc
+Symlinking /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/include/costmap_2d/VoxelGrid.h
+Symlinking /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/include/costmap_2d/VoxelPluginConfig.h
+Symlinking /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/include/costmap_2d/ObstaclePluginConfig.h
+Symlinking /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/include/costmap_2d/InflationPluginConfig.h
+Symlinking /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/include/costmap_2d/GenericPluginConfig.h
+Symlinking /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/include/costmap_2d/Costmap2DConfig.h
+Symlinking /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/lib/liblayers.so
+Symlinking /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/lib/libcostmap_2d.so
+Symlinking /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/lib/pkgconfig/costmap_2d.pc
+Symlinking /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/lib/python3/dist-packages/costmap_2d/__init__.py
+Symlinking /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/lib/python3/dist-packages/costmap_2d/cfg/InflationPluginConfig.py
+Symlinking /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/lib/python3/dist-packages/costmap_2d/cfg/Costmap2DConfig.py
+Symlinking /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/lib/python3/dist-packages/costmap_2d/cfg/__init__.py
+Symlinking /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/lib/python3/dist-packages/costmap_2d/cfg/VoxelPluginConfig.py
+Symlinking /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/lib/python3/dist-packages/costmap_2d/cfg/GenericPluginConfig.py
+Symlinking /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/lib/python3/dist-packages/costmap_2d/cfg/ObstaclePluginConfig.py
+Symlinking /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/lib/python3/dist-packages/costmap_2d/msg/_VoxelGrid.py
+Symlinking /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/lib/python3/dist-packages/costmap_2d/msg/__init__.py
+Symlinking /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/lib/costmap_2d/costmap_2d_cloud
+Symlinking /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/lib/costmap_2d/costmap_2d_node
+Symlinking /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/lib/costmap_2d/costmap_2d_markers
+Cleaning: (/home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/.private/costmap_2d/cmake.lock, /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/./cmake.lock)
+Cleaning: (/home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/.private/costmap_2d/share/gennodejs/ros/costmap_2d/_index.js, /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/gennodejs/ros/costmap_2d/_index.js)
+Cleaning: (/home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/.private/costmap_2d/share/gennodejs/ros/costmap_2d/msg/_index.js, /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/gennodejs/ros/costmap_2d/msg/_index.js)
+Cleaning: (/home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/.private/costmap_2d/share/gennodejs/ros/costmap_2d/msg/VoxelGrid.js, /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/gennodejs/ros/costmap_2d/msg/VoxelGrid.js)
+Cleaning: (/home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/.private/costmap_2d/share/common-lisp/ros/costmap_2d/msg/_package_VoxelGrid.lisp, /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/common-lisp/ros/costmap_2d/msg/_package_VoxelGrid.lisp)
+Cleaning: (/home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/.private/costmap_2d/share/common-lisp/ros/costmap_2d/msg/costmap_2d-msg.asd, /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/common-lisp/ros/costmap_2d/msg/costmap_2d-msg.asd)
+Cleaning: (/home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/.private/costmap_2d/share/common-lisp/ros/costmap_2d/msg/VoxelGrid.lisp, /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/common-lisp/ros/costmap_2d/msg/VoxelGrid.lisp)
+Cleaning: (/home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/.private/costmap_2d/share/common-lisp/ros/costmap_2d/msg/_package.lisp, /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/common-lisp/ros/costmap_2d/msg/_package.lisp)
+Cleaning: (/home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/.private/costmap_2d/share/roseus/ros/costmap_2d/manifest.l, /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/roseus/ros/costmap_2d/manifest.l)
+Cleaning: (/home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/.private/costmap_2d/share/roseus/ros/costmap_2d/msg/VoxelGrid.l, /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/roseus/ros/costmap_2d/msg/VoxelGrid.l)
+Cleaning: (/home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/.private/costmap_2d/share/costmap_2d/cmake/costmap_2dConfig-version.cmake, /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/costmap_2d/cmake/costmap_2dConfig-version.cmake)
+Cleaning: (/home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/.private/costmap_2d/share/costmap_2d/cmake/costmap_2d-msg-extras.cmake, /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/costmap_2d/cmake/costmap_2d-msg-extras.cmake)
+Cleaning: (/home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/.private/costmap_2d/share/costmap_2d/cmake/costmap_2dConfig.cmake, /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/costmap_2d/cmake/costmap_2dConfig.cmake)
+Cleaning: (/home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/.private/costmap_2d/share/costmap_2d/cmake/costmap_2d-msg-paths.cmake, /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/costmap_2d/cmake/costmap_2d-msg-paths.cmake)
+Cleaning: (/home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/.private/costmap_2d/share/costmap_2d/docs/ObstaclePluginConfig-usage.dox, /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/costmap_2d/docs/ObstaclePluginConfig-usage.dox)
+Cleaning: (/home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/.private/costmap_2d/share/costmap_2d/docs/Costmap2DConfig.dox, /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/costmap_2d/docs/Costmap2DConfig.dox)
+Cleaning: (/home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/.private/costmap_2d/share/costmap_2d/docs/GenericPluginConfig.dox, /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/costmap_2d/docs/GenericPluginConfig.dox)
+Cleaning: (/home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/.private/costmap_2d/share/costmap_2d/docs/InflationPluginConfig-usage.dox, /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/costmap_2d/docs/InflationPluginConfig-usage.dox)
+Cleaning: (/home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/.private/costmap_2d/share/costmap_2d/docs/GenericPluginConfig.wikidoc, /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/costmap_2d/docs/GenericPluginConfig.wikidoc)
+Cleaning: (/home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/.private/costmap_2d/share/costmap_2d/docs/Costmap2DConfig.wikidoc, /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/costmap_2d/docs/Costmap2DConfig.wikidoc)
+Cleaning: (/home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/.private/costmap_2d/share/costmap_2d/docs/InflationPluginConfig.wikidoc, /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/costmap_2d/docs/InflationPluginConfig.wikidoc)
+Cleaning: (/home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/.private/costmap_2d/share/costmap_2d/docs/VoxelPluginConfig-usage.dox, /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/costmap_2d/docs/VoxelPluginConfig-usage.dox)
+Cleaning: (/home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/.private/costmap_2d/share/costmap_2d/docs/VoxelPluginConfig.dox, /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/costmap_2d/docs/VoxelPluginConfig.dox)
+Cleaning: (/home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/.private/costmap_2d/share/costmap_2d/docs/ObstaclePluginConfig.dox, /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/costmap_2d/docs/ObstaclePluginConfig.dox)
+Cleaning: (/home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/.private/costmap_2d/share/costmap_2d/docs/GenericPluginConfig-usage.dox, /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/costmap_2d/docs/GenericPluginConfig-usage.dox)
+Cleaning: (/home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/.private/costmap_2d/share/costmap_2d/docs/InflationPluginConfig.dox, /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/costmap_2d/docs/InflationPluginConfig.dox)
+Cleaning: (/home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/.private/costmap_2d/share/costmap_2d/docs/VoxelPluginConfig.wikidoc, /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/costmap_2d/docs/VoxelPluginConfig.wikidoc)
+Cleaning: (/home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/.private/costmap_2d/share/costmap_2d/docs/Costmap2DConfig-usage.dox, /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/costmap_2d/docs/Costmap2DConfig-usage.dox)
+Cleaning: (/home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/.private/costmap_2d/share/costmap_2d/docs/ObstaclePluginConfig.wikidoc, /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/costmap_2d/docs/ObstaclePluginConfig.wikidoc)
+Cleaning: (/home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/.private/costmap_2d/include/costmap_2d/VoxelGrid.h, /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/include/costmap_2d/VoxelGrid.h)
+Cleaning: (/home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/.private/costmap_2d/include/costmap_2d/VoxelPluginConfig.h, /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/include/costmap_2d/VoxelPluginConfig.h)
+Cleaning: (/home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/.private/costmap_2d/include/costmap_2d/ObstaclePluginConfig.h, /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/include/costmap_2d/ObstaclePluginConfig.h)
+Cleaning: (/home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/.private/costmap_2d/include/costmap_2d/InflationPluginConfig.h, /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/include/costmap_2d/InflationPluginConfig.h)
+Cleaning: (/home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/.private/costmap_2d/include/costmap_2d/GenericPluginConfig.h, /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/include/costmap_2d/GenericPluginConfig.h)
+Cleaning: (/home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/.private/costmap_2d/include/costmap_2d/Costmap2DConfig.h, /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/include/costmap_2d/Costmap2DConfig.h)
+Cleaning: (/home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/.private/costmap_2d/lib/liblayers.so, /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/lib/liblayers.so)
+Cleaning: (/home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/.private/costmap_2d/lib/libcostmap_2d.so, /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/lib/libcostmap_2d.so)
+Cleaning: (/home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/.private/costmap_2d/lib/pkgconfig/costmap_2d.pc, /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/lib/pkgconfig/costmap_2d.pc)
+Cleaning: (/home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/.private/costmap_2d/lib/python3/dist-packages/costmap_2d/__init__.py, /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/lib/python3/dist-packages/costmap_2d/__init__.py)
+Cleaning: (/home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/.private/costmap_2d/lib/python3/dist-packages/costmap_2d/cfg/InflationPluginConfig.py, /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/lib/python3/dist-packages/costmap_2d/cfg/InflationPluginConfig.py)
+Cleaning: (/home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/.private/costmap_2d/lib/python3/dist-packages/costmap_2d/cfg/Costmap2DConfig.py, /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/lib/python3/dist-packages/costmap_2d/cfg/Costmap2DConfig.py)
+Cleaning: (/home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/.private/costmap_2d/lib/python3/dist-packages/costmap_2d/cfg/__init__.py, /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/lib/python3/dist-packages/costmap_2d/cfg/__init__.py)
+Cleaning: (/home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/.private/costmap_2d/lib/python3/dist-packages/costmap_2d/cfg/VoxelPluginConfig.py, /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/lib/python3/dist-packages/costmap_2d/cfg/VoxelPluginConfig.py)
+Cleaning: (/home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/.private/costmap_2d/lib/python3/dist-packages/costmap_2d/cfg/GenericPluginConfig.py, /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/lib/python3/dist-packages/costmap_2d/cfg/GenericPluginConfig.py)
+Cleaning: (/home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/.private/costmap_2d/lib/python3/dist-packages/costmap_2d/cfg/ObstaclePluginConfig.py, /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/lib/python3/dist-packages/costmap_2d/cfg/ObstaclePluginConfig.py)
+Cleaning: (/home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/.private/costmap_2d/lib/python3/dist-packages/costmap_2d/msg/_VoxelGrid.py, /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/lib/python3/dist-packages/costmap_2d/msg/_VoxelGrid.py)
+Cleaning: (/home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/.private/costmap_2d/lib/python3/dist-packages/costmap_2d/msg/__init__.py, /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/lib/python3/dist-packages/costmap_2d/msg/__init__.py)
+Cleaning: (/home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/.private/costmap_2d/lib/costmap_2d/costmap_2d_cloud, /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/lib/costmap_2d/costmap_2d_cloud)
+Cleaning: (/home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/.private/costmap_2d/lib/costmap_2d/costmap_2d_node, /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/lib/costmap_2d/costmap_2d_node)
+Cleaning: (/home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/.private/costmap_2d/lib/costmap_2d/costmap_2d_markers, /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/lib/costmap_2d/costmap_2d_markers)
+Unlinking: /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/gennodejs/ros/costmap_2d/_index.js
+Already unlinked: {}
+Unlinking: /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/gennodejs/ros/costmap_2d/msg/_index.js
+Already unlinked: {}
+Unlinking: /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/gennodejs/ros/costmap_2d/msg/VoxelGrid.js
+Already unlinked: {}
+Unlinking: /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/common-lisp/ros/costmap_2d/msg/_package_VoxelGrid.lisp
+Already unlinked: {}
+Unlinking: /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/common-lisp/ros/costmap_2d/msg/costmap_2d-msg.asd
+Already unlinked: {}
+Unlinking: /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/common-lisp/ros/costmap_2d/msg/VoxelGrid.lisp
+Already unlinked: {}
+Unlinking: /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/common-lisp/ros/costmap_2d/msg/_package.lisp
+Already unlinked: {}
+Unlinking: /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/roseus/ros/costmap_2d/manifest.l
+Already unlinked: {}
+Unlinking: /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/roseus/ros/costmap_2d/msg/VoxelGrid.l
+Already unlinked: {}
+Unlinking: /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/costmap_2d/cmake/costmap_2dConfig-version.cmake
+Already unlinked: {}
+Unlinking: /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/costmap_2d/cmake/costmap_2d-msg-extras.cmake
+Already unlinked: {}
+Unlinking: /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/costmap_2d/cmake/costmap_2dConfig.cmake
+Already unlinked: {}
+Unlinking: /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/costmap_2d/cmake/costmap_2d-msg-paths.cmake
+Already unlinked: {}
+Unlinking: /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/costmap_2d/docs/ObstaclePluginConfig-usage.dox
+Already unlinked: {}
+Unlinking: /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/costmap_2d/docs/Costmap2DConfig.dox
+Already unlinked: {}
+Unlinking: /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/costmap_2d/docs/GenericPluginConfig.dox
+Already unlinked: {}
+Unlinking: /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/costmap_2d/docs/InflationPluginConfig-usage.dox
+Already unlinked: {}
+Unlinking: /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/costmap_2d/docs/GenericPluginConfig.wikidoc
+Already unlinked: {}
+Unlinking: /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/costmap_2d/docs/Costmap2DConfig.wikidoc
+Already unlinked: {}
+Unlinking: /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/costmap_2d/docs/InflationPluginConfig.wikidoc
+Already unlinked: {}
+Unlinking: /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/costmap_2d/docs/VoxelPluginConfig-usage.dox
+Already unlinked: {}
+Unlinking: /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/costmap_2d/docs/VoxelPluginConfig.dox
+Already unlinked: {}
+Unlinking: /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/costmap_2d/docs/ObstaclePluginConfig.dox
+Already unlinked: {}
+Unlinking: /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/costmap_2d/docs/GenericPluginConfig-usage.dox
+Already unlinked: {}
+Unlinking: /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/costmap_2d/docs/InflationPluginConfig.dox
+Already unlinked: {}
+Unlinking: /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/costmap_2d/docs/VoxelPluginConfig.wikidoc
+Already unlinked: {}
+Unlinking: /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/costmap_2d/docs/Costmap2DConfig-usage.dox
+Already unlinked: {}
+Unlinking: /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/costmap_2d/docs/ObstaclePluginConfig.wikidoc
+Already unlinked: {}
+Unlinking: /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/include/costmap_2d/VoxelGrid.h
+Already unlinked: {}
+Unlinking: /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/include/costmap_2d/VoxelPluginConfig.h
+Already unlinked: {}
+Unlinking: /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/include/costmap_2d/ObstaclePluginConfig.h
+Already unlinked: {}
+Unlinking: /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/include/costmap_2d/InflationPluginConfig.h
+Already unlinked: {}
+Unlinking: /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/include/costmap_2d/GenericPluginConfig.h
+Already unlinked: {}
+Unlinking: /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/include/costmap_2d/Costmap2DConfig.h
+Already unlinked: {}
+Unlinking: /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/lib/liblayers.so
+Already unlinked: {}
+Unlinking: /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/lib/libcostmap_2d.so
+Already unlinked: {}
+Unlinking: /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/lib/pkgconfig/costmap_2d.pc
+Already unlinked: {}
+Unlinking: /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/lib/python3/dist-packages/costmap_2d/__init__.py
+Already unlinked: {}
+Unlinking: /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/lib/python3/dist-packages/costmap_2d/cfg/InflationPluginConfig.py
+Already unlinked: {}
+Unlinking: /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/lib/python3/dist-packages/costmap_2d/cfg/Costmap2DConfig.py
+Already unlinked: {}
+Unlinking: /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/lib/python3/dist-packages/costmap_2d/cfg/__init__.py
+Already unlinked: {}
+Unlinking: /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/lib/python3/dist-packages/costmap_2d/cfg/VoxelPluginConfig.py
+Already unlinked: {}
+Unlinking: /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/lib/python3/dist-packages/costmap_2d/cfg/GenericPluginConfig.py
+Already unlinked: {}
+Unlinking: /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/lib/python3/dist-packages/costmap_2d/cfg/ObstaclePluginConfig.py
+Already unlinked: {}
+Unlinking: /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/lib/python3/dist-packages/costmap_2d/msg/_VoxelGrid.py
+Already unlinked: {}
+Unlinking: /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/lib/python3/dist-packages/costmap_2d/msg/__init__.py
+Already unlinked: {}
+Unlinking: /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/lib/costmap_2d/costmap_2d_cloud
+Already unlinked: {}
+Unlinking: /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/lib/costmap_2d/costmap_2d_node
+Already unlinked: {}
+Unlinking: /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/lib/costmap_2d/costmap_2d_markers
+Already unlinked: {}

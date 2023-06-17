@@ -1,0 +1,13 @@
+Symlinking /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/share/hector_marker_drawing/cmake/hector_marker_drawingConfig-version.cmake
+Symlinking /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/share/hector_marker_drawing/cmake/hector_marker_drawingConfig.cmake
+Symlinking /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/lib/pkgconfig/hector_marker_drawing.pc
+Cleaning: (/home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/.private/hector_marker_drawing/cmake.lock, /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/./cmake.lock)
+Cleaning: (/home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/.private/hector_marker_drawing/share/hector_marker_drawing/cmake/hector_marker_drawingConfig-version.cmake, /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/hector_marker_drawing/cmake/hector_marker_drawingConfig-version.cmake)
+Cleaning: (/home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/.private/hector_marker_drawing/share/hector_marker_drawing/cmake/hector_marker_drawingConfig.cmake, /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/hector_marker_drawing/cmake/hector_marker_drawingConfig.cmake)
+Cleaning: (/home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/.private/hector_marker_drawing/lib/pkgconfig/hector_marker_drawing.pc, /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/lib/pkgconfig/hector_marker_drawing.pc)
+Unlinking: /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/hector_marker_drawing/cmake/hector_marker_drawingConfig-version.cmake
+Already unlinked: {}
+Unlinking: /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/hector_marker_drawing/cmake/hector_marker_drawingConfig.cmake
+Already unlinked: {}
+Unlinking: /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/lib/pkgconfig/hector_marker_drawing.pc
+Already unlinked: {}

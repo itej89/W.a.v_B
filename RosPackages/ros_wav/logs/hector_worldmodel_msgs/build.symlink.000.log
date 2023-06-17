@@ -1,0 +1,425 @@
+Symlinking /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/share/hector_worldmodel_msgs/cmake/hector_worldmodel_msgsConfig-version.cmake
+Symlinking /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/share/hector_worldmodel_msgs/cmake/hector_worldmodel_msgs-msg-paths.cmake
+Symlinking /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/share/hector_worldmodel_msgs/cmake/hector_worldmodel_msgsConfig.cmake
+Symlinking /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/share/hector_worldmodel_msgs/cmake/hector_worldmodel_msgs-msg-extras.cmake
+Symlinking /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/share/gennodejs/ros/hector_worldmodel_msgs/_index.js
+Symlinking /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/share/gennodejs/ros/hector_worldmodel_msgs/msg/PerceptInfo.js
+Symlinking /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/share/gennodejs/ros/hector_worldmodel_msgs/msg/ImagePercept.js
+Symlinking /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/share/gennodejs/ros/hector_worldmodel_msgs/msg/_index.js
+Symlinking /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/share/gennodejs/ros/hector_worldmodel_msgs/msg/ObjectState.js
+Symlinking /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/share/gennodejs/ros/hector_worldmodel_msgs/msg/Object.js
+Symlinking /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/share/gennodejs/ros/hector_worldmodel_msgs/msg/ObjectInfo.js
+Symlinking /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/share/gennodejs/ros/hector_worldmodel_msgs/msg/PosePercept.js
+Symlinking /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/share/gennodejs/ros/hector_worldmodel_msgs/msg/ObjectModel.js
+Symlinking /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/share/gennodejs/ros/hector_worldmodel_msgs/srv/_index.js
+Symlinking /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/share/gennodejs/ros/hector_worldmodel_msgs/srv/VerifyPercept.js
+Symlinking /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/share/gennodejs/ros/hector_worldmodel_msgs/srv/VerifyObject.js
+Symlinking /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/share/gennodejs/ros/hector_worldmodel_msgs/srv/SetObjectName.js
+Symlinking /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/share/gennodejs/ros/hector_worldmodel_msgs/srv/GetObjectModel.js
+Symlinking /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/share/gennodejs/ros/hector_worldmodel_msgs/srv/SetObjectState.js
+Symlinking /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/share/gennodejs/ros/hector_worldmodel_msgs/srv/AddObject.js
+Symlinking /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/share/common-lisp/ros/hector_worldmodel_msgs/msg/ImagePercept.lisp
+Symlinking /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/share/common-lisp/ros/hector_worldmodel_msgs/msg/_package_ImagePercept.lisp
+Symlinking /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/share/common-lisp/ros/hector_worldmodel_msgs/msg/PosePercept.lisp
+Symlinking /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/share/common-lisp/ros/hector_worldmodel_msgs/msg/_package_Object.lisp
+Symlinking /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/share/common-lisp/ros/hector_worldmodel_msgs/msg/PerceptInfo.lisp
+Symlinking /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/share/common-lisp/ros/hector_worldmodel_msgs/msg/ObjectModel.lisp
+Symlinking /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/share/common-lisp/ros/hector_worldmodel_msgs/msg/ObjectInfo.lisp
+Symlinking /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/share/common-lisp/ros/hector_worldmodel_msgs/msg/_package_PosePercept.lisp
+Symlinking /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/share/common-lisp/ros/hector_worldmodel_msgs/msg/_package_ObjectModel.lisp
+Symlinking /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/share/common-lisp/ros/hector_worldmodel_msgs/msg/_package_ObjectInfo.lisp
+Symlinking /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/share/common-lisp/ros/hector_worldmodel_msgs/msg/hector_worldmodel_msgs-msg.asd
+Symlinking /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/share/common-lisp/ros/hector_worldmodel_msgs/msg/_package_ObjectState.lisp
+Symlinking /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/share/common-lisp/ros/hector_worldmodel_msgs/msg/_package.lisp
+Symlinking /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/share/common-lisp/ros/hector_worldmodel_msgs/msg/_package_PerceptInfo.lisp
+Symlinking /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/share/common-lisp/ros/hector_worldmodel_msgs/msg/Object.lisp
+Symlinking /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/share/common-lisp/ros/hector_worldmodel_msgs/msg/ObjectState.lisp
+Symlinking /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/share/common-lisp/ros/hector_worldmodel_msgs/srv/_package_VerifyPercept.lisp
+Symlinking /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/share/common-lisp/ros/hector_worldmodel_msgs/srv/hector_worldmodel_msgs-srv.asd
+Symlinking /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/share/common-lisp/ros/hector_worldmodel_msgs/srv/SetObjectState.lisp
+Symlinking /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/share/common-lisp/ros/hector_worldmodel_msgs/srv/SetObjectName.lisp
+Symlinking /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/share/common-lisp/ros/hector_worldmodel_msgs/srv/AddObject.lisp
+Symlinking /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/share/common-lisp/ros/hector_worldmodel_msgs/srv/_package_AddObject.lisp
+Symlinking /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/share/common-lisp/ros/hector_worldmodel_msgs/srv/_package_SetObjectState.lisp
+Symlinking /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/share/common-lisp/ros/hector_worldmodel_msgs/srv/VerifyObject.lisp
+Symlinking /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/share/common-lisp/ros/hector_worldmodel_msgs/srv/_package_SetObjectName.lisp
+Symlinking /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/share/common-lisp/ros/hector_worldmodel_msgs/srv/_package_VerifyObject.lisp
+Symlinking /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/share/common-lisp/ros/hector_worldmodel_msgs/srv/_package.lisp
+Symlinking /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/share/common-lisp/ros/hector_worldmodel_msgs/srv/VerifyPercept.lisp
+Symlinking /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/share/common-lisp/ros/hector_worldmodel_msgs/srv/_package_GetObjectModel.lisp
+Symlinking /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/share/common-lisp/ros/hector_worldmodel_msgs/srv/GetObjectModel.lisp
+Symlinking /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/share/roseus/ros/hector_worldmodel_msgs/manifest.l
+Symlinking /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/share/roseus/ros/hector_worldmodel_msgs/msg/PerceptInfo.l
+Symlinking /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/share/roseus/ros/hector_worldmodel_msgs/msg/PosePercept.l
+Symlinking /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/share/roseus/ros/hector_worldmodel_msgs/msg/ObjectModel.l
+Symlinking /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/share/roseus/ros/hector_worldmodel_msgs/msg/ObjectInfo.l
+Symlinking /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/share/roseus/ros/hector_worldmodel_msgs/msg/ObjectState.l
+Symlinking /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/share/roseus/ros/hector_worldmodel_msgs/msg/Object.l
+Symlinking /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/share/roseus/ros/hector_worldmodel_msgs/msg/ImagePercept.l
+Symlinking /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/share/roseus/ros/hector_worldmodel_msgs/srv/GetObjectModel.l
+Symlinking /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/share/roseus/ros/hector_worldmodel_msgs/srv/AddObject.l
+Symlinking /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/share/roseus/ros/hector_worldmodel_msgs/srv/VerifyPercept.l
+Symlinking /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/share/roseus/ros/hector_worldmodel_msgs/srv/SetObjectState.l
+Symlinking /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/share/roseus/ros/hector_worldmodel_msgs/srv/SetObjectName.l
+Symlinking /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/share/roseus/ros/hector_worldmodel_msgs/srv/VerifyObject.l
+Symlinking /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/include/hector_worldmodel_msgs/SetObjectNameRequest.h
+Symlinking /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/include/hector_worldmodel_msgs/VerifyPerceptResponse.h
+Symlinking /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/include/hector_worldmodel_msgs/ObjectModel.h
+Symlinking /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/include/hector_worldmodel_msgs/GetObjectModelResponse.h
+Symlinking /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/include/hector_worldmodel_msgs/GetObjectModel.h
+Symlinking /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/include/hector_worldmodel_msgs/SetObjectName.h
+Symlinking /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/include/hector_worldmodel_msgs/ImagePercept.h
+Symlinking /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/include/hector_worldmodel_msgs/ObjectState.h
+Symlinking /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/include/hector_worldmodel_msgs/SetObjectStateRequest.h
+Symlinking /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/include/hector_worldmodel_msgs/AddObjectResponse.h
+Symlinking /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/include/hector_worldmodel_msgs/VerifyPerceptRequest.h
+Symlinking /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/include/hector_worldmodel_msgs/ObjectInfo.h
+Symlinking /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/include/hector_worldmodel_msgs/AddObject.h
+Symlinking /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/include/hector_worldmodel_msgs/SetObjectStateResponse.h
+Symlinking /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/include/hector_worldmodel_msgs/VerifyObject.h
+Symlinking /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/include/hector_worldmodel_msgs/PosePercept.h
+Symlinking /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/include/hector_worldmodel_msgs/GetObjectModelRequest.h
+Symlinking /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/include/hector_worldmodel_msgs/VerifyObjectRequest.h
+Symlinking /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/include/hector_worldmodel_msgs/SetObjectNameResponse.h
+Symlinking /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/include/hector_worldmodel_msgs/PerceptInfo.h
+Symlinking /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/include/hector_worldmodel_msgs/Object.h
+Symlinking /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/include/hector_worldmodel_msgs/VerifyObjectResponse.h
+Symlinking /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/include/hector_worldmodel_msgs/AddObjectRequest.h
+Symlinking /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/include/hector_worldmodel_msgs/VerifyPercept.h
+Symlinking /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/include/hector_worldmodel_msgs/SetObjectState.h
+Symlinking /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/lib/pkgconfig/hector_worldmodel_msgs.pc
+Symlinking /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/lib/python3/dist-packages/hector_worldmodel_msgs/__init__.py
+Symlinking /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/lib/python3/dist-packages/hector_worldmodel_msgs/msg/_ObjectModel.py
+Symlinking /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/lib/python3/dist-packages/hector_worldmodel_msgs/msg/__init__.py
+Symlinking /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/lib/python3/dist-packages/hector_worldmodel_msgs/msg/_PosePercept.py
+Symlinking /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/lib/python3/dist-packages/hector_worldmodel_msgs/msg/_ObjectInfo.py
+Symlinking /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/lib/python3/dist-packages/hector_worldmodel_msgs/msg/_PerceptInfo.py
+Symlinking /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/lib/python3/dist-packages/hector_worldmodel_msgs/msg/_ImagePercept.py
+Symlinking /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/lib/python3/dist-packages/hector_worldmodel_msgs/msg/_Object.py
+Symlinking /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/lib/python3/dist-packages/hector_worldmodel_msgs/msg/_ObjectState.py
+Symlinking /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/lib/python3/dist-packages/hector_worldmodel_msgs/srv/_VerifyPercept.py
+Symlinking /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/lib/python3/dist-packages/hector_worldmodel_msgs/srv/_SetObjectName.py
+Symlinking /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/lib/python3/dist-packages/hector_worldmodel_msgs/srv/_GetObjectModel.py
+Symlinking /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/lib/python3/dist-packages/hector_worldmodel_msgs/srv/__init__.py
+Symlinking /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/lib/python3/dist-packages/hector_worldmodel_msgs/srv/_AddObject.py
+Symlinking /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/lib/python3/dist-packages/hector_worldmodel_msgs/srv/_VerifyObject.py
+Symlinking /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/lib/python3/dist-packages/hector_worldmodel_msgs/srv/_SetObjectState.py
+Cleaning: (/home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/.private/hector_worldmodel_msgs/cmake.lock, /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/./cmake.lock)
+Cleaning: (/home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/.private/hector_worldmodel_msgs/share/hector_worldmodel_msgs/cmake/hector_worldmodel_msgsConfig-version.cmake, /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/hector_worldmodel_msgs/cmake/hector_worldmodel_msgsConfig-version.cmake)
+Cleaning: (/home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/.private/hector_worldmodel_msgs/share/hector_worldmodel_msgs/cmake/hector_worldmodel_msgs-msg-paths.cmake, /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/hector_worldmodel_msgs/cmake/hector_worldmodel_msgs-msg-paths.cmake)
+Cleaning: (/home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/.private/hector_worldmodel_msgs/share/hector_worldmodel_msgs/cmake/hector_worldmodel_msgsConfig.cmake, /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/hector_worldmodel_msgs/cmake/hector_worldmodel_msgsConfig.cmake)
+Cleaning: (/home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/.private/hector_worldmodel_msgs/share/hector_worldmodel_msgs/cmake/hector_worldmodel_msgs-msg-extras.cmake, /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/hector_worldmodel_msgs/cmake/hector_worldmodel_msgs-msg-extras.cmake)
+Cleaning: (/home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/.private/hector_worldmodel_msgs/share/gennodejs/ros/hector_worldmodel_msgs/_index.js, /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/gennodejs/ros/hector_worldmodel_msgs/_index.js)
+Cleaning: (/home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/.private/hector_worldmodel_msgs/share/gennodejs/ros/hector_worldmodel_msgs/msg/PerceptInfo.js, /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/gennodejs/ros/hector_worldmodel_msgs/msg/PerceptInfo.js)
+Cleaning: (/home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/.private/hector_worldmodel_msgs/share/gennodejs/ros/hector_worldmodel_msgs/msg/ImagePercept.js, /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/gennodejs/ros/hector_worldmodel_msgs/msg/ImagePercept.js)
+Cleaning: (/home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/.private/hector_worldmodel_msgs/share/gennodejs/ros/hector_worldmodel_msgs/msg/_index.js, /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/gennodejs/ros/hector_worldmodel_msgs/msg/_index.js)
+Cleaning: (/home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/.private/hector_worldmodel_msgs/share/gennodejs/ros/hector_worldmodel_msgs/msg/ObjectState.js, /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/gennodejs/ros/hector_worldmodel_msgs/msg/ObjectState.js)
+Cleaning: (/home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/.private/hector_worldmodel_msgs/share/gennodejs/ros/hector_worldmodel_msgs/msg/Object.js, /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/gennodejs/ros/hector_worldmodel_msgs/msg/Object.js)
+Cleaning: (/home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/.private/hector_worldmodel_msgs/share/gennodejs/ros/hector_worldmodel_msgs/msg/ObjectInfo.js, /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/gennodejs/ros/hector_worldmodel_msgs/msg/ObjectInfo.js)
+Cleaning: (/home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/.private/hector_worldmodel_msgs/share/gennodejs/ros/hector_worldmodel_msgs/msg/PosePercept.js, /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/gennodejs/ros/hector_worldmodel_msgs/msg/PosePercept.js)
+Cleaning: (/home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/.private/hector_worldmodel_msgs/share/gennodejs/ros/hector_worldmodel_msgs/msg/ObjectModel.js, /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/gennodejs/ros/hector_worldmodel_msgs/msg/ObjectModel.js)
+Cleaning: (/home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/.private/hector_worldmodel_msgs/share/gennodejs/ros/hector_worldmodel_msgs/srv/_index.js, /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/gennodejs/ros/hector_worldmodel_msgs/srv/_index.js)
+Cleaning: (/home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/.private/hector_worldmodel_msgs/share/gennodejs/ros/hector_worldmodel_msgs/srv/VerifyPercept.js, /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/gennodejs/ros/hector_worldmodel_msgs/srv/VerifyPercept.js)
+Cleaning: (/home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/.private/hector_worldmodel_msgs/share/gennodejs/ros/hector_worldmodel_msgs/srv/VerifyObject.js, /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/gennodejs/ros/hector_worldmodel_msgs/srv/VerifyObject.js)
+Cleaning: (/home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/.private/hector_worldmodel_msgs/share/gennodejs/ros/hector_worldmodel_msgs/srv/SetObjectName.js, /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/gennodejs/ros/hector_worldmodel_msgs/srv/SetObjectName.js)
+Cleaning: (/home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/.private/hector_worldmodel_msgs/share/gennodejs/ros/hector_worldmodel_msgs/srv/GetObjectModel.js, /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/gennodejs/ros/hector_worldmodel_msgs/srv/GetObjectModel.js)
+Cleaning: (/home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/.private/hector_worldmodel_msgs/share/gennodejs/ros/hector_worldmodel_msgs/srv/SetObjectState.js, /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/gennodejs/ros/hector_worldmodel_msgs/srv/SetObjectState.js)
+Cleaning: (/home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/.private/hector_worldmodel_msgs/share/gennodejs/ros/hector_worldmodel_msgs/srv/AddObject.js, /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/gennodejs/ros/hector_worldmodel_msgs/srv/AddObject.js)
+Cleaning: (/home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/.private/hector_worldmodel_msgs/share/common-lisp/ros/hector_worldmodel_msgs/msg/ImagePercept.lisp, /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/common-lisp/ros/hector_worldmodel_msgs/msg/ImagePercept.lisp)
+Cleaning: (/home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/.private/hector_worldmodel_msgs/share/common-lisp/ros/hector_worldmodel_msgs/msg/_package_ImagePercept.lisp, /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/common-lisp/ros/hector_worldmodel_msgs/msg/_package_ImagePercept.lisp)
+Cleaning: (/home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/.private/hector_worldmodel_msgs/share/common-lisp/ros/hector_worldmodel_msgs/msg/PosePercept.lisp, /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/common-lisp/ros/hector_worldmodel_msgs/msg/PosePercept.lisp)
+Cleaning: (/home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/.private/hector_worldmodel_msgs/share/common-lisp/ros/hector_worldmodel_msgs/msg/_package_Object.lisp, /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/common-lisp/ros/hector_worldmodel_msgs/msg/_package_Object.lisp)
+Cleaning: (/home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/.private/hector_worldmodel_msgs/share/common-lisp/ros/hector_worldmodel_msgs/msg/PerceptInfo.lisp, /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/common-lisp/ros/hector_worldmodel_msgs/msg/PerceptInfo.lisp)
+Cleaning: (/home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/.private/hector_worldmodel_msgs/share/common-lisp/ros/hector_worldmodel_msgs/msg/ObjectModel.lisp, /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/common-lisp/ros/hector_worldmodel_msgs/msg/ObjectModel.lisp)
+Cleaning: (/home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/.private/hector_worldmodel_msgs/share/common-lisp/ros/hector_worldmodel_msgs/msg/ObjectInfo.lisp, /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/common-lisp/ros/hector_worldmodel_msgs/msg/ObjectInfo.lisp)
+Cleaning: (/home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/.private/hector_worldmodel_msgs/share/common-lisp/ros/hector_worldmodel_msgs/msg/_package_PosePercept.lisp, /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/common-lisp/ros/hector_worldmodel_msgs/msg/_package_PosePercept.lisp)
+Cleaning: (/home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/.private/hector_worldmodel_msgs/share/common-lisp/ros/hector_worldmodel_msgs/msg/_package_ObjectModel.lisp, /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/common-lisp/ros/hector_worldmodel_msgs/msg/_package_ObjectModel.lisp)
+Cleaning: (/home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/.private/hector_worldmodel_msgs/share/common-lisp/ros/hector_worldmodel_msgs/msg/_package_ObjectInfo.lisp, /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/common-lisp/ros/hector_worldmodel_msgs/msg/_package_ObjectInfo.lisp)
+Cleaning: (/home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/.private/hector_worldmodel_msgs/share/common-lisp/ros/hector_worldmodel_msgs/msg/hector_worldmodel_msgs-msg.asd, /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/common-lisp/ros/hector_worldmodel_msgs/msg/hector_worldmodel_msgs-msg.asd)
+Cleaning: (/home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/.private/hector_worldmodel_msgs/share/common-lisp/ros/hector_worldmodel_msgs/msg/_package_ObjectState.lisp, /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/common-lisp/ros/hector_worldmodel_msgs/msg/_package_ObjectState.lisp)
+Cleaning: (/home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/.private/hector_worldmodel_msgs/share/common-lisp/ros/hector_worldmodel_msgs/msg/_package.lisp, /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/common-lisp/ros/hector_worldmodel_msgs/msg/_package.lisp)
+Cleaning: (/home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/.private/hector_worldmodel_msgs/share/common-lisp/ros/hector_worldmodel_msgs/msg/_package_PerceptInfo.lisp, /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/common-lisp/ros/hector_worldmodel_msgs/msg/_package_PerceptInfo.lisp)
+Cleaning: (/home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/.private/hector_worldmodel_msgs/share/common-lisp/ros/hector_worldmodel_msgs/msg/Object.lisp, /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/common-lisp/ros/hector_worldmodel_msgs/msg/Object.lisp)
+Cleaning: (/home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/.private/hector_worldmodel_msgs/share/common-lisp/ros/hector_worldmodel_msgs/msg/ObjectState.lisp, /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/common-lisp/ros/hector_worldmodel_msgs/msg/ObjectState.lisp)
+Cleaning: (/home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/.private/hector_worldmodel_msgs/share/common-lisp/ros/hector_worldmodel_msgs/srv/_package_VerifyPercept.lisp, /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/common-lisp/ros/hector_worldmodel_msgs/srv/_package_VerifyPercept.lisp)
+Cleaning: (/home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/.private/hector_worldmodel_msgs/share/common-lisp/ros/hector_worldmodel_msgs/srv/hector_worldmodel_msgs-srv.asd, /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/common-lisp/ros/hector_worldmodel_msgs/srv/hector_worldmodel_msgs-srv.asd)
+Cleaning: (/home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/.private/hector_worldmodel_msgs/share/common-lisp/ros/hector_worldmodel_msgs/srv/SetObjectState.lisp, /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/common-lisp/ros/hector_worldmodel_msgs/srv/SetObjectState.lisp)
+Cleaning: (/home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/.private/hector_worldmodel_msgs/share/common-lisp/ros/hector_worldmodel_msgs/srv/SetObjectName.lisp, /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/common-lisp/ros/hector_worldmodel_msgs/srv/SetObjectName.lisp)
+Cleaning: (/home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/.private/hector_worldmodel_msgs/share/common-lisp/ros/hector_worldmodel_msgs/srv/AddObject.lisp, /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/common-lisp/ros/hector_worldmodel_msgs/srv/AddObject.lisp)
+Cleaning: (/home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/.private/hector_worldmodel_msgs/share/common-lisp/ros/hector_worldmodel_msgs/srv/_package_AddObject.lisp, /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/common-lisp/ros/hector_worldmodel_msgs/srv/_package_AddObject.lisp)
+Cleaning: (/home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/.private/hector_worldmodel_msgs/share/common-lisp/ros/hector_worldmodel_msgs/srv/_package_SetObjectState.lisp, /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/common-lisp/ros/hector_worldmodel_msgs/srv/_package_SetObjectState.lisp)
+Cleaning: (/home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/.private/hector_worldmodel_msgs/share/common-lisp/ros/hector_worldmodel_msgs/srv/VerifyObject.lisp, /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/common-lisp/ros/hector_worldmodel_msgs/srv/VerifyObject.lisp)
+Cleaning: (/home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/.private/hector_worldmodel_msgs/share/common-lisp/ros/hector_worldmodel_msgs/srv/_package_SetObjectName.lisp, /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/common-lisp/ros/hector_worldmodel_msgs/srv/_package_SetObjectName.lisp)
+Cleaning: (/home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/.private/hector_worldmodel_msgs/share/common-lisp/ros/hector_worldmodel_msgs/srv/_package_VerifyObject.lisp, /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/common-lisp/ros/hector_worldmodel_msgs/srv/_package_VerifyObject.lisp)
+Cleaning: (/home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/.private/hector_worldmodel_msgs/share/common-lisp/ros/hector_worldmodel_msgs/srv/_package.lisp, /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/common-lisp/ros/hector_worldmodel_msgs/srv/_package.lisp)
+Cleaning: (/home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/.private/hector_worldmodel_msgs/share/common-lisp/ros/hector_worldmodel_msgs/srv/VerifyPercept.lisp, /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/common-lisp/ros/hector_worldmodel_msgs/srv/VerifyPercept.lisp)
+Cleaning: (/home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/.private/hector_worldmodel_msgs/share/common-lisp/ros/hector_worldmodel_msgs/srv/_package_GetObjectModel.lisp, /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/common-lisp/ros/hector_worldmodel_msgs/srv/_package_GetObjectModel.lisp)
+Cleaning: (/home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/.private/hector_worldmodel_msgs/share/common-lisp/ros/hector_worldmodel_msgs/srv/GetObjectModel.lisp, /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/common-lisp/ros/hector_worldmodel_msgs/srv/GetObjectModel.lisp)
+Cleaning: (/home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/.private/hector_worldmodel_msgs/share/roseus/ros/hector_worldmodel_msgs/manifest.l, /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/roseus/ros/hector_worldmodel_msgs/manifest.l)
+Cleaning: (/home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/.private/hector_worldmodel_msgs/share/roseus/ros/hector_worldmodel_msgs/msg/PerceptInfo.l, /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/roseus/ros/hector_worldmodel_msgs/msg/PerceptInfo.l)
+Cleaning: (/home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/.private/hector_worldmodel_msgs/share/roseus/ros/hector_worldmodel_msgs/msg/PosePercept.l, /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/roseus/ros/hector_worldmodel_msgs/msg/PosePercept.l)
+Cleaning: (/home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/.private/hector_worldmodel_msgs/share/roseus/ros/hector_worldmodel_msgs/msg/ObjectModel.l, /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/roseus/ros/hector_worldmodel_msgs/msg/ObjectModel.l)
+Cleaning: (/home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/.private/hector_worldmodel_msgs/share/roseus/ros/hector_worldmodel_msgs/msg/ObjectInfo.l, /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/roseus/ros/hector_worldmodel_msgs/msg/ObjectInfo.l)
+Cleaning: (/home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/.private/hector_worldmodel_msgs/share/roseus/ros/hector_worldmodel_msgs/msg/ObjectState.l, /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/roseus/ros/hector_worldmodel_msgs/msg/ObjectState.l)
+Cleaning: (/home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/.private/hector_worldmodel_msgs/share/roseus/ros/hector_worldmodel_msgs/msg/Object.l, /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/roseus/ros/hector_worldmodel_msgs/msg/Object.l)
+Cleaning: (/home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/.private/hector_worldmodel_msgs/share/roseus/ros/hector_worldmodel_msgs/msg/ImagePercept.l, /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/roseus/ros/hector_worldmodel_msgs/msg/ImagePercept.l)
+Cleaning: (/home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/.private/hector_worldmodel_msgs/share/roseus/ros/hector_worldmodel_msgs/srv/GetObjectModel.l, /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/roseus/ros/hector_worldmodel_msgs/srv/GetObjectModel.l)
+Cleaning: (/home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/.private/hector_worldmodel_msgs/share/roseus/ros/hector_worldmodel_msgs/srv/AddObject.l, /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/roseus/ros/hector_worldmodel_msgs/srv/AddObject.l)
+Cleaning: (/home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/.private/hector_worldmodel_msgs/share/roseus/ros/hector_worldmodel_msgs/srv/VerifyPercept.l, /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/roseus/ros/hector_worldmodel_msgs/srv/VerifyPercept.l)
+Cleaning: (/home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/.private/hector_worldmodel_msgs/share/roseus/ros/hector_worldmodel_msgs/srv/SetObjectState.l, /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/roseus/ros/hector_worldmodel_msgs/srv/SetObjectState.l)
+Cleaning: (/home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/.private/hector_worldmodel_msgs/share/roseus/ros/hector_worldmodel_msgs/srv/SetObjectName.l, /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/roseus/ros/hector_worldmodel_msgs/srv/SetObjectName.l)
+Cleaning: (/home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/.private/hector_worldmodel_msgs/share/roseus/ros/hector_worldmodel_msgs/srv/VerifyObject.l, /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/roseus/ros/hector_worldmodel_msgs/srv/VerifyObject.l)
+Cleaning: (/home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/.private/hector_worldmodel_msgs/include/hector_worldmodel_msgs/SetObjectNameRequest.h, /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/include/hector_worldmodel_msgs/SetObjectNameRequest.h)
+Cleaning: (/home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/.private/hector_worldmodel_msgs/include/hector_worldmodel_msgs/VerifyPerceptResponse.h, /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/include/hector_worldmodel_msgs/VerifyPerceptResponse.h)
+Cleaning: (/home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/.private/hector_worldmodel_msgs/include/hector_worldmodel_msgs/ObjectModel.h, /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/include/hector_worldmodel_msgs/ObjectModel.h)
+Cleaning: (/home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/.private/hector_worldmodel_msgs/include/hector_worldmodel_msgs/GetObjectModelResponse.h, /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/include/hector_worldmodel_msgs/GetObjectModelResponse.h)
+Cleaning: (/home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/.private/hector_worldmodel_msgs/include/hector_worldmodel_msgs/GetObjectModel.h, /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/include/hector_worldmodel_msgs/GetObjectModel.h)
+Cleaning: (/home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/.private/hector_worldmodel_msgs/include/hector_worldmodel_msgs/SetObjectName.h, /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/include/hector_worldmodel_msgs/SetObjectName.h)
+Cleaning: (/home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/.private/hector_worldmodel_msgs/include/hector_worldmodel_msgs/ImagePercept.h, /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/include/hector_worldmodel_msgs/ImagePercept.h)
+Cleaning: (/home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/.private/hector_worldmodel_msgs/include/hector_worldmodel_msgs/ObjectState.h, /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/include/hector_worldmodel_msgs/ObjectState.h)
+Cleaning: (/home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/.private/hector_worldmodel_msgs/include/hector_worldmodel_msgs/SetObjectStateRequest.h, /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/include/hector_worldmodel_msgs/SetObjectStateRequest.h)
+Cleaning: (/home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/.private/hector_worldmodel_msgs/include/hector_worldmodel_msgs/AddObjectResponse.h, /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/include/hector_worldmodel_msgs/AddObjectResponse.h)
+Cleaning: (/home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/.private/hector_worldmodel_msgs/include/hector_worldmodel_msgs/VerifyPerceptRequest.h, /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/include/hector_worldmodel_msgs/VerifyPerceptRequest.h)
+Cleaning: (/home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/.private/hector_worldmodel_msgs/include/hector_worldmodel_msgs/ObjectInfo.h, /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/include/hector_worldmodel_msgs/ObjectInfo.h)
+Cleaning: (/home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/.private/hector_worldmodel_msgs/include/hector_worldmodel_msgs/AddObject.h, /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/include/hector_worldmodel_msgs/AddObject.h)
+Cleaning: (/home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/.private/hector_worldmodel_msgs/include/hector_worldmodel_msgs/SetObjectStateResponse.h, /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/include/hector_worldmodel_msgs/SetObjectStateResponse.h)
+Cleaning: (/home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/.private/hector_worldmodel_msgs/include/hector_worldmodel_msgs/VerifyObject.h, /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/include/hector_worldmodel_msgs/VerifyObject.h)
+Cleaning: (/home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/.private/hector_worldmodel_msgs/include/hector_worldmodel_msgs/PosePercept.h, /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/include/hector_worldmodel_msgs/PosePercept.h)
+Cleaning: (/home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/.private/hector_worldmodel_msgs/include/hector_worldmodel_msgs/GetObjectModelRequest.h, /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/include/hector_worldmodel_msgs/GetObjectModelRequest.h)
+Cleaning: (/home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/.private/hector_worldmodel_msgs/include/hector_worldmodel_msgs/VerifyObjectRequest.h, /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/include/hector_worldmodel_msgs/VerifyObjectRequest.h)
+Cleaning: (/home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/.private/hector_worldmodel_msgs/include/hector_worldmodel_msgs/SetObjectNameResponse.h, /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/include/hector_worldmodel_msgs/SetObjectNameResponse.h)
+Cleaning: (/home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/.private/hector_worldmodel_msgs/include/hector_worldmodel_msgs/PerceptInfo.h, /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/include/hector_worldmodel_msgs/PerceptInfo.h)
+Cleaning: (/home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/.private/hector_worldmodel_msgs/include/hector_worldmodel_msgs/Object.h, /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/include/hector_worldmodel_msgs/Object.h)
+Cleaning: (/home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/.private/hector_worldmodel_msgs/include/hector_worldmodel_msgs/VerifyObjectResponse.h, /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/include/hector_worldmodel_msgs/VerifyObjectResponse.h)
+Cleaning: (/home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/.private/hector_worldmodel_msgs/include/hector_worldmodel_msgs/AddObjectRequest.h, /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/include/hector_worldmodel_msgs/AddObjectRequest.h)
+Cleaning: (/home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/.private/hector_worldmodel_msgs/include/hector_worldmodel_msgs/VerifyPercept.h, /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/include/hector_worldmodel_msgs/VerifyPercept.h)
+Cleaning: (/home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/.private/hector_worldmodel_msgs/include/hector_worldmodel_msgs/SetObjectState.h, /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/include/hector_worldmodel_msgs/SetObjectState.h)
+Cleaning: (/home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/.private/hector_worldmodel_msgs/lib/pkgconfig/hector_worldmodel_msgs.pc, /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/lib/pkgconfig/hector_worldmodel_msgs.pc)
+Cleaning: (/home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/.private/hector_worldmodel_msgs/lib/python3/dist-packages/hector_worldmodel_msgs/__init__.py, /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/lib/python3/dist-packages/hector_worldmodel_msgs/__init__.py)
+Cleaning: (/home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/.private/hector_worldmodel_msgs/lib/python3/dist-packages/hector_worldmodel_msgs/msg/_ObjectModel.py, /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/lib/python3/dist-packages/hector_worldmodel_msgs/msg/_ObjectModel.py)
+Cleaning: (/home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/.private/hector_worldmodel_msgs/lib/python3/dist-packages/hector_worldmodel_msgs/msg/__init__.py, /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/lib/python3/dist-packages/hector_worldmodel_msgs/msg/__init__.py)
+Cleaning: (/home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/.private/hector_worldmodel_msgs/lib/python3/dist-packages/hector_worldmodel_msgs/msg/_PosePercept.py, /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/lib/python3/dist-packages/hector_worldmodel_msgs/msg/_PosePercept.py)
+Cleaning: (/home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/.private/hector_worldmodel_msgs/lib/python3/dist-packages/hector_worldmodel_msgs/msg/_ObjectInfo.py, /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/lib/python3/dist-packages/hector_worldmodel_msgs/msg/_ObjectInfo.py)
+Cleaning: (/home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/.private/hector_worldmodel_msgs/lib/python3/dist-packages/hector_worldmodel_msgs/msg/_PerceptInfo.py, /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/lib/python3/dist-packages/hector_worldmodel_msgs/msg/_PerceptInfo.py)
+Cleaning: (/home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/.private/hector_worldmodel_msgs/lib/python3/dist-packages/hector_worldmodel_msgs/msg/_ImagePercept.py, /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/lib/python3/dist-packages/hector_worldmodel_msgs/msg/_ImagePercept.py)
+Cleaning: (/home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/.private/hector_worldmodel_msgs/lib/python3/dist-packages/hector_worldmodel_msgs/msg/_Object.py, /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/lib/python3/dist-packages/hector_worldmodel_msgs/msg/_Object.py)
+Cleaning: (/home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/.private/hector_worldmodel_msgs/lib/python3/dist-packages/hector_worldmodel_msgs/msg/_ObjectState.py, /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/lib/python3/dist-packages/hector_worldmodel_msgs/msg/_ObjectState.py)
+Cleaning: (/home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/.private/hector_worldmodel_msgs/lib/python3/dist-packages/hector_worldmodel_msgs/srv/_VerifyPercept.py, /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/lib/python3/dist-packages/hector_worldmodel_msgs/srv/_VerifyPercept.py)
+Cleaning: (/home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/.private/hector_worldmodel_msgs/lib/python3/dist-packages/hector_worldmodel_msgs/srv/_SetObjectName.py, /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/lib/python3/dist-packages/hector_worldmodel_msgs/srv/_SetObjectName.py)
+Cleaning: (/home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/.private/hector_worldmodel_msgs/lib/python3/dist-packages/hector_worldmodel_msgs/srv/_GetObjectModel.py, /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/lib/python3/dist-packages/hector_worldmodel_msgs/srv/_GetObjectModel.py)
+Cleaning: (/home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/.private/hector_worldmodel_msgs/lib/python3/dist-packages/hector_worldmodel_msgs/srv/__init__.py, /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/lib/python3/dist-packages/hector_worldmodel_msgs/srv/__init__.py)
+Cleaning: (/home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/.private/hector_worldmodel_msgs/lib/python3/dist-packages/hector_worldmodel_msgs/srv/_AddObject.py, /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/lib/python3/dist-packages/hector_worldmodel_msgs/srv/_AddObject.py)
+Cleaning: (/home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/.private/hector_worldmodel_msgs/lib/python3/dist-packages/hector_worldmodel_msgs/srv/_VerifyObject.py, /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/lib/python3/dist-packages/hector_worldmodel_msgs/srv/_VerifyObject.py)
+Cleaning: (/home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/.private/hector_worldmodel_msgs/lib/python3/dist-packages/hector_worldmodel_msgs/srv/_SetObjectState.py, /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/lib/python3/dist-packages/hector_worldmodel_msgs/srv/_SetObjectState.py)
+Unlinking: /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/hector_worldmodel_msgs/cmake/hector_worldmodel_msgsConfig-version.cmake
+Already unlinked: {}
+Unlinking: /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/hector_worldmodel_msgs/cmake/hector_worldmodel_msgs-msg-paths.cmake
+Already unlinked: {}
+Unlinking: /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/hector_worldmodel_msgs/cmake/hector_worldmodel_msgsConfig.cmake
+Already unlinked: {}
+Unlinking: /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/hector_worldmodel_msgs/cmake/hector_worldmodel_msgs-msg-extras.cmake
+Already unlinked: {}
+Unlinking: /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/gennodejs/ros/hector_worldmodel_msgs/_index.js
+Already unlinked: {}
+Unlinking: /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/gennodejs/ros/hector_worldmodel_msgs/msg/PerceptInfo.js
+Already unlinked: {}
+Unlinking: /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/gennodejs/ros/hector_worldmodel_msgs/msg/ImagePercept.js
+Already unlinked: {}
+Unlinking: /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/gennodejs/ros/hector_worldmodel_msgs/msg/_index.js
+Already unlinked: {}
+Unlinking: /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/gennodejs/ros/hector_worldmodel_msgs/msg/ObjectState.js
+Already unlinked: {}
+Unlinking: /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/gennodejs/ros/hector_worldmodel_msgs/msg/Object.js
+Already unlinked: {}
+Unlinking: /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/gennodejs/ros/hector_worldmodel_msgs/msg/ObjectInfo.js
+Already unlinked: {}
+Unlinking: /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/gennodejs/ros/hector_worldmodel_msgs/msg/PosePercept.js
+Already unlinked: {}
+Unlinking: /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/gennodejs/ros/hector_worldmodel_msgs/msg/ObjectModel.js
+Already unlinked: {}
+Unlinking: /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/gennodejs/ros/hector_worldmodel_msgs/srv/_index.js
+Already unlinked: {}
+Unlinking: /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/gennodejs/ros/hector_worldmodel_msgs/srv/VerifyPercept.js
+Already unlinked: {}
+Unlinking: /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/gennodejs/ros/hector_worldmodel_msgs/srv/VerifyObject.js
+Already unlinked: {}
+Unlinking: /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/gennodejs/ros/hector_worldmodel_msgs/srv/SetObjectName.js
+Already unlinked: {}
+Unlinking: /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/gennodejs/ros/hector_worldmodel_msgs/srv/GetObjectModel.js
+Already unlinked: {}
+Unlinking: /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/gennodejs/ros/hector_worldmodel_msgs/srv/SetObjectState.js
+Already unlinked: {}
+Unlinking: /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/gennodejs/ros/hector_worldmodel_msgs/srv/AddObject.js
+Already unlinked: {}
+Unlinking: /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/common-lisp/ros/hector_worldmodel_msgs/msg/ImagePercept.lisp
+Already unlinked: {}
+Unlinking: /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/common-lisp/ros/hector_worldmodel_msgs/msg/_package_ImagePercept.lisp
+Already unlinked: {}
+Unlinking: /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/common-lisp/ros/hector_worldmodel_msgs/msg/PosePercept.lisp
+Already unlinked: {}
+Unlinking: /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/common-lisp/ros/hector_worldmodel_msgs/msg/_package_Object.lisp
+Already unlinked: {}
+Unlinking: /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/common-lisp/ros/hector_worldmodel_msgs/msg/PerceptInfo.lisp
+Already unlinked: {}
+Unlinking: /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/common-lisp/ros/hector_worldmodel_msgs/msg/ObjectModel.lisp
+Already unlinked: {}
+Unlinking: /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/common-lisp/ros/hector_worldmodel_msgs/msg/ObjectInfo.lisp
+Already unlinked: {}
+Unlinking: /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/common-lisp/ros/hector_worldmodel_msgs/msg/_package_PosePercept.lisp
+Already unlinked: {}
+Unlinking: /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/common-lisp/ros/hector_worldmodel_msgs/msg/_package_ObjectModel.lisp
+Already unlinked: {}
+Unlinking: /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/common-lisp/ros/hector_worldmodel_msgs/msg/_package_ObjectInfo.lisp
+Already unlinked: {}
+Unlinking: /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/common-lisp/ros/hector_worldmodel_msgs/msg/hector_worldmodel_msgs-msg.asd
+Already unlinked: {}
+Unlinking: /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/common-lisp/ros/hector_worldmodel_msgs/msg/_package_ObjectState.lisp
+Already unlinked: {}
+Unlinking: /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/common-lisp/ros/hector_worldmodel_msgs/msg/_package.lisp
+Already unlinked: {}
+Unlinking: /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/common-lisp/ros/hector_worldmodel_msgs/msg/_package_PerceptInfo.lisp
+Already unlinked: {}
+Unlinking: /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/common-lisp/ros/hector_worldmodel_msgs/msg/Object.lisp
+Already unlinked: {}
+Unlinking: /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/common-lisp/ros/hector_worldmodel_msgs/msg/ObjectState.lisp
+Already unlinked: {}
+Unlinking: /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/common-lisp/ros/hector_worldmodel_msgs/srv/_package_VerifyPercept.lisp
+Already unlinked: {}
+Unlinking: /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/common-lisp/ros/hector_worldmodel_msgs/srv/hector_worldmodel_msgs-srv.asd
+Already unlinked: {}
+Unlinking: /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/common-lisp/ros/hector_worldmodel_msgs/srv/SetObjectState.lisp
+Already unlinked: {}
+Unlinking: /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/common-lisp/ros/hector_worldmodel_msgs/srv/SetObjectName.lisp
+Already unlinked: {}
+Unlinking: /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/common-lisp/ros/hector_worldmodel_msgs/srv/AddObject.lisp
+Already unlinked: {}
+Unlinking: /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/common-lisp/ros/hector_worldmodel_msgs/srv/_package_AddObject.lisp
+Already unlinked: {}
+Unlinking: /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/common-lisp/ros/hector_worldmodel_msgs/srv/_package_SetObjectState.lisp
+Already unlinked: {}
+Unlinking: /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/common-lisp/ros/hector_worldmodel_msgs/srv/VerifyObject.lisp
+Already unlinked: {}
+Unlinking: /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/common-lisp/ros/hector_worldmodel_msgs/srv/_package_SetObjectName.lisp
+Already unlinked: {}
+Unlinking: /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/common-lisp/ros/hector_worldmodel_msgs/srv/_package_VerifyObject.lisp
+Already unlinked: {}
+Unlinking: /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/common-lisp/ros/hector_worldmodel_msgs/srv/_package.lisp
+Already unlinked: {}
+Unlinking: /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/common-lisp/ros/hector_worldmodel_msgs/srv/VerifyPercept.lisp
+Already unlinked: {}
+Unlinking: /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/common-lisp/ros/hector_worldmodel_msgs/srv/_package_GetObjectModel.lisp
+Already unlinked: {}
+Unlinking: /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/common-lisp/ros/hector_worldmodel_msgs/srv/GetObjectModel.lisp
+Already unlinked: {}
+Unlinking: /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/roseus/ros/hector_worldmodel_msgs/manifest.l
+Already unlinked: {}
+Unlinking: /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/roseus/ros/hector_worldmodel_msgs/msg/PerceptInfo.l
+Already unlinked: {}
+Unlinking: /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/roseus/ros/hector_worldmodel_msgs/msg/PosePercept.l
+Already unlinked: {}
+Unlinking: /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/roseus/ros/hector_worldmodel_msgs/msg/ObjectModel.l
+Already unlinked: {}
+Unlinking: /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/roseus/ros/hector_worldmodel_msgs/msg/ObjectInfo.l
+Already unlinked: {}
+Unlinking: /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/roseus/ros/hector_worldmodel_msgs/msg/ObjectState.l
+Already unlinked: {}
+Unlinking: /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/roseus/ros/hector_worldmodel_msgs/msg/Object.l
+Already unlinked: {}
+Unlinking: /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/roseus/ros/hector_worldmodel_msgs/msg/ImagePercept.l
+Already unlinked: {}
+Unlinking: /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/roseus/ros/hector_worldmodel_msgs/srv/GetObjectModel.l
+Already unlinked: {}
+Unlinking: /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/roseus/ros/hector_worldmodel_msgs/srv/AddObject.l
+Already unlinked: {}
+Unlinking: /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/roseus/ros/hector_worldmodel_msgs/srv/VerifyPercept.l
+Already unlinked: {}
+Unlinking: /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/roseus/ros/hector_worldmodel_msgs/srv/SetObjectState.l
+Already unlinked: {}
+Unlinking: /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/roseus/ros/hector_worldmodel_msgs/srv/SetObjectName.l
+Already unlinked: {}
+Unlinking: /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/roseus/ros/hector_worldmodel_msgs/srv/VerifyObject.l
+Already unlinked: {}
+Unlinking: /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/include/hector_worldmodel_msgs/SetObjectNameRequest.h
+Already unlinked: {}
+Unlinking: /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/include/hector_worldmodel_msgs/VerifyPerceptResponse.h
+Already unlinked: {}
+Unlinking: /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/include/hector_worldmodel_msgs/ObjectModel.h
+Already unlinked: {}
+Unlinking: /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/include/hector_worldmodel_msgs/GetObjectModelResponse.h
+Already unlinked: {}
+Unlinking: /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/include/hector_worldmodel_msgs/GetObjectModel.h
+Already unlinked: {}
+Unlinking: /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/include/hector_worldmodel_msgs/SetObjectName.h
+Already unlinked: {}
+Unlinking: /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/include/hector_worldmodel_msgs/ImagePercept.h
+Already unlinked: {}
+Unlinking: /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/include/hector_worldmodel_msgs/ObjectState.h
+Already unlinked: {}
+Unlinking: /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/include/hector_worldmodel_msgs/SetObjectStateRequest.h
+Already unlinked: {}
+Unlinking: /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/include/hector_worldmodel_msgs/AddObjectResponse.h
+Already unlinked: {}
+Unlinking: /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/include/hector_worldmodel_msgs/VerifyPerceptRequest.h
+Already unlinked: {}
+Unlinking: /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/include/hector_worldmodel_msgs/ObjectInfo.h
+Already unlinked: {}
+Unlinking: /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/include/hector_worldmodel_msgs/AddObject.h
+Already unlinked: {}
+Unlinking: /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/include/hector_worldmodel_msgs/SetObjectStateResponse.h
+Already unlinked: {}
+Unlinking: /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/include/hector_worldmodel_msgs/VerifyObject.h
+Already unlinked: {}
+Unlinking: /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/include/hector_worldmodel_msgs/PosePercept.h
+Already unlinked: {}
+Unlinking: /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/include/hector_worldmodel_msgs/GetObjectModelRequest.h
+Already unlinked: {}
+Unlinking: /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/include/hector_worldmodel_msgs/VerifyObjectRequest.h
+Already unlinked: {}
+Unlinking: /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/include/hector_worldmodel_msgs/SetObjectNameResponse.h
+Already unlinked: {}
+Unlinking: /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/include/hector_worldmodel_msgs/PerceptInfo.h
+Already unlinked: {}
+Unlinking: /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/include/hector_worldmodel_msgs/Object.h
+Already unlinked: {}
+Unlinking: /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/include/hector_worldmodel_msgs/VerifyObjectResponse.h
+Already unlinked: {}
+Unlinking: /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/include/hector_worldmodel_msgs/AddObjectRequest.h
+Already unlinked: {}
+Unlinking: /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/include/hector_worldmodel_msgs/VerifyPercept.h
+Already unlinked: {}
+Unlinking: /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/include/hector_worldmodel_msgs/SetObjectState.h
+Already unlinked: {}
+Unlinking: /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/lib/pkgconfig/hector_worldmodel_msgs.pc
+Already unlinked: {}
+Unlinking: /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/lib/python3/dist-packages/hector_worldmodel_msgs/__init__.py
+Already unlinked: {}
+Unlinking: /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/lib/python3/dist-packages/hector_worldmodel_msgs/msg/_ObjectModel.py
+Already unlinked: {}
+Unlinking: /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/lib/python3/dist-packages/hector_worldmodel_msgs/msg/__init__.py
+Already unlinked: {}
+Unlinking: /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/lib/python3/dist-packages/hector_worldmodel_msgs/msg/_PosePercept.py
+Already unlinked: {}
+Unlinking: /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/lib/python3/dist-packages/hector_worldmodel_msgs/msg/_ObjectInfo.py
+Already unlinked: {}
+Unlinking: /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/lib/python3/dist-packages/hector_worldmodel_msgs/msg/_PerceptInfo.py
+Already unlinked: {}
+Unlinking: /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/lib/python3/dist-packages/hector_worldmodel_msgs/msg/_ImagePercept.py
+Already unlinked: {}
+Unlinking: /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/lib/python3/dist-packages/hector_worldmodel_msgs/msg/_Object.py
+Already unlinked: {}
+Unlinking: /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/lib/python3/dist-packages/hector_worldmodel_msgs/msg/_ObjectState.py
+Already unlinked: {}
+Unlinking: /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/lib/python3/dist-packages/hector_worldmodel_msgs/srv/_VerifyPercept.py
+Already unlinked: {}
+Unlinking: /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/lib/python3/dist-packages/hector_worldmodel_msgs/srv/_SetObjectName.py
+Already unlinked: {}
+Unlinking: /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/lib/python3/dist-packages/hector_worldmodel_msgs/srv/_GetObjectModel.py
+Already unlinked: {}
+Unlinking: /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/lib/python3/dist-packages/hector_worldmodel_msgs/srv/__init__.py
+Already unlinked: {}
+Unlinking: /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/lib/python3/dist-packages/hector_worldmodel_msgs/srv/_AddObject.py
+Already unlinked: {}
+Unlinking: /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/lib/python3/dist-packages/hector_worldmodel_msgs/srv/_VerifyObject.py
+Already unlinked: {}
+Unlinking: /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/lib/python3/dist-packages/hector_worldmodel_msgs/srv/_SetObjectState.py
+Already unlinked: {}

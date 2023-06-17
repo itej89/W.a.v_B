@@ -1,0 +1,353 @@
+Symlinking /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/share/map_msgs/cmake/map_msgsConfig.cmake
+Symlinking /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/share/map_msgs/cmake/map_msgs-msg-extras.cmake
+Symlinking /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/share/map_msgs/cmake/map_msgs-msg-paths.cmake
+Symlinking /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/share/map_msgs/cmake/map_msgsConfig-version.cmake
+Symlinking /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/share/gennodejs/ros/map_msgs/_index.js
+Symlinking /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/share/gennodejs/ros/map_msgs/msg/_index.js
+Symlinking /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/share/gennodejs/ros/map_msgs/msg/ProjectedMap.js
+Symlinking /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/share/gennodejs/ros/map_msgs/msg/PointCloud2Update.js
+Symlinking /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/share/gennodejs/ros/map_msgs/msg/OccupancyGridUpdate.js
+Symlinking /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/share/gennodejs/ros/map_msgs/msg/ProjectedMapInfo.js
+Symlinking /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/share/gennodejs/ros/map_msgs/srv/_index.js
+Symlinking /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/share/gennodejs/ros/map_msgs/srv/SaveMap.js
+Symlinking /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/share/gennodejs/ros/map_msgs/srv/ProjectedMapsInfo.js
+Symlinking /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/share/gennodejs/ros/map_msgs/srv/GetPointMap.js
+Symlinking /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/share/gennodejs/ros/map_msgs/srv/GetMapROI.js
+Symlinking /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/share/gennodejs/ros/map_msgs/srv/GetPointMapROI.js
+Symlinking /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/share/gennodejs/ros/map_msgs/srv/SetMapProjections.js
+Symlinking /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/share/common-lisp/ros/map_msgs/msg/PointCloud2Update.lisp
+Symlinking /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/share/common-lisp/ros/map_msgs/msg/ProjectedMap.lisp
+Symlinking /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/share/common-lisp/ros/map_msgs/msg/map_msgs-msg.asd
+Symlinking /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/share/common-lisp/ros/map_msgs/msg/ProjectedMapInfo.lisp
+Symlinking /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/share/common-lisp/ros/map_msgs/msg/_package_PointCloud2Update.lisp
+Symlinking /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/share/common-lisp/ros/map_msgs/msg/_package_ProjectedMapInfo.lisp
+Symlinking /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/share/common-lisp/ros/map_msgs/msg/_package_ProjectedMap.lisp
+Symlinking /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/share/common-lisp/ros/map_msgs/msg/_package.lisp
+Symlinking /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/share/common-lisp/ros/map_msgs/msg/_package_OccupancyGridUpdate.lisp
+Symlinking /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/share/common-lisp/ros/map_msgs/msg/OccupancyGridUpdate.lisp
+Symlinking /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/share/common-lisp/ros/map_msgs/srv/SaveMap.lisp
+Symlinking /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/share/common-lisp/ros/map_msgs/srv/GetPointMapROI.lisp
+Symlinking /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/share/common-lisp/ros/map_msgs/srv/_package_GetMapROI.lisp
+Symlinking /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/share/common-lisp/ros/map_msgs/srv/_package_SetMapProjections.lisp
+Symlinking /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/share/common-lisp/ros/map_msgs/srv/_package_ProjectedMapsInfo.lisp
+Symlinking /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/share/common-lisp/ros/map_msgs/srv/ProjectedMapsInfo.lisp
+Symlinking /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/share/common-lisp/ros/map_msgs/srv/_package_SaveMap.lisp
+Symlinking /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/share/common-lisp/ros/map_msgs/srv/_package_GetPointMapROI.lisp
+Symlinking /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/share/common-lisp/ros/map_msgs/srv/GetPointMap.lisp
+Symlinking /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/share/common-lisp/ros/map_msgs/srv/_package_GetPointMap.lisp
+Symlinking /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/share/common-lisp/ros/map_msgs/srv/_package.lisp
+Symlinking /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/share/common-lisp/ros/map_msgs/srv/GetMapROI.lisp
+Symlinking /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/share/common-lisp/ros/map_msgs/srv/map_msgs-srv.asd
+Symlinking /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/share/common-lisp/ros/map_msgs/srv/SetMapProjections.lisp
+Symlinking /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/share/roseus/ros/map_msgs/manifest.l
+Symlinking /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/share/roseus/ros/map_msgs/msg/OccupancyGridUpdate.l
+Symlinking /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/share/roseus/ros/map_msgs/msg/ProjectedMap.l
+Symlinking /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/share/roseus/ros/map_msgs/msg/PointCloud2Update.l
+Symlinking /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/share/roseus/ros/map_msgs/msg/ProjectedMapInfo.l
+Symlinking /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/share/roseus/ros/map_msgs/srv/GetPointMapROI.l
+Symlinking /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/share/roseus/ros/map_msgs/srv/ProjectedMapsInfo.l
+Symlinking /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/share/roseus/ros/map_msgs/srv/SaveMap.l
+Symlinking /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/share/roseus/ros/map_msgs/srv/SetMapProjections.l
+Symlinking /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/share/roseus/ros/map_msgs/srv/GetMapROI.l
+Symlinking /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/share/roseus/ros/map_msgs/srv/GetPointMap.l
+Symlinking /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/include/map_msgs/GetPointMapRequest.h
+Symlinking /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/include/map_msgs/OccupancyGridUpdate.h
+Symlinking /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/include/map_msgs/GetMapROI.h
+Symlinking /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/include/map_msgs/GetPointMapROIResponse.h
+Symlinking /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/include/map_msgs/ProjectedMapsInfoRequest.h
+Symlinking /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/include/map_msgs/SetMapProjectionsRequest.h
+Symlinking /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/include/map_msgs/SetMapProjectionsResponse.h
+Symlinking /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/include/map_msgs/SetMapProjections.h
+Symlinking /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/include/map_msgs/ProjectedMap.h
+Symlinking /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/include/map_msgs/ProjectedMapInfo.h
+Symlinking /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/include/map_msgs/SaveMapRequest.h
+Symlinking /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/include/map_msgs/ProjectedMapsInfoResponse.h
+Symlinking /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/include/map_msgs/ProjectedMapsInfo.h
+Symlinking /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/include/map_msgs/SaveMap.h
+Symlinking /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/include/map_msgs/GetPointMapResponse.h
+Symlinking /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/include/map_msgs/GetPointMapROIRequest.h
+Symlinking /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/include/map_msgs/PointCloud2Update.h
+Symlinking /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/include/map_msgs/GetMapROIRequest.h
+Symlinking /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/include/map_msgs/SaveMapResponse.h
+Symlinking /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/include/map_msgs/GetPointMapROI.h
+Symlinking /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/include/map_msgs/GetPointMap.h
+Symlinking /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/include/map_msgs/GetMapROIResponse.h
+Symlinking /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/lib/pkgconfig/map_msgs.pc
+Symlinking /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/lib/python3/dist-packages/map_msgs/__init__.py
+Symlinking /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/lib/python3/dist-packages/map_msgs/msg/__init__.py
+Symlinking /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/lib/python3/dist-packages/map_msgs/msg/_ProjectedMap.py
+Symlinking /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/lib/python3/dist-packages/map_msgs/msg/_ProjectedMapInfo.py
+Symlinking /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/lib/python3/dist-packages/map_msgs/msg/_OccupancyGridUpdate.py
+Symlinking /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/lib/python3/dist-packages/map_msgs/msg/_PointCloud2Update.py
+Symlinking /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/lib/python3/dist-packages/map_msgs/srv/_GetMapROI.py
+Symlinking /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/lib/python3/dist-packages/map_msgs/srv/_GetPointMap.py
+Symlinking /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/lib/python3/dist-packages/map_msgs/srv/_SetMapProjections.py
+Symlinking /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/lib/python3/dist-packages/map_msgs/srv/_ProjectedMapsInfo.py
+Symlinking /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/lib/python3/dist-packages/map_msgs/srv/__init__.py
+Symlinking /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/lib/python3/dist-packages/map_msgs/srv/_SaveMap.py
+Symlinking /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/lib/python3/dist-packages/map_msgs/srv/_GetPointMapROI.py
+Cleaning: (/home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/.private/map_msgs/cmake.lock, /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/./cmake.lock)
+Cleaning: (/home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/.private/map_msgs/share/map_msgs/cmake/map_msgsConfig.cmake, /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/map_msgs/cmake/map_msgsConfig.cmake)
+Cleaning: (/home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/.private/map_msgs/share/map_msgs/cmake/map_msgs-msg-extras.cmake, /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/map_msgs/cmake/map_msgs-msg-extras.cmake)
+Cleaning: (/home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/.private/map_msgs/share/map_msgs/cmake/map_msgs-msg-paths.cmake, /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/map_msgs/cmake/map_msgs-msg-paths.cmake)
+Cleaning: (/home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/.private/map_msgs/share/map_msgs/cmake/map_msgsConfig-version.cmake, /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/map_msgs/cmake/map_msgsConfig-version.cmake)
+Cleaning: (/home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/.private/map_msgs/share/gennodejs/ros/map_msgs/_index.js, /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/gennodejs/ros/map_msgs/_index.js)
+Cleaning: (/home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/.private/map_msgs/share/gennodejs/ros/map_msgs/msg/_index.js, /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/gennodejs/ros/map_msgs/msg/_index.js)
+Cleaning: (/home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/.private/map_msgs/share/gennodejs/ros/map_msgs/msg/ProjectedMap.js, /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/gennodejs/ros/map_msgs/msg/ProjectedMap.js)
+Cleaning: (/home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/.private/map_msgs/share/gennodejs/ros/map_msgs/msg/PointCloud2Update.js, /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/gennodejs/ros/map_msgs/msg/PointCloud2Update.js)
+Cleaning: (/home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/.private/map_msgs/share/gennodejs/ros/map_msgs/msg/OccupancyGridUpdate.js, /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/gennodejs/ros/map_msgs/msg/OccupancyGridUpdate.js)
+Cleaning: (/home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/.private/map_msgs/share/gennodejs/ros/map_msgs/msg/ProjectedMapInfo.js, /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/gennodejs/ros/map_msgs/msg/ProjectedMapInfo.js)
+Cleaning: (/home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/.private/map_msgs/share/gennodejs/ros/map_msgs/srv/_index.js, /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/gennodejs/ros/map_msgs/srv/_index.js)
+Cleaning: (/home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/.private/map_msgs/share/gennodejs/ros/map_msgs/srv/SaveMap.js, /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/gennodejs/ros/map_msgs/srv/SaveMap.js)
+Cleaning: (/home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/.private/map_msgs/share/gennodejs/ros/map_msgs/srv/ProjectedMapsInfo.js, /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/gennodejs/ros/map_msgs/srv/ProjectedMapsInfo.js)
+Cleaning: (/home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/.private/map_msgs/share/gennodejs/ros/map_msgs/srv/GetPointMap.js, /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/gennodejs/ros/map_msgs/srv/GetPointMap.js)
+Cleaning: (/home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/.private/map_msgs/share/gennodejs/ros/map_msgs/srv/GetMapROI.js, /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/gennodejs/ros/map_msgs/srv/GetMapROI.js)
+Cleaning: (/home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/.private/map_msgs/share/gennodejs/ros/map_msgs/srv/GetPointMapROI.js, /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/gennodejs/ros/map_msgs/srv/GetPointMapROI.js)
+Cleaning: (/home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/.private/map_msgs/share/gennodejs/ros/map_msgs/srv/SetMapProjections.js, /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/gennodejs/ros/map_msgs/srv/SetMapProjections.js)
+Cleaning: (/home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/.private/map_msgs/share/common-lisp/ros/map_msgs/msg/PointCloud2Update.lisp, /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/common-lisp/ros/map_msgs/msg/PointCloud2Update.lisp)
+Cleaning: (/home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/.private/map_msgs/share/common-lisp/ros/map_msgs/msg/ProjectedMap.lisp, /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/common-lisp/ros/map_msgs/msg/ProjectedMap.lisp)
+Cleaning: (/home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/.private/map_msgs/share/common-lisp/ros/map_msgs/msg/map_msgs-msg.asd, /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/common-lisp/ros/map_msgs/msg/map_msgs-msg.asd)
+Cleaning: (/home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/.private/map_msgs/share/common-lisp/ros/map_msgs/msg/ProjectedMapInfo.lisp, /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/common-lisp/ros/map_msgs/msg/ProjectedMapInfo.lisp)
+Cleaning: (/home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/.private/map_msgs/share/common-lisp/ros/map_msgs/msg/_package_PointCloud2Update.lisp, /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/common-lisp/ros/map_msgs/msg/_package_PointCloud2Update.lisp)
+Cleaning: (/home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/.private/map_msgs/share/common-lisp/ros/map_msgs/msg/_package_ProjectedMapInfo.lisp, /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/common-lisp/ros/map_msgs/msg/_package_ProjectedMapInfo.lisp)
+Cleaning: (/home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/.private/map_msgs/share/common-lisp/ros/map_msgs/msg/_package_ProjectedMap.lisp, /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/common-lisp/ros/map_msgs/msg/_package_ProjectedMap.lisp)
+Cleaning: (/home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/.private/map_msgs/share/common-lisp/ros/map_msgs/msg/_package.lisp, /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/common-lisp/ros/map_msgs/msg/_package.lisp)
+Cleaning: (/home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/.private/map_msgs/share/common-lisp/ros/map_msgs/msg/_package_OccupancyGridUpdate.lisp, /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/common-lisp/ros/map_msgs/msg/_package_OccupancyGridUpdate.lisp)
+Cleaning: (/home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/.private/map_msgs/share/common-lisp/ros/map_msgs/msg/OccupancyGridUpdate.lisp, /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/common-lisp/ros/map_msgs/msg/OccupancyGridUpdate.lisp)
+Cleaning: (/home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/.private/map_msgs/share/common-lisp/ros/map_msgs/srv/SaveMap.lisp, /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/common-lisp/ros/map_msgs/srv/SaveMap.lisp)
+Cleaning: (/home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/.private/map_msgs/share/common-lisp/ros/map_msgs/srv/GetPointMapROI.lisp, /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/common-lisp/ros/map_msgs/srv/GetPointMapROI.lisp)
+Cleaning: (/home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/.private/map_msgs/share/common-lisp/ros/map_msgs/srv/_package_GetMapROI.lisp, /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/common-lisp/ros/map_msgs/srv/_package_GetMapROI.lisp)
+Cleaning: (/home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/.private/map_msgs/share/common-lisp/ros/map_msgs/srv/_package_SetMapProjections.lisp, /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/common-lisp/ros/map_msgs/srv/_package_SetMapProjections.lisp)
+Cleaning: (/home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/.private/map_msgs/share/common-lisp/ros/map_msgs/srv/_package_ProjectedMapsInfo.lisp, /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/common-lisp/ros/map_msgs/srv/_package_ProjectedMapsInfo.lisp)
+Cleaning: (/home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/.private/map_msgs/share/common-lisp/ros/map_msgs/srv/ProjectedMapsInfo.lisp, /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/common-lisp/ros/map_msgs/srv/ProjectedMapsInfo.lisp)
+Cleaning: (/home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/.private/map_msgs/share/common-lisp/ros/map_msgs/srv/_package_SaveMap.lisp, /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/common-lisp/ros/map_msgs/srv/_package_SaveMap.lisp)
+Cleaning: (/home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/.private/map_msgs/share/common-lisp/ros/map_msgs/srv/_package_GetPointMapROI.lisp, /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/common-lisp/ros/map_msgs/srv/_package_GetPointMapROI.lisp)
+Cleaning: (/home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/.private/map_msgs/share/common-lisp/ros/map_msgs/srv/GetPointMap.lisp, /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/common-lisp/ros/map_msgs/srv/GetPointMap.lisp)
+Cleaning: (/home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/.private/map_msgs/share/common-lisp/ros/map_msgs/srv/_package_GetPointMap.lisp, /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/common-lisp/ros/map_msgs/srv/_package_GetPointMap.lisp)
+Cleaning: (/home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/.private/map_msgs/share/common-lisp/ros/map_msgs/srv/_package.lisp, /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/common-lisp/ros/map_msgs/srv/_package.lisp)
+Cleaning: (/home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/.private/map_msgs/share/common-lisp/ros/map_msgs/srv/GetMapROI.lisp, /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/common-lisp/ros/map_msgs/srv/GetMapROI.lisp)
+Cleaning: (/home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/.private/map_msgs/share/common-lisp/ros/map_msgs/srv/map_msgs-srv.asd, /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/common-lisp/ros/map_msgs/srv/map_msgs-srv.asd)
+Cleaning: (/home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/.private/map_msgs/share/common-lisp/ros/map_msgs/srv/SetMapProjections.lisp, /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/common-lisp/ros/map_msgs/srv/SetMapProjections.lisp)
+Cleaning: (/home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/.private/map_msgs/share/roseus/ros/map_msgs/manifest.l, /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/roseus/ros/map_msgs/manifest.l)
+Cleaning: (/home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/.private/map_msgs/share/roseus/ros/map_msgs/msg/OccupancyGridUpdate.l, /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/roseus/ros/map_msgs/msg/OccupancyGridUpdate.l)
+Cleaning: (/home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/.private/map_msgs/share/roseus/ros/map_msgs/msg/ProjectedMap.l, /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/roseus/ros/map_msgs/msg/ProjectedMap.l)
+Cleaning: (/home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/.private/map_msgs/share/roseus/ros/map_msgs/msg/PointCloud2Update.l, /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/roseus/ros/map_msgs/msg/PointCloud2Update.l)
+Cleaning: (/home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/.private/map_msgs/share/roseus/ros/map_msgs/msg/ProjectedMapInfo.l, /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/roseus/ros/map_msgs/msg/ProjectedMapInfo.l)
+Cleaning: (/home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/.private/map_msgs/share/roseus/ros/map_msgs/srv/GetPointMapROI.l, /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/roseus/ros/map_msgs/srv/GetPointMapROI.l)
+Cleaning: (/home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/.private/map_msgs/share/roseus/ros/map_msgs/srv/ProjectedMapsInfo.l, /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/roseus/ros/map_msgs/srv/ProjectedMapsInfo.l)
+Cleaning: (/home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/.private/map_msgs/share/roseus/ros/map_msgs/srv/SaveMap.l, /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/roseus/ros/map_msgs/srv/SaveMap.l)
+Cleaning: (/home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/.private/map_msgs/share/roseus/ros/map_msgs/srv/SetMapProjections.l, /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/roseus/ros/map_msgs/srv/SetMapProjections.l)
+Cleaning: (/home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/.private/map_msgs/share/roseus/ros/map_msgs/srv/GetMapROI.l, /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/roseus/ros/map_msgs/srv/GetMapROI.l)
+Cleaning: (/home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/.private/map_msgs/share/roseus/ros/map_msgs/srv/GetPointMap.l, /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/roseus/ros/map_msgs/srv/GetPointMap.l)
+Cleaning: (/home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/.private/map_msgs/include/map_msgs/GetPointMapRequest.h, /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/include/map_msgs/GetPointMapRequest.h)
+Cleaning: (/home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/.private/map_msgs/include/map_msgs/OccupancyGridUpdate.h, /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/include/map_msgs/OccupancyGridUpdate.h)
+Cleaning: (/home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/.private/map_msgs/include/map_msgs/GetMapROI.h, /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/include/map_msgs/GetMapROI.h)
+Cleaning: (/home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/.private/map_msgs/include/map_msgs/GetPointMapROIResponse.h, /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/include/map_msgs/GetPointMapROIResponse.h)
+Cleaning: (/home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/.private/map_msgs/include/map_msgs/ProjectedMapsInfoRequest.h, /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/include/map_msgs/ProjectedMapsInfoRequest.h)
+Cleaning: (/home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/.private/map_msgs/include/map_msgs/SetMapProjectionsRequest.h, /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/include/map_msgs/SetMapProjectionsRequest.h)
+Cleaning: (/home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/.private/map_msgs/include/map_msgs/SetMapProjectionsResponse.h, /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/include/map_msgs/SetMapProjectionsResponse.h)
+Cleaning: (/home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/.private/map_msgs/include/map_msgs/SetMapProjections.h, /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/include/map_msgs/SetMapProjections.h)
+Cleaning: (/home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/.private/map_msgs/include/map_msgs/ProjectedMap.h, /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/include/map_msgs/ProjectedMap.h)
+Cleaning: (/home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/.private/map_msgs/include/map_msgs/ProjectedMapInfo.h, /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/include/map_msgs/ProjectedMapInfo.h)
+Cleaning: (/home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/.private/map_msgs/include/map_msgs/SaveMapRequest.h, /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/include/map_msgs/SaveMapRequest.h)
+Cleaning: (/home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/.private/map_msgs/include/map_msgs/ProjectedMapsInfoResponse.h, /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/include/map_msgs/ProjectedMapsInfoResponse.h)
+Cleaning: (/home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/.private/map_msgs/include/map_msgs/ProjectedMapsInfo.h, /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/include/map_msgs/ProjectedMapsInfo.h)
+Cleaning: (/home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/.private/map_msgs/include/map_msgs/SaveMap.h, /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/include/map_msgs/SaveMap.h)
+Cleaning: (/home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/.private/map_msgs/include/map_msgs/GetPointMapResponse.h, /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/include/map_msgs/GetPointMapResponse.h)
+Cleaning: (/home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/.private/map_msgs/include/map_msgs/GetPointMapROIRequest.h, /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/include/map_msgs/GetPointMapROIRequest.h)
+Cleaning: (/home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/.private/map_msgs/include/map_msgs/PointCloud2Update.h, /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/include/map_msgs/PointCloud2Update.h)
+Cleaning: (/home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/.private/map_msgs/include/map_msgs/GetMapROIRequest.h, /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/include/map_msgs/GetMapROIRequest.h)
+Cleaning: (/home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/.private/map_msgs/include/map_msgs/SaveMapResponse.h, /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/include/map_msgs/SaveMapResponse.h)
+Cleaning: (/home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/.private/map_msgs/include/map_msgs/GetPointMapROI.h, /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/include/map_msgs/GetPointMapROI.h)
+Cleaning: (/home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/.private/map_msgs/include/map_msgs/GetPointMap.h, /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/include/map_msgs/GetPointMap.h)
+Cleaning: (/home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/.private/map_msgs/include/map_msgs/GetMapROIResponse.h, /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/include/map_msgs/GetMapROIResponse.h)
+Cleaning: (/home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/.private/map_msgs/lib/pkgconfig/map_msgs.pc, /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/lib/pkgconfig/map_msgs.pc)
+Cleaning: (/home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/.private/map_msgs/lib/python3/dist-packages/map_msgs/__init__.py, /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/lib/python3/dist-packages/map_msgs/__init__.py)
+Cleaning: (/home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/.private/map_msgs/lib/python3/dist-packages/map_msgs/msg/__init__.py, /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/lib/python3/dist-packages/map_msgs/msg/__init__.py)
+Cleaning: (/home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/.private/map_msgs/lib/python3/dist-packages/map_msgs/msg/_ProjectedMap.py, /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/lib/python3/dist-packages/map_msgs/msg/_ProjectedMap.py)
+Cleaning: (/home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/.private/map_msgs/lib/python3/dist-packages/map_msgs/msg/_ProjectedMapInfo.py, /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/lib/python3/dist-packages/map_msgs/msg/_ProjectedMapInfo.py)
+Cleaning: (/home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/.private/map_msgs/lib/python3/dist-packages/map_msgs/msg/_OccupancyGridUpdate.py, /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/lib/python3/dist-packages/map_msgs/msg/_OccupancyGridUpdate.py)
+Cleaning: (/home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/.private/map_msgs/lib/python3/dist-packages/map_msgs/msg/_PointCloud2Update.py, /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/lib/python3/dist-packages/map_msgs/msg/_PointCloud2Update.py)
+Cleaning: (/home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/.private/map_msgs/lib/python3/dist-packages/map_msgs/srv/_GetMapROI.py, /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/lib/python3/dist-packages/map_msgs/srv/_GetMapROI.py)
+Cleaning: (/home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/.private/map_msgs/lib/python3/dist-packages/map_msgs/srv/_GetPointMap.py, /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/lib/python3/dist-packages/map_msgs/srv/_GetPointMap.py)
+Cleaning: (/home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/.private/map_msgs/lib/python3/dist-packages/map_msgs/srv/_SetMapProjections.py, /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/lib/python3/dist-packages/map_msgs/srv/_SetMapProjections.py)
+Cleaning: (/home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/.private/map_msgs/lib/python3/dist-packages/map_msgs/srv/_ProjectedMapsInfo.py, /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/lib/python3/dist-packages/map_msgs/srv/_ProjectedMapsInfo.py)
+Cleaning: (/home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/.private/map_msgs/lib/python3/dist-packages/map_msgs/srv/__init__.py, /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/lib/python3/dist-packages/map_msgs/srv/__init__.py)
+Cleaning: (/home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/.private/map_msgs/lib/python3/dist-packages/map_msgs/srv/_SaveMap.py, /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/lib/python3/dist-packages/map_msgs/srv/_SaveMap.py)
+Cleaning: (/home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/.private/map_msgs/lib/python3/dist-packages/map_msgs/srv/_GetPointMapROI.py, /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/lib/python3/dist-packages/map_msgs/srv/_GetPointMapROI.py)
+Unlinking: /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/map_msgs/cmake/map_msgsConfig.cmake
+Already unlinked: {}
+Unlinking: /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/map_msgs/cmake/map_msgs-msg-extras.cmake
+Already unlinked: {}
+Unlinking: /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/map_msgs/cmake/map_msgs-msg-paths.cmake
+Already unlinked: {}
+Unlinking: /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/map_msgs/cmake/map_msgsConfig-version.cmake
+Already unlinked: {}
+Unlinking: /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/gennodejs/ros/map_msgs/_index.js
+Already unlinked: {}
+Unlinking: /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/gennodejs/ros/map_msgs/msg/_index.js
+Already unlinked: {}
+Unlinking: /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/gennodejs/ros/map_msgs/msg/ProjectedMap.js
+Already unlinked: {}
+Unlinking: /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/gennodejs/ros/map_msgs/msg/PointCloud2Update.js
+Already unlinked: {}
+Unlinking: /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/gennodejs/ros/map_msgs/msg/OccupancyGridUpdate.js
+Already unlinked: {}
+Unlinking: /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/gennodejs/ros/map_msgs/msg/ProjectedMapInfo.js
+Already unlinked: {}
+Unlinking: /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/gennodejs/ros/map_msgs/srv/_index.js
+Already unlinked: {}
+Unlinking: /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/gennodejs/ros/map_msgs/srv/SaveMap.js
+Already unlinked: {}
+Unlinking: /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/gennodejs/ros/map_msgs/srv/ProjectedMapsInfo.js
+Already unlinked: {}
+Unlinking: /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/gennodejs/ros/map_msgs/srv/GetPointMap.js
+Already unlinked: {}
+Unlinking: /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/gennodejs/ros/map_msgs/srv/GetMapROI.js
+Already unlinked: {}
+Unlinking: /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/gennodejs/ros/map_msgs/srv/GetPointMapROI.js
+Already unlinked: {}
+Unlinking: /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/gennodejs/ros/map_msgs/srv/SetMapProjections.js
+Already unlinked: {}
+Unlinking: /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/common-lisp/ros/map_msgs/msg/PointCloud2Update.lisp
+Already unlinked: {}
+Unlinking: /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/common-lisp/ros/map_msgs/msg/ProjectedMap.lisp
+Already unlinked: {}
+Unlinking: /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/common-lisp/ros/map_msgs/msg/map_msgs-msg.asd
+Already unlinked: {}
+Unlinking: /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/common-lisp/ros/map_msgs/msg/ProjectedMapInfo.lisp
+Already unlinked: {}
+Unlinking: /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/common-lisp/ros/map_msgs/msg/_package_PointCloud2Update.lisp
+Already unlinked: {}
+Unlinking: /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/common-lisp/ros/map_msgs/msg/_package_ProjectedMapInfo.lisp
+Already unlinked: {}
+Unlinking: /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/common-lisp/ros/map_msgs/msg/_package_ProjectedMap.lisp
+Already unlinked: {}
+Unlinking: /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/common-lisp/ros/map_msgs/msg/_package.lisp
+Already unlinked: {}
+Unlinking: /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/common-lisp/ros/map_msgs/msg/_package_OccupancyGridUpdate.lisp
+Already unlinked: {}
+Unlinking: /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/common-lisp/ros/map_msgs/msg/OccupancyGridUpdate.lisp
+Already unlinked: {}
+Unlinking: /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/common-lisp/ros/map_msgs/srv/SaveMap.lisp
+Already unlinked: {}
+Unlinking: /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/common-lisp/ros/map_msgs/srv/GetPointMapROI.lisp
+Already unlinked: {}
+Unlinking: /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/common-lisp/ros/map_msgs/srv/_package_GetMapROI.lisp
+Already unlinked: {}
+Unlinking: /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/common-lisp/ros/map_msgs/srv/_package_SetMapProjections.lisp
+Already unlinked: {}
+Unlinking: /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/common-lisp/ros/map_msgs/srv/_package_ProjectedMapsInfo.lisp
+Already unlinked: {}
+Unlinking: /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/common-lisp/ros/map_msgs/srv/ProjectedMapsInfo.lisp
+Already unlinked: {}
+Unlinking: /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/common-lisp/ros/map_msgs/srv/_package_SaveMap.lisp
+Already unlinked: {}
+Unlinking: /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/common-lisp/ros/map_msgs/srv/_package_GetPointMapROI.lisp
+Already unlinked: {}
+Unlinking: /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/common-lisp/ros/map_msgs/srv/GetPointMap.lisp
+Already unlinked: {}
+Unlinking: /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/common-lisp/ros/map_msgs/srv/_package_GetPointMap.lisp
+Already unlinked: {}
+Unlinking: /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/common-lisp/ros/map_msgs/srv/_package.lisp
+Already unlinked: {}
+Unlinking: /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/common-lisp/ros/map_msgs/srv/GetMapROI.lisp
+Already unlinked: {}
+Unlinking: /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/common-lisp/ros/map_msgs/srv/map_msgs-srv.asd
+Already unlinked: {}
+Unlinking: /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/common-lisp/ros/map_msgs/srv/SetMapProjections.lisp
+Already unlinked: {}
+Unlinking: /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/roseus/ros/map_msgs/manifest.l
+Already unlinked: {}
+Unlinking: /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/roseus/ros/map_msgs/msg/OccupancyGridUpdate.l
+Already unlinked: {}
+Unlinking: /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/roseus/ros/map_msgs/msg/ProjectedMap.l
+Already unlinked: {}
+Unlinking: /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/roseus/ros/map_msgs/msg/PointCloud2Update.l
+Already unlinked: {}
+Unlinking: /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/roseus/ros/map_msgs/msg/ProjectedMapInfo.l
+Already unlinked: {}
+Unlinking: /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/roseus/ros/map_msgs/srv/GetPointMapROI.l
+Already unlinked: {}
+Unlinking: /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/roseus/ros/map_msgs/srv/ProjectedMapsInfo.l
+Already unlinked: {}
+Unlinking: /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/roseus/ros/map_msgs/srv/SaveMap.l
+Already unlinked: {}
+Unlinking: /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/roseus/ros/map_msgs/srv/SetMapProjections.l
+Already unlinked: {}
+Unlinking: /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/roseus/ros/map_msgs/srv/GetMapROI.l
+Already unlinked: {}
+Unlinking: /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/roseus/ros/map_msgs/srv/GetPointMap.l
+Already unlinked: {}
+Unlinking: /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/include/map_msgs/GetPointMapRequest.h
+Already unlinked: {}
+Unlinking: /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/include/map_msgs/OccupancyGridUpdate.h
+Already unlinked: {}
+Unlinking: /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/include/map_msgs/GetMapROI.h
+Already unlinked: {}
+Unlinking: /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/include/map_msgs/GetPointMapROIResponse.h
+Already unlinked: {}
+Unlinking: /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/include/map_msgs/ProjectedMapsInfoRequest.h
+Already unlinked: {}
+Unlinking: /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/include/map_msgs/SetMapProjectionsRequest.h
+Already unlinked: {}
+Unlinking: /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/include/map_msgs/SetMapProjectionsResponse.h
+Already unlinked: {}
+Unlinking: /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/include/map_msgs/SetMapProjections.h
+Already unlinked: {}
+Unlinking: /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/include/map_msgs/ProjectedMap.h
+Already unlinked: {}
+Unlinking: /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/include/map_msgs/ProjectedMapInfo.h
+Already unlinked: {}
+Unlinking: /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/include/map_msgs/SaveMapRequest.h
+Already unlinked: {}
+Unlinking: /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/include/map_msgs/ProjectedMapsInfoResponse.h
+Already unlinked: {}
+Unlinking: /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/include/map_msgs/ProjectedMapsInfo.h
+Already unlinked: {}
+Unlinking: /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/include/map_msgs/SaveMap.h
+Already unlinked: {}
+Unlinking: /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/include/map_msgs/GetPointMapResponse.h
+Already unlinked: {}
+Unlinking: /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/include/map_msgs/GetPointMapROIRequest.h
+Already unlinked: {}
+Unlinking: /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/include/map_msgs/PointCloud2Update.h
+Already unlinked: {}
+Unlinking: /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/include/map_msgs/GetMapROIRequest.h
+Already unlinked: {}
+Unlinking: /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/include/map_msgs/SaveMapResponse.h
+Already unlinked: {}
+Unlinking: /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/include/map_msgs/GetPointMapROI.h
+Already unlinked: {}
+Unlinking: /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/include/map_msgs/GetPointMap.h
+Already unlinked: {}
+Unlinking: /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/include/map_msgs/GetMapROIResponse.h
+Already unlinked: {}
+Unlinking: /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/lib/pkgconfig/map_msgs.pc
+Already unlinked: {}
+Unlinking: /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/lib/python3/dist-packages/map_msgs/__init__.py
+Already unlinked: {}
+Unlinking: /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/lib/python3/dist-packages/map_msgs/msg/__init__.py
+Already unlinked: {}
+Unlinking: /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/lib/python3/dist-packages/map_msgs/msg/_ProjectedMap.py
+Already unlinked: {}
+Unlinking: /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/lib/python3/dist-packages/map_msgs/msg/_ProjectedMapInfo.py
+Already unlinked: {}
+Unlinking: /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/lib/python3/dist-packages/map_msgs/msg/_OccupancyGridUpdate.py
+Already unlinked: {}
+Unlinking: /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/lib/python3/dist-packages/map_msgs/msg/_PointCloud2Update.py
+Already unlinked: {}
+Unlinking: /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/lib/python3/dist-packages/map_msgs/srv/_GetMapROI.py
+Already unlinked: {}
+Unlinking: /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/lib/python3/dist-packages/map_msgs/srv/_GetPointMap.py
+Already unlinked: {}
+Unlinking: /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/lib/python3/dist-packages/map_msgs/srv/_SetMapProjections.py
+Already unlinked: {}
+Unlinking: /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/lib/python3/dist-packages/map_msgs/srv/_ProjectedMapsInfo.py
+Already unlinked: {}
+Unlinking: /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/lib/python3/dist-packages/map_msgs/srv/__init__.py
+Already unlinked: {}
+Unlinking: /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/lib/python3/dist-packages/map_msgs/srv/_SaveMap.py
+Already unlinked: {}
+Unlinking: /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/lib/python3/dist-packages/map_msgs/srv/_GetPointMapROI.py
+Already unlinked: {}

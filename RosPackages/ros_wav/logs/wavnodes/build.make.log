@@ -1,0 +1,634 @@
+[35m[1mScanning dependencies of target fmCommon[0m
+[  0%] [32mBuilding CXX object AniEngineCPP/fmCommon/CMakeFiles/fmCommon.dir/src/StringX.cc.o[0m
+[  0%] [32mBuilding CXX object AniEngineCPP/fmCommon/CMakeFiles/fmCommon.dir/src/TCPModule/DataTypes/Extras/IPEndPoint.cc.o[0m
+[  1%] [32mBuilding CXX object AniEngineCPP/fmCommon/CMakeFiles/fmCommon.dir/src/TCPModule/TransportLayers/Helpers/RecievedData.cc.o[0m
+[  1%] [32mBuilding CXX object AniEngineCPP/fmCommon/CMakeFiles/fmCommon.dir/src/TCPModule/TransportLayers/Helpers/TransportLayerHelper.cc.o[0m
+[  1%] [32mBuilding CXX object AniEngineCPP/fmCommon/CMakeFiles/fmCommon.dir/src/TCPModule/TransportLayers/TcpClient.cc.o[0m
+[  1%] [32mBuilding CXX object AniEngineCPP/fmCommon/CMakeFiles/fmCommon.dir/src/ThreadX.cc.o[0m
+[  1%] [32mBuilding CXX object AniEngineCPP/fmCommon/CMakeFiles/fmCommon.dir/src/UUIDHelper.cc.o[0m
+[  2%] [32mBuilding CXX object AniEngineCPP/fmCommon/CMakeFiles/fmCommon.dir/src/VectorX.cc.o[0m
+[  2%] [32mBuilding CXX object AniEngineCPP/fmCommon/CMakeFiles/fmCommon.dir/src/ZlibHelper.cc.o[0m
+[  2%] [32mBuilding CXX object AniEngineCPP/fmCommon/CMakeFiles/fmCommon.dir/src/cppbase64.cc.o[0m
+[  2%] [32m[1mLinking CXX shared library /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/.private/wavnodes/lib/libfmCommon.so[0m
+[  2%] Built target fmCommon
+[35m[1mScanning dependencies of target GoalManager[0m
+[  2%] [32mBuilding CXX object CMakeFiles/GoalManager.dir/src/GoalManager.cpp.o[0m
+In file included from [01m[K/opt/ros/noetic/include/ros/ros.h:40[m[K,
+                 from [01m[K/home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/src/wavnodes/./include/GoalManager.h:4[m[K,
+                 from [01m[K/home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/src/wavnodes/src/GoalManager.cpp:1[m[K:
+[01m[K/home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/src/wavnodes/src/GoalManager.cpp:[m[K In member function ‘[01m[Kvoid GoalManager::SendGoal(float, float, float, float, float, float, float)[m[K’:
+[01m[K/home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/src/wavnodes/src/GoalManager.cpp:26:14:[m[K [01;35m[Kwarning: [m[Kzero-length gnu_printf format string [[01;35m[K-Wformat-zero-length[m[K]
+   26 |     ROS_INFO([01;35m[K""[m[K);
+      |              [01;35m[K^~[m[K
+[01m[K/opt/ros/noetic/include/ros/console.h:351:165:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER[m[K’
+  351 |     ::ros::console::print(filter, __rosconsole_define_location__loc.logger_, __rosconsole_define_location__loc.level_, __FILE__, __LINE__, __ROSCONSOLE_FUNCTION__, [01;36m[K__VA_ARGS__[m[K)
+      |                                                                                                                                                                     [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/ros/console.h:390:7:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION[m[K’
+  390 |       [01;36m[KROSCONSOLE_PRINT_AT_LOCATION[m[K(__VA_ARGS__); \
+      |       [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/ros/console.h:575:35:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG_COND[m[K’
+  575 | #define ROS_LOG(level, name, ...) [01;36m[KROS_LOG_COND[m[K(true, level, name, __VA_ARGS__)
+      |                                   [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/rosconsole/macros_generated.h:110:23:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG[m[K’
+  110 | #define ROS_INFO(...) [01;36m[KROS_LOG[m[K(::ros::console::levels::Info, ROSCONSOLE_DEFAULT_NAME, __VA_ARGS__)
+      |                       [01;36m[K^~~~~~~[m[K
+[01m[K/home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/src/wavnodes/src/GoalManager.cpp:26:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_INFO[m[K’
+   26 |     [01;36m[KROS_INFO[m[K("");
+      |     [01;36m[K^~~~~~~~[m[K
+[35m[1mScanning dependencies of target BotConnectConveyListener[0m
+[35m[1mScanning dependencies of target PCLTFCHECK[0m
+[  2%] [32mBuilding CXX object CMakeFiles/BotConnectConveyListener.dir/src/BotConnectConveyListener.cpp.o[0m
+[  3%] [32mBuilding CXX object CMakeFiles/PCLTFCHECK.dir/src/PCLTFCHECK.cpp.o[0m
+[35m[1mScanning dependencies of target POSE2ODOM[0m
+[  3%] [32mBuilding CXX object CMakeFiles/POSE2ODOM.dir/src/POSE2ODOM.cpp.o[0m
+[35m[1mScanning dependencies of target RGBD2PCL[0m
+[  4%] [32mBuilding CXX object CMakeFiles/RGBD2PCL.dir/src/RGBD2PCL.cpp.o[0m
+[35m[1mScanning dependencies of target fmSerial[0m
+[  5%] [32mBuilding C object AniEngineCPP/fmSerial/CMakeFiles/fmSerial.dir/src/glob.c.o[0m
+[  5%] [32mBuilding CXX object AniEngineCPP/fmSerial/CMakeFiles/fmSerial.dir/src/list_ports_linux.cc.o[0m
+[  5%] [32mBuilding CXX object AniEngineCPP/fmSerial/CMakeFiles/fmSerial.dir/src/serial.cc.o[0m
+[  5%] [32mBuilding CXX object AniEngineCPP/fmSerial/CMakeFiles/fmSerial.dir/src/serial_access.cc.o[0m
+[  6%] [32mBuilding CXX object AniEngineCPP/fmSerial/CMakeFiles/fmSerial.dir/src/serial_unix.cc.o[0m
+[  6%] [32m[1mLinking CXX shared library /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/.private/wavnodes/lib/libGoalManager.so[0m
+[  6%] [32m[1mLinking CXX shared library /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/.private/wavnodes/lib/libfmSerial.so[0m
+[  6%] Built target GoalManager
+[35m[1mScanning dependencies of target libcurl[0m
+[  6%] Built target fmSerial
+[35m[1mScanning dependencies of target WavMove[0m
+[  7%] [32mBuilding CXX object CMakeFiles/WavMove.dir/src/WavMove.cpp.o[0m
+[01m[K/home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/src/wavnodes/src/BotConnectConveyListener.cpp:[m[K In static member function ‘[01m[Kstatic void* BotConnectConveyListener::loop(void*)[m[K’:
+[01m[K/home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/src/wavnodes/src/BotConnectConveyListener.cpp:69:5:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K-Wreturn-type[m[K]
+   69 |     [01;35m[K}[m[K
+      |     [01;35m[K^[m[K
+[  7%] [32mBuilding C object _deps/curl-build/lib/CMakeFiles/libcurl.dir/altsvc.c.o[0m
+[  7%] [32mBuilding C object _deps/curl-build/lib/CMakeFiles/libcurl.dir/amigaos.c.o[0m
+[  7%] [32mBuilding C object _deps/curl-build/lib/CMakeFiles/libcurl.dir/asyn-ares.c.o[0m
+[  8%] [32mBuilding C object _deps/curl-build/lib/CMakeFiles/libcurl.dir/asyn-thread.c.o[0m
+[  8%] [32mBuilding C object _deps/curl-build/lib/CMakeFiles/libcurl.dir/base64.c.o[0m
+[  8%] [32mBuilding C object _deps/curl-build/lib/CMakeFiles/libcurl.dir/c-hyper.c.o[0m
+[  8%] [32mBuilding C object _deps/curl-build/lib/CMakeFiles/libcurl.dir/conncache.c.o[0m
+[  9%] [32mBuilding C object _deps/curl-build/lib/CMakeFiles/libcurl.dir/connect.c.o[0m
+[  9%] [32m[1mLinking CXX executable /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/.private/wavnodes/lib/wavnodes/POSE2ODOM[0m
+[  9%] [32mBuilding C object _deps/curl-build/lib/CMakeFiles/libcurl.dir/content_encoding.c.o[0m
+[  9%] Built target POSE2ODOM
+[35m[1mScanning dependencies of target actionlib_msgs_generate_messages_nodejs[0m
+[  9%] [32mBuilding C object _deps/curl-build/lib/CMakeFiles/libcurl.dir/cookie.c.o[0m
+[  9%] Built target actionlib_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target std_msgs_generate_messages_nodejs[0m
+[  9%] Built target std_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target actionlib_msgs_generate_messages_py[0m
+[  9%] Built target actionlib_msgs_generate_messages_py
+[  9%] [32mBuilding C object _deps/curl-build/lib/CMakeFiles/libcurl.dir/curl_addrinfo.c.o[0m
+[ 10%] [32mBuilding C object _deps/curl-build/lib/CMakeFiles/libcurl.dir/curl_ctype.c.o[0m
+[ 10%] [32mBuilding C object _deps/curl-build/lib/CMakeFiles/libcurl.dir/curl_des.c.o[0m
+[ 10%] [32m[1mLinking CXX executable /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/.private/wavnodes/lib/wavnodes/RGBD2PCL[0m
+[ 10%] [32mBuilding C object _deps/curl-build/lib/CMakeFiles/libcurl.dir/curl_endian.c.o[0m
+[ 10%] [32mBuilding C object _deps/curl-build/lib/CMakeFiles/libcurl.dir/curl_fnmatch.c.o[0m
+[ 11%] [32mBuilding C object _deps/curl-build/lib/CMakeFiles/libcurl.dir/curl_get_line.c.o[0m
+[ 11%] Built target RGBD2PCL
+[35m[1mScanning dependencies of target std_msgs_generate_messages_py[0m
+[ 11%] Built target std_msgs_generate_messages_py
+[35m[1mScanning dependencies of target std_msgs_generate_messages_eus[0m
+[ 11%] Built target std_msgs_generate_messages_eus
+[ 11%] [32mBuilding C object _deps/curl-build/lib/CMakeFiles/libcurl.dir/curl_gethostname.c.o[0m
+[35m[1mScanning dependencies of target actionlib_msgs_generate_messages_eus[0m
+[ 11%] Built target actionlib_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target std_msgs_generate_messages_lisp[0m
+[ 11%] Built target std_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target actionlib_msgs_generate_messages_lisp[0m
+[ 11%] [32mBuilding C object _deps/curl-build/lib/CMakeFiles/libcurl.dir/curl_gssapi.c.o[0m
+[ 11%] Built target actionlib_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target actionlib_msgs_generate_messages_cpp[0m
+[ 11%] Built target actionlib_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target std_msgs_generate_messages_cpp[0m
+[ 11%] Built target std_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target doctest_main[0m
+[ 11%] [32mBuilding C object _deps/curl-build/lib/CMakeFiles/libcurl.dir/curl_memrchr.c.o[0m
+[ 11%] [32mBuilding CXX object AniEngineCPP/json-nlohmann/test/CMakeFiles/doctest_main.dir/src/unit.cpp.o[0m
+[ 12%] [32mBuilding C object _deps/curl-build/lib/CMakeFiles/libcurl.dir/curl_multibyte.c.o[0m
+[ 12%] [32m[1mLinking CXX shared library /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/.private/wavnodes/lib/libBotConnectConveyListener.so[0m
+[ 12%] [32mBuilding C object _deps/curl-build/lib/CMakeFiles/libcurl.dir/curl_ntlm_core.c.o[0m
+[ 12%] Built target BotConnectConveyListener
+[35m[1mScanning dependencies of target zlib[0m
+[ 12%] [32mBuilding C object _deps/zlib-build/CMakeFiles/zlib.dir/adler32.c.o[0m
+[ 12%] [32mBuilding C object _deps/curl-build/lib/CMakeFiles/libcurl.dir/curl_ntlm_wb.c.o[0m
+[ 13%] [32mBuilding C object _deps/zlib-build/CMakeFiles/zlib.dir/chunkset.c.o[0m
+[ 13%] [32mBuilding C object _deps/curl-build/lib/CMakeFiles/libcurl.dir/curl_path.c.o[0m
+[ 13%] [32mBuilding C object _deps/zlib-build/CMakeFiles/zlib.dir/compare258.c.o[0m
+[ 13%] [32mBuilding C object _deps/curl-build/lib/CMakeFiles/libcurl.dir/curl_range.c.o[0m
+[ 13%] [32mBuilding C object _deps/zlib-build/CMakeFiles/zlib.dir/compress.c.o[0m
+[ 13%] [32mBuilding C object _deps/zlib-build/CMakeFiles/zlib.dir/crc32.c.o[0m
+[ 14%] [32mBuilding C object _deps/curl-build/lib/CMakeFiles/libcurl.dir/curl_rtmp.c.o[0m
+[ 15%] [32mBuilding C object _deps/zlib-build/CMakeFiles/zlib.dir/crc32_comb.c.o[0m
+[ 15%] [32mBuilding C object _deps/curl-build/lib/CMakeFiles/libcurl.dir/curl_sasl.c.o[0m
+[ 15%] [32mBuilding C object _deps/zlib-build/CMakeFiles/zlib.dir/deflate.c.o[0m
+[ 15%] [32mBuilding C object _deps/curl-build/lib/CMakeFiles/libcurl.dir/curl_sspi.c.o[0m
+[ 15%] [32mBuilding C object _deps/curl-build/lib/CMakeFiles/libcurl.dir/curl_threads.c.o[0m
+[ 15%] [32mBuilding C object _deps/zlib-build/CMakeFiles/zlib.dir/deflate_fast.c.o[0m
+[ 15%] [32mBuilding C object _deps/zlib-build/CMakeFiles/zlib.dir/deflate_medium.c.o[0m
+[ 16%] [32mBuilding C object _deps/curl-build/lib/CMakeFiles/libcurl.dir/dict.c.o[0m
+[ 17%] [32mBuilding C object _deps/zlib-build/CMakeFiles/zlib.dir/deflate_quick.c.o[0m
+[ 17%] [32mBuilding C object _deps/curl-build/lib/CMakeFiles/libcurl.dir/doh.c.o[0m
+[ 17%] [32mBuilding C object _deps/zlib-build/CMakeFiles/zlib.dir/deflate_slow.c.o[0m
+[ 17%] [32mBuilding C object _deps/zlib-build/CMakeFiles/zlib.dir/functable.c.o[0m
+[ 17%] [32mBuilding C object _deps/zlib-build/CMakeFiles/zlib.dir/infback.c.o[0m
+[ 17%] [32mBuilding C object _deps/curl-build/lib/CMakeFiles/libcurl.dir/dotdot.c.o[0m
+[ 18%] [32mBuilding C object _deps/zlib-build/CMakeFiles/zlib.dir/inffast.c.o[0m
+[ 18%] [32mBuilding C object _deps/curl-build/lib/CMakeFiles/libcurl.dir/dynbuf.c.o[0m
+[ 18%] [32mBuilding C object _deps/zlib-build/CMakeFiles/zlib.dir/inflate.c.o[0m
+[ 19%] [32mBuilding C object _deps/curl-build/lib/CMakeFiles/libcurl.dir/easy.c.o[0m
+[ 19%] [32mBuilding C object _deps/zlib-build/CMakeFiles/zlib.dir/inftrees.c.o[0m
+[ 19%] [32mBuilding C object _deps/curl-build/lib/CMakeFiles/libcurl.dir/easygetopt.c.o[0m
+[ 19%] [32mBuilding C object _deps/zlib-build/CMakeFiles/zlib.dir/insert_string.c.o[0m
+[ 19%] [32mBuilding C object _deps/zlib-build/CMakeFiles/zlib.dir/trees.c.o[0m
+[ 19%] [32mBuilding C object _deps/curl-build/lib/CMakeFiles/libcurl.dir/easyoptions.c.o[0m
+[ 19%] [32mBuilding C object _deps/curl-build/lib/CMakeFiles/libcurl.dir/escape.c.o[0m
+[ 20%] [32mBuilding C object _deps/zlib-build/CMakeFiles/zlib.dir/uncompr.c.o[0m
+[ 20%] [32mBuilding C object _deps/zlib-build/CMakeFiles/zlib.dir/zutil.c.o[0m
+[ 21%] [32mBuilding C object _deps/curl-build/lib/CMakeFiles/libcurl.dir/file.c.o[0m
+[ 21%] [32mBuilding C object _deps/zlib-build/CMakeFiles/zlib.dir/arch/x86/x86.c.o[0m
+[ 21%] [32mBuilding C object _deps/zlib-build/CMakeFiles/zlib.dir/arch/x86/slide_avx.c.o[0m
+[ 21%] [32mBuilding C object _deps/curl-build/lib/CMakeFiles/libcurl.dir/fileinfo.c.o[0m
+[ 21%] [32mBuilding C object _deps/curl-build/lib/CMakeFiles/libcurl.dir/formdata.c.o[0m
+[ 21%] [32mBuilding C object _deps/curl-build/lib/CMakeFiles/libcurl.dir/ftp.c.o[0m
+[ 22%] [32mBuilding C object _deps/zlib-build/CMakeFiles/zlib.dir/arch/x86/chunkset_avx.c.o[0m
+[ 23%] [32mBuilding C object _deps/curl-build/lib/CMakeFiles/libcurl.dir/ftplistparser.c.o[0m
+[ 23%] [32mBuilding C object _deps/curl-build/lib/CMakeFiles/libcurl.dir/getenv.c.o[0m
+[ 23%] [32mBuilding C object _deps/curl-build/lib/CMakeFiles/libcurl.dir/getinfo.c.o[0m
+[ 23%] [32mBuilding C object _deps/zlib-build/CMakeFiles/zlib.dir/arch/x86/compare258_avx.c.o[0m
+[ 23%] Built target doctest_main
+[ 23%] [32mBuilding C object _deps/curl-build/lib/CMakeFiles/libcurl.dir/gopher.c.o[0m
+[35m[1mScanning dependencies of target fmBoip[0m
+[ 23%] [32mBuilding C object _deps/curl-build/lib/CMakeFiles/libcurl.dir/hash.c.o[0m
+[ 24%] [32mBuilding CXX object AniEngineCPP/fmBoip/CMakeFiles/fmBoip.dir/src/Framework/Configuration/DOIPParameters.cc.o[0m
+[ 25%] [32mBuilding C object _deps/curl-build/lib/CMakeFiles/libcurl.dir/hmac.c.o[0m
+[ 25%] [32mBuilding C object _deps/zlib-build/CMakeFiles/zlib.dir/arch/x86/adler32_avx.c.o[0m
+[ 25%] [32mBuilding C object _deps/curl-build/lib/CMakeFiles/libcurl.dir/hostasyn.c.o[0m
+[ 25%] [32mBuilding C object _deps/curl-build/lib/CMakeFiles/libcurl.dir/hostcheck.c.o[0m
+[ 25%] [32mBuilding C object _deps/curl-build/lib/CMakeFiles/libcurl.dir/hostip.c.o[0m
+[ 25%] [32mBuilding C object _deps/zlib-build/CMakeFiles/zlib.dir/arch/x86/insert_string_sse.c.o[0m
+[ 25%] [32mBuilding CXX object AniEngineCPP/fmBoip/CMakeFiles/fmBoip.dir/src/Framework/DOIPAccessImplementation.cc.o[0m
+[ 26%] [32mBuilding C object _deps/curl-build/lib/CMakeFiles/libcurl.dir/hostip4.c.o[0m
+[ 26%] [32mBuilding C object _deps/curl-build/lib/CMakeFiles/libcurl.dir/hostip6.c.o[0m
+[ 26%] [32mBuilding C object _deps/curl-build/lib/CMakeFiles/libcurl.dir/hostsyn.c.o[0m
+[ 27%] [32mBuilding C object _deps/zlib-build/CMakeFiles/zlib.dir/arch/x86/compare258_sse.c.o[0m
+[ 27%] [32m[1mLinking CXX executable /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/.private/wavnodes/lib/wavnodes/PCLTFCHECK[0m
+[ 27%] [32mBuilding C object _deps/curl-build/lib/CMakeFiles/libcurl.dir/hsts.c.o[0m
+[ 27%] [32m[1mLinking CXX executable /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/.private/wavnodes/lib/wavnodes/WavMove[0m
+[ 28%] [32mBuilding C object _deps/curl-build/lib/CMakeFiles/libcurl.dir/http.c.o[0m
+[ 28%] [32mBuilding C object _deps/zlib-build/CMakeFiles/zlib.dir/arch/x86/chunkset_sse.c.o[0m
+[ 28%] Built target WavMove
+[ 28%] Built target PCLTFCHECK
+[ 28%] [32mBuilding C object _deps/zlib-build/CMakeFiles/zlib.dir/arch/x86/slide_sse.c.o[0m
+[35m[1mScanning dependencies of target WavComms[0m
+[ 29%] [32mBuilding CXX object CMakeFiles/WavComms.dir/src/WavComms.cpp.o[0m
+[ 29%] [32mBuilding C object _deps/curl-build/lib/CMakeFiles/libcurl.dir/http2.c.o[0m
+[ 29%] [32mBuilding C object _deps/curl-build/lib/CMakeFiles/libcurl.dir/http_chunks.c.o[0m
+[ 29%] [32mBuilding C object _deps/zlib-build/CMakeFiles/zlib.dir/arch/x86/adler32_ssse3.c.o[0m
+[ 29%] [32mBuilding C object _deps/curl-build/lib/CMakeFiles/libcurl.dir/http_digest.c.o[0m
+[ 30%] [32mBuilding C object _deps/zlib-build/CMakeFiles/zlib.dir/arch/x86/crc_folding.c.o[0m
+[ 31%] [32mBuilding C object _deps/curl-build/lib/CMakeFiles/libcurl.dir/http_negotiate.c.o[0m
+[ 31%] [32mBuilding C object _deps/curl-build/lib/CMakeFiles/libcurl.dir/http_ntlm.c.o[0m
+[ 31%] [32mBuilding C object _deps/zlib-build/CMakeFiles/zlib.dir/gzlib.c.o[0m
+[ 31%] [32mBuilding C object _deps/zlib-build/CMakeFiles/zlib.dir/gzread.c.o[0m
+[ 31%] [32mBuilding C object _deps/curl-build/lib/CMakeFiles/libcurl.dir/http_proxy.c.o[0m
+[ 31%] [32mBuilding C object _deps/curl-build/lib/CMakeFiles/libcurl.dir/http_aws_sigv4.c.o[0m
+[ 31%] [32mBuilding C object _deps/zlib-build/CMakeFiles/zlib.dir/gzwrite.c.o[0m
+[ 32%] [32m[1mLinking C shared library /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/.private/wavnodes/lib/libz.so[0m
+[ 33%] [32mBuilding C object _deps/curl-build/lib/CMakeFiles/libcurl.dir/idn_win32.c.o[0m
+[ 33%] [32mBuilding C object _deps/curl-build/lib/CMakeFiles/libcurl.dir/if2ip.c.o[0m
+[ 33%] Built target zlib
+[ 33%] [32mBuilding C object _deps/curl-build/lib/CMakeFiles/libcurl.dir/imap.c.o[0m
+[35m[1mScanning dependencies of target wavnodes_generate_messages_nodejs[0m
+[ 33%] Built target wavnodes_generate_messages_nodejs
+[ 33%] [32mBuilding CXX object AniEngineCPP/fmBoip/CMakeFiles/fmBoip.dir/src/Framework/DOIPFrameHelpers/DOIPFrameParser.cc.o[0m
+[ 33%] [32mBuilding C object _deps/curl-build/lib/CMakeFiles/libcurl.dir/inet_ntop.c.o[0m
+[ 33%] [32mBuilding C object _deps/curl-build/lib/CMakeFiles/libcurl.dir/inet_pton.c.o[0m
+[ 34%] [32mBuilding C object _deps/curl-build/lib/CMakeFiles/libcurl.dir/krb5.c.o[0m
+[ 34%] [32mBuilding C object _deps/curl-build/lib/CMakeFiles/libcurl.dir/ldap.c.o[0m
+[ 34%] [32mBuilding C object _deps/curl-build/lib/CMakeFiles/libcurl.dir/llist.c.o[0m
+[ 34%] [32mBuilding C object _deps/curl-build/lib/CMakeFiles/libcurl.dir/md4.c.o[0m
+[ 35%] [32mBuilding C object _deps/curl-build/lib/CMakeFiles/libcurl.dir/md5.c.o[0m
+[ 35%] [32mBuilding C object _deps/curl-build/lib/CMakeFiles/libcurl.dir/memdebug.c.o[0m
+[ 35%] [32mBuilding C object _deps/curl-build/lib/CMakeFiles/libcurl.dir/mime.c.o[0m
+[ 35%] [32mBuilding C object _deps/curl-build/lib/CMakeFiles/libcurl.dir/mprintf.c.o[0m
+[ 35%] [32mBuilding CXX object AniEngineCPP/fmBoip/CMakeFiles/fmBoip.dir/src/Framework/DOIPFrameHelpers/DOIPFrameSynthesizer.cc.o[0m
+[ 36%] [32mBuilding C object _deps/curl-build/lib/CMakeFiles/libcurl.dir/mqtt.c.o[0m
+[ 36%] [32mBuilding C object _deps/curl-build/lib/CMakeFiles/libcurl.dir/multi.c.o[0m
+[ 36%] [32mBuilding C object _deps/curl-build/lib/CMakeFiles/libcurl.dir/netrc.c.o[0m
+[ 36%] [32mBuilding C object _deps/curl-build/lib/CMakeFiles/libcurl.dir/non-ascii.c.o[0m
+[ 37%] [32mBuilding C object _deps/curl-build/lib/CMakeFiles/libcurl.dir/nonblock.c.o[0m
+[ 37%] [32mBuilding C object _deps/curl-build/lib/CMakeFiles/libcurl.dir/openldap.c.o[0m
+[ 37%] [32mBuilding C object _deps/curl-build/lib/CMakeFiles/libcurl.dir/parsedate.c.o[0m
+[ 37%] [32mBuilding C object _deps/curl-build/lib/CMakeFiles/libcurl.dir/pingpong.c.o[0m
+[ 38%] [32mBuilding C object _deps/curl-build/lib/CMakeFiles/libcurl.dir/pop3.c.o[0m
+[ 38%] [32mBuilding C object _deps/curl-build/lib/CMakeFiles/libcurl.dir/progress.c.o[0m
+[ 39%] [32mBuilding CXX object AniEngineCPP/fmBoip/CMakeFiles/fmBoip.dir/src/Framework/DOIPLayer/DOIPSession.cc.o[0m
+[ 39%] [32mBuilding C object _deps/curl-build/lib/CMakeFiles/libcurl.dir/psl.c.o[0m
+[ 39%] [32mBuilding C object _deps/curl-build/lib/CMakeFiles/libcurl.dir/rand.c.o[0m
+[ 39%] [32mBuilding C object _deps/curl-build/lib/CMakeFiles/libcurl.dir/rename.c.o[0m
+[ 40%] [32mBuilding C object _deps/curl-build/lib/CMakeFiles/libcurl.dir/rtsp.c.o[0m
+[ 40%] [32mBuilding C object _deps/curl-build/lib/CMakeFiles/libcurl.dir/select.c.o[0m
+[ 40%] [32mBuilding C object _deps/curl-build/lib/CMakeFiles/libcurl.dir/sendf.c.o[0m
+[ 40%] [32mBuilding C object _deps/curl-build/lib/CMakeFiles/libcurl.dir/setopt.c.o[0m
+[ 41%] [32mBuilding C object _deps/curl-build/lib/CMakeFiles/libcurl.dir/sha256.c.o[0m
+[ 41%] [32mBuilding C object _deps/curl-build/lib/CMakeFiles/libcurl.dir/share.c.o[0m
+[ 41%] [32mBuilding C object _deps/curl-build/lib/CMakeFiles/libcurl.dir/slist.c.o[0m
+[ 41%] [32mBuilding C object _deps/curl-build/lib/CMakeFiles/libcurl.dir/smb.c.o[0m
+[ 42%] [32mBuilding C object _deps/curl-build/lib/CMakeFiles/libcurl.dir/smtp.c.o[0m
+[ 42%] [32mBuilding C object _deps/curl-build/lib/CMakeFiles/libcurl.dir/socketpair.c.o[0m
+[ 42%] [32mBuilding C object _deps/curl-build/lib/CMakeFiles/libcurl.dir/socks.c.o[0m
+[35m[1mScanning dependencies of target wavnodes_generate_messages_py[0m
+[ 42%] Built target wavnodes_generate_messages_py
+[35m[1mScanning dependencies of target wavnodes_generate_messages_eus[0m
+[ 42%] [34m[1mGenerating EusLisp manifest code for wavnodes[0m
+[ 42%] [32mBuilding CXX object AniEngineCPP/fmBoip/CMakeFiles/fmBoip.dir/src/Framework/DOIPLayer/DOIPStateMachines/DiagStates/AliveCheckDiagState.cc.o[0m
+[ 42%] [32mBuilding C object _deps/curl-build/lib/CMakeFiles/libcurl.dir/socks_gssapi.c.o[0m
+[ 43%] [32mBuilding C object _deps/curl-build/lib/CMakeFiles/libcurl.dir/socks_sspi.c.o[0m
+[ 43%] [32mBuilding C object _deps/curl-build/lib/CMakeFiles/libcurl.dir/speedcheck.c.o[0m
+[ 43%] [32mBuilding C object _deps/curl-build/lib/CMakeFiles/libcurl.dir/splay.c.o[0m
+[ 43%] [32mBuilding C object _deps/curl-build/lib/CMakeFiles/libcurl.dir/strcase.c.o[0m
+[ 44%] [32mBuilding C object _deps/curl-build/lib/CMakeFiles/libcurl.dir/strdup.c.o[0m
+[ 44%] [32mBuilding C object _deps/curl-build/lib/CMakeFiles/libcurl.dir/strerror.c.o[0m
+[ 44%] [32mBuilding C object _deps/curl-build/lib/CMakeFiles/libcurl.dir/strtok.c.o[0m
+[ 44%] Built target wavnodes_generate_messages_eus
+[35m[1mScanning dependencies of target wavnodes_generate_messages_lisp[0m
+[ 44%] Built target wavnodes_generate_messages_lisp
+[ 44%] [32mBuilding C object _deps/curl-build/lib/CMakeFiles/libcurl.dir/strtoofft.c.o[0m
+[35m[1mScanning dependencies of target wavnodes_generate_messages_cpp[0m
+[ 44%] Built target wavnodes_generate_messages_cpp
+[ 44%] [32mBuilding C object _deps/curl-build/lib/CMakeFiles/libcurl.dir/system_win32.c.o[0m
+[ 45%] [32mBuilding C object _deps/curl-build/lib/CMakeFiles/libcurl.dir/telnet.c.o[0m
+[ 45%] [32mBuilding C object _deps/curl-build/lib/CMakeFiles/libcurl.dir/tftp.c.o[0m
+[ 45%] [32mBuilding C object _deps/curl-build/lib/CMakeFiles/libcurl.dir/timeval.c.o[0m
+[ 45%] [32mBuilding C object _deps/curl-build/lib/CMakeFiles/libcurl.dir/transfer.c.o[0m
+[ 46%] [32mBuilding C object _deps/curl-build/lib/CMakeFiles/libcurl.dir/url.c.o[0m
+[ 46%] [32mBuilding C object _deps/curl-build/lib/CMakeFiles/libcurl.dir/urlapi.c.o[0m
+[ 46%] [32mBuilding C object _deps/curl-build/lib/CMakeFiles/libcurl.dir/version.c.o[0m
+[ 46%] [32mBuilding C object _deps/curl-build/lib/CMakeFiles/libcurl.dir/version_win32.c.o[0m
+[ 47%] [32mBuilding C object _deps/curl-build/lib/CMakeFiles/libcurl.dir/warnless.c.o[0m
+[ 47%] [32mBuilding C object _deps/curl-build/lib/CMakeFiles/libcurl.dir/wildcard.c.o[0m
+[ 47%] [32mBuilding C object _deps/curl-build/lib/CMakeFiles/libcurl.dir/x509asn1.c.o[0m
+[35m[1mScanning dependencies of target test-unicode[0m
+[ 47%] [32mBuilding CXX object AniEngineCPP/json-nlohmann/test/CMakeFiles/test-unicode.dir/src/unit-unicode.cpp.o[0m
+[ 47%] [32mBuilding CXX object AniEngineCPP/fmBoip/CMakeFiles/fmBoip.dir/src/Framework/DOIPLayer/DOIPStateMachines/DiagStates/DiagMessageNAKDiagState.cc.o[0m
+[ 47%] [32mBuilding C object _deps/curl-build/lib/CMakeFiles/libcurl.dir/vauth/cleartext.c.o[0m
+[ 48%] [32mBuilding C object _deps/curl-build/lib/CMakeFiles/libcurl.dir/vauth/cram.c.o[0m
+[35m[1mScanning dependencies of target test-to_chars[0m
+[ 48%] [32mBuilding CXX object AniEngineCPP/json-nlohmann/test/CMakeFiles/test-to_chars.dir/src/unit-to_chars.cpp.o[0m
+[ 48%] [32mBuilding C object _deps/curl-build/lib/CMakeFiles/libcurl.dir/vauth/digest.c.o[0m
+[ 48%] [32mBuilding C object _deps/curl-build/lib/CMakeFiles/libcurl.dir/vauth/digest_sspi.c.o[0m
+[ 48%] [32mBuilding C object _deps/curl-build/lib/CMakeFiles/libcurl.dir/vauth/krb5_gssapi.c.o[0m
+[ 50%] [32mBuilding C object _deps/curl-build/lib/CMakeFiles/libcurl.dir/vauth/krb5_sspi.c.o[0m
+[ 50%] [32mBuilding C object _deps/curl-build/lib/CMakeFiles/libcurl.dir/vauth/ntlm.c.o[0m
+[ 50%] [32mBuilding C object _deps/curl-build/lib/CMakeFiles/libcurl.dir/vauth/ntlm_sspi.c.o[0m
+[ 50%] [32mBuilding C object _deps/curl-build/lib/CMakeFiles/libcurl.dir/vauth/oauth2.c.o[0m
+[ 50%] [32mBuilding C object _deps/curl-build/lib/CMakeFiles/libcurl.dir/vauth/spnego_gssapi.c.o[0m
+[ 51%] [32mBuilding C object _deps/curl-build/lib/CMakeFiles/libcurl.dir/vauth/spnego_sspi.c.o[0m
+[01m[K/home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/src/wavnodes/AniEngineCPP/fmBoip/src/Framework/DOIPLayer/DOIPStateMachines/DiagStates/DiagMessageNAKDiagState.cc:[m[K In member function ‘[01m[Kstd::pair<int, std::vector<unsigned char> > fmBoip::DiagMessageNAKDiagState::FormatRequest(std::vector<unsigned char>)[m[K’:
+[01m[K/home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/src/wavnodes/AniEngineCPP/fmBoip/src/Framework/DOIPLayer/DOIPStateMachines/DiagStates/DiagMessageNAKDiagState.cc:69:116:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K-Wreturn-type[m[K]
+   69 |         std::pair<int, std::vector<uint8_t>> DiagMessageNAKDiagState::FormatRequest(std::vector<uint8_t> userData){[01;35m[K}[m[K
+      |                                                                                                                    [01;35m[K^[m[K
+[01m[K/home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/src/wavnodes/AniEngineCPP/fmBoip/src/Framework/DOIPLayer/DOIPStateMachines/DiagStates/DiagMessageNAKDiagState.cc:[m[K In member function ‘[01m[Kint fmBoip::DiagMessageNAKDiagState::SendData(std::vector<unsigned char>)[m[K’:
+[01m[K/home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/src/wavnodes/AniEngineCPP/fmBoip/src/Framework/DOIPLayer/DOIPStateMachines/DiagStates/DiagMessageNAKDiagState.cc:71:74:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K-Wreturn-type[m[K]
+   71 |         int DiagMessageNAKDiagState::SendData(std::vector<uint8_t> data){[01;35m[K}[m[K
+      |                                                                          [01;35m[K^[m[K
+[ 51%] [32mBuilding C object _deps/curl-build/lib/CMakeFiles/libcurl.dir/vauth/vauth.c.o[0m
+[ 51%] [32mBuilding CXX object AniEngineCPP/fmBoip/CMakeFiles/fmBoip.dir/src/Framework/DOIPLayer/DOIPStateMachines/DiagStates/DiagMessagePosACKDiagState.cc.o[0m
+[ 51%] [32mBuilding C object _deps/curl-build/lib/CMakeFiles/libcurl.dir/vtls/bearssl.c.o[0m
+[ 51%] [32mBuilding C object _deps/curl-build/lib/CMakeFiles/libcurl.dir/vtls/gskit.c.o[0m
+[ 52%] [32mBuilding C object _deps/curl-build/lib/CMakeFiles/libcurl.dir/vtls/gtls.c.o[0m
+[ 52%] [32mBuilding C object _deps/curl-build/lib/CMakeFiles/libcurl.dir/vtls/keylog.c.o[0m
+[ 52%] [32mBuilding C object _deps/curl-build/lib/CMakeFiles/libcurl.dir/vtls/mbedtls.c.o[0m
+[ 52%] [32mBuilding C object _deps/curl-build/lib/CMakeFiles/libcurl.dir/vtls/mbedtls_threadlock.c.o[0m
+[ 53%] [32mBuilding C object _deps/curl-build/lib/CMakeFiles/libcurl.dir/vtls/mesalink.c.o[0m
+[ 53%] [32mBuilding C object _deps/curl-build/lib/CMakeFiles/libcurl.dir/vtls/nss.c.o[0m
+[ 53%] [32mBuilding C object _deps/curl-build/lib/CMakeFiles/libcurl.dir/vtls/openssl.c.o[0m
+[ 53%] [32mBuilding C object _deps/curl-build/lib/CMakeFiles/libcurl.dir/vtls/schannel.c.o[0m
+[ 54%] [32mBuilding C object _deps/curl-build/lib/CMakeFiles/libcurl.dir/vtls/schannel_verify.c.o[0m
+[ 54%] [32mBuilding C object _deps/curl-build/lib/CMakeFiles/libcurl.dir/vtls/sectransp.c.o[0m
+[ 54%] [32mBuilding C object _deps/curl-build/lib/CMakeFiles/libcurl.dir/vtls/vtls.c.o[0m
+[ 54%] [32mBuilding C object _deps/curl-build/lib/CMakeFiles/libcurl.dir/vtls/wolfssl.c.o[0m
+[ 54%] [32mBuilding CXX object AniEngineCPP/fmBoip/CMakeFiles/fmBoip.dir/src/Framework/DOIPLayer/DOIPStateMachines/DiagStates/DiagnosticMessagesDiagState.cc.o[0m
+[ 54%] [32m[1mLinking CXX executable /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/.private/wavnodes/lib/wavnodes/WavComms[0m
+[ 55%] [32mBuilding C object _deps/curl-build/lib/CMakeFiles/libcurl.dir/vquic/ngtcp2.c.o[0m
+[ 55%] [32mBuilding C object _deps/curl-build/lib/CMakeFiles/libcurl.dir/vquic/quiche.c.o[0m
+[ 55%] [32mBuilding C object _deps/curl-build/lib/CMakeFiles/libcurl.dir/vquic/vquic.c.o[0m
+[ 55%] [32mBuilding C object _deps/curl-build/lib/CMakeFiles/libcurl.dir/vssh/libssh.c.o[0m
+[ 55%] [32mBuilding C object _deps/curl-build/lib/CMakeFiles/libcurl.dir/vssh/libssh2.c.o[0m
+[ 56%] [32mBuilding C object _deps/curl-build/lib/CMakeFiles/libcurl.dir/vssh/wolfssh.c.o[0m
+[01m[K/home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/src/wavnodes/AniEngineCPP/fmBoip/src/Framework/DOIPLayer/DOIPStateMachines/DiagStates/DiagMessagePosACKDiagState.cc:[m[K In member function ‘[01m[Kstd::pair<int, std::vector<unsigned char> > fmBoip::DiagMessagePosACKDiagState::FormatRequest(std::vector<unsigned char>)[m[K’:
+[01m[K/home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/src/wavnodes/AniEngineCPP/fmBoip/src/Framework/DOIPLayer/DOIPStateMachines/DiagStates/DiagMessagePosACKDiagState.cc:77:119:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K-Wreturn-type[m[K]
+   77 |         std::pair<int, std::vector<uint8_t>> DiagMessagePosACKDiagState::FormatRequest(std::vector<uint8_t> userData){[01;35m[K}[m[K
+      |                                                                                                                       [01;35m[K^[m[K
+[01m[K/home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/src/wavnodes/AniEngineCPP/fmBoip/src/Framework/DOIPLayer/DOIPStateMachines/DiagStates/DiagMessagePosACKDiagState.cc:[m[K In member function ‘[01m[Kint fmBoip::DiagMessagePosACKDiagState::SendData(std::vector<unsigned char>)[m[K’:
+[01m[K/home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/src/wavnodes/AniEngineCPP/fmBoip/src/Framework/DOIPLayer/DOIPStateMachines/DiagStates/DiagMessagePosACKDiagState.cc:79:77:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K-Wreturn-type[m[K]
+   79 |         int DiagMessagePosACKDiagState::SendData(std::vector<uint8_t> data){[01;35m[K}[m[K
+      |                                                                             [01;35m[K^[m[K
+[35m[1mScanning dependencies of target test-ubjson[0m
+[ 56%] Built target WavComms
+[ 56%] [32m[1mLinking C shared library /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/.private/wavnodes/lib/libcurl-d.so[0m
+[35m[1mScanning dependencies of target test-readme[0m
+[ 56%] [32mBuilding CXX object AniEngineCPP/json-nlohmann/test/CMakeFiles/test-ubjson.dir/src/unit-ubjson.cpp.o[0m
+[ 56%] [32mBuilding CXX object AniEngineCPP/json-nlohmann/test/CMakeFiles/test-readme.dir/src/unit-readme.cpp.o[0m
+[ 56%] Built target libcurl
+[35m[1mScanning dependencies of target test-msgpack[0m
+[ 56%] [32mBuilding CXX object AniEngineCPP/json-nlohmann/test/CMakeFiles/test-msgpack.dir/src/unit-msgpack.cpp.o[0m
+[ 56%] [32m[1mLinking CXX executable /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/.private/wavnodes/lib/wavnodes/test-to_chars[0m
+[ 57%] [32mBuilding CXX object AniEngineCPP/fmBoip/CMakeFiles/fmBoip.dir/src/Framework/DOIPLayer/DOIPStateMachines/DiagStates/GenericHeaderNAKDiagState.cc.o[0m
+[ 57%] Built target test-to_chars
+[35m[1mScanning dependencies of target test-modifiers[0m
+[ 58%] [32mBuilding CXX object AniEngineCPP/json-nlohmann/test/CMakeFiles/test-modifiers.dir/src/unit-modifiers.cpp.o[0m
+[ 58%] [32mBuilding CXX object AniEngineCPP/fmBoip/CMakeFiles/fmBoip.dir/src/Framework/DOIPLayer/DOIPStateMachines/DiagStates/RoutingActivationDiagState.cc.o[0m
+[01m[K/home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/src/wavnodes/AniEngineCPP/fmBoip/src/Framework/DOIPLayer/DOIPStateMachines/DiagStates/GenericHeaderNAKDiagState.cc:[m[K In member function ‘[01m[Kstd::pair<int, std::vector<unsigned char> > fmBoip::GenericHeaderNAKDiagState::FormatRequest(std::vector<unsigned char>)[m[K’:
+[01m[K/home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/src/wavnodes/AniEngineCPP/fmBoip/src/Framework/DOIPLayer/DOIPStateMachines/DiagStates/GenericHeaderNAKDiagState.cc:69:118:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K-Wreturn-type[m[K]
+   69 |         std::pair<int, std::vector<uint8_t>> GenericHeaderNAKDiagState::FormatRequest(std::vector<uint8_t> userData){[01;35m[K}[m[K
+      |                                                                                                                      [01;35m[K^[m[K
+[01m[K/home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/src/wavnodes/AniEngineCPP/fmBoip/src/Framework/DOIPLayer/DOIPStateMachines/DiagStates/GenericHeaderNAKDiagState.cc:[m[K In member function ‘[01m[Kint fmBoip::GenericHeaderNAKDiagState::SendData(std::vector<unsigned char>)[m[K’:
+[01m[K/home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/src/wavnodes/AniEngineCPP/fmBoip/src/Framework/DOIPLayer/DOIPStateMachines/DiagStates/GenericHeaderNAKDiagState.cc:71:76:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K-Wreturn-type[m[K]
+   71 |         int GenericHeaderNAKDiagState::SendData(std::vector<uint8_t> data){[01;35m[K}[m[K
+      |                                                                            [01;35m[K^[m[K
+[ 58%] [32m[1mLinking CXX executable /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/.private/wavnodes/lib/wavnodes/test-unicode[0m
+[ 58%] Built target test-unicode
+[35m[1mScanning dependencies of target test-iterators2[0m
+[ 59%] [32mBuilding CXX object AniEngineCPP/json-nlohmann/test/CMakeFiles/test-iterators2.dir/src/unit-iterators2.cpp.o[0m
+[ 59%] [32mBuilding CXX object AniEngineCPP/fmBoip/CMakeFiles/fmBoip.dir/src/Framework/DOIPLayer/DOIPStateMachines/DiagStates/VehicleIdentificationDiagState.cc.o[0m
+[ 59%] [32mBuilding CXX object AniEngineCPP/fmBoip/CMakeFiles/fmBoip.dir/src/Framework/DOIPLayer/DOIPStateMachines/DoIPTesterContext.cc.o[0m
+[ 60%] [32mBuilding CXX object AniEngineCPP/fmBoip/CMakeFiles/fmBoip.dir/src/Framework/DOIPLayer/DoIPGenericHeaderHandler.cc.o[0m
+[ 60%] [32mBuilding CXX object AniEngineCPP/fmBoip/CMakeFiles/fmBoip.dir/src/Framework/DataTypes/ADDRESSING_TYPES.cc.o[0m
+[ 60%] [32mBuilding CXX object AniEngineCPP/fmBoip/CMakeFiles/fmBoip.dir/src/Framework/DataTypes/DOIP_OBJECTS/DOIPRequestObject.cc.o[0m
+[ 60%] [32m[1mLinking CXX executable /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/.private/wavnodes/lib/wavnodes/test-modifiers[0m
+[ 60%] [32mBuilding CXX object AniEngineCPP/fmBoip/CMakeFiles/fmBoip.dir/src/Framework/DataTypes/DOIP_OBJECTS/DOIPResponseObject.cc.o[0m
+[ 61%] [32mBuilding CXX object AniEngineCPP/fmBoip/CMakeFiles/fmBoip.dir/src/Framework/DataTypes/Extras/IPEndPoint.cc.o[0m
+[ 61%] Built target test-modifiers
+[35m[1mScanning dependencies of target test-udt[0m
+[ 61%] [32mBuilding CXX object AniEngineCPP/json-nlohmann/test/CMakeFiles/test-udt.dir/src/unit-udt.cpp.o[0m
+[ 61%] [32mBuilding CXX object AniEngineCPP/fmBoip/CMakeFiles/fmBoip.dir/src/Framework/DataTypes/PAYLOAD_OBJECTS/PAYLOAD_OBJECT_ECU_RESPONSE/ECU_VALUE_CODES/Activation_Response_Codes.cc.o[0m
+[ 61%] [32m[1mLinking CXX executable /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/.private/wavnodes/lib/wavnodes/test-iterators2[0m
+[ 61%] Built target test-iterators2
+[35m[1mScanning dependencies of target test-class_iterator[0m
+[ 62%] [32mBuilding CXX object AniEngineCPP/json-nlohmann/test/CMakeFiles/test-class_iterator.dir/src/unit-class_iterator.cpp.o[0m
+[ 62%] [32mBuilding CXX object AniEngineCPP/fmBoip/CMakeFiles/fmBoip.dir/src/Framework/DataTypes/PAYLOAD_OBJECTS/PAYLOAD_OBJECT_ECU_RESPONSE/ECU_VALUE_CODES/DOIP_Status_Node_Type.cc.o[0m
+[ 62%] [32mBuilding CXX object AniEngineCPP/fmBoip/CMakeFiles/fmBoip.dir/src/Framework/DataTypes/PAYLOAD_OBJECTS/PAYLOAD_OBJECT_ECU_RESPONSE/ECU_VALUE_CODES/Diagnostic_ACK_Codes.cc.o[0m
+[ 63%] [32m[1mLinking CXX executable /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/.private/wavnodes/lib/wavnodes/test-readme[0m
+[ 63%] [32m[1mLinking CXX executable /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/.private/wavnodes/lib/wavnodes/test-msgpack[0m
+[ 64%] [32mBuilding CXX object AniEngineCPP/fmBoip/CMakeFiles/fmBoip.dir/src/Framework/DataTypes/PAYLOAD_OBJECTS/PAYLOAD_OBJECT_ECU_RESPONSE/ECU_VALUE_CODES/Diagnostic_NAK_Codes.cc.o[0m
+[ 64%] [32mBuilding CXX object AniEngineCPP/fmBoip/CMakeFiles/fmBoip.dir/src/Framework/DataTypes/PAYLOAD_OBJECTS/PAYLOAD_OBJECT_ECU_RESPONSE/ECU_VALUE_CODES/Diagnostic_Power_mode_Values.cc.o[0m
+[ 64%] Built target test-readme
+[35m[1mScanning dependencies of target test-comparison[0m
+[ 64%] [32mBuilding CXX object AniEngineCPP/json-nlohmann/test/CMakeFiles/test-comparison.dir/src/unit-comparison.cpp.o[0m
+[ 64%] Built target test-msgpack
+[35m[1mScanning dependencies of target test-class_lexer[0m
+[ 64%] [32mBuilding CXX object AniEngineCPP/json-nlohmann/test/CMakeFiles/test-class_lexer.dir/src/unit-class_lexer.cpp.o[0m
+[ 64%] [32mBuilding CXX object AniEngineCPP/fmBoip/CMakeFiles/fmBoip.dir/src/Framework/DataTypes/PAYLOAD_OBJECTS/PAYLOAD_OBJECT_ECU_RESPONSE/ECU_VALUE_CODES/NAK_Codes.cc.o[0m
+[ 64%] [32mBuilding CXX object AniEngineCPP/fmBoip/CMakeFiles/fmBoip.dir/src/Framework/DataTypes/PAYLOAD_OBJECTS/PAYLOAD_OBJECT_ECU_RESPONSE/ECU_VALUE_CODES/Vehicle_Announce_Further_Actions.cc.o[0m
+[ 65%] [32mBuilding CXX object AniEngineCPP/fmBoip/CMakeFiles/fmBoip.dir/src/Framework/DataTypes/PAYLOAD_OBJECTS/PAYLOAD_OBJECT_ECU_RESPONSE/Payload_Alive_Check_Request.cc.o[0m
+[ 66%] [32mBuilding CXX object AniEngineCPP/fmBoip/CMakeFiles/fmBoip.dir/src/Framework/DataTypes/PAYLOAD_OBJECTS/PAYLOAD_OBJECT_ECU_RESPONSE/Payload_Diagnostic_Message_Ack.cc.o[0m
+[ 66%] [32m[1mLinking CXX executable /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/.private/wavnodes/lib/wavnodes/test-ubjson[0m
+[ 66%] Built target test-ubjson
+[35m[1mScanning dependencies of target test-wstring[0m
+[ 67%] [32mBuilding CXX object AniEngineCPP/json-nlohmann/test/CMakeFiles/test-wstring.dir/src/unit-wstring.cpp.o[0m
+[ 67%] [32mBuilding CXX object AniEngineCPP/fmBoip/CMakeFiles/fmBoip.dir/src/Framework/DataTypes/PAYLOAD_OBJECTS/PAYLOAD_OBJECT_ECU_RESPONSE/Payload_Diagnostic_Message_Nack.cc.o[0m
+[35m[1mScanning dependencies of target test-items[0m
+[ 68%] [32mBuilding CXX object AniEngineCPP/json-nlohmann/test/CMakeFiles/test-items.dir/src/unit-items.cpp.o[0m
+[ 68%] [32m[1mLinking CXX executable /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/.private/wavnodes/lib/wavnodes/test-class_lexer[0m
+[ 68%] Built target test-class_lexer
+[35m[1mScanning dependencies of target test-alt-string[0m
+[ 68%] [32m[1mLinking CXX executable /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/.private/wavnodes/lib/wavnodes/test-class_iterator[0m
+[ 68%] [32mBuilding CXX object AniEngineCPP/json-nlohmann/test/CMakeFiles/test-alt-string.dir/src/unit-alt-string.cpp.o[0m
+[ 68%] Built target test-class_iterator
+[35m[1mScanning dependencies of target test-allocator[0m
+[ 69%] [32mBuilding CXX object AniEngineCPP/json-nlohmann/test/CMakeFiles/test-allocator.dir/src/unit-allocator.cpp.o[0m
+[ 69%] [32mBuilding CXX object AniEngineCPP/fmBoip/CMakeFiles/fmBoip.dir/src/Framework/DataTypes/PAYLOAD_OBJECTS/PAYLOAD_OBJECT_ECU_RESPONSE/Payload_Diagnostic_Power_Mode_Response.cc.o[0m
+[ 69%] [32mBuilding CXX object AniEngineCPP/fmBoip/CMakeFiles/fmBoip.dir/src/Framework/DataTypes/PAYLOAD_OBJECTS/PAYLOAD_OBJECT_ECU_RESPONSE/Payload_Diagnostic_Status_Response.cc.o[0m
+[ 69%] [32m[1mLinking CXX executable /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/.private/wavnodes/lib/wavnodes/test-comparison[0m
+[ 69%] Built target test-comparison
+[ 70%] [32mBuilding CXX object AniEngineCPP/fmBoip/CMakeFiles/fmBoip.dir/src/Framework/DataTypes/PAYLOAD_OBJECTS/PAYLOAD_OBJECT_ECU_RESPONSE/Payload_Generic_Header_NACK.cc.o[0m
+[ 70%] [32mBuilding CXX object AniEngineCPP/fmBoip/CMakeFiles/fmBoip.dir/src/Framework/DataTypes/PAYLOAD_OBJECTS/PAYLOAD_OBJECT_ECU_RESPONSE/Payload_Routing_Activation_Response.cc.o[0m
+[ 70%] [32mBuilding CXX object AniEngineCPP/fmBoip/CMakeFiles/fmBoip.dir/src/Framework/DataTypes/PAYLOAD_OBJECTS/PAYLOAD_OBJECT_ECU_RESPONSE/Payload_Vehicle_Announcement.cc.o[0m
+[ 70%] [32m[1mLinking CXX executable /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/.private/wavnodes/lib/wavnodes/test-wstring[0m
+[ 70%] Built target test-wstring
+[ 70%] [32mBuilding CXX object AniEngineCPP/fmBoip/CMakeFiles/fmBoip.dir/src/Framework/DataTypes/PAYLOAD_OBJECTS/PAYLOAD_OBJECT_TESTER_REQUEST/Payload_Alive_Check_Response.cc.o[0m
+[35m[1mScanning dependencies of target test-pointer_access[0m
+[ 70%] [32mBuilding CXX object AniEngineCPP/json-nlohmann/test/CMakeFiles/test-pointer_access.dir/src/unit-pointer_access.cpp.o[0m
+[ 70%] [32m[1mLinking CXX executable /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/.private/wavnodes/lib/wavnodes/test-items[0m
+[ 71%] [32mBuilding CXX object AniEngineCPP/fmBoip/CMakeFiles/fmBoip.dir/src/Framework/DataTypes/PAYLOAD_OBJECTS/PAYLOAD_OBJECT_TESTER_REQUEST/Payload_Routing_Activation_Requests.cc.o[0m
+[ 71%] Built target test-items
+[35m[1mScanning dependencies of target test-algorithms[0m
+[ 71%] [32m[1mLinking CXX executable /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/.private/wavnodes/lib/wavnodes/test-allocator[0m
+[ 71%] [32mBuilding CXX object AniEngineCPP/json-nlohmann/test/CMakeFiles/test-algorithms.dir/src/unit-algorithms.cpp.o[0m
+[ 71%] [32mBuilding CXX object AniEngineCPP/fmBoip/CMakeFiles/fmBoip.dir/src/Framework/DataTypes/PAYLOAD_OBJECTS/PAYLOAD_OBJECT_TESTER_REQUEST/Payload_Vehicle_Request_EID.cc.o[0m
+[ 71%] Built target test-allocator
+[35m[1mScanning dependencies of target test-class_parser[0m
+[ 71%] [32mBuilding CXX object AniEngineCPP/json-nlohmann/test/CMakeFiles/test-class_parser.dir/src/unit-class_parser.cpp.o[0m
+[ 71%] [32mBuilding CXX object AniEngineCPP/fmBoip/CMakeFiles/fmBoip.dir/src/Framework/DataTypes/PAYLOAD_OBJECTS/PAYLOAD_OBJECT_TESTER_REQUEST/Payload_Vehicle_Request_VIN.cc.o[0m
+[ 71%] [32mBuilding CXX object AniEngineCPP/fmBoip/CMakeFiles/fmBoip.dir/src/Framework/DataTypes/PAYLOAD_OBJECTS/PAYLOAD_OBJECT_TESTER_REQUEST/TESTER_CODE_VALUES/Activation_Request_Types.cc.o[0m
+[ 71%] [32m[1mLinking CXX executable /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/.private/wavnodes/lib/wavnodes/test-alt-string[0m
+[ 71%] Built target test-alt-string
+[35m[1mScanning dependencies of target test-cbor[0m
+[ 72%] [32mBuilding CXX object AniEngineCPP/json-nlohmann/test/CMakeFiles/test-cbor.dir/src/unit-cbor.cpp.o[0m
+[ 72%] [32m[1mLinking CXX executable /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/.private/wavnodes/lib/wavnodes/test-udt[0m
+[ 73%] [32mBuilding CXX object AniEngineCPP/fmBoip/CMakeFiles/fmBoip.dir/src/Framework/DataTypes/PAYLOAD_OBJECTS/PAYLOAD_OBJECT_TESTER_REQUEST/TESTER_CODE_VALUES/Vehicle_Identification_Types.cc.o[0m
+[ 73%] Built target test-udt
+[35m[1mScanning dependencies of target test-bson[0m
+[ 73%] [32mBuilding CXX object AniEngineCPP/fmBoip/CMakeFiles/fmBoip.dir/src/Framework/DataTypes/PAYLOAD_OBJECTS/PayloadObject.cc.o[0m
+[ 74%] [32mBuilding CXX object AniEngineCPP/json-nlohmann/test/CMakeFiles/test-bson.dir/src/unit-bson.cpp.o[0m
+[ 74%] [32mBuilding CXX object AniEngineCPP/fmBoip/CMakeFiles/fmBoip.dir/src/Framework/DataTypes/PAYLOAD_OBJECTS/Payload_Diagnostic_Message.cc.o[0m
+[ 74%] [32mBuilding CXX object AniEngineCPP/fmBoip/CMakeFiles/fmBoip.dir/src/Framework/DataTypes/PAYLOAD_OBJECTS/Payload_Item_Type.cc.o[0m
+[ 75%] [32mBuilding CXX object AniEngineCPP/fmBoip/CMakeFiles/fmBoip.dir/src/Framework/DataTypes/PAYLOAD_TYPES/Request_Payload_Types.cc.o[0m
+[ 75%] [32m[1mLinking CXX executable /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/.private/wavnodes/lib/wavnodes/test-pointer_access[0m
+[ 75%] [32mBuilding CXX object AniEngineCPP/fmBoip/CMakeFiles/fmBoip.dir/src/Framework/DataTypes/PAYLOAD_TYPES/Response_Payload_Types.cc.o[0m
+[ 75%] [32m[1mLinking CXX executable /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/.private/wavnodes/lib/wavnodes/test-algorithms[0m
+[ 75%] Built target test-pointer_access
+[35m[1mScanning dependencies of target test-regression[0m
+[ 75%] [32mBuilding CXX object AniEngineCPP/json-nlohmann/test/CMakeFiles/test-regression.dir/src/unit-regression.cpp.o[0m
+[ 75%] Built target test-algorithms
+[ 75%] [32mBuilding CXX object AniEngineCPP/fmBoip/CMakeFiles/fmBoip.dir/src/Framework/DataTypes/PAYLOAD_TYPE_OBJECT_MAP/Request_Payload_Type_To_Object.cc.o[0m
+[35m[1mScanning dependencies of target test-class_const_iterator[0m
+[ 75%] [32mBuilding CXX object AniEngineCPP/json-nlohmann/test/CMakeFiles/test-class_const_iterator.dir/src/unit-class_const_iterator.cpp.o[0m
+[ 75%] [32mBuilding CXX object AniEngineCPP/fmBoip/CMakeFiles/fmBoip.dir/src/Framework/DataTypes/PAYLOAD_TYPE_OBJECT_MAP/Response_Payload_Type_To_Object.cc.o[0m
+[ 76%] [32mBuilding CXX object AniEngineCPP/fmBoip/CMakeFiles/fmBoip.dir/src/Framework/TransportLayer/Helpers/RecievedData.cc.o[0m
+[ 76%] [32mBuilding CXX object AniEngineCPP/fmBoip/CMakeFiles/fmBoip.dir/src/Framework/TransportLayer/Helpers/TransportLayerHelper.cc.o[0m
+[ 76%] [32mBuilding CXX object AniEngineCPP/fmBoip/CMakeFiles/fmBoip.dir/src/Framework/TransportLayer/TcpClient.cc.o[0m
+[ 76%] [32mBuilding CXX object AniEngineCPP/fmBoip/CMakeFiles/fmBoip.dir/src/Framework/TransportLayer/UDPBroadcast.cc.o[0m
+[ 76%] [32mBuilding CXX object AniEngineCPP/fmBoip/CMakeFiles/fmBoip.dir/src/Framework/TransportLayer/UDPListen.cc.o[0m
+[ 77%] [32mBuilding CXX object AniEngineCPP/fmBoip/CMakeFiles/fmBoip.dir/src/Framework/Validation/VALIDATION_ERROR_CODES.cc.o[0m
+[ 77%] [32m[1mLinking CXX executable /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/.private/wavnodes/lib/wavnodes/test-class_const_iterator[0m
+[ 77%] Built target test-class_const_iterator
+[35m[1mScanning dependencies of target test-capacity[0m
+[ 77%] [32mBuilding CXX object AniEngineCPP/json-nlohmann/test/CMakeFiles/test-capacity.dir/src/unit-capacity.cpp.o[0m
+[ 77%] [32mBuilding CXX object AniEngineCPP/fmBoip/CMakeFiles/fmBoip.dir/src/Framework/Validation/ValidationRuleMessage.cc.o[0m
+[ 78%] [32m[1mLinking CXX executable /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/.private/wavnodes/lib/wavnodes/test-class_parser[0m
+[ 78%] [32mBuilding CXX object AniEngineCPP/fmBoip/CMakeFiles/fmBoip.dir/src/Framework/Validation/ValidationRuleMessages.cc.o[0m
+[35m[1mScanning dependencies of target test-meta[0m
+[ 78%] [32mBuilding CXX object AniEngineCPP/json-nlohmann/test/CMakeFiles/test-meta.dir/src/unit-meta.cpp.o[0m
+[ 78%] Built target test-class_parser
+[35m[1mScanning dependencies of target test-conversions[0m
+[ 78%] [32mBuilding CXX object AniEngineCPP/json-nlohmann/test/CMakeFiles/test-conversions.dir/src/unit-conversions.cpp.o[0m
+[ 78%] [32m[1mLinking CXX shared library /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/.private/wavnodes/lib/libfmBoip.so[0m
+[ 78%] [32m[1mLinking CXX executable /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/.private/wavnodes/lib/wavnodes/test-bson[0m
+[ 78%] Built target test-bson
+[35m[1mScanning dependencies of target test-concepts[0m
+[ 78%] [32mBuilding CXX object AniEngineCPP/json-nlohmann/test/CMakeFiles/test-concepts.dir/src/unit-concepts.cpp.o[0m
+[ 78%] Built target fmBoip
+[35m[1mScanning dependencies of target test-constructor1[0m
+[ 78%] [32mBuilding CXX object AniEngineCPP/json-nlohmann/test/CMakeFiles/test-constructor1.dir/src/unit-constructor1.cpp.o[0m
+[ 78%] [32m[1mLinking CXX executable /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/.private/wavnodes/lib/wavnodes/test-cbor[0m
+[ 78%] Built target test-cbor
+[35m[1mScanning dependencies of target test-constructor2[0m
+[ 78%] [32mBuilding CXX object AniEngineCPP/json-nlohmann/test/CMakeFiles/test-constructor2.dir/src/unit-constructor2.cpp.o[0m
+[ 78%] [32m[1mLinking CXX executable /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/.private/wavnodes/lib/wavnodes/test-capacity[0m
+[ 78%] Built target test-capacity
+[35m[1mScanning dependencies of target test-convenience[0m
+[ 78%] [32mBuilding CXX object AniEngineCPP/json-nlohmann/test/CMakeFiles/test-convenience.dir/src/unit-convenience.cpp.o[0m
+[ 79%] [32m[1mLinking CXX executable /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/.private/wavnodes/lib/wavnodes/test-concepts[0m
+[ 79%] Built target test-concepts
+[35m[1mScanning dependencies of target test-deserialization[0m
+[ 79%] [32mBuilding CXX object AniEngineCPP/json-nlohmann/test/CMakeFiles/test-deserialization.dir/src/unit-deserialization.cpp.o[0m
+[ 79%] [32m[1mLinking CXX executable /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/.private/wavnodes/lib/wavnodes/test-meta[0m
+[ 79%] Built target test-meta
+[35m[1mScanning dependencies of target test-reference_access[0m
+[ 79%] [32mBuilding CXX object AniEngineCPP/json-nlohmann/test/CMakeFiles/test-reference_access.dir/src/unit-reference_access.cpp.o[0m
+[ 80%] [32m[1mLinking CXX executable /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/.private/wavnodes/lib/wavnodes/test-constructor2[0m
+[ 80%] Built target test-constructor2
+[35m[1mScanning dependencies of target test-json_patch[0m
+[ 80%] [32mBuilding CXX object AniEngineCPP/json-nlohmann/test/CMakeFiles/test-json_patch.dir/src/unit-json_patch.cpp.o[0m
+[ 80%] [32m[1mLinking CXX executable /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/.private/wavnodes/lib/wavnodes/test-convenience[0m
+[ 80%] Built target test-convenience
+[35m[1mScanning dependencies of target test-element_access2[0m
+[ 80%] [32mBuilding CXX object AniEngineCPP/json-nlohmann/test/CMakeFiles/test-element_access2.dir/src/unit-element_access2.cpp.o[0m
+[ 80%] [32m[1mLinking CXX executable /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/.private/wavnodes/lib/wavnodes/test-reference_access[0m
+[ 80%] Built target test-reference_access
+[35m[1mScanning dependencies of target test-inspection[0m
+[ 80%] [32mBuilding CXX object AniEngineCPP/json-nlohmann/test/CMakeFiles/test-inspection.dir/src/unit-inspection.cpp.o[0m
+[ 80%] [32m[1mLinking CXX executable /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/.private/wavnodes/lib/wavnodes/test-deserialization[0m
+[ 80%] Built target test-deserialization
+[35m[1mScanning dependencies of target test-serialization[0m
+[ 80%] [32mBuilding CXX object AniEngineCPP/json-nlohmann/test/CMakeFiles/test-serialization.dir/src/unit-serialization.cpp.o[0m
+[ 80%] [32m[1mLinking CXX executable /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/.private/wavnodes/lib/wavnodes/test-constructor1[0m
+[ 80%] Built target test-constructor1
+[35m[1mScanning dependencies of target test-iterators1[0m
+[ 80%] [32mBuilding CXX object AniEngineCPP/json-nlohmann/test/CMakeFiles/test-iterators1.dir/src/unit-iterators1.cpp.o[0m
+[ 80%] [32m[1mLinking CXX executable /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/.private/wavnodes/lib/wavnodes/test-json_patch[0m
+[ 80%] Built target test-json_patch
+[35m[1mScanning dependencies of target test-large_json[0m
+[ 80%] [32mBuilding CXX object AniEngineCPP/json-nlohmann/test/CMakeFiles/test-large_json.dir/src/unit-large_json.cpp.o[0m
+[ 80%] [32m[1mLinking CXX executable /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/.private/wavnodes/lib/wavnodes/test-element_access2[0m
+[ 80%] Built target test-element_access2
+[35m[1mScanning dependencies of target test-element_access1[0m
+[ 80%] [32mBuilding CXX object AniEngineCPP/json-nlohmann/test/CMakeFiles/test-element_access1.dir/src/unit-element_access1.cpp.o[0m
+In file included from [01m[K/home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/src/wavnodes/AniEngineCPP/json-nlohmann/test/thirdparty/doctest/doctest_compatibility.h:6[m[K,
+                 from [01m[K/home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/src/wavnodes/AniEngineCPP/json-nlohmann/test/src/unit-large_json.cpp:30[m[K:
+[01m[K/home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/src/wavnodes/AniEngineCPP/json-nlohmann/test/src/unit-large_json.cpp:[m[K In function ‘[01m[Kvoid _DOCTEST_ANON_FUNC_2()[m[K’:
+[01m[K/home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/src/wavnodes/AniEngineCPP/json-nlohmann/test/thirdparty/doctest/doctest.h:1745:24:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kstatic nlohmann::basic_json<ObjectType, ArrayType, StringType, BooleanType, NumberIntegerType, NumberUnsignedType, NumberFloatType, AllocatorType, JSONSerializer> nlohmann::basic_json<ObjectType, ArrayType, StringType, BooleanType, NumberIntegerType, NumberUnsignedType, NumberFloatType, AllocatorType, JSONSerializer>::parse(nlohmann::detail::input_adapter&&, nlohmann::basic_json<ObjectType, ArrayType, StringType, BooleanType, NumberIntegerType, NumberUnsignedType, NumberFloatType, AllocatorType, JSONSerializer>::parser_callback_t, bool) [with ObjectType = std::map; ArrayType = std::vector; StringType = std::__cxx11::basic_string<char>; BooleanType = bool; NumberIntegerType = long int; NumberUnsignedType = long unsigned int; NumberFloatType = double; AllocatorType = std::allocator; JSONSerializer = nlohmann::adl_serializer; nlohmann::basic_json<ObjectType, ArrayType, StringType, BooleanType, NumberIntegerType, NumberUnsignedType, NumberFloatType, AllocatorType, JSONSerializer>::parser_callback_t = std::function<bool(int, nlohmann::detail::parser<nlohmann::basic_json<> >::parse_event_t, nlohmann::basic_json<>&)>][m[K’, declared with attribute warn_unused_result [[01;35m[K-Wunused-result[m[K]
+ 1745 |     static_cast<void>(x[01;35m[K)[m[K;                                                                          \
+      |                        [01;35m[K^[m[K
+[01m[K/home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/src/wavnodes/AniEngineCPP/json-nlohmann/test/thirdparty/doctest/doctest.h:2053:13:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KDOCTEST_CAST_TO_VOID[m[K’
+ 2053 |             [01;36m[KDOCTEST_CAST_TO_VOID[m[K(expr)                                                             \
+      |             [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/src/wavnodes/AniEngineCPP/json-nlohmann/test/thirdparty/doctest/doctest.h:2076:37:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KDOCTEST_ASSERT_NOTHROW[m[K’
+ 2076 | #define DOCTEST_CHECK_NOTHROW(expr) [01;36m[KDOCTEST_ASSERT_NOTHROW[m[K(expr, DT_CHECK_NOTHROW)
+      |                                     [01;36m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/src/wavnodes/AniEngineCPP/json-nlohmann/test/thirdparty/doctest/doctest.h:2480:23:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KDOCTEST_CHECK_NOTHROW[m[K’
+ 2480 | #define CHECK_NOTHROW [01;36m[KDOCTEST_CHECK_NOTHROW[m[K
+      |                       [01;36m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/src/wavnodes/AniEngineCPP/json-nlohmann/test/src/unit-large_json.cpp:46:9:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KCHECK_NOTHROW[m[K’
+   46 |         [01;36m[KCHECK_NOTHROW[m[K(nlohmann::json::parse(s));
+      |         [01;36m[K^~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/src/wavnodes/AniEngineCPP/json-nlohmann/test/src/unit-large_json.cpp:32[m[K:
+[01m[K/home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/src/wavnodes/./AniEngineCPP/json-nlohmann/include/nlohmann/json.hpp:6204:23:[m[K [01;36m[Knote: [m[Kdeclared here
+ 6204 |     static basic_json [01;36m[Kparse[m[K(detail::input_adapter&& i,
+      |                       [01;36m[K^~~~~[m[K
+[ 81%] [32m[1mLinking CXX executable /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/.private/wavnodes/lib/wavnodes/test-regression[0m
+[ 81%] [32m[1mLinking CXX executable /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/.private/wavnodes/lib/wavnodes/test-inspection[0m
+[ 81%] Built target test-inspection
+[35m[1mScanning dependencies of target test-json_pointer[0m
+[ 82%] [32mBuilding CXX object AniEngineCPP/json-nlohmann/test/CMakeFiles/test-json_pointer.dir/src/unit-json_pointer.cpp.o[0m
+[ 82%] Built target test-regression
+[35m[1mScanning dependencies of target test-testsuites[0m
+[ 82%] [32mBuilding CXX object AniEngineCPP/json-nlohmann/test/CMakeFiles/test-testsuites.dir/src/unit-testsuites.cpp.o[0m
+[ 82%] [32m[1mLinking CXX executable /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/.private/wavnodes/lib/wavnodes/test-serialization[0m
+[ 83%] [32m[1mLinking CXX executable /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/.private/wavnodes/lib/wavnodes/test-conversions[0m
+[ 83%] Built target test-serialization
+[35m[1mScanning dependencies of target test-noexcept[0m
+[ 83%] [32mBuilding CXX object AniEngineCPP/json-nlohmann/test/CMakeFiles/test-noexcept.dir/src/unit-noexcept.cpp.o[0m
+[ 83%] [32m[1mLinking CXX executable /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/.private/wavnodes/lib/wavnodes/test-large_json[0m
+[ 83%] Built target test-conversions
+[35m[1mScanning dependencies of target test-merge_patch[0m
+[ 83%] Built target test-large_json
+[35m[1mScanning dependencies of target fmBotConnect[0m
+[ 84%] [32mBuilding CXX object AniEngineCPP/json-nlohmann/test/CMakeFiles/test-merge_patch.dir/src/unit-merge_patch.cpp.o[0m
+[ 85%] [32mBuilding CXX object AniEngineCPP/fmBotConnect/CMakeFiles/fmBotConnect.dir/src/DataTypes/BotConnectManager.cc.o[0m
+[ 85%] [32m[1mLinking CXX executable /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/.private/wavnodes/lib/wavnodes/test-iterators1[0m
+[ 85%] Built target test-iterators1
+[35m[1mScanning dependencies of target cpr[0m
+[ 85%] [32mBuilding CXX object AniEngineCPP/cpr/cpr/CMakeFiles/cpr.dir/auth.cpp.o[0m
+[ 86%] [32m[1mLinking CXX executable /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/.private/wavnodes/lib/wavnodes/test-noexcept[0m
+[ 87%] [32m[1mLinking CXX executable /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/.private/wavnodes/lib/wavnodes/test-element_access1[0m
+[ 87%] [32mBuilding CXX object AniEngineCPP/cpr/cpr/CMakeFiles/cpr.dir/bearer.cpp.o[0m
+[ 87%] Built target test-noexcept
+[35m[1mScanning dependencies of target wavnodes_generate_messages[0m
+[ 87%] Built target wavnodes_generate_messages
+[ 88%] [32mBuilding CXX object AniEngineCPP/cpr/cpr/CMakeFiles/cpr.dir/cookies.cpp.o[0m
+[ 88%] Built target test-element_access1
+[ 88%] [32mBuilding CXX object AniEngineCPP/cpr/cpr/CMakeFiles/cpr.dir/cprtypes.cpp.o[0m
+[ 88%] [32mBuilding CXX object AniEngineCPP/cpr/cpr/CMakeFiles/cpr.dir/curl_container.cpp.o[0m
+[ 88%] [32mBuilding CXX object AniEngineCPP/cpr/cpr/CMakeFiles/cpr.dir/curlholder.cpp.o[0m
+[ 88%] [32mBuilding CXX object AniEngineCPP/cpr/cpr/CMakeFiles/cpr.dir/error.cpp.o[0m
+[ 89%] [32mBuilding CXX object AniEngineCPP/cpr/cpr/CMakeFiles/cpr.dir/multipart.cpp.o[0m
+[ 89%] [32mBuilding CXX object AniEngineCPP/cpr/cpr/CMakeFiles/cpr.dir/parameters.cpp.o[0m
+[ 89%] [32mBuilding CXX object AniEngineCPP/cpr/cpr/CMakeFiles/cpr.dir/payload.cpp.o[0m
+[ 89%] [32mBuilding CXX object AniEngineCPP/cpr/cpr/CMakeFiles/cpr.dir/proxies.cpp.o[0m
+[ 90%] [32mBuilding CXX object AniEngineCPP/cpr/cpr/CMakeFiles/cpr.dir/proxyauth.cpp.o[0m
+[ 90%] [32mBuilding CXX object AniEngineCPP/cpr/cpr/CMakeFiles/cpr.dir/session.cpp.o[0m
+[ 90%] [32mBuilding CXX object AniEngineCPP/cpr/cpr/CMakeFiles/cpr.dir/timeout.cpp.o[0m
+[ 91%] [32m[1mLinking CXX executable /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/.private/wavnodes/lib/wavnodes/test-testsuites[0m
+[ 91%] [32m[1mLinking CXX executable /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/.private/wavnodes/lib/wavnodes/test-merge_patch[0m
+[ 91%] Built target test-testsuites
+[ 91%] [32mBuilding CXX object AniEngineCPP/cpr/cpr/CMakeFiles/cpr.dir/unix_socket.cpp.o[0m
+[ 92%] [32mBuilding CXX object AniEngineCPP/cpr/cpr/CMakeFiles/cpr.dir/util.cpp.o[0m
+[ 92%] Built target test-merge_patch
+[ 92%] [32mBuilding CXX object AniEngineCPP/cpr/cpr/CMakeFiles/cpr.dir/response.cpp.o[0m
+[ 92%] [32mBuilding CXX object AniEngineCPP/fmBotConnect/CMakeFiles/fmBotConnect.dir/src/DataTypes/Delegates/BotConnectConvey.cc.o[0m
+[ 92%] [32mBuilding CXX object AniEngineCPP/fmBotConnect/CMakeFiles/fmBotConnect.dir/src/DataTypes/Enums/ACK.cc.o[0m
+[ 92%] [32mBuilding CXX object AniEngineCPP/fmBotConnect/CMakeFiles/fmBotConnect.dir/src/DataTypes/Enums/ANIMSG.cc.o[0m
+[ 93%] [32mBuilding CXX object AniEngineCPP/fmBotConnect/CMakeFiles/fmBotConnect.dir/src/DataTypes/Enums/ANSTMSG.cc.o[0m
+[ 93%] [32m[1mLinking CXX executable /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/.private/wavnodes/lib/wavnodes/test-json_pointer[0m
+[ 93%] [32mBuilding CXX object AniEngineCPP/fmBotConnect/CMakeFiles/fmBotConnect.dir/src/DataTypes/Enums/BotConnectionInfo.cc.o[0m
+[ 93%] [32mBuilding CXX object AniEngineCPP/fmBotConnect/CMakeFiles/fmBotConnect.dir/src/DataTypes/Enums/CATEGORY_TYPES.cc.o[0m
+[ 93%] [32mBuilding CXX object AniEngineCPP/fmBotConnect/CMakeFiles/fmBotConnect.dir/src/DataTypes/Enums/COMMAND_TYPES.cc.o[0m
+[ 94%] [32mBuilding CXX object AniEngineCPP/fmBotConnect/CMakeFiles/fmBotConnect.dir/src/DataTypes/Enums/LINK_ANCHORS.cc.o[0m
+[ 94%] [32m[1mLinking CXX shared library /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/.private/wavnodes/lib/libcpr.so[0m
+[ 94%] [32mBuilding CXX object AniEngineCPP/fmBotConnect/CMakeFiles/fmBotConnect.dir/src/DataTypes/FrameParsers/Parsers/RxFrameParser.cc.o[0m
+[ 94%] Built target test-json_pointer
+[ 94%] [32mBuilding CXX object AniEngineCPP/fmBotConnect/CMakeFiles/fmBotConnect.dir/src/DataTypes/FrameParsers/RxFrames/BIND.cc.o[0m
+[ 94%] Built target cpr
+[35m[1mScanning dependencies of target SpacialRecognition[0m
+[ 94%] [32mBuilding CXX object CMakeFiles/SpacialRecognition.dir/src/SpacialRecognition.cpp.o[0m
+[ 94%] [32m[1mLinking CXX executable /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/.private/wavnodes/lib/wavnodes/SpacialRecognition[0m
+[ 94%] [32mBuilding CXX object AniEngineCPP/fmBotConnect/CMakeFiles/fmBotConnect.dir/src/DataTypes/FrameParsers/RxFrames/CATEGORY_ACK.cc.o[0m
+[ 95%] [32mBuilding CXX object AniEngineCPP/fmBotConnect/CMakeFiles/fmBotConnect.dir/src/DataTypes/FrameParsers/RxFrames/COMMAND_ACK.cc.o[0m
+[ 95%] Built target SpacialRecognition
+[ 95%] [32mBuilding CXX object AniEngineCPP/fmBotConnect/CMakeFiles/fmBotConnect.dir/src/DataTypes/FrameParsers/RxFrames/DATA_ACK.cc.o[0m
+[ 95%] [32mBuilding CXX object AniEngineCPP/fmBotConnect/CMakeFiles/fmBotConnect.dir/src/DataTypes/FrameParsers/RxFrames/LINK_ACK.cc.o[0m
+[ 95%] [32mBuilding CXX object AniEngineCPP/fmBotConnect/CMakeFiles/fmBotConnect.dir/src/DataTypes/FrameParsers/RxFrames/REQEST_UPLOAD_ACK.cc.o[0m
+[ 95%] [32mBuilding CXX object AniEngineCPP/fmBotConnect/CMakeFiles/fmBotConnect.dir/src/DataTypes/FrameParsers/RxFrames/REQUEST.cc.o[0m
+[ 96%] [32mBuilding CXX object AniEngineCPP/fmBotConnect/CMakeFiles/fmBotConnect.dir/src/DataTypes/FrameParsers/RxFrames/RxBaseFrame.cc.o[0m
+[ 96%] [32mBuilding CXX object AniEngineCPP/fmBotConnect/CMakeFiles/fmBotConnect.dir/src/DataTypes/FrameParsers/RxFrames/STREAM_ACK.cc.o[0m
+[ 96%] [32mBuilding CXX object AniEngineCPP/fmBotConnect/CMakeFiles/fmBotConnect.dir/src/DataTypes/FrameParsers/RxFrames/UNBIND.cc.o[0m
+[ 96%] [32mBuilding CXX object AniEngineCPP/fmBotConnect/CMakeFiles/fmBotConnect.dir/src/DataTypes/FrameParsers/RxFrames/UPLOAD_END_ACK.cc.o[0m
+[ 97%] [32mBuilding CXX object AniEngineCPP/fmBotConnect/CMakeFiles/fmBotConnect.dir/src/DataTypes/FrameParsers/TxFrames/CATEGORY.cc.o[0m
+[ 97%] [32mBuilding CXX object AniEngineCPP/fmBotConnect/CMakeFiles/fmBotConnect.dir/src/DataTypes/FrameParsers/TxFrames/COMMAND.cc.o[0m
+[ 97%] [32mBuilding CXX object AniEngineCPP/fmBotConnect/CMakeFiles/fmBotConnect.dir/src/DataTypes/FrameParsers/TxFrames/DATA.cc.o[0m
+[ 97%] [32mBuilding CXX object AniEngineCPP/fmBotConnect/CMakeFiles/fmBotConnect.dir/src/DataTypes/FrameParsers/TxFrames/LINK.cc.o[0m
+[ 98%] [32mBuilding CXX object AniEngineCPP/fmBotConnect/CMakeFiles/fmBotConnect.dir/src/DataTypes/FrameParsers/TxFrames/REQEST_UPLOAD.cc.o[0m
+[ 98%] [32mBuilding CXX object AniEngineCPP/fmBotConnect/CMakeFiles/fmBotConnect.dir/src/DataTypes/FrameParsers/TxFrames/REQUEST_ACK.cc.o[0m
+[ 98%] [32mBuilding CXX object AniEngineCPP/fmBotConnect/CMakeFiles/fmBotConnect.dir/src/DataTypes/FrameParsers/TxFrames/STREAM.cc.o[0m
+[ 98%] [32mBuilding CXX object AniEngineCPP/fmBotConnect/CMakeFiles/fmBotConnect.dir/src/DataTypes/FrameParsers/TxFrames/TxBaseFrame.cc.o[0m
+[100%] [32mBuilding CXX object AniEngineCPP/fmBotConnect/CMakeFiles/fmBotConnect.dir/src/DataTypes/FrameParsers/TxFrames/UPLOAD_END.cc.o[0m
+[100%] [32m[1mLinking CXX shared library /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/.private/wavnodes/lib/libfmBotConnect.so[0m
+[100%] Built target fmBotConnect
+[35m[1mScanning dependencies of target WavGoalManager[0m
+[100%] [32mBuilding CXX object CMakeFiles/WavGoalManager.dir/src/WavGoalManager.cpp.o[0m
+[100%] [32m[1mLinking CXX executable /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/.private/wavnodes/lib/wavnodes/WavGoalManager[0m
+[100%] Built target WavGoalManager

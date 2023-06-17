@@ -1,0 +1,113 @@
+Symlinking /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/share/base_local_planner/cmake/base_local_planner-msg-paths.cmake
+Symlinking /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/share/base_local_planner/cmake/base_local_plannerConfig.cmake
+Symlinking /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/share/base_local_planner/cmake/base_local_planner-msg-extras.cmake
+Symlinking /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/share/base_local_planner/cmake/base_local_plannerConfig-version.cmake
+Symlinking /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/share/base_local_planner/docs/BaseLocalPlannerConfig-usage.dox
+Symlinking /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/share/base_local_planner/docs/BaseLocalPlannerConfig.dox
+Symlinking /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/share/base_local_planner/docs/BaseLocalPlannerConfig.wikidoc
+Symlinking /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/share/gennodejs/ros/base_local_planner/_index.js
+Symlinking /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/share/gennodejs/ros/base_local_planner/msg/_index.js
+Symlinking /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/share/gennodejs/ros/base_local_planner/msg/Position2DInt.js
+Symlinking /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/share/common-lisp/ros/base_local_planner/msg/Position2DInt.lisp
+Symlinking /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/share/common-lisp/ros/base_local_planner/msg/base_local_planner-msg.asd
+Symlinking /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/share/common-lisp/ros/base_local_planner/msg/_package.lisp
+Symlinking /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/share/common-lisp/ros/base_local_planner/msg/_package_Position2DInt.lisp
+Symlinking /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/share/roseus/ros/base_local_planner/manifest.l
+Symlinking /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/share/roseus/ros/base_local_planner/msg/Position2DInt.l
+Symlinking /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/include/base_local_planner/BaseLocalPlannerConfig.h
+Symlinking /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/include/base_local_planner/Position2DInt.h
+Symlinking /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/lib/libtrajectory_planner_ros.so
+Symlinking /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/lib/libbase_local_planner.so
+Symlinking /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/lib/base_local_planner/point_grid
+Symlinking /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/lib/pkgconfig/base_local_planner.pc
+Symlinking /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/lib/python3/dist-packages/local_planner_limits/__init__.py
+Symlinking /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/lib/python3/dist-packages/base_local_planner/__init__.py
+Symlinking /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/lib/python3/dist-packages/base_local_planner/cfg/BaseLocalPlannerConfig.py
+Symlinking /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/lib/python3/dist-packages/base_local_planner/cfg/__init__.py
+Symlinking /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/lib/python3/dist-packages/base_local_planner/msg/__init__.py
+Symlinking /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/lib/python3/dist-packages/base_local_planner/msg/_Position2DInt.py
+Cleaning: (/home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/.private/base_local_planner/cmake.lock, /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/./cmake.lock)
+Cleaning: (/home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/.private/base_local_planner/share/base_local_planner/cmake/base_local_planner-msg-paths.cmake, /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/base_local_planner/cmake/base_local_planner-msg-paths.cmake)
+Cleaning: (/home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/.private/base_local_planner/share/base_local_planner/cmake/base_local_plannerConfig.cmake, /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/base_local_planner/cmake/base_local_plannerConfig.cmake)
+Cleaning: (/home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/.private/base_local_planner/share/base_local_planner/cmake/base_local_planner-msg-extras.cmake, /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/base_local_planner/cmake/base_local_planner-msg-extras.cmake)
+Cleaning: (/home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/.private/base_local_planner/share/base_local_planner/cmake/base_local_plannerConfig-version.cmake, /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/base_local_planner/cmake/base_local_plannerConfig-version.cmake)
+Cleaning: (/home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/.private/base_local_planner/share/base_local_planner/docs/BaseLocalPlannerConfig-usage.dox, /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/base_local_planner/docs/BaseLocalPlannerConfig-usage.dox)
+Cleaning: (/home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/.private/base_local_planner/share/base_local_planner/docs/BaseLocalPlannerConfig.dox, /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/base_local_planner/docs/BaseLocalPlannerConfig.dox)
+Cleaning: (/home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/.private/base_local_planner/share/base_local_planner/docs/BaseLocalPlannerConfig.wikidoc, /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/base_local_planner/docs/BaseLocalPlannerConfig.wikidoc)
+Cleaning: (/home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/.private/base_local_planner/share/gennodejs/ros/base_local_planner/_index.js, /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/gennodejs/ros/base_local_planner/_index.js)
+Cleaning: (/home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/.private/base_local_planner/share/gennodejs/ros/base_local_planner/msg/_index.js, /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/gennodejs/ros/base_local_planner/msg/_index.js)
+Cleaning: (/home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/.private/base_local_planner/share/gennodejs/ros/base_local_planner/msg/Position2DInt.js, /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/gennodejs/ros/base_local_planner/msg/Position2DInt.js)
+Cleaning: (/home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/.private/base_local_planner/share/common-lisp/ros/base_local_planner/msg/Position2DInt.lisp, /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/common-lisp/ros/base_local_planner/msg/Position2DInt.lisp)
+Cleaning: (/home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/.private/base_local_planner/share/common-lisp/ros/base_local_planner/msg/base_local_planner-msg.asd, /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/common-lisp/ros/base_local_planner/msg/base_local_planner-msg.asd)
+Cleaning: (/home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/.private/base_local_planner/share/common-lisp/ros/base_local_planner/msg/_package.lisp, /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/common-lisp/ros/base_local_planner/msg/_package.lisp)
+Cleaning: (/home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/.private/base_local_planner/share/common-lisp/ros/base_local_planner/msg/_package_Position2DInt.lisp, /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/common-lisp/ros/base_local_planner/msg/_package_Position2DInt.lisp)
+Cleaning: (/home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/.private/base_local_planner/share/roseus/ros/base_local_planner/manifest.l, /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/roseus/ros/base_local_planner/manifest.l)
+Cleaning: (/home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/.private/base_local_planner/share/roseus/ros/base_local_planner/msg/Position2DInt.l, /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/roseus/ros/base_local_planner/msg/Position2DInt.l)
+Cleaning: (/home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/.private/base_local_planner/include/base_local_planner/BaseLocalPlannerConfig.h, /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/include/base_local_planner/BaseLocalPlannerConfig.h)
+Cleaning: (/home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/.private/base_local_planner/include/base_local_planner/Position2DInt.h, /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/include/base_local_planner/Position2DInt.h)
+Cleaning: (/home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/.private/base_local_planner/lib/libtrajectory_planner_ros.so, /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/lib/libtrajectory_planner_ros.so)
+Cleaning: (/home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/.private/base_local_planner/lib/libbase_local_planner.so, /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/lib/libbase_local_planner.so)
+Cleaning: (/home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/.private/base_local_planner/lib/base_local_planner/point_grid, /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/lib/base_local_planner/point_grid)
+Cleaning: (/home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/.private/base_local_planner/lib/pkgconfig/base_local_planner.pc, /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/lib/pkgconfig/base_local_planner.pc)
+Cleaning: (/home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/.private/base_local_planner/lib/python3/dist-packages/local_planner_limits/__init__.py, /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/lib/python3/dist-packages/local_planner_limits/__init__.py)
+Cleaning: (/home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/.private/base_local_planner/lib/python3/dist-packages/base_local_planner/__init__.py, /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/lib/python3/dist-packages/base_local_planner/__init__.py)
+Cleaning: (/home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/.private/base_local_planner/lib/python3/dist-packages/base_local_planner/cfg/BaseLocalPlannerConfig.py, /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/lib/python3/dist-packages/base_local_planner/cfg/BaseLocalPlannerConfig.py)
+Cleaning: (/home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/.private/base_local_planner/lib/python3/dist-packages/base_local_planner/cfg/__init__.py, /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/lib/python3/dist-packages/base_local_planner/cfg/__init__.py)
+Cleaning: (/home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/.private/base_local_planner/lib/python3/dist-packages/base_local_planner/msg/__init__.py, /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/lib/python3/dist-packages/base_local_planner/msg/__init__.py)
+Cleaning: (/home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/.private/base_local_planner/lib/python3/dist-packages/base_local_planner/msg/_Position2DInt.py, /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/lib/python3/dist-packages/base_local_planner/msg/_Position2DInt.py)
+Unlinking: /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/base_local_planner/cmake/base_local_planner-msg-paths.cmake
+Already unlinked: {}
+Unlinking: /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/base_local_planner/cmake/base_local_plannerConfig.cmake
+Already unlinked: {}
+Unlinking: /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/base_local_planner/cmake/base_local_planner-msg-extras.cmake
+Already unlinked: {}
+Unlinking: /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/base_local_planner/cmake/base_local_plannerConfig-version.cmake
+Already unlinked: {}
+Unlinking: /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/base_local_planner/docs/BaseLocalPlannerConfig-usage.dox
+Already unlinked: {}
+Unlinking: /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/base_local_planner/docs/BaseLocalPlannerConfig.dox
+Already unlinked: {}
+Unlinking: /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/base_local_planner/docs/BaseLocalPlannerConfig.wikidoc
+Already unlinked: {}
+Unlinking: /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/gennodejs/ros/base_local_planner/_index.js
+Already unlinked: {}
+Unlinking: /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/gennodejs/ros/base_local_planner/msg/_index.js
+Already unlinked: {}
+Unlinking: /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/gennodejs/ros/base_local_planner/msg/Position2DInt.js
+Already unlinked: {}
+Unlinking: /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/common-lisp/ros/base_local_planner/msg/Position2DInt.lisp
+Already unlinked: {}
+Unlinking: /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/common-lisp/ros/base_local_planner/msg/base_local_planner-msg.asd
+Already unlinked: {}
+Unlinking: /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/common-lisp/ros/base_local_planner/msg/_package.lisp
+Already unlinked: {}
+Unlinking: /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/common-lisp/ros/base_local_planner/msg/_package_Position2DInt.lisp
+Already unlinked: {}
+Unlinking: /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/roseus/ros/base_local_planner/manifest.l
+Already unlinked: {}
+Unlinking: /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/roseus/ros/base_local_planner/msg/Position2DInt.l
+Already unlinked: {}
+Unlinking: /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/include/base_local_planner/BaseLocalPlannerConfig.h
+Already unlinked: {}
+Unlinking: /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/include/base_local_planner/Position2DInt.h
+Already unlinked: {}
+Unlinking: /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/lib/libtrajectory_planner_ros.so
+Already unlinked: {}
+Unlinking: /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/lib/libbase_local_planner.so
+Already unlinked: {}
+Unlinking: /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/lib/base_local_planner/point_grid
+Already unlinked: {}
+Unlinking: /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/lib/pkgconfig/base_local_planner.pc
+Already unlinked: {}
+Unlinking: /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/lib/python3/dist-packages/local_planner_limits/__init__.py
+Already unlinked: {}
+Unlinking: /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/lib/python3/dist-packages/base_local_planner/__init__.py
+Already unlinked: {}
+Unlinking: /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/lib/python3/dist-packages/base_local_planner/cfg/BaseLocalPlannerConfig.py
+Already unlinked: {}
+Unlinking: /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/lib/python3/dist-packages/base_local_planner/cfg/__init__.py
+Already unlinked: {}
+Unlinking: /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/lib/python3/dist-packages/base_local_planner/msg/__init__.py
+Already unlinked: {}
+Unlinking: /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/lib/python3/dist-packages/base_local_planner/msg/_Position2DInt.py
+Already unlinked: {}

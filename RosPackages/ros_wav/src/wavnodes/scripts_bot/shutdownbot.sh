@@ -8,4 +8,4 @@ do
 done
 printf "\n%s\n"  "Wav B is online"
 
-ssh -t tej@10.42.0.1 'sudo shutdown now'
+ssh -t wavb@10.42.0.1 'sudo shutdown now'

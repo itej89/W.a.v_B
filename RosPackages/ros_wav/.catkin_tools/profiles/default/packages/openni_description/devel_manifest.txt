@@ -1,0 +1,5 @@
+ros_openni/src/openni_camera/openni_description
+/home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/.private/openni_description/cmake.lock /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/./cmake.lock
+/home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/.private/openni_description/share/openni_description/cmake/openni_descriptionConfig.cmake /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/share/openni_description/cmake/openni_descriptionConfig.cmake
+/home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/.private/openni_description/share/openni_description/cmake/openni_descriptionConfig-version.cmake /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/share/openni_description/cmake/openni_descriptionConfig-version.cmake
+/home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/.private/openni_description/lib/pkgconfig/openni_description.pc /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/lib/pkgconfig/openni_description.pc

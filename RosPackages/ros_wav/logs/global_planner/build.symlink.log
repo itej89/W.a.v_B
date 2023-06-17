@@ -1,0 +1,49 @@
+Symlinking /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/share/global_planner/cmake/global_plannerConfig.cmake
+Symlinking /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/share/global_planner/cmake/global_plannerConfig-version.cmake
+Symlinking /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/share/global_planner/docs/GlobalPlannerConfig-usage.dox
+Symlinking /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/share/global_planner/docs/GlobalPlannerConfig.dox
+Symlinking /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/share/global_planner/docs/GlobalPlannerConfig.wikidoc
+Symlinking /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/include/global_planner/GlobalPlannerConfig.h
+Symlinking /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/lib/libglobal_planner.so
+Symlinking /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/lib/pkgconfig/global_planner.pc
+Symlinking /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/lib/global_planner/planner
+Symlinking /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/lib/python3/dist-packages/global_planner/__init__.py
+Symlinking /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/lib/python3/dist-packages/global_planner/cfg/GlobalPlannerConfig.py
+Symlinking /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/lib/python3/dist-packages/global_planner/cfg/__init__.py
+Cleaning: (/home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/.private/global_planner/cmake.lock, /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/./cmake.lock)
+Cleaning: (/home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/.private/global_planner/share/global_planner/cmake/global_plannerConfig.cmake, /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/global_planner/cmake/global_plannerConfig.cmake)
+Cleaning: (/home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/.private/global_planner/share/global_planner/cmake/global_plannerConfig-version.cmake, /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/global_planner/cmake/global_plannerConfig-version.cmake)
+Cleaning: (/home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/.private/global_planner/share/global_planner/docs/GlobalPlannerConfig-usage.dox, /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/global_planner/docs/GlobalPlannerConfig-usage.dox)
+Cleaning: (/home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/.private/global_planner/share/global_planner/docs/GlobalPlannerConfig.dox, /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/global_planner/docs/GlobalPlannerConfig.dox)
+Cleaning: (/home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/.private/global_planner/share/global_planner/docs/GlobalPlannerConfig.wikidoc, /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/global_planner/docs/GlobalPlannerConfig.wikidoc)
+Cleaning: (/home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/.private/global_planner/include/global_planner/GlobalPlannerConfig.h, /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/include/global_planner/GlobalPlannerConfig.h)
+Cleaning: (/home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/.private/global_planner/lib/libglobal_planner.so, /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/lib/libglobal_planner.so)
+Cleaning: (/home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/.private/global_planner/lib/pkgconfig/global_planner.pc, /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/lib/pkgconfig/global_planner.pc)
+Cleaning: (/home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/.private/global_planner/lib/global_planner/planner, /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/lib/global_planner/planner)
+Cleaning: (/home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/.private/global_planner/lib/python3/dist-packages/global_planner/__init__.py, /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/lib/python3/dist-packages/global_planner/__init__.py)
+Cleaning: (/home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/.private/global_planner/lib/python3/dist-packages/global_planner/cfg/GlobalPlannerConfig.py, /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/lib/python3/dist-packages/global_planner/cfg/GlobalPlannerConfig.py)
+Cleaning: (/home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/.private/global_planner/lib/python3/dist-packages/global_planner/cfg/__init__.py, /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/lib/python3/dist-packages/global_planner/cfg/__init__.py)
+Unlinking: /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/global_planner/cmake/global_plannerConfig.cmake
+Already unlinked: {}
+Unlinking: /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/global_planner/cmake/global_plannerConfig-version.cmake
+Already unlinked: {}
+Unlinking: /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/global_planner/docs/GlobalPlannerConfig-usage.dox
+Already unlinked: {}
+Unlinking: /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/global_planner/docs/GlobalPlannerConfig.dox
+Already unlinked: {}
+Unlinking: /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/global_planner/docs/GlobalPlannerConfig.wikidoc
+Already unlinked: {}
+Unlinking: /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/include/global_planner/GlobalPlannerConfig.h
+Already unlinked: {}
+Unlinking: /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/lib/libglobal_planner.so
+Already unlinked: {}
+Unlinking: /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/lib/pkgconfig/global_planner.pc
+Already unlinked: {}
+Unlinking: /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/lib/global_planner/planner
+Already unlinked: {}
+Unlinking: /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/lib/python3/dist-packages/global_planner/__init__.py
+Already unlinked: {}
+Unlinking: /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/lib/python3/dist-packages/global_planner/cfg/GlobalPlannerConfig.py
+Already unlinked: {}
+Unlinking: /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/lib/python3/dist-packages/global_planner/cfg/__init__.py
+Already unlinked: {}

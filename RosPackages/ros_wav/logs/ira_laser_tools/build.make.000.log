@@ -1,0 +1,35 @@
+[35m[1mScanning dependencies of target ira_laser_tools_gencfg[0m
+[ 16%] [34m[1mGenerating dynamic reconfigure files from cfg/laserscan_multi_merger.cfg: /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/.private/ira_laser_tools/include/ira_laser_tools/laserscan_multi_mergerConfig.h /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/.private/ira_laser_tools/lib/python3/dist-packages/ira_laser_tools/cfg/laserscan_multi_mergerConfig.py[0m
+Generating reconfiguration files for laserscan_multi_merger in laserscan_multi_merger
+Wrote header file in /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/.private/ira_laser_tools/include/ira_laser_tools/laserscan_multi_mergerConfig.h
+[ 33%] [34m[1mGenerating dynamic reconfigure files from cfg/laserscan_virtualizer.cfg: /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/.private/ira_laser_tools/include/ira_laser_tools/laserscan_virtualizerConfig.h /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/.private/ira_laser_tools/lib/python3/dist-packages/ira_laser_tools/cfg/laserscan_virtualizerConfig.py[0m
+Generating reconfiguration files for laserscan_virtualizer in laserscan_virtualizer
+Wrote header file in /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/.private/ira_laser_tools/include/ira_laser_tools/laserscan_virtualizerConfig.h
+[ 33%] Built target ira_laser_tools_gencfg
+[35m[1mScanning dependencies of target laserscan_virtualizer[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/laserscan_virtualizer.dir/src/laserscan_virtualizer.cpp.o[0m
+[35m[1mScanning dependencies of target laserscan_multi_merger[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/laserscan_multi_merger.dir/src/laserscan_multi_merger.cpp.o[0m
+[01m[K/home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/src/ira_laser_tools/src/laserscan_multi_merger.cpp:[m[K In member function ‘[01m[Kvoid LaserscanMerger::scanCallback(const ConstPtr&, std::string)[m[K’:
+[01m[K/home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/src/ira_laser_tools/src/laserscan_multi_merger.cpp:183:68:[m[K [01;35m[Kwarning: [m[K‘[01m[Kbool pcl::concatenatePointCloud(const pcl::PCLPointCloud2&, const pcl::PCLPointCloud2&, pcl::PCLPointCloud2&)[m[K’ is deprecated: use pcl::concatenate() instead, but beware of subtle difference in behavior (see documentation) [[01;35m[K-Wdeprecated-declarations[m[K]
+  183 |    pcl::concatenatePointCloud(merged_cloud, clouds[i], merged_cloud[01;35m[K)[m[K;
+      |                                                                    [01;35m[K^[m[K
+In file included from [01m[K/usr/include/pcl-1.10/pcl/io/file_io.h:41[m[K,
+                 from [01m[K/usr/include/pcl-1.10/pcl/io/pcd_io.h:44[m[K,
+                 from [01m[K/home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/src/ira_laser_tools/src/laserscan_multi_merger.cpp:9[m[K:
+[01m[K/usr/include/pcl-1.10/pcl/common/io.h:332:3:[m[K [01;36m[Knote: [m[Kdeclared here
+  332 |   [01;36m[KconcatenatePointCloud[m[K (const pcl::PCLPointCloud2 &cloud1,
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/src/ira_laser_tools/src/laserscan_multi_merger.cpp:183:68:[m[K [01;35m[Kwarning: [m[K‘[01m[Kbool pcl::concatenatePointCloud(const pcl::PCLPointCloud2&, const pcl::PCLPointCloud2&, pcl::PCLPointCloud2&)[m[K’ is deprecated: use pcl::concatenate() instead, but beware of subtle difference in behavior (see documentation) [[01;35m[K-Wdeprecated-declarations[m[K]
+  183 |    pcl::concatenatePointCloud(merged_cloud, clouds[i], merged_cloud[01;35m[K)[m[K;
+      |                                                                    [01;35m[K^[m[K
+In file included from [01m[K/usr/include/pcl-1.10/pcl/io/file_io.h:41[m[K,
+                 from [01m[K/usr/include/pcl-1.10/pcl/io/pcd_io.h:44[m[K,
+                 from [01m[K/home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/src/ira_laser_tools/src/laserscan_multi_merger.cpp:9[m[K:
+[01m[K/usr/include/pcl-1.10/pcl/common/io.h:332:3:[m[K [01;36m[Knote: [m[Kdeclared here
+  332 |   [01;36m[KconcatenatePointCloud[m[K (const pcl::PCLPointCloud2 &cloud1,
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[ 83%] [32m[1mLinking CXX executable /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/.private/ira_laser_tools/lib/ira_laser_tools/laserscan_multi_merger[0m
+[100%] [32m[1mLinking CXX executable /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/.private/ira_laser_tools/lib/ira_laser_tools/laserscan_virtualizer[0m
+[100%] Built target laserscan_multi_merger
+[100%] Built target laserscan_virtualizer

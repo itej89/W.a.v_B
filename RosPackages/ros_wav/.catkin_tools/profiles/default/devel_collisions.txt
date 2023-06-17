@@ -1,2 +1,4 @@
-/mnt/28b66b48-2ca5-463a-b90a-66eed54737f4/fmSpin/WavRos/wav_ros_packages/ros_wav/devel/./cmake.lock 68
-/mnt/28b66b48-2ca5-463a-b90a-66eed54737f4/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/./cmake.lock 184
+/mnt/28b66b48-2ca5-463a-b90a-66eed54737f4/fmSpin/WavRos/wav_ros_packages/ros_wav/devel/./cmake.lock 54
+/mnt/28b66b48-2ca5-463a-b90a-66eed54737f4/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/./cmake.lock 147
+/home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/./cmake.lock 102
+/home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/./cmake.lock 1052

@@ -18,8 +18,8 @@
       <param name="controller_frequency" value="7.0" />
       
       <!-- <param name="controller_frequency" value="20.0" /> --> 
-         <!-- <param name="base_global_planner" value="global_planner/GlobalPlanner" /> -->
-         <param name="base_global_planner" value="rrt_star_global_planner/RRTStarPlanner" />
+         <param name="base_global_planner" value="global_planner/GlobalPlanner" />
+         <!-- <param name="base_global_planner" value="rrt_star_global_planner/RRTStarPlanner" /> -->
          <param name="base_local_planner" value="dwa_local_planner/DWAPlannerROS" />
 
       <rosparam file="$(find wavnodes)/config_trj/costmap_common_params.yaml" command="load" ns="global_costmap" />

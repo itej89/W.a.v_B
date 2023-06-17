@@ -1,0 +1,53 @@
+Symlinking /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/share/openni_camera/cmake/openni_cameraConfig-version.cmake
+Symlinking /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/share/openni_camera/cmake/openni_cameraConfig.cmake
+Symlinking /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/share/openni_camera/docs/OpenNIConfig.wikidoc
+Symlinking /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/share/openni_camera/docs/OpenNIConfig-usage.dox
+Symlinking /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/share/openni_camera/docs/OpenNIConfig.dox
+Symlinking /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/include/openni_camera/OpenNIConfig.h
+Symlinking /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/lib/libopenni_nodelet.so
+Symlinking /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/lib/libopenni_driver.so
+Symlinking /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/lib/pkgconfig/openni_camera.pc
+Symlinking /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/lib/openni_camera/openni_node
+Symlinking /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/lib/python3/dist-packages/openni_camera/__init__.py
+Symlinking /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/lib/python3/dist-packages/openni_camera/cfg/__init__.py
+Symlinking /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/lib/python3/dist-packages/openni_camera/cfg/OpenNIConfig.py
+Cleaning: (/home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/.private/openni_camera/cmake.lock, /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/./cmake.lock)
+Cleaning: (/home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/.private/openni_camera/share/openni_camera/cmake/openni_cameraConfig-version.cmake, /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/openni_camera/cmake/openni_cameraConfig-version.cmake)
+Cleaning: (/home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/.private/openni_camera/share/openni_camera/cmake/openni_cameraConfig.cmake, /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/openni_camera/cmake/openni_cameraConfig.cmake)
+Cleaning: (/home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/.private/openni_camera/share/openni_camera/docs/OpenNIConfig.wikidoc, /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/openni_camera/docs/OpenNIConfig.wikidoc)
+Cleaning: (/home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/.private/openni_camera/share/openni_camera/docs/OpenNIConfig-usage.dox, /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/openni_camera/docs/OpenNIConfig-usage.dox)
+Cleaning: (/home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/.private/openni_camera/share/openni_camera/docs/OpenNIConfig.dox, /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/openni_camera/docs/OpenNIConfig.dox)
+Cleaning: (/home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/.private/openni_camera/include/openni_camera/OpenNIConfig.h, /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/include/openni_camera/OpenNIConfig.h)
+Cleaning: (/home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/.private/openni_camera/lib/libopenni_nodelet.so, /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/lib/libopenni_nodelet.so)
+Cleaning: (/home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/.private/openni_camera/lib/libopenni_driver.so, /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/lib/libopenni_driver.so)
+Cleaning: (/home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/.private/openni_camera/lib/pkgconfig/openni_camera.pc, /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/lib/pkgconfig/openni_camera.pc)
+Cleaning: (/home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/.private/openni_camera/lib/openni_camera/openni_node, /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/lib/openni_camera/openni_node)
+Cleaning: (/home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/.private/openni_camera/lib/python3/dist-packages/openni_camera/__init__.py, /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/lib/python3/dist-packages/openni_camera/__init__.py)
+Cleaning: (/home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/.private/openni_camera/lib/python3/dist-packages/openni_camera/cfg/__init__.py, /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/lib/python3/dist-packages/openni_camera/cfg/__init__.py)
+Cleaning: (/home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/.private/openni_camera/lib/python3/dist-packages/openni_camera/cfg/OpenNIConfig.py, /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/lib/python3/dist-packages/openni_camera/cfg/OpenNIConfig.py)
+Unlinking: /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/openni_camera/cmake/openni_cameraConfig-version.cmake
+Already unlinked: {}
+Unlinking: /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/openni_camera/cmake/openni_cameraConfig.cmake
+Already unlinked: {}
+Unlinking: /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/openni_camera/docs/OpenNIConfig.wikidoc
+Already unlinked: {}
+Unlinking: /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/openni_camera/docs/OpenNIConfig-usage.dox
+Already unlinked: {}
+Unlinking: /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/share/openni_camera/docs/OpenNIConfig.dox
+Already unlinked: {}
+Unlinking: /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/include/openni_camera/OpenNIConfig.h
+Already unlinked: {}
+Unlinking: /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/lib/libopenni_nodelet.so
+Already unlinked: {}
+Unlinking: /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/lib/libopenni_driver.so
+Already unlinked: {}
+Unlinking: /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/lib/pkgconfig/openni_camera.pc
+Already unlinked: {}
+Unlinking: /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/lib/openni_camera/openni_node
+Already unlinked: {}
+Unlinking: /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/lib/python3/dist-packages/openni_camera/__init__.py
+Already unlinked: {}
+Unlinking: /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/lib/python3/dist-packages/openni_camera/cfg/__init__.py
+Already unlinked: {}
+Unlinking: /home/wavb/Documents/fmSpin/Wav_B/RosPackages/ros_wav/devel/lib/python3/dist-packages/openni_camera/cfg/OpenNIConfig.py
+Already unlinked: {}

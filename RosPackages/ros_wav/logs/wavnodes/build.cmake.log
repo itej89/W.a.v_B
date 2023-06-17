@@ -1,0 +1,1344 @@
+Not searching for unused variables given on the command line.
+[36m--[0m The C compiler identification is GNU 9.4.0
+[36m--[0m The CXX compiler identification is GNU 9.4.0
+[36m--[0m Check for working C compiler: /usr/bin/cc
+[36m--[0m Check for working C compiler: /usr/bin/cc -- works
+[36m--[0m Detecting C compiler ABI info
+[36m--[0m Detecting C compiler ABI info - done
+[36m--[0m Detecting C compile features
+[36m--[0m Detecting C compile features - done
+[36m--[0m Check for working CXX compiler: /usr/bin/c++
+[36m--[0m Check for working CXX compiler: /usr/bin/c++ -- works
+[36m--[0m Detecting CXX compiler ABI info
+[36m--[0m Detecting CXX compiler ABI info - done
+[36m--[0m Detecting CXX compile features
+[36m--[0m Detecting CXX compile features - done
+[36m--[0m Using CATKIN_DEVEL_PREFIX: /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/.private/wavnodes
+[36m--[0m Using CMAKE_PREFIX_PATH: /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel;/opt/ros/noetic
+[36m--[0m This workspace overlays: /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel;/opt/ros/noetic
+[36m--[0m Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3")
+[36m--[0m Using PYTHON_EXECUTABLE: /usr/bin/python3
+[36m--[0m Using Debian Python package layout
+[36m--[0m Found PY_em: /usr/lib/python3/dist-packages/em.py
+[36m--[0m Using empy: /usr/lib/python3/dist-packages/em.py
+[36m--[0m Using CATKIN_ENABLE_TESTING: ON
+[36m--[0m Call enable_testing()
+[36m--[0m Using CATKIN_TEST_RESULTS_DIR: /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/build/wavnodes/test_results
+[36m--[0m Forcing gtest/gmock from source, though one was otherwise available.
+[36m--[0m Found gtest sources under '/usr/src/googletest': gtests will be built
+[36m--[0m Found gmock sources under '/usr/src/googletest': gmock will be built
+[36m--[0m Found PythonInterp: /usr/bin/python3 (found version "3.8.10")
+[36m--[0m Found Threads: TRUE
+[36m--[0m Using Python nosetests: /usr/bin/nosetests3
+[36m--[0m catkin 0.8.10
+[36m--[0m BUILD_SHARED_LIBS is on
+[36m--[0m Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+[36m--[0m Found OpenCV: /usr (found version "4.2.0")
+[36m--[0m Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0") found components: system thread
+[33m[1mCMake Warning[0m at /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/build/wavnodes/cmake/wavnodes-genmsg.cmake:3 (message):
+  Invoking generate_messages() without having added any message or service
+  file before.
+
+  You should either add add_message_files() and/or add_service_files() calls
+  or remove the invocation of generate_messages().
+[36mCall Stack (most recent call first):[0m
+  /opt/ros/noetic/share/genmsg/cmake/genmsg-extras.cmake:307 (include)
+  CMakeLists.txt:84 (generate_messages)
+
+
+[36m--[0m wavnodes: 0 messages, 0 services
+[36m--[0m Using the single-header code from /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/src/wavnodes/AniEngineCPP/json-nlohmann/single_include/
+[36m--[0m Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.2.11")
+[36m--[0m C++ Requests CMake Options
+[36m--[0m =======================================================
+[36m--[0m   CPR_GENERATE_COVERAGE: OFF
+[36m--[0m   CPR_CURL_NOSIGNAL: OFF
+[36m--[0m   CPR_USE_SYSTEM_GTEST: OFF
+[36m--[0m   CPR_FORCE_USE_SYSTEM_CURL: OFF
+[36m--[0m   CPR_ENABLE_SSL: ON
+[36m--[0m   CPR_FORCE_OPENSSL_BACKEND: OFF
+[36m--[0m   CPR_FORCE_WINSSL_BACKEND: OFF
+[36m--[0m   CPR_FORCE_DARWINSSL_BACKEND: OFF
+[36m--[0m   CPR_BUILD_TESTS: OFF
+[36m--[0m   CPR_BUILD_TESTS_SSL: OFF
+[36m--[0m =======================================================
+[36m--[0m Performing Test THREAD_SANITIZER_AVAILABLE
+[36m--[0m Performing Test THREAD_SANITIZER_AVAILABLE - Success
+[36m--[0m Performing Test ADDRESS_SANITIZER_AVAILABLE
+[36m--[0m Performing Test ADDRESS_SANITIZER_AVAILABLE - Success
+[36m--[0m Performing Test LEAK_SANITIZER_AVAILABLE
+[36m--[0m Performing Test LEAK_SANITIZER_AVAILABLE - Success
+[36m--[0m Performing Test UNDEFINED_BEHAVIOUR_SANITIZER_AVAILABLE
+[36m--[0m Performing Test UNDEFINED_BEHAVIOUR_SANITIZER_AVAILABLE - Success
+[36m--[0m Performing Test ALL_SANITIZERS_AVAILABLE
+[36m--[0m Performing Test ALL_SANITIZERS_AVAILABLE - Success
+[36m--[0m Performing Test HAS_GCC_STATIC_ANALYZER
+[36m--[0m Performing Test HAS_GCC_STATIC_ANALYZER - Failed
+[36m--[0m Automatically detecting SSL backend.
+[36m--[0m Detecting SSL backend...
+[36m--[0m Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")
+[36m--[0m SSL auto detect: Using OpenSSL.
+[36m--[0m Configuring build in curl...
+[36m--[0m Using CMake version 3.16.3
+[36m--[0m ZLIB_HEADER_VERSION: 1.2.11
+[36m--[0m ZLIBNG_HEADER_VERSION: 2.0.0-RC2
+[36m--[0m Arch detected: 'x86_64'
+[36m--[0m Basearch of 'x86_64' has been detected as: 'x86'
+[36m--[0m Architecture supports unaligned reads
+[36m--[0m Architecture supports unaligned reads of > 4 bytes
+[36m--[0m Looking for sys/types.h
+[36m--[0m Looking for sys/types.h - found
+[36m--[0m Looking for stdarg.h
+[36m--[0m Looking for stdarg.h - found
+[36m--[0m Looking for stdint.h
+[36m--[0m Looking for stdint.h - found
+[36m--[0m Looking for stddef.h
+[36m--[0m Looking for stddef.h - found
+[36m--[0m Looking for sys/sdt.h
+[36m--[0m Looking for sys/sdt.h - not found
+[36m--[0m Looking for unistd.h
+[36m--[0m Looking for unistd.h - found
+[36m--[0m Check size of off64_t
+[36m--[0m Check size of off64_t - done
+[36m--[0m Looking for fseeko
+[36m--[0m Looking for fseeko - found
+[36m--[0m Looking for strerror
+[36m--[0m Looking for strerror - found
+[36m--[0m Performing Test HAVE_NO_INTERPOSITION
+[36m--[0m Performing Test HAVE_NO_INTERPOSITION - Success
+[36m--[0m Performing Test HAVE_ATTRIBUTE_VISIBILITY_HIDDEN
+[36m--[0m Performing Test HAVE_ATTRIBUTE_VISIBILITY_HIDDEN - Success
+[36m--[0m Performing Test HAVE_ATTRIBUTE_VISIBILITY_INTERNAL
+[36m--[0m Performing Test HAVE_ATTRIBUTE_VISIBILITY_INTERNAL - Success
+[36m--[0m Performing Test HAVE_BUILTIN_CTZ
+[36m--[0m Performing Test HAVE_BUILTIN_CTZ - Success
+[36m--[0m Performing Test HAVE_BUILTIN_CTZLL
+[36m--[0m Performing Test HAVE_BUILTIN_CTZLL - Success
+[36m--[0m Performing Test HAVE_PTRDIFF_T
+[36m--[0m Performing Test HAVE_PTRDIFF_T - Success
+[36m--[0m Performing Test HAVE_SSE2_INTRIN
+[36m--[0m Performing Test HAVE_SSE2_INTRIN - Success
+[36m--[0m Performing Test HAVE_SSSE3_INTRIN
+[36m--[0m Performing Test HAVE_SSSE3_INTRIN - Success
+[36m--[0m Performing Test HAVE_SSE42CRC_INLINE_ASM
+[36m--[0m Performing Test HAVE_SSE42CRC_INLINE_ASM - Success
+[36m--[0m Performing Test HAVE_SSE42CRC_INTRIN
+[36m--[0m Performing Test HAVE_SSE42CRC_INTRIN - Success
+[36m--[0m Performing Test HAVE_SSE42CMPSTR_INTRIN
+[36m--[0m Performing Test HAVE_SSE42CMPSTR_INTRIN - Success
+[36m--[0m Performing Test HAVE_PCLMULQDQ_INTRIN
+[36m--[0m Performing Test HAVE_PCLMULQDQ_INTRIN - Success
+[36m--[0m Performing Test HAVE_AVX2_INTRIN
+[36m--[0m Performing Test HAVE_AVX2_INTRIN - Success
+[36m--[0m Architecture-specific source files: arch/x86/x86.c;arch/x86/slide_avx.c;arch/x86/chunkset_avx.c;arch/x86/compare258_avx.c;arch/x86/adler32_avx.c;arch/x86/insert_string_sse.c;arch/x86/compare258_sse.c;arch/x86/chunkset_sse.c;arch/x86/slide_sse.c;arch/x86/adler32_ssse3.c;arch/x86/crc_folding.c
+[36m--[0m The following features have been enabled:
+
+ * CMAKE_BUILD_TYPE, Build type: Debug (selected)
+ * WITH_GZFILEOP, Compile with support for gzFile related functions
+ * ZLIB_COMPAT, Compile with zlib compatible API
+ * WITH_OPTIM, Build with optimisation
+ * WITH_NEW_STRATEGIES, Use new strategies
+ * WITH_UNALIGNED, Support unaligned reads on platforms that support it
+ * WITH_AVX2, Build with AVX2
+ * WITH_SSE2, Build with SSE2
+ * WITH_SSSE3, Build with SSSE3
+ * WITH_SSE4, Build with SSE4
+ * WITH_PCLMULQDQ, Build with PCLMULQDQ
+ * AVX2_SLIDEHASH, Support AVX2 optimized slide_hash, using "-mavx2"
+ * AVX_CHUNKSET, Support AVX optimized chunkset, using "-mavx2"
+ * AVX2_COMPARE258, Support AVX2 optimized compare258, using "-mavx2"
+ * AVX2_ADLER32, Support AVX2-accelerated adler32, using "-mavx2"
+ * SSE42_CRC, Support SSE4.2 optimized CRC hash generation, using "-msse4"
+ * SSE42_COMPARE258, Support SSE4.2 optimized compare258, using "-msse4"
+ * SSSE3_ADLER32, Support SSSE3-accelerated adler32, using "-mssse3"
+ * PCLMUL_CRC, Support CRC hash generation using PCLMULQDQ, using "-mssse3 -msse4 -mpclmul"
+
+[36m--[0m The following OPTIONAL packages have been found:
+
+ * GTest
+ * actionlib
+ * message_generation
+ * rospy
+ * tf
+ * rtabmap_ros
+ * tf2_sensor_msgs
+ * ZLIB
+ * PkgConfig
+ * OpenSSL
+
+[36m--[0m The following REQUIRED packages have been found:
+
+ * PythonInterp
+ * cpp_common
+ * rostime
+ * roscpp_traits
+ * roscpp_serialization
+ * message_runtime
+ * genmsg
+ * rosconsole
+ * rosgraph_msgs
+ * xmlrpcpp
+ * actionlib_msgs
+ * roscpp
+ * std_msgs
+ * geometry_msgs
+ * rosgraph
+ * tf2_msgs
+ * tf2_py
+ * message_filters
+ * sensor_msgs
+ * tf2
+ * tf2_ros
+ * catkin
+ * OpenCV
+ * boost_system (required version == 1.71.0)
+ * boost_atomic (required version == 1.71.0)
+ * boost_headers (required version == 1.71.0)
+ * boost_thread (required version == 1.71.0)
+ * Boost
+ * gencpp
+ * geneus
+ * genlisp
+ * gennodejs
+ * genpy
+ * Threads
+
+[36m--[0m The following features have been disabled:
+
+ * ZLIB_ENABLE_TESTS, Build test binaries
+ * ZLIB_DUAL_LINK, Dual link tests against system zlib
+ * WITH_SANITIZER, Build with sanitizer (Memory, Address, Undefined)
+ * WITH_FUZZERS, Build test/fuzz
+ * WITH_NATIVE_INSTRUCTIONS, Instruct the compiler to use the full instruction set on this host (gcc/clang -march=native)
+ * WITH_MAINTAINER_WARNINGS, Build with project maintainer warnings
+ * WITH_CODE_COVERAGE, Enable code coverage reporting
+ * WITH_INFLATE_STRICT, Build with strict inflate distance checking
+ * WITH_INFLATE_ALLOW_INVALID_DIST, Build with zero fill for inflate invalid distances
+ * INSTALL_UTILS, Copy minigzip and minideflate during install
+
+[36m--[0m The following OPTIONAL packages have not been found:
+
+ * GMock
+
+[36m--[0m Enabled curl SSL
+[36m--[0m curl version=[7.75.0]
+[36m--[0m Performing Test OPT_pedantic
+[36m--[0m Performing Test OPT_pedantic - Success
+[36m--[0m Performing Test OPT_Wall
+[36m--[0m Performing Test OPT_Wall - Success
+[36m--[0m Performing Test OPT_W
+[36m--[0m Performing Test OPT_W - Success
+[36m--[0m Performing Test OPT_Wpointer_arith
+[36m--[0m Performing Test OPT_Wpointer_arith - Success
+[36m--[0m Performing Test OPT_Wwrite_strings
+[36m--[0m Performing Test OPT_Wwrite_strings - Success
+[36m--[0m Performing Test OPT_Wunused
+[36m--[0m Performing Test OPT_Wunused - Success
+[36m--[0m Performing Test OPT_Wshadow
+[36m--[0m Performing Test OPT_Wshadow - Success
+[36m--[0m Performing Test OPT_Winline
+[36m--[0m Performing Test OPT_Winline - Success
+[36m--[0m Performing Test OPT_Wnested_externs
+[36m--[0m Performing Test OPT_Wnested_externs - Success
+[36m--[0m Performing Test OPT_Wmissing_declarations
+[36m--[0m Performing Test OPT_Wmissing_declarations - Success
+[36m--[0m Performing Test OPT_Wmissing_prototypes
+[36m--[0m Performing Test OPT_Wmissing_prototypes - Success
+[36m--[0m Performing Test OPT_Wfloat_equal
+[36m--[0m Performing Test OPT_Wfloat_equal - Success
+[36m--[0m Performing Test OPT_Wsign_compare
+[36m--[0m Performing Test OPT_Wsign_compare - Success
+[36m--[0m Performing Test OPT_Wundef
+[36m--[0m Performing Test OPT_Wundef - Success
+[36m--[0m Performing Test OPT_Wendif_labels
+[36m--[0m Performing Test OPT_Wendif_labels - Success
+[36m--[0m Performing Test OPT_Wstrict_prototypes
+[36m--[0m Performing Test OPT_Wstrict_prototypes - Success
+[36m--[0m Performing Test OPT_Wdeclaration_after_statement
+[36m--[0m Performing Test OPT_Wdeclaration_after_statement - Success
+[36m--[0m Performing Test OPT_Wstrict_aliasing_3
+[36m--[0m Performing Test OPT_Wstrict_aliasing_3 - Success
+[36m--[0m Performing Test OPT_Wcast_align
+[36m--[0m Performing Test OPT_Wcast_align - Success
+[36m--[0m Performing Test OPT_Wtype_limits
+[36m--[0m Performing Test OPT_Wtype_limits - Success
+[36m--[0m Performing Test OPT_Wold_style_declaration
+[36m--[0m Performing Test OPT_Wold_style_declaration - Success
+[36m--[0m Performing Test OPT_Wmissing_parameter_type
+[36m--[0m Performing Test OPT_Wmissing_parameter_type - Success
+[36m--[0m Performing Test OPT_Wempty_body
+[36m--[0m Performing Test OPT_Wempty_body - Success
+[36m--[0m Performing Test OPT_Wclobbered
+[36m--[0m Performing Test OPT_Wclobbered - Success
+[36m--[0m Performing Test OPT_Wignored_qualifiers
+[36m--[0m Performing Test OPT_Wignored_qualifiers - Success
+[36m--[0m Performing Test OPT_Wconversion
+[36m--[0m Performing Test OPT_Wconversion - Success
+[36m--[0m Performing Test OPT_Wvla
+[36m--[0m Performing Test OPT_Wvla - Success
+[36m--[0m Performing Test OPT_Wdouble_promotion
+[36m--[0m Performing Test OPT_Wdouble_promotion - Success
+[36m--[0m Performing Test OPTlong_long
+[36m--[0m Performing Test OPTlong_long - Success
+[36m--[0m Performing Test OPTmultichar
+[36m--[0m Performing Test OPTmultichar - Success
+[36m--[0m Performing Test OPTformat_nonliteral
+[36m--[0m Performing Test OPTformat_nonliteral - Success
+[36m--[0m Performing Test OPTsign_conversion
+[36m--[0m Performing Test OPTsign_conversion - Success
+[36m--[0m Performing Test OPTsystem_headers
+[36m--[0m Performing Test OPTsystem_headers - Success
+[36m--[0m Performing Test OPTpedantic_ms_format
+[36m--[0m Performing Test OPTpedantic_ms_format - Failed
+[36m--[0m Performing Test HAVE_SOCKADDR_IN6_SIN6_ADDR
+[36m--[0m Performing Test HAVE_SOCKADDR_IN6_SIN6_ADDR - Success
+[36m--[0m Performing Test HAVE_SOCKADDR_IN6_SIN6_SCOPE_ID
+[36m--[0m Performing Test HAVE_SOCKADDR_IN6_SIN6_SCOPE_ID - Success
+[36m--[0m Found Perl: /usr/bin/perl (found version "5.30.0")
+[36m--[0m Looking for dlopen in dl;-lpthread
+[36m--[0m Looking for dlopen in dl;-lpthread - found
+[36m--[0m Looking for connect in socket;dl;-lpthread
+[36m--[0m Looking for connect in socket;dl;-lpthread - not found
+[36m--[0m Looking for gethostbyname in c
+[36m--[0m Looking for gethostbyname in c - found
+[36m--[0m Looking for gethostname
+[36m--[0m Looking for gethostname - found
+[36m--[0m Looking for openssl/crypto.h
+[36m--[0m Looking for openssl/crypto.h - found
+[36m--[0m Looking for openssl/err.h
+[36m--[0m Looking for openssl/err.h - found
+[36m--[0m Looking for openssl/pem.h
+[36m--[0m Looking for openssl/pem.h - found
+[36m--[0m Looking for openssl/rsa.h
+[36m--[0m Looking for openssl/rsa.h - found
+[36m--[0m Looking for openssl/ssl.h
+[36m--[0m Looking for openssl/ssl.h - found
+[36m--[0m Looking for openssl/x509.h
+[36m--[0m Looking for openssl/x509.h - found
+[36m--[0m Looking for openssl/rand.h
+[36m--[0m Looking for openssl/rand.h - found
+[36m--[0m Looking for RAND_status
+[36m--[0m Looking for RAND_status - not found
+[36m--[0m Looking for RAND_screen
+[36m--[0m Looking for RAND_screen - not found
+[36m--[0m Looking for RAND_egd
+[36m--[0m Looking for RAND_egd - not found
+[36m--[0m Looking for dlopen in dl;-lpthread;OpenSSL::SSL;OpenSSL::Crypto
+[36m--[0m Looking for dlopen in dl;-lpthread;OpenSSL::SSL;OpenSSL::Crypto - found
+[36m--[0m Could NOT find LibSSH2 (missing: LIBSSH2_LIBRARY LIBSSH2_INCLUDE_DIR)
+[36m--[0m Performing Test USE_UNIX_SOCKETS
+[36m--[0m Performing Test USE_UNIX_SOCKETS - Success
+[36m--[0m Found CA bundle: /etc/ssl/certs/ca-certificates.crt
+[36m--[0m Looking for include file stdio.h
+[36m--[0m Looking for include file stdio.h - found
+[36m--[0m Looking for include files stdio.h, inttypes.h
+[36m--[0m Looking for include files stdio.h, inttypes.h - found
+[36m--[0m Looking for 3 include files stdio.h, ..., sys/filio.h
+[36m--[0m Looking for 3 include files stdio.h, ..., sys/filio.h - not found
+[36m--[0m Looking for 3 include files stdio.h, ..., sys/ioctl.h
+[36m--[0m Looking for 3 include files stdio.h, ..., sys/ioctl.h - found
+[36m--[0m Looking for 4 include files stdio.h, ..., sys/param.h
+[36m--[0m Looking for 4 include files stdio.h, ..., sys/param.h - found
+[36m--[0m Looking for 5 include files stdio.h, ..., sys/poll.h
+[36m--[0m Looking for 5 include files stdio.h, ..., sys/poll.h - found
+[36m--[0m Looking for 6 include files stdio.h, ..., sys/resource.h
+[36m--[0m Looking for 6 include files stdio.h, ..., sys/resource.h - found
+[36m--[0m Looking for 7 include files stdio.h, ..., sys/select.h
+[36m--[0m Looking for 7 include files stdio.h, ..., sys/select.h - found
+[36m--[0m Looking for 8 include files stdio.h, ..., sys/socket.h
+[36m--[0m Looking for 8 include files stdio.h, ..., sys/socket.h - found
+[36m--[0m Looking for 9 include files stdio.h, ..., sys/sockio.h
+[36m--[0m Looking for 9 include files stdio.h, ..., sys/sockio.h - not found
+[36m--[0m Looking for 9 include files stdio.h, ..., sys/stat.h
+[36m--[0m Looking for 9 include files stdio.h, ..., sys/stat.h - found
+[36m--[0m Looking for 10 include files stdio.h, ..., sys/time.h
+[36m--[0m Looking for 10 include files stdio.h, ..., sys/time.h - found
+[36m--[0m Looking for 12 include files stdio.h, ..., sys/uio.h
+[36m--[0m Looking for 12 include files stdio.h, ..., sys/uio.h - found
+[36m--[0m Looking for 13 include files stdio.h, ..., sys/un.h
+[36m--[0m Looking for 13 include files stdio.h, ..., sys/un.h - found
+[36m--[0m Looking for 14 include files stdio.h, ..., sys/utime.h
+[36m--[0m Looking for 14 include files stdio.h, ..., sys/utime.h - not found
+[36m--[0m Looking for 14 include files stdio.h, ..., sys/xattr.h
+[36m--[0m Looking for 14 include files stdio.h, ..., sys/xattr.h - found
+[36m--[0m Looking for 15 include files stdio.h, ..., alloca.h
+[36m--[0m Looking for 15 include files stdio.h, ..., alloca.h - found
+[36m--[0m Looking for 16 include files stdio.h, ..., arpa/inet.h
+[36m--[0m Looking for 16 include files stdio.h, ..., arpa/inet.h - found
+[36m--[0m Looking for 17 include files stdio.h, ..., arpa/tftp.h
+[36m--[0m Looking for 17 include files stdio.h, ..., arpa/tftp.h - found
+[36m--[0m Looking for 18 include files stdio.h, ..., assert.h
+[36m--[0m Looking for 18 include files stdio.h, ..., assert.h - found
+[36m--[0m Looking for 19 include files stdio.h, ..., crypto.h
+[36m--[0m Looking for 19 include files stdio.h, ..., crypto.h - not found
+[36m--[0m Looking for 19 include files stdio.h, ..., err.h
+[36m--[0m Looking for 19 include files stdio.h, ..., err.h - found
+[36m--[0m Looking for 20 include files stdio.h, ..., errno.h
+[36m--[0m Looking for 20 include files stdio.h, ..., errno.h - found
+[36m--[0m Looking for 21 include files stdio.h, ..., fcntl.h
+[36m--[0m Looking for 21 include files stdio.h, ..., fcntl.h - found
+[36m--[0m Looking for 22 include files stdio.h, ..., idn2.h
+[36m--[0m Looking for 22 include files stdio.h, ..., idn2.h - not found
+[36m--[0m Looking for 22 include files stdio.h, ..., ifaddrs.h
+[36m--[0m Looking for 22 include files stdio.h, ..., ifaddrs.h - found
+[36m--[0m Looking for 23 include files stdio.h, ..., io.h
+[36m--[0m Looking for 23 include files stdio.h, ..., io.h - not found
+[36m--[0m Looking for 23 include files stdio.h, ..., krb.h
+[36m--[0m Looking for 23 include files stdio.h, ..., krb.h - not found
+[36m--[0m Looking for 23 include files stdio.h, ..., libgen.h
+[36m--[0m Looking for 23 include files stdio.h, ..., libgen.h - found
+[36m--[0m Looking for 24 include files stdio.h, ..., locale.h
+[36m--[0m Looking for 24 include files stdio.h, ..., locale.h - found
+[36m--[0m Looking for 25 include files stdio.h, ..., net/if.h
+[36m--[0m Looking for 25 include files stdio.h, ..., net/if.h - found
+[36m--[0m Looking for 26 include files stdio.h, ..., netdb.h
+[36m--[0m Looking for 26 include files stdio.h, ..., netdb.h - found
+[36m--[0m Looking for 27 include files stdio.h, ..., netinet/in.h
+[36m--[0m Looking for 27 include files stdio.h, ..., netinet/in.h - found
+[36m--[0m Looking for 28 include files stdio.h, ..., netinet/tcp.h
+[36m--[0m Looking for 28 include files stdio.h, ..., netinet/tcp.h - found
+[36m--[0m Looking for linux/tcp.h
+[36m--[0m Looking for linux/tcp.h - found
+[36m--[0m Looking for 29 include files stdio.h, ..., pem.h
+[36m--[0m Looking for 29 include files stdio.h, ..., pem.h - not found
+[36m--[0m Looking for 29 include files stdio.h, ..., poll.h
+[36m--[0m Looking for 29 include files stdio.h, ..., poll.h - found
+[36m--[0m Looking for 30 include files stdio.h, ..., pwd.h
+[36m--[0m Looking for 30 include files stdio.h, ..., pwd.h - found
+[36m--[0m Looking for 31 include files stdio.h, ..., rsa.h
+[36m--[0m Looking for 31 include files stdio.h, ..., rsa.h - not found
+[36m--[0m Looking for 31 include files stdio.h, ..., setjmp.h
+[36m--[0m Looking for 31 include files stdio.h, ..., setjmp.h - found
+[36m--[0m Looking for 32 include files stdio.h, ..., sgtty.h
+[36m--[0m Looking for 32 include files stdio.h, ..., sgtty.h - found
+[36m--[0m Looking for 33 include files stdio.h, ..., signal.h
+[36m--[0m Looking for 33 include files stdio.h, ..., signal.h - found
+[36m--[0m Looking for 34 include files stdio.h, ..., ssl.h
+[36m--[0m Looking for 34 include files stdio.h, ..., ssl.h - not found
+[36m--[0m Looking for 34 include files stdio.h, ..., stdbool.h
+[36m--[0m Looking for 34 include files stdio.h, ..., stdbool.h - found
+[36m--[0m Looking for 37 include files stdio.h, ..., stdlib.h
+[36m--[0m Looking for 37 include files stdio.h, ..., stdlib.h - found
+[36m--[0m Looking for 38 include files stdio.h, ..., string.h
+[36m--[0m Looking for 38 include files stdio.h, ..., string.h - found
+[36m--[0m Looking for 39 include files stdio.h, ..., strings.h
+[36m--[0m Looking for 39 include files stdio.h, ..., strings.h - found
+[36m--[0m Looking for 40 include files stdio.h, ..., stropts.h
+[36m--[0m Looking for 40 include files stdio.h, ..., stropts.h - not found
+[36m--[0m Looking for 40 include files stdio.h, ..., termio.h
+[36m--[0m Looking for 40 include files stdio.h, ..., termio.h - found
+[36m--[0m Looking for 41 include files stdio.h, ..., termios.h
+[36m--[0m Looking for 41 include files stdio.h, ..., termios.h - found
+[36m--[0m Looking for 42 include files stdio.h, ..., time.h
+[36m--[0m Looking for 42 include files stdio.h, ..., time.h - found
+[36m--[0m Looking for 44 include files stdio.h, ..., utime.h
+[36m--[0m Looking for 44 include files stdio.h, ..., utime.h - found
+[36m--[0m Looking for 45 include files stdio.h, ..., x509.h
+[36m--[0m Looking for 45 include files stdio.h, ..., x509.h - not found
+[36m--[0m Looking for 45 include files stdio.h, ..., process.h
+[36m--[0m Looking for 45 include files stdio.h, ..., process.h - not found
+[36m--[0m Looking for 46 include files stdio.h, ..., dlfcn.h
+[36m--[0m Looking for 46 include files stdio.h, ..., dlfcn.h - found
+[36m--[0m Looking for 47 include files stdio.h, ..., malloc.h
+[36m--[0m Looking for 47 include files stdio.h, ..., malloc.h - found
+[36m--[0m Looking for 48 include files stdio.h, ..., memory.h
+[36m--[0m Looking for 48 include files stdio.h, ..., memory.h - found
+[36m--[0m Looking for 49 include files stdio.h, ..., netinet/if_ether.h
+[36m--[0m Looking for 49 include files stdio.h, ..., netinet/if_ether.h - found
+[36m--[0m Looking for 51 include files stdio.h, ..., sockio.h
+[36m--[0m Looking for 51 include files stdio.h, ..., sockio.h - not found
+[36m--[0m Looking for 51 include files stdio.h, ..., sys/utsname.h
+[36m--[0m Looking for 51 include files stdio.h, ..., sys/utsname.h - found
+[36m--[0m Check size of size_t
+[36m--[0m Check size of size_t - done
+[36m--[0m Check size of ssize_t
+[36m--[0m Check size of ssize_t - done
+[36m--[0m Check size of long long
+[36m--[0m Check size of long long - done
+[36m--[0m Check size of long
+[36m--[0m Check size of long - done
+[36m--[0m Check size of short
+[36m--[0m Check size of short - done
+[36m--[0m Check size of int
+[36m--[0m Check size of int - done
+[36m--[0m Check size of __int64
+[36m--[0m Check size of __int64 - failed
+[36m--[0m Check size of long double
+[36m--[0m Check size of long double - done
+[36m--[0m Check size of time_t
+[36m--[0m Check size of time_t - done
+[36m--[0m Looking for basename
+[36m--[0m Looking for basename - found
+[36m--[0m Looking for socket
+[36m--[0m Looking for socket - found
+[36m--[0m Looking for select
+[36m--[0m Looking for select - found
+[36m--[0m Looking for poll
+[36m--[0m Looking for poll - found
+[36m--[0m Looking for strdup
+[36m--[0m Looking for strdup - found
+[36m--[0m Looking for strstr
+[36m--[0m Looking for strstr - found
+[36m--[0m Looking for strtok_r
+[36m--[0m Looking for strtok_r - found
+[36m--[0m Looking for strftime
+[36m--[0m Looking for strftime - found
+[36m--[0m Looking for uname
+[36m--[0m Looking for uname - found
+[36m--[0m Looking for strcasecmp
+[36m--[0m Looking for strcasecmp - found
+[36m--[0m Looking for stricmp
+[36m--[0m Looking for stricmp - not found
+[36m--[0m Looking for strcmpi
+[36m--[0m Looking for strcmpi - not found
+[36m--[0m Looking for strncmpi
+[36m--[0m Looking for strncmpi - not found
+[36m--[0m Looking for alarm
+[36m--[0m Looking for alarm - found
+[36m--[0m Looking for gethostbyaddr
+[36m--[0m Looking for gethostbyaddr - found
+[36m--[0m Looking for gethostbyaddr_r
+[36m--[0m Looking for gethostbyaddr_r - found
+[36m--[0m Looking for gettimeofday
+[36m--[0m Looking for gettimeofday - found
+[36m--[0m Looking for inet_addr
+[36m--[0m Looking for inet_addr - found
+[36m--[0m Looking for inet_ntoa
+[36m--[0m Looking for inet_ntoa - found
+[36m--[0m Looking for inet_ntoa_r
+[36m--[0m Looking for inet_ntoa_r - not found
+[36m--[0m Looking for tcsetattr
+[36m--[0m Looking for tcsetattr - found
+[36m--[0m Looking for tcgetattr
+[36m--[0m Looking for tcgetattr - found
+[36m--[0m Looking for perror
+[36m--[0m Looking for perror - found
+[36m--[0m Looking for closesocket
+[36m--[0m Looking for closesocket - not found
+[36m--[0m Looking for setvbuf
+[36m--[0m Looking for setvbuf - found
+[36m--[0m Looking for sigsetjmp
+[36m--[0m Looking for sigsetjmp - found
+[36m--[0m Looking for getpass_r
+[36m--[0m Looking for getpass_r - not found
+[36m--[0m Looking for strlcat
+[36m--[0m Looking for strlcat - not found
+[36m--[0m Looking for getpwuid
+[36m--[0m Looking for getpwuid - found
+[36m--[0m Looking for getpwuid_r
+[36m--[0m Looking for getpwuid_r - found
+[36m--[0m Looking for geteuid
+[36m--[0m Looking for geteuid - found
+[36m--[0m Looking for usleep
+[36m--[0m Looking for usleep - found
+[36m--[0m Looking for utime
+[36m--[0m Looking for utime - found
+[36m--[0m Looking for gmtime_r
+[36m--[0m Looking for gmtime_r - found
+[36m--[0m Looking for localtime_r
+[36m--[0m Looking for localtime_r - found
+[36m--[0m Looking for gethostbyname
+[36m--[0m Looking for gethostbyname - found
+[36m--[0m Looking for gethostbyname_r
+[36m--[0m Looking for gethostbyname_r - found
+[36m--[0m Looking for signal
+[36m--[0m Looking for signal - found
+[36m--[0m Looking for SIGALRM
+[36m--[0m Looking for SIGALRM - found
+[36m--[0m Looking for strtoll
+[36m--[0m Looking for strtoll - found
+[36m--[0m Looking for _strtoi64
+[36m--[0m Looking for _strtoi64 - not found
+[36m--[0m Looking for strerror_r
+[36m--[0m Looking for strerror_r - found
+[36m--[0m Looking for siginterrupt
+[36m--[0m Looking for siginterrupt - found
+[36m--[0m Looking for fork
+[36m--[0m Looking for fork - found
+[36m--[0m Looking for getaddrinfo
+[36m--[0m Looking for getaddrinfo - found
+[36m--[0m Looking for freeaddrinfo
+[36m--[0m Looking for freeaddrinfo - found
+[36m--[0m Looking for freeifaddrs
+[36m--[0m Looking for freeifaddrs - found
+[36m--[0m Looking for pipe
+[36m--[0m Looking for pipe - found
+[36m--[0m Looking for ftruncate
+[36m--[0m Looking for ftruncate - found
+[36m--[0m Looking for getprotobyname
+[36m--[0m Looking for getprotobyname - found
+[36m--[0m Looking for getpeername
+[36m--[0m Looking for getpeername - found
+[36m--[0m Looking for getsockname
+[36m--[0m Looking for getsockname - found
+[36m--[0m Looking for if_nametoindex
+[36m--[0m Looking for if_nametoindex - found
+[36m--[0m Looking for getrlimit
+[36m--[0m Looking for getrlimit - found
+[36m--[0m Looking for setlocale
+[36m--[0m Looking for setlocale - found
+[36m--[0m Looking for setmode
+[36m--[0m Looking for setmode - not found
+[36m--[0m Looking for setrlimit
+[36m--[0m Looking for setrlimit - found
+[36m--[0m Looking for fcntl
+[36m--[0m Looking for fcntl - found
+[36m--[0m Looking for ioctl
+[36m--[0m Looking for ioctl - found
+[36m--[0m Looking for setsockopt
+[36m--[0m Looking for setsockopt - found
+[36m--[0m Looking for mach_absolute_time
+[36m--[0m Looking for mach_absolute_time - not found
+[36m--[0m Looking for inet_pton
+[36m--[0m Looking for inet_pton - found
+[36m--[0m Looking for fsetxattr
+[36m--[0m Looking for fsetxattr - found
+[36m--[0m Performing Curl Test HAVE_FSETXATTR_5
+[36m--[0m Performing Curl Test HAVE_FSETXATTR_5 - Success
+[36m--[0m Performing Curl Test HAVE_FSETXATTR_6
+[36m--[0m Performing Curl Test HAVE_FSETXATTR_6 - Failed
+[36m--[0m Looking for sigaction
+[36m--[0m Looking for sigaction - found
+[36m--[0m Performing Curl Test HAVE_FCNTL_O_NONBLOCK
+[36m--[0m Performing Curl Test HAVE_FCNTL_O_NONBLOCK - Success
+[36m--[0m Performing Curl Test HAVE_IOCTLSOCKET
+[36m--[0m Performing Curl Test HAVE_IOCTLSOCKET - Failed
+[36m--[0m Performing Curl Test HAVE_IOCTLSOCKET_CAMEL
+[36m--[0m Performing Curl Test HAVE_IOCTLSOCKET_CAMEL - Failed
+[36m--[0m Performing Curl Test HAVE_IOCTLSOCKET_CAMEL_FIONBIO
+[36m--[0m Performing Curl Test HAVE_IOCTLSOCKET_CAMEL_FIONBIO - Failed
+[36m--[0m Performing Curl Test HAVE_IOCTLSOCKET_FIONBIO
+[36m--[0m Performing Curl Test HAVE_IOCTLSOCKET_FIONBIO - Failed
+[36m--[0m Performing Curl Test HAVE_IOCTL_FIONBIO
+[36m--[0m Performing Curl Test HAVE_IOCTL_FIONBIO - Success
+[36m--[0m Performing Curl Test HAVE_IOCTL_SIOCGIFADDR
+[36m--[0m Performing Curl Test HAVE_IOCTL_SIOCGIFADDR - Success
+[36m--[0m Performing Curl Test HAVE_SETSOCKOPT_SO_NONBLOCK
+[36m--[0m Performing Curl Test HAVE_SETSOCKOPT_SO_NONBLOCK - Failed
+[36m--[0m Performing Curl Test TIME_WITH_SYS_TIME
+[36m--[0m Performing Curl Test TIME_WITH_SYS_TIME - Success
+[36m--[0m Performing Curl Test HAVE_O_NONBLOCK
+[36m--[0m Performing Curl Test HAVE_O_NONBLOCK - Failed
+[36m--[0m Performing Curl Test HAVE_GETHOSTBYADDR_R_5
+[36m--[0m Performing Curl Test HAVE_GETHOSTBYADDR_R_5 - Failed
+[36m--[0m Performing Curl Test HAVE_GETHOSTBYADDR_R_7
+[36m--[0m Performing Curl Test HAVE_GETHOSTBYADDR_R_7 - Failed
+[36m--[0m Performing Curl Test HAVE_GETHOSTBYADDR_R_8
+[36m--[0m Performing Curl Test HAVE_GETHOSTBYADDR_R_8 - Success
+[36m--[0m Performing Curl Test HAVE_GETHOSTBYADDR_R_5_REENTRANT
+[36m--[0m Performing Curl Test HAVE_GETHOSTBYADDR_R_5_REENTRANT - Failed
+[36m--[0m Performing Curl Test HAVE_GETHOSTBYADDR_R_7_REENTRANT
+[36m--[0m Performing Curl Test HAVE_GETHOSTBYADDR_R_7_REENTRANT - Failed
+[36m--[0m Performing Curl Test HAVE_GETHOSTBYADDR_R_8_REENTRANT
+[36m--[0m Performing Curl Test HAVE_GETHOSTBYADDR_R_8_REENTRANT - Success
+[36m--[0m Performing Curl Test HAVE_GETHOSTBYNAME_R_3
+[36m--[0m Performing Curl Test HAVE_GETHOSTBYNAME_R_3 - Failed
+[36m--[0m Performing Curl Test HAVE_GETHOSTBYNAME_R_5
+[36m--[0m Performing Curl Test HAVE_GETHOSTBYNAME_R_5 - Failed
+[36m--[0m Performing Curl Test HAVE_GETHOSTBYNAME_R_6
+[36m--[0m Performing Curl Test HAVE_GETHOSTBYNAME_R_6 - Success
+[36m--[0m Performing Curl Test HAVE_GETHOSTBYNAME_R_3_REENTRANT
+[36m--[0m Performing Curl Test HAVE_GETHOSTBYNAME_R_3_REENTRANT - Failed
+[36m--[0m Performing Curl Test HAVE_GETHOSTBYNAME_R_5_REENTRANT
+[36m--[0m Performing Curl Test HAVE_GETHOSTBYNAME_R_5_REENTRANT - Failed
+[36m--[0m Performing Curl Test HAVE_GETHOSTBYNAME_R_6_REENTRANT
+[36m--[0m Performing Curl Test HAVE_GETHOSTBYNAME_R_6_REENTRANT - Success
+[36m--[0m Performing Curl Test HAVE_IN_ADDR_T
+[36m--[0m Performing Curl Test HAVE_IN_ADDR_T - Success
+[36m--[0m Performing Curl Test HAVE_BOOL_T
+[36m--[0m Performing Curl Test HAVE_BOOL_T - Success
+[36m--[0m Performing Curl Test STDC_HEADERS
+[36m--[0m Performing Curl Test STDC_HEADERS - Success
+[36m--[0m Performing Curl Test RETSIGTYPE_TEST
+[36m--[0m Performing Curl Test RETSIGTYPE_TEST - Success
+[36m--[0m Performing Curl Test HAVE_INET_NTOA_R_DECL
+[36m--[0m Performing Curl Test HAVE_INET_NTOA_R_DECL - Failed
+[36m--[0m Performing Curl Test HAVE_INET_NTOA_R_DECL_REENTRANT
+[36m--[0m Performing Curl Test HAVE_INET_NTOA_R_DECL_REENTRANT - Failed
+[36m--[0m Performing Curl Test HAVE_FILE_OFFSET_BITS
+[36m--[0m Performing Curl Test HAVE_FILE_OFFSET_BITS - Success
+[36m--[0m Performing Curl Test HAVE_VARIADIC_MACROS_C99
+[36m--[0m Performing Curl Test HAVE_VARIADIC_MACROS_C99 - Success
+[36m--[0m Performing Curl Test HAVE_VARIADIC_MACROS_GCC
+[36m--[0m Performing Curl Test HAVE_VARIADIC_MACROS_GCC - Success
+[36m--[0m Check size of off_t
+[36m--[0m Check size of off_t - done
+[36m--[0m Check size of curl_off_t
+[36m--[0m Check size of curl_off_t - done
+[36m--[0m Performing Curl Test HAVE_GLIBC_STRERROR_R
+[36m--[0m Performing Curl Test HAVE_GLIBC_STRERROR_R - Failed
+[36m--[0m Performing Curl Test HAVE_POSIX_STRERROR_R
+[36m--[0m Performing Curl Test HAVE_POSIX_STRERROR_R - Success
+[36m--[0m Performing Curl Test HAVE_CLOCK_GETTIME_MONOTONIC
+[36m--[0m Performing Curl Test HAVE_CLOCK_GETTIME_MONOTONIC - Success
+[36m--[0m Performing Curl Test HAVE_BUILTIN_AVAILABLE
+[36m--[0m Performing Curl Test HAVE_BUILTIN_AVAILABLE - Failed
+[36m--[0m Performing Test curl_cv_recv
+[36m--[0m Performing Test curl_cv_recv - Success
+[36m--[0m Performing Test curl_cv_func_recv_test
+[36m--[0m Performing Test curl_cv_func_recv_test - Failed
+[36m--[0m Tested: int recv(SOCKET, char *, int, int)
+[36m--[0m Performing Test curl_cv_func_recv_test
+[36m--[0m Performing Test curl_cv_func_recv_test - Failed
+[36m--[0m Tested: int recv(SOCKET, char *, int, unsigned int)
+[36m--[0m Performing Test curl_cv_func_recv_test
+[36m--[0m Performing Test curl_cv_func_recv_test - Failed
+[36m--[0m Tested: int recv(SOCKET, char *, size_t, int)
+[36m--[0m Performing Test curl_cv_func_recv_test
+[36m--[0m Performing Test curl_cv_func_recv_test - Failed
+[36m--[0m Tested: int recv(SOCKET, char *, size_t, unsigned int)
+[36m--[0m Performing Test curl_cv_func_recv_test
+[36m--[0m Performing Test curl_cv_func_recv_test - Failed
+[36m--[0m Tested: int recv(SOCKET, char *, socklen_t, int)
+[36m--[0m Performing Test curl_cv_func_recv_test
+[36m--[0m Performing Test curl_cv_func_recv_test - Failed
+[36m--[0m Tested: int recv(SOCKET, char *, socklen_t, unsigned int)
+[36m--[0m Performing Test curl_cv_func_recv_test
+[36m--[0m Performing Test curl_cv_func_recv_test - Failed
+[36m--[0m Tested: int recv(SOCKET, char *, unsigned int, int)
+[36m--[0m Performing Test curl_cv_func_recv_test
+[36m--[0m Performing Test curl_cv_func_recv_test - Failed
+[36m--[0m Tested: int recv(SOCKET, char *, unsigned int, unsigned int)
+[36m--[0m Performing Test curl_cv_func_recv_test
+[36m--[0m Performing Test curl_cv_func_recv_test - Failed
+[36m--[0m Tested: int recv(SOCKET, void *, int, int)
+[36m--[0m Performing Test curl_cv_func_recv_test
+[36m--[0m Performing Test curl_cv_func_recv_test - Failed
+[36m--[0m Tested: int recv(SOCKET, void *, int, unsigned int)
+[36m--[0m Performing Test curl_cv_func_recv_test
+[36m--[0m Performing Test curl_cv_func_recv_test - Failed
+[36m--[0m Tested: int recv(SOCKET, void *, size_t, int)
+[36m--[0m Performing Test curl_cv_func_recv_test
+[36m--[0m Performing Test curl_cv_func_recv_test - Failed
+[36m--[0m Tested: int recv(SOCKET, void *, size_t, unsigned int)
+[36m--[0m Performing Test curl_cv_func_recv_test
+[36m--[0m Performing Test curl_cv_func_recv_test - Failed
+[36m--[0m Tested: int recv(SOCKET, void *, socklen_t, int)
+[36m--[0m Performing Test curl_cv_func_recv_test
+[36m--[0m Performing Test curl_cv_func_recv_test - Failed
+[36m--[0m Tested: int recv(SOCKET, void *, socklen_t, unsigned int)
+[36m--[0m Performing Test curl_cv_func_recv_test
+[36m--[0m Performing Test curl_cv_func_recv_test - Failed
+[36m--[0m Tested: int recv(SOCKET, void *, unsigned int, int)
+[36m--[0m Performing Test curl_cv_func_recv_test
+[36m--[0m Performing Test curl_cv_func_recv_test - Failed
+[36m--[0m Tested: int recv(SOCKET, void *, unsigned int, unsigned int)
+[36m--[0m Performing Test curl_cv_func_recv_test
+[36m--[0m Performing Test curl_cv_func_recv_test - Failed
+[36m--[0m Tested: int recv(int, char *, int, int)
+[36m--[0m Performing Test curl_cv_func_recv_test
+[36m--[0m Performing Test curl_cv_func_recv_test - Failed
+[36m--[0m Tested: int recv(int, char *, int, unsigned int)
+[36m--[0m Performing Test curl_cv_func_recv_test
+[36m--[0m Performing Test curl_cv_func_recv_test - Failed
+[36m--[0m Tested: int recv(int, char *, size_t, int)
+[36m--[0m Performing Test curl_cv_func_recv_test
+[36m--[0m Performing Test curl_cv_func_recv_test - Failed
+[36m--[0m Tested: int recv(int, char *, size_t, unsigned int)
+[36m--[0m Performing Test curl_cv_func_recv_test
+[36m--[0m Performing Test curl_cv_func_recv_test - Failed
+[36m--[0m Tested: int recv(int, char *, socklen_t, int)
+[36m--[0m Performing Test curl_cv_func_recv_test
+[36m--[0m Performing Test curl_cv_func_recv_test - Failed
+[36m--[0m Tested: int recv(int, char *, socklen_t, unsigned int)
+[36m--[0m Performing Test curl_cv_func_recv_test
+[36m--[0m Performing Test curl_cv_func_recv_test - Failed
+[36m--[0m Tested: int recv(int, char *, unsigned int, int)
+[36m--[0m Performing Test curl_cv_func_recv_test
+[36m--[0m Performing Test curl_cv_func_recv_test - Failed
+[36m--[0m Tested: int recv(int, char *, unsigned int, unsigned int)
+[36m--[0m Performing Test curl_cv_func_recv_test
+[36m--[0m Performing Test curl_cv_func_recv_test - Failed
+[36m--[0m Tested: int recv(int, void *, int, int)
+[36m--[0m Performing Test curl_cv_func_recv_test
+[36m--[0m Performing Test curl_cv_func_recv_test - Failed
+[36m--[0m Tested: int recv(int, void *, int, unsigned int)
+[36m--[0m Performing Test curl_cv_func_recv_test
+[36m--[0m Performing Test curl_cv_func_recv_test - Failed
+[36m--[0m Tested: int recv(int, void *, size_t, int)
+[36m--[0m Performing Test curl_cv_func_recv_test
+[36m--[0m Performing Test curl_cv_func_recv_test - Failed
+[36m--[0m Tested: int recv(int, void *, size_t, unsigned int)
+[36m--[0m Performing Test curl_cv_func_recv_test
+[36m--[0m Performing Test curl_cv_func_recv_test - Failed
+[36m--[0m Tested: int recv(int, void *, socklen_t, int)
+[36m--[0m Performing Test curl_cv_func_recv_test
+[36m--[0m Performing Test curl_cv_func_recv_test - Failed
+[36m--[0m Tested: int recv(int, void *, socklen_t, unsigned int)
+[36m--[0m Performing Test curl_cv_func_recv_test
+[36m--[0m Performing Test curl_cv_func_recv_test - Failed
+[36m--[0m Tested: int recv(int, void *, unsigned int, int)
+[36m--[0m Performing Test curl_cv_func_recv_test
+[36m--[0m Performing Test curl_cv_func_recv_test - Failed
+[36m--[0m Tested: int recv(int, void *, unsigned int, unsigned int)
+[36m--[0m Performing Test curl_cv_func_recv_test
+[36m--[0m Performing Test curl_cv_func_recv_test - Failed
+[36m--[0m Tested: ssize_t recv(SOCKET, char *, int, int)
+[36m--[0m Performing Test curl_cv_func_recv_test
+[36m--[0m Performing Test curl_cv_func_recv_test - Failed
+[36m--[0m Tested: ssize_t recv(SOCKET, char *, int, unsigned int)
+[36m--[0m Performing Test curl_cv_func_recv_test
+[36m--[0m Performing Test curl_cv_func_recv_test - Failed
+[36m--[0m Tested: ssize_t recv(SOCKET, char *, size_t, int)
+[36m--[0m Performing Test curl_cv_func_recv_test
+[36m--[0m Performing Test curl_cv_func_recv_test - Failed
+[36m--[0m Tested: ssize_t recv(SOCKET, char *, size_t, unsigned int)
+[36m--[0m Performing Test curl_cv_func_recv_test
+[36m--[0m Performing Test curl_cv_func_recv_test - Failed
+[36m--[0m Tested: ssize_t recv(SOCKET, char *, socklen_t, int)
+[36m--[0m Performing Test curl_cv_func_recv_test
+[36m--[0m Performing Test curl_cv_func_recv_test - Failed
+[36m--[0m Tested: ssize_t recv(SOCKET, char *, socklen_t, unsigned int)
+[36m--[0m Performing Test curl_cv_func_recv_test
+[36m--[0m Performing Test curl_cv_func_recv_test - Failed
+[36m--[0m Tested: ssize_t recv(SOCKET, char *, unsigned int, int)
+[36m--[0m Performing Test curl_cv_func_recv_test
+[36m--[0m Performing Test curl_cv_func_recv_test - Failed
+[36m--[0m Tested: ssize_t recv(SOCKET, char *, unsigned int, unsigned int)
+[36m--[0m Performing Test curl_cv_func_recv_test
+[36m--[0m Performing Test curl_cv_func_recv_test - Failed
+[36m--[0m Tested: ssize_t recv(SOCKET, void *, int, int)
+[36m--[0m Performing Test curl_cv_func_recv_test
+[36m--[0m Performing Test curl_cv_func_recv_test - Failed
+[36m--[0m Tested: ssize_t recv(SOCKET, void *, int, unsigned int)
+[36m--[0m Performing Test curl_cv_func_recv_test
+[36m--[0m Performing Test curl_cv_func_recv_test - Failed
+[36m--[0m Tested: ssize_t recv(SOCKET, void *, size_t, int)
+[36m--[0m Performing Test curl_cv_func_recv_test
+[36m--[0m Performing Test curl_cv_func_recv_test - Failed
+[36m--[0m Tested: ssize_t recv(SOCKET, void *, size_t, unsigned int)
+[36m--[0m Performing Test curl_cv_func_recv_test
+[36m--[0m Performing Test curl_cv_func_recv_test - Failed
+[36m--[0m Tested: ssize_t recv(SOCKET, void *, socklen_t, int)
+[36m--[0m Performing Test curl_cv_func_recv_test
+[36m--[0m Performing Test curl_cv_func_recv_test - Failed
+[36m--[0m Tested: ssize_t recv(SOCKET, void *, socklen_t, unsigned int)
+[36m--[0m Performing Test curl_cv_func_recv_test
+[36m--[0m Performing Test curl_cv_func_recv_test - Failed
+[36m--[0m Tested: ssize_t recv(SOCKET, void *, unsigned int, int)
+[36m--[0m Performing Test curl_cv_func_recv_test
+[36m--[0m Performing Test curl_cv_func_recv_test - Failed
+[36m--[0m Tested: ssize_t recv(SOCKET, void *, unsigned int, unsigned int)
+[36m--[0m Performing Test curl_cv_func_recv_test
+[36m--[0m Performing Test curl_cv_func_recv_test - Failed
+[36m--[0m Tested: ssize_t recv(int, char *, int, int)
+[36m--[0m Performing Test curl_cv_func_recv_test
+[36m--[0m Performing Test curl_cv_func_recv_test - Failed
+[36m--[0m Tested: ssize_t recv(int, char *, int, unsigned int)
+[36m--[0m Performing Test curl_cv_func_recv_test
+[36m--[0m Performing Test curl_cv_func_recv_test - Failed
+[36m--[0m Tested: ssize_t recv(int, char *, size_t, int)
+[36m--[0m Performing Test curl_cv_func_recv_test
+[36m--[0m Performing Test curl_cv_func_recv_test - Failed
+[36m--[0m Tested: ssize_t recv(int, char *, size_t, unsigned int)
+[36m--[0m Performing Test curl_cv_func_recv_test
+[36m--[0m Performing Test curl_cv_func_recv_test - Failed
+[36m--[0m Tested: ssize_t recv(int, char *, socklen_t, int)
+[36m--[0m Performing Test curl_cv_func_recv_test
+[36m--[0m Performing Test curl_cv_func_recv_test - Failed
+[36m--[0m Tested: ssize_t recv(int, char *, socklen_t, unsigned int)
+[36m--[0m Performing Test curl_cv_func_recv_test
+[36m--[0m Performing Test curl_cv_func_recv_test - Failed
+[36m--[0m Tested: ssize_t recv(int, char *, unsigned int, int)
+[36m--[0m Performing Test curl_cv_func_recv_test
+[36m--[0m Performing Test curl_cv_func_recv_test - Failed
+[36m--[0m Tested: ssize_t recv(int, char *, unsigned int, unsigned int)
+[36m--[0m Performing Test curl_cv_func_recv_test
+[36m--[0m Performing Test curl_cv_func_recv_test - Failed
+[36m--[0m Tested: ssize_t recv(int, void *, int, int)
+[36m--[0m Performing Test curl_cv_func_recv_test
+[36m--[0m Performing Test curl_cv_func_recv_test - Failed
+[36m--[0m Tested: ssize_t recv(int, void *, int, unsigned int)
+[36m--[0m Performing Test curl_cv_func_recv_test
+[36m--[0m Performing Test curl_cv_func_recv_test - Success
+[36m--[0m Tested: ssize_t recv(int, void *, size_t, int)
+[36m--[0m Performing Test curl_cv_send
+[36m--[0m Performing Test curl_cv_send - Success
+[36m--[0m Performing Test curl_cv_func_send_test
+[36m--[0m Performing Test curl_cv_func_send_test - Failed
+[36m--[0m Tested: int send(SOCKET, const char *, int, int)
+[36m--[0m Performing Test curl_cv_func_send_test
+[36m--[0m Performing Test curl_cv_func_send_test - Failed
+[36m--[0m Tested: int send(SOCKET, const char *, int, unsigned int)
+[36m--[0m Performing Test curl_cv_func_send_test
+[36m--[0m Performing Test curl_cv_func_send_test - Failed
+[36m--[0m Tested: int send(SOCKET, const char *, size_t, int)
+[36m--[0m Performing Test curl_cv_func_send_test
+[36m--[0m Performing Test curl_cv_func_send_test - Failed
+[36m--[0m Tested: int send(SOCKET, const char *, size_t, unsigned int)
+[36m--[0m Performing Test curl_cv_func_send_test
+[36m--[0m Performing Test curl_cv_func_send_test - Failed
+[36m--[0m Tested: int send(SOCKET, const char *, socklen_t, int)
+[36m--[0m Performing Test curl_cv_func_send_test
+[36m--[0m Performing Test curl_cv_func_send_test - Failed
+[36m--[0m Tested: int send(SOCKET, const char *, socklen_t, unsigned int)
+[36m--[0m Performing Test curl_cv_func_send_test
+[36m--[0m Performing Test curl_cv_func_send_test - Failed
+[36m--[0m Tested: int send(SOCKET, const char *, unsigned int, int)
+[36m--[0m Performing Test curl_cv_func_send_test
+[36m--[0m Performing Test curl_cv_func_send_test - Failed
+[36m--[0m Tested: int send(SOCKET, const char *, unsigned int, unsigned int)
+[36m--[0m Performing Test curl_cv_func_send_test
+[36m--[0m Performing Test curl_cv_func_send_test - Failed
+[36m--[0m Tested: int send(SOCKET, const void *, int, int)
+[36m--[0m Performing Test curl_cv_func_send_test
+[36m--[0m Performing Test curl_cv_func_send_test - Failed
+[36m--[0m Tested: int send(SOCKET, const void *, int, unsigned int)
+[36m--[0m Performing Test curl_cv_func_send_test
+[36m--[0m Performing Test curl_cv_func_send_test - Failed
+[36m--[0m Tested: int send(SOCKET, const void *, size_t, int)
+[36m--[0m Performing Test curl_cv_func_send_test
+[36m--[0m Performing Test curl_cv_func_send_test - Failed
+[36m--[0m Tested: int send(SOCKET, const void *, size_t, unsigned int)
+[36m--[0m Performing Test curl_cv_func_send_test
+[36m--[0m Performing Test curl_cv_func_send_test - Failed
+[36m--[0m Tested: int send(SOCKET, const void *, socklen_t, int)
+[36m--[0m Performing Test curl_cv_func_send_test
+[36m--[0m Performing Test curl_cv_func_send_test - Failed
+[36m--[0m Tested: int send(SOCKET, const void *, socklen_t, unsigned int)
+[36m--[0m Performing Test curl_cv_func_send_test
+[36m--[0m Performing Test curl_cv_func_send_test - Failed
+[36m--[0m Tested: int send(SOCKET, const void *, unsigned int, int)
+[36m--[0m Performing Test curl_cv_func_send_test
+[36m--[0m Performing Test curl_cv_func_send_test - Failed
+[36m--[0m Tested: int send(SOCKET, const void *, unsigned int, unsigned int)
+[36m--[0m Performing Test curl_cv_func_send_test
+[36m--[0m Performing Test curl_cv_func_send_test - Failed
+[36m--[0m Tested: int send(SOCKET, void *, int, int)
+[36m--[0m Performing Test curl_cv_func_send_test
+[36m--[0m Performing Test curl_cv_func_send_test - Failed
+[36m--[0m Tested: int send(SOCKET, void *, int, unsigned int)
+[36m--[0m Performing Test curl_cv_func_send_test
+[36m--[0m Performing Test curl_cv_func_send_test - Failed
+[36m--[0m Tested: int send(SOCKET, void *, size_t, int)
+[36m--[0m Performing Test curl_cv_func_send_test
+[36m--[0m Performing Test curl_cv_func_send_test - Failed
+[36m--[0m Tested: int send(SOCKET, void *, size_t, unsigned int)
+[36m--[0m Performing Test curl_cv_func_send_test
+[36m--[0m Performing Test curl_cv_func_send_test - Failed
+[36m--[0m Tested: int send(SOCKET, void *, socklen_t, int)
+[36m--[0m Performing Test curl_cv_func_send_test
+[36m--[0m Performing Test curl_cv_func_send_test - Failed
+[36m--[0m Tested: int send(SOCKET, void *, socklen_t, unsigned int)
+[36m--[0m Performing Test curl_cv_func_send_test
+[36m--[0m Performing Test curl_cv_func_send_test - Failed
+[36m--[0m Tested: int send(SOCKET, void *, unsigned int, int)
+[36m--[0m Performing Test curl_cv_func_send_test
+[36m--[0m Performing Test curl_cv_func_send_test - Failed
+[36m--[0m Tested: int send(SOCKET, void *, unsigned int, unsigned int)
+[36m--[0m Performing Test curl_cv_func_send_test
+[36m--[0m Performing Test curl_cv_func_send_test - Failed
+[36m--[0m Tested: int send(SOCKET, char *, int, int)
+[36m--[0m Performing Test curl_cv_func_send_test
+[36m--[0m Performing Test curl_cv_func_send_test - Failed
+[36m--[0m Tested: int send(SOCKET, char *, int, unsigned int)
+[36m--[0m Performing Test curl_cv_func_send_test
+[36m--[0m Performing Test curl_cv_func_send_test - Failed
+[36m--[0m Tested: int send(SOCKET, char *, size_t, int)
+[36m--[0m Performing Test curl_cv_func_send_test
+[36m--[0m Performing Test curl_cv_func_send_test - Failed
+[36m--[0m Tested: int send(SOCKET, char *, size_t, unsigned int)
+[36m--[0m Performing Test curl_cv_func_send_test
+[36m--[0m Performing Test curl_cv_func_send_test - Failed
+[36m--[0m Tested: int send(SOCKET, char *, socklen_t, int)
+[36m--[0m Performing Test curl_cv_func_send_test
+[36m--[0m Performing Test curl_cv_func_send_test - Failed
+[36m--[0m Tested: int send(SOCKET, char *, socklen_t, unsigned int)
+[36m--[0m Performing Test curl_cv_func_send_test
+[36m--[0m Performing Test curl_cv_func_send_test - Failed
+[36m--[0m Tested: int send(SOCKET, char *, unsigned int, int)
+[36m--[0m Performing Test curl_cv_func_send_test
+[36m--[0m Performing Test curl_cv_func_send_test - Failed
+[36m--[0m Tested: int send(SOCKET, char *, unsigned int, unsigned int)
+[36m--[0m Performing Test curl_cv_func_send_test
+[36m--[0m Performing Test curl_cv_func_send_test - Failed
+[36m--[0m Tested: int send(int, const char *, int, int)
+[36m--[0m Performing Test curl_cv_func_send_test
+[36m--[0m Performing Test curl_cv_func_send_test - Failed
+[36m--[0m Tested: int send(int, const char *, int, unsigned int)
+[36m--[0m Performing Test curl_cv_func_send_test
+[36m--[0m Performing Test curl_cv_func_send_test - Failed
+[36m--[0m Tested: int send(int, const char *, size_t, int)
+[36m--[0m Performing Test curl_cv_func_send_test
+[36m--[0m Performing Test curl_cv_func_send_test - Failed
+[36m--[0m Tested: int send(int, const char *, size_t, unsigned int)
+[36m--[0m Performing Test curl_cv_func_send_test
+[36m--[0m Performing Test curl_cv_func_send_test - Failed
+[36m--[0m Tested: int send(int, const char *, socklen_t, int)
+[36m--[0m Performing Test curl_cv_func_send_test
+[36m--[0m Performing Test curl_cv_func_send_test - Failed
+[36m--[0m Tested: int send(int, const char *, socklen_t, unsigned int)
+[36m--[0m Performing Test curl_cv_func_send_test
+[36m--[0m Performing Test curl_cv_func_send_test - Failed
+[36m--[0m Tested: int send(int, const char *, unsigned int, int)
+[36m--[0m Performing Test curl_cv_func_send_test
+[36m--[0m Performing Test curl_cv_func_send_test - Failed
+[36m--[0m Tested: int send(int, const char *, unsigned int, unsigned int)
+[36m--[0m Performing Test curl_cv_func_send_test
+[36m--[0m Performing Test curl_cv_func_send_test - Failed
+[36m--[0m Tested: int send(int, const void *, int, int)
+[36m--[0m Performing Test curl_cv_func_send_test
+[36m--[0m Performing Test curl_cv_func_send_test - Failed
+[36m--[0m Tested: int send(int, const void *, int, unsigned int)
+[36m--[0m Performing Test curl_cv_func_send_test
+[36m--[0m Performing Test curl_cv_func_send_test - Failed
+[36m--[0m Tested: int send(int, const void *, size_t, int)
+[36m--[0m Performing Test curl_cv_func_send_test
+[36m--[0m Performing Test curl_cv_func_send_test - Failed
+[36m--[0m Tested: int send(int, const void *, size_t, unsigned int)
+[36m--[0m Performing Test curl_cv_func_send_test
+[36m--[0m Performing Test curl_cv_func_send_test - Failed
+[36m--[0m Tested: int send(int, const void *, socklen_t, int)
+[36m--[0m Performing Test curl_cv_func_send_test
+[36m--[0m Performing Test curl_cv_func_send_test - Failed
+[36m--[0m Tested: int send(int, const void *, socklen_t, unsigned int)
+[36m--[0m Performing Test curl_cv_func_send_test
+[36m--[0m Performing Test curl_cv_func_send_test - Failed
+[36m--[0m Tested: int send(int, const void *, unsigned int, int)
+[36m--[0m Performing Test curl_cv_func_send_test
+[36m--[0m Performing Test curl_cv_func_send_test - Failed
+[36m--[0m Tested: int send(int, const void *, unsigned int, unsigned int)
+[36m--[0m Performing Test curl_cv_func_send_test
+[36m--[0m Performing Test curl_cv_func_send_test - Failed
+[36m--[0m Tested: int send(int, void *, int, int)
+[36m--[0m Performing Test curl_cv_func_send_test
+[36m--[0m Performing Test curl_cv_func_send_test - Failed
+[36m--[0m Tested: int send(int, void *, int, unsigned int)
+[36m--[0m Performing Test curl_cv_func_send_test
+[36m--[0m Performing Test curl_cv_func_send_test - Failed
+[36m--[0m Tested: int send(int, void *, size_t, int)
+[36m--[0m Performing Test curl_cv_func_send_test
+[36m--[0m Performing Test curl_cv_func_send_test - Failed
+[36m--[0m Tested: int send(int, void *, size_t, unsigned int)
+[36m--[0m Performing Test curl_cv_func_send_test
+[36m--[0m Performing Test curl_cv_func_send_test - Failed
+[36m--[0m Tested: int send(int, void *, socklen_t, int)
+[36m--[0m Performing Test curl_cv_func_send_test
+[36m--[0m Performing Test curl_cv_func_send_test - Failed
+[36m--[0m Tested: int send(int, void *, socklen_t, unsigned int)
+[36m--[0m Performing Test curl_cv_func_send_test
+[36m--[0m Performing Test curl_cv_func_send_test - Failed
+[36m--[0m Tested: int send(int, void *, unsigned int, int)
+[36m--[0m Performing Test curl_cv_func_send_test
+[36m--[0m Performing Test curl_cv_func_send_test - Failed
+[36m--[0m Tested: int send(int, void *, unsigned int, unsigned int)
+[36m--[0m Performing Test curl_cv_func_send_test
+[36m--[0m Performing Test curl_cv_func_send_test - Failed
+[36m--[0m Tested: int send(int, char *, int, int)
+[36m--[0m Performing Test curl_cv_func_send_test
+[36m--[0m Performing Test curl_cv_func_send_test - Failed
+[36m--[0m Tested: int send(int, char *, int, unsigned int)
+[36m--[0m Performing Test curl_cv_func_send_test
+[36m--[0m Performing Test curl_cv_func_send_test - Failed
+[36m--[0m Tested: int send(int, char *, size_t, int)
+[36m--[0m Performing Test curl_cv_func_send_test
+[36m--[0m Performing Test curl_cv_func_send_test - Failed
+[36m--[0m Tested: int send(int, char *, size_t, unsigned int)
+[36m--[0m Performing Test curl_cv_func_send_test
+[36m--[0m Performing Test curl_cv_func_send_test - Failed
+[36m--[0m Tested: int send(int, char *, socklen_t, int)
+[36m--[0m Performing Test curl_cv_func_send_test
+[36m--[0m Performing Test curl_cv_func_send_test - Failed
+[36m--[0m Tested: int send(int, char *, socklen_t, unsigned int)
+[36m--[0m Performing Test curl_cv_func_send_test
+[36m--[0m Performing Test curl_cv_func_send_test - Failed
+[36m--[0m Tested: int send(int, char *, unsigned int, int)
+[36m--[0m Performing Test curl_cv_func_send_test
+[36m--[0m Performing Test curl_cv_func_send_test - Failed
+[36m--[0m Tested: int send(int, char *, unsigned int, unsigned int)
+[36m--[0m Performing Test curl_cv_func_send_test
+[36m--[0m Performing Test curl_cv_func_send_test - Failed
+[36m--[0m Tested: int send(ssize_t, const char *, int, int)
+[36m--[0m Performing Test curl_cv_func_send_test
+[36m--[0m Performing Test curl_cv_func_send_test - Failed
+[36m--[0m Tested: int send(ssize_t, const char *, int, unsigned int)
+[36m--[0m Performing Test curl_cv_func_send_test
+[36m--[0m Performing Test curl_cv_func_send_test - Failed
+[36m--[0m Tested: int send(ssize_t, const char *, size_t, int)
+[36m--[0m Performing Test curl_cv_func_send_test
+[36m--[0m Performing Test curl_cv_func_send_test - Failed
+[36m--[0m Tested: int send(ssize_t, const char *, size_t, unsigned int)
+[36m--[0m Performing Test curl_cv_func_send_test
+[36m--[0m Performing Test curl_cv_func_send_test - Failed
+[36m--[0m Tested: int send(ssize_t, const char *, socklen_t, int)
+[36m--[0m Performing Test curl_cv_func_send_test
+[36m--[0m Performing Test curl_cv_func_send_test - Failed
+[36m--[0m Tested: int send(ssize_t, const char *, socklen_t, unsigned int)
+[36m--[0m Performing Test curl_cv_func_send_test
+[36m--[0m Performing Test curl_cv_func_send_test - Failed
+[36m--[0m Tested: int send(ssize_t, const char *, unsigned int, int)
+[36m--[0m Performing Test curl_cv_func_send_test
+[36m--[0m Performing Test curl_cv_func_send_test - Failed
+[36m--[0m Tested: int send(ssize_t, const char *, unsigned int, unsigned int)
+[36m--[0m Performing Test curl_cv_func_send_test
+[36m--[0m Performing Test curl_cv_func_send_test - Failed
+[36m--[0m Tested: int send(ssize_t, const void *, int, int)
+[36m--[0m Performing Test curl_cv_func_send_test
+[36m--[0m Performing Test curl_cv_func_send_test - Failed
+[36m--[0m Tested: int send(ssize_t, const void *, int, unsigned int)
+[36m--[0m Performing Test curl_cv_func_send_test
+[36m--[0m Performing Test curl_cv_func_send_test - Failed
+[36m--[0m Tested: int send(ssize_t, const void *, size_t, int)
+[36m--[0m Performing Test curl_cv_func_send_test
+[36m--[0m Performing Test curl_cv_func_send_test - Failed
+[36m--[0m Tested: int send(ssize_t, const void *, size_t, unsigned int)
+[36m--[0m Performing Test curl_cv_func_send_test
+[36m--[0m Performing Test curl_cv_func_send_test - Failed
+[36m--[0m Tested: int send(ssize_t, const void *, socklen_t, int)
+[36m--[0m Performing Test curl_cv_func_send_test
+[36m--[0m Performing Test curl_cv_func_send_test - Failed
+[36m--[0m Tested: int send(ssize_t, const void *, socklen_t, unsigned int)
+[36m--[0m Performing Test curl_cv_func_send_test
+[36m--[0m Performing Test curl_cv_func_send_test - Failed
+[36m--[0m Tested: int send(ssize_t, const void *, unsigned int, int)
+[36m--[0m Performing Test curl_cv_func_send_test
+[36m--[0m Performing Test curl_cv_func_send_test - Failed
+[36m--[0m Tested: int send(ssize_t, const void *, unsigned int, unsigned int)
+[36m--[0m Performing Test curl_cv_func_send_test
+[36m--[0m Performing Test curl_cv_func_send_test - Failed
+[36m--[0m Tested: int send(ssize_t, void *, int, int)
+[36m--[0m Performing Test curl_cv_func_send_test
+[36m--[0m Performing Test curl_cv_func_send_test - Failed
+[36m--[0m Tested: int send(ssize_t, void *, int, unsigned int)
+[36m--[0m Performing Test curl_cv_func_send_test
+[36m--[0m Performing Test curl_cv_func_send_test - Failed
+[36m--[0m Tested: int send(ssize_t, void *, size_t, int)
+[36m--[0m Performing Test curl_cv_func_send_test
+[36m--[0m Performing Test curl_cv_func_send_test - Failed
+[36m--[0m Tested: int send(ssize_t, void *, size_t, unsigned int)
+[36m--[0m Performing Test curl_cv_func_send_test
+[36m--[0m Performing Test curl_cv_func_send_test - Failed
+[36m--[0m Tested: int send(ssize_t, void *, socklen_t, int)
+[36m--[0m Performing Test curl_cv_func_send_test
+[36m--[0m Performing Test curl_cv_func_send_test - Failed
+[36m--[0m Tested: int send(ssize_t, void *, socklen_t, unsigned int)
+[36m--[0m Performing Test curl_cv_func_send_test
+[36m--[0m Performing Test curl_cv_func_send_test - Failed
+[36m--[0m Tested: int send(ssize_t, void *, unsigned int, int)
+[36m--[0m Performing Test curl_cv_func_send_test
+[36m--[0m Performing Test curl_cv_func_send_test - Failed
+[36m--[0m Tested: int send(ssize_t, void *, unsigned int, unsigned int)
+[36m--[0m Performing Test curl_cv_func_send_test
+[36m--[0m Performing Test curl_cv_func_send_test - Failed
+[36m--[0m Tested: int send(ssize_t, char *, int, int)
+[36m--[0m Performing Test curl_cv_func_send_test
+[36m--[0m Performing Test curl_cv_func_send_test - Failed
+[36m--[0m Tested: int send(ssize_t, char *, int, unsigned int)
+[36m--[0m Performing Test curl_cv_func_send_test
+[36m--[0m Performing Test curl_cv_func_send_test - Failed
+[36m--[0m Tested: int send(ssize_t, char *, size_t, int)
+[36m--[0m Performing Test curl_cv_func_send_test
+[36m--[0m Performing Test curl_cv_func_send_test - Failed
+[36m--[0m Tested: int send(ssize_t, char *, size_t, unsigned int)
+[36m--[0m Performing Test curl_cv_func_send_test
+[36m--[0m Performing Test curl_cv_func_send_test - Failed
+[36m--[0m Tested: int send(ssize_t, char *, socklen_t, int)
+[36m--[0m Performing Test curl_cv_func_send_test
+[36m--[0m Performing Test curl_cv_func_send_test - Failed
+[36m--[0m Tested: int send(ssize_t, char *, socklen_t, unsigned int)
+[36m--[0m Performing Test curl_cv_func_send_test
+[36m--[0m Performing Test curl_cv_func_send_test - Failed
+[36m--[0m Tested: int send(ssize_t, char *, unsigned int, int)
+[36m--[0m Performing Test curl_cv_func_send_test
+[36m--[0m Performing Test curl_cv_func_send_test - Failed
+[36m--[0m Tested: int send(ssize_t, char *, unsigned int, unsigned int)
+[36m--[0m Performing Test curl_cv_func_send_test
+[36m--[0m Performing Test curl_cv_func_send_test - Failed
+[36m--[0m Tested: ssize_t send(SOCKET, const char *, int, int)
+[36m--[0m Performing Test curl_cv_func_send_test
+[36m--[0m Performing Test curl_cv_func_send_test - Failed
+[36m--[0m Tested: ssize_t send(SOCKET, const char *, int, unsigned int)
+[36m--[0m Performing Test curl_cv_func_send_test
+[36m--[0m Performing Test curl_cv_func_send_test - Failed
+[36m--[0m Tested: ssize_t send(SOCKET, const char *, size_t, int)
+[36m--[0m Performing Test curl_cv_func_send_test
+[36m--[0m Performing Test curl_cv_func_send_test - Failed
+[36m--[0m Tested: ssize_t send(SOCKET, const char *, size_t, unsigned int)
+[36m--[0m Performing Test curl_cv_func_send_test
+[36m--[0m Performing Test curl_cv_func_send_test - Failed
+[36m--[0m Tested: ssize_t send(SOCKET, const char *, socklen_t, int)
+[36m--[0m Performing Test curl_cv_func_send_test
+[36m--[0m Performing Test curl_cv_func_send_test - Failed
+[36m--[0m Tested: ssize_t send(SOCKET, const char *, socklen_t, unsigned int)
+[36m--[0m Performing Test curl_cv_func_send_test
+[36m--[0m Performing Test curl_cv_func_send_test - Failed
+[36m--[0m Tested: ssize_t send(SOCKET, const char *, unsigned int, int)
+[36m--[0m Performing Test curl_cv_func_send_test
+[36m--[0m Performing Test curl_cv_func_send_test - Failed
+[36m--[0m Tested: ssize_t send(SOCKET, const char *, unsigned int, unsigned int)
+[36m--[0m Performing Test curl_cv_func_send_test
+[36m--[0m Performing Test curl_cv_func_send_test - Failed
+[36m--[0m Tested: ssize_t send(SOCKET, const void *, int, int)
+[36m--[0m Performing Test curl_cv_func_send_test
+[36m--[0m Performing Test curl_cv_func_send_test - Failed
+[36m--[0m Tested: ssize_t send(SOCKET, const void *, int, unsigned int)
+[36m--[0m Performing Test curl_cv_func_send_test
+[36m--[0m Performing Test curl_cv_func_send_test - Failed
+[36m--[0m Tested: ssize_t send(SOCKET, const void *, size_t, int)
+[36m--[0m Performing Test curl_cv_func_send_test
+[36m--[0m Performing Test curl_cv_func_send_test - Failed
+[36m--[0m Tested: ssize_t send(SOCKET, const void *, size_t, unsigned int)
+[36m--[0m Performing Test curl_cv_func_send_test
+[36m--[0m Performing Test curl_cv_func_send_test - Failed
+[36m--[0m Tested: ssize_t send(SOCKET, const void *, socklen_t, int)
+[36m--[0m Performing Test curl_cv_func_send_test
+[36m--[0m Performing Test curl_cv_func_send_test - Failed
+[36m--[0m Tested: ssize_t send(SOCKET, const void *, socklen_t, unsigned int)
+[36m--[0m Performing Test curl_cv_func_send_test
+[36m--[0m Performing Test curl_cv_func_send_test - Failed
+[36m--[0m Tested: ssize_t send(SOCKET, const void *, unsigned int, int)
+[36m--[0m Performing Test curl_cv_func_send_test
+[36m--[0m Performing Test curl_cv_func_send_test - Failed
+[36m--[0m Tested: ssize_t send(SOCKET, const void *, unsigned int, unsigned int)
+[36m--[0m Performing Test curl_cv_func_send_test
+[36m--[0m Performing Test curl_cv_func_send_test - Failed
+[36m--[0m Tested: ssize_t send(SOCKET, void *, int, int)
+[36m--[0m Performing Test curl_cv_func_send_test
+[36m--[0m Performing Test curl_cv_func_send_test - Failed
+[36m--[0m Tested: ssize_t send(SOCKET, void *, int, unsigned int)
+[36m--[0m Performing Test curl_cv_func_send_test
+[36m--[0m Performing Test curl_cv_func_send_test - Failed
+[36m--[0m Tested: ssize_t send(SOCKET, void *, size_t, int)
+[36m--[0m Performing Test curl_cv_func_send_test
+[36m--[0m Performing Test curl_cv_func_send_test - Failed
+[36m--[0m Tested: ssize_t send(SOCKET, void *, size_t, unsigned int)
+[36m--[0m Performing Test curl_cv_func_send_test
+[36m--[0m Performing Test curl_cv_func_send_test - Failed
+[36m--[0m Tested: ssize_t send(SOCKET, void *, socklen_t, int)
+[36m--[0m Performing Test curl_cv_func_send_test
+[36m--[0m Performing Test curl_cv_func_send_test - Failed
+[36m--[0m Tested: ssize_t send(SOCKET, void *, socklen_t, unsigned int)
+[36m--[0m Performing Test curl_cv_func_send_test
+[36m--[0m Performing Test curl_cv_func_send_test - Failed
+[36m--[0m Tested: ssize_t send(SOCKET, void *, unsigned int, int)
+[36m--[0m Performing Test curl_cv_func_send_test
+[36m--[0m Performing Test curl_cv_func_send_test - Failed
+[36m--[0m Tested: ssize_t send(SOCKET, void *, unsigned int, unsigned int)
+[36m--[0m Performing Test curl_cv_func_send_test
+[36m--[0m Performing Test curl_cv_func_send_test - Failed
+[36m--[0m Tested: ssize_t send(SOCKET, char *, int, int)
+[36m--[0m Performing Test curl_cv_func_send_test
+[36m--[0m Performing Test curl_cv_func_send_test - Failed
+[36m--[0m Tested: ssize_t send(SOCKET, char *, int, unsigned int)
+[36m--[0m Performing Test curl_cv_func_send_test
+[36m--[0m Performing Test curl_cv_func_send_test - Failed
+[36m--[0m Tested: ssize_t send(SOCKET, char *, size_t, int)
+[36m--[0m Performing Test curl_cv_func_send_test
+[36m--[0m Performing Test curl_cv_func_send_test - Failed
+[36m--[0m Tested: ssize_t send(SOCKET, char *, size_t, unsigned int)
+[36m--[0m Performing Test curl_cv_func_send_test
+[36m--[0m Performing Test curl_cv_func_send_test - Failed
+[36m--[0m Tested: ssize_t send(SOCKET, char *, socklen_t, int)
+[36m--[0m Performing Test curl_cv_func_send_test
+[36m--[0m Performing Test curl_cv_func_send_test - Failed
+[36m--[0m Tested: ssize_t send(SOCKET, char *, socklen_t, unsigned int)
+[36m--[0m Performing Test curl_cv_func_send_test
+[36m--[0m Performing Test curl_cv_func_send_test - Failed
+[36m--[0m Tested: ssize_t send(SOCKET, char *, unsigned int, int)
+[36m--[0m Performing Test curl_cv_func_send_test
+[36m--[0m Performing Test curl_cv_func_send_test - Failed
+[36m--[0m Tested: ssize_t send(SOCKET, char *, unsigned int, unsigned int)
+[36m--[0m Performing Test curl_cv_func_send_test
+[36m--[0m Performing Test curl_cv_func_send_test - Failed
+[36m--[0m Tested: ssize_t send(int, const char *, int, int)
+[36m--[0m Performing Test curl_cv_func_send_test
+[36m--[0m Performing Test curl_cv_func_send_test - Failed
+[36m--[0m Tested: ssize_t send(int, const char *, int, unsigned int)
+[36m--[0m Performing Test curl_cv_func_send_test
+[36m--[0m Performing Test curl_cv_func_send_test - Failed
+[36m--[0m Tested: ssize_t send(int, const char *, size_t, int)
+[36m--[0m Performing Test curl_cv_func_send_test
+[36m--[0m Performing Test curl_cv_func_send_test - Failed
+[36m--[0m Tested: ssize_t send(int, const char *, size_t, unsigned int)
+[36m--[0m Performing Test curl_cv_func_send_test
+[36m--[0m Performing Test curl_cv_func_send_test - Failed
+[36m--[0m Tested: ssize_t send(int, const char *, socklen_t, int)
+[36m--[0m Performing Test curl_cv_func_send_test
+[36m--[0m Performing Test curl_cv_func_send_test - Failed
+[36m--[0m Tested: ssize_t send(int, const char *, socklen_t, unsigned int)
+[36m--[0m Performing Test curl_cv_func_send_test
+[36m--[0m Performing Test curl_cv_func_send_test - Failed
+[36m--[0m Tested: ssize_t send(int, const char *, unsigned int, int)
+[36m--[0m Performing Test curl_cv_func_send_test
+[36m--[0m Performing Test curl_cv_func_send_test - Failed
+[36m--[0m Tested: ssize_t send(int, const char *, unsigned int, unsigned int)
+[36m--[0m Performing Test curl_cv_func_send_test
+[36m--[0m Performing Test curl_cv_func_send_test - Failed
+[36m--[0m Tested: ssize_t send(int, const void *, int, int)
+[36m--[0m Performing Test curl_cv_func_send_test
+[36m--[0m Performing Test curl_cv_func_send_test - Failed
+[36m--[0m Tested: ssize_t send(int, const void *, int, unsigned int)
+[36m--[0m Performing Test curl_cv_func_send_test
+[36m--[0m Performing Test curl_cv_func_send_test - Success
+[36m--[0m Tested: ssize_t send(int, const void *, size_t, int)
+[36m--[0m Performing Test HAVE_MSG_NOSIGNAL
+[36m--[0m Performing Test HAVE_MSG_NOSIGNAL - Success
+[36m--[0m Performing Test HAVE_STRUCT_TIMEVAL
+[36m--[0m Performing Test HAVE_STRUCT_TIMEVAL - Success
+[36m--[0m Check size of sig_atomic_t
+[36m--[0m Check size of sig_atomic_t - done
+[36m--[0m Performing Test HAVE_SIG_ATOMIC_T_NOT_VOLATILE
+[36m--[0m Performing Test HAVE_SIG_ATOMIC_T_NOT_VOLATILE - Success
+[36m--[0m Check size of struct sockaddr_storage
+[36m--[0m Check size of struct sockaddr_storage - done
+[36m--[0m Performing Test HAVE_POLL_FINE
+[36m--[0m Performing Test HAVE_POLL_FINE - Success
+[36m--[0m Enabled features: SSL IPv6 unixsockets libz AsynchDNS alt-svc NTLM HTTPS-proxy
+[36m--[0m Enabled protocols: HTTP HTTPS
+[36m--[0m Enabled SSL backends: OpenSSL
+[36m--[0m Configuring done
+[33m[1mCMake Warning[0m at /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/src/wavnodes/CMakeLists.txt:178 (add_executable):
+  Cannot generate a safe runtime search path for target WavGoalManager
+  because files in some directories may conflict with libraries in implicit
+  directories:
+
+    runtime library [libz.so.1] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/.private/wavnodes/lib
+
+  Some of these libraries may not be found correctly.
+
+
+[33m[1mCMake Warning[0m at /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/src/wavnodes/CMakeLists.txt:174 (add_executable):
+  Cannot generate a safe runtime search path for target SpacialRecognition
+  because files in some directories may conflict with libraries in implicit
+  directories:
+
+    runtime library [libz.so.1] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/.private/wavnodes/lib
+
+  Some of these libraries may not be found correctly.
+
+
+[33m[1mCMake Warning[0m at /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/src/wavnodes/AniEngineCPP/fmBoip/CMakeLists.txt:30 (add_library):
+  Cannot generate a safe runtime search path for target fmBoip because files
+  in some directories may conflict with libraries in implicit directories:
+
+    runtime library [libz.so.1] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/.private/wavnodes/lib
+
+  Some of these libraries may not be found correctly.
+
+
+[33m[1mCMake Warning[0m at /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/src/wavnodes/AniEngineCPP/fmBotConnect/CMakeLists.txt:22 (add_library):
+  Cannot generate a safe runtime search path for target fmBotConnect because
+  files in some directories may conflict with libraries in implicit
+  directories:
+
+    runtime library [libz.so.1] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/.private/wavnodes/lib
+
+  Some of these libraries may not be found correctly.
+
+
+[33m[1mCMake Warning[0m at /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/src/wavnodes/AniEngineCPP/cpr/cpr/CMakeLists.txt:3 (add_library):
+  Cannot generate a safe runtime search path for target cpr because files in
+  some directories may conflict with libraries in implicit directories:
+
+    runtime library [libz.so.1] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/.private/wavnodes/lib
+
+  Some of these libraries may not be found correctly.
+
+
+[36m--[0m Generating done
+[36m--[0m Build files have been written to: /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/build/wavnodes

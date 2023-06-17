@@ -1,0 +1,64 @@
+[33m[1mCMake Warning[0m at /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/build/wavnodes/cmake/wavnodes-genmsg.cmake:3 (message):
+  Invoking generate_messages() without having added any message or service
+  file before.
+
+  You should either add add_message_files() and/or add_service_files() calls
+  or remove the invocation of generate_messages().
+[36mCall Stack (most recent call first):[0m
+  /opt/ros/noetic/share/genmsg/cmake/genmsg-extras.cmake:307 (include)
+  CMakeLists.txt:84 (generate_messages)
+
+
+[33m[1mCMake Warning[0m at /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/src/wavnodes/CMakeLists.txt:178 (add_executable):
+  Cannot generate a safe runtime search path for target WavGoalManager
+  because files in some directories may conflict with libraries in implicit
+  directories:
+
+    runtime library [libz.so.1] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/.private/wavnodes/lib
+
+  Some of these libraries may not be found correctly.
+
+
+[33m[1mCMake Warning[0m at /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/src/wavnodes/CMakeLists.txt:174 (add_executable):
+  Cannot generate a safe runtime search path for target SpacialRecognition
+  because files in some directories may conflict with libraries in implicit
+  directories:
+
+    runtime library [libz.so.1] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/.private/wavnodes/lib
+
+  Some of these libraries may not be found correctly.
+
+
+[33m[1mCMake Warning[0m at /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/src/wavnodes/AniEngineCPP/fmBoip/CMakeLists.txt:30 (add_library):
+  Cannot generate a safe runtime search path for target fmBoip because files
+  in some directories may conflict with libraries in implicit directories:
+
+    runtime library [libz.so.1] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/.private/wavnodes/lib
+
+  Some of these libraries may not be found correctly.
+
+
+[33m[1mCMake Warning[0m at /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/src/wavnodes/AniEngineCPP/fmBotConnect/CMakeLists.txt:22 (add_library):
+  Cannot generate a safe runtime search path for target fmBotConnect because
+  files in some directories may conflict with libraries in implicit
+  directories:
+
+    runtime library [libz.so.1] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/.private/wavnodes/lib
+
+  Some of these libraries may not be found correctly.
+
+
+[33m[1mCMake Warning[0m at /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/src/wavnodes/AniEngineCPP/cpr/cpr/CMakeLists.txt:3 (add_library):
+  Cannot generate a safe runtime search path for target cpr because files in
+  some directories may conflict with libraries in implicit directories:
+
+    runtime library [libz.so.1] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/.private/wavnodes/lib
+
+  Some of these libraries may not be found correctly.
+
+

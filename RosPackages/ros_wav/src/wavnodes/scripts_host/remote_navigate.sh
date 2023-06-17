@@ -12,7 +12,7 @@ done
 printf "\n%s\n"  "Wav B is online"
 
 
-ssh wavb@10.42.0.1 'bash /home/tej/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/src/wavnodes/scripts_bot/runbot_navigate.sh' &
+ssh wavb@10.42.0.1 'bash ~/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/src/wavnodes/scripts_bot/runbot_navigate.sh' &
 
 
 until rostopic list | grep -m 1 "/rtabmap/rgbd_image/compressed"; do sleep 1; done
