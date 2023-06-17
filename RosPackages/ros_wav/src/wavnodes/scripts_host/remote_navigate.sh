@@ -5,14 +5,14 @@ source "${BASH_SOURCE%/*}/.remote_profile"
 
 
 printf "%s" "waiting for Wav B ..."
-while ! timeout 0.2 ping -c 1 -n 10.42.0.1 &> /dev/null
+while ! timeout 0.2 ping -c 1 -n 192.168.1.172 &> /dev/null
 do
     printf "%c" "."
 done
 printf "\n%s\n"  "Wav B is online"
 
 
-ssh wavb@10.42.0.1 'bash ~/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/src/wavnodes/scripts_bot/runbot_navigate.sh' &
+ssh wavb@192.168.1.172 'bash ~/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/src/wavnodes/scripts_bot/runbot_navigate.sh' &
 
 
 until rostopic list | grep -m 1 "/rtabmap/rgbd_image/compressed"; do sleep 1; done
@@ -64,11 +64,11 @@ until rostopic list | grep -m 1 "/rtabmap/grid_map"; do sleep 1; done
 read -p "Press any key to continue... " -n1 -s
 
 
-botKillID=$(ssh wavb@10.42.0.1   ps aux | grep -e "[r]unbot_navigate.sh" | awk -F" " '{print $2}')
+botKillID=$(ssh wavb@192.168.1.172  ps aux | grep -e "[r]unbot_navigate.sh" | awk -F" " '{print $2}')
 
 echo "BotID : ${botKillID}"
 
-ssh wavb@10.42.0.1 kill -SIGTERM ${botKillID}
+ssh wavb@192.168.1.172 kill -SIGTERM ${botKillID}
 
 
 
