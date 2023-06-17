@@ -1,6 +1,0 @@
-[35m[1mScanning dependencies of target hector_worldmodel_msgs_generate_messages_cpp[0m
-[  0%] Built target hector_worldmodel_msgs_generate_messages_cpp
-[35m[1mScanning dependencies of target hector_worldmodel_geotiff_plugins[0m
-[ 50%] [32mBuilding CXX object CMakeFiles/hector_worldmodel_geotiff_plugins.dir/src/worldmodel_geotiff_plugins.cpp.o[0m
-[100%] [32m[1mLinking CXX shared library /home/wavb/Documents/fmSpin/W.a.v_B/RosPackages/ros_wav/devel/.private/hector_worldmodel_geotiff_plugins/lib/libhector_worldmodel_geotiff_plugins.so[0m
-[100%] Built target hector_worldmodel_geotiff_plugins
